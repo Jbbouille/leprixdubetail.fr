@@ -1,0 +1,1135 @@
+annee,semaine,mois,date_debut,date_fin,categorie,sexe,poids,prix,variation,unite,source
+2023,1,,2023-01-02,2023-01-08,Élevage supérieur,Mâle,,187,,EUR/tête,COT-VRO-veaux14j_synthese-A23-S01.csv
+2023,1,,2023-01-02,2023-01-08,Élevage supérieur,Femelle,,148,,EUR/tête,COT-VRO-veaux14j_synthese-A23-S01.csv
+2023,1,,2023-01-02,2023-01-08,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,41,,EUR/tête,COT-VRO-veaux14j_synthese-A23-S01.csv
+2023,1,,2023-01-02,2023-01-08,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,59,,EUR/tête,COT-VRO-veaux14j_synthese-A23-S01.csv
+2023,1,,2023-01-02,2023-01-08,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,84,,EUR/tête,COT-VRO-veaux14j_synthese-A23-S01.csv
+2023,1,,2023-01-02,2023-01-08,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,111,,EUR/tête,COT-VRO-veaux14j_synthese-A23-S01.csv
+2023,2,,2023-01-09,2023-01-15,Élevage supérieur,Mâle,,199,12,EUR/tête,COT-VRO-veaux14j_synthese-A23-S02.csv
+2023,2,,2023-01-09,2023-01-15,Élevage supérieur,Femelle,,163,15,EUR/tête,COT-VRO-veaux14j_synthese-A23-S02.csv
+2023,2,,2023-01-09,2023-01-15,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,50,9,EUR/tête,COT-VRO-veaux14j_synthese-A23-S02.csv
+2023,2,,2023-01-09,2023-01-15,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,62,3,EUR/tête,COT-VRO-veaux14j_synthese-A23-S02.csv
+2023,2,,2023-01-09,2023-01-15,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,87,3,EUR/tête,COT-VRO-veaux14j_synthese-A23-S02.csv
+2023,2,,2023-01-09,2023-01-15,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,119,8,EUR/tête,COT-VRO-veaux14j_synthese-A23-S02.csv
+2023,3,,2023-01-16,2023-01-22,Élevage supérieur,Mâle,,198,-1,EUR/tête,COT-VRO-veaux14j_synthese-A23-S03.csv
+2023,3,,2023-01-16,2023-01-22,Élevage supérieur,Femelle,,165,2,EUR/tête,COT-VRO-veaux14j_synthese-A23-S03.csv
+2023,3,,2023-01-16,2023-01-22,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,51,1,EUR/tête,COT-VRO-veaux14j_synthese-A23-S03.csv
+2023,3,,2023-01-16,2023-01-22,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,64,2,EUR/tête,COT-VRO-veaux14j_synthese-A23-S03.csv
+2023,3,,2023-01-16,2023-01-22,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,89,2,EUR/tête,COT-VRO-veaux14j_synthese-A23-S03.csv
+2023,3,,2023-01-16,2023-01-22,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,120,1,EUR/tête,COT-VRO-veaux14j_synthese-A23-S03.csv
+2023,4,,2023-01-23,2023-01-29,Élevage supérieur,Mâle,,208,10,EUR/tête,COT-VRO-veaux14j_synthese-A23-S04.csv
+2023,4,,2023-01-23,2023-01-29,Élevage supérieur,Femelle,,174,9,EUR/tête,COT-VRO-veaux14j_synthese-A23-S04.csv
+2023,4,,2023-01-23,2023-01-29,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,56,5,EUR/tête,COT-VRO-veaux14j_synthese-A23-S04.csv
+2023,4,,2023-01-23,2023-01-29,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,72,8,EUR/tête,COT-VRO-veaux14j_synthese-A23-S04.csv
+2023,4,,2023-01-23,2023-01-29,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,95,6,EUR/tête,COT-VRO-veaux14j_synthese-A23-S04.csv
+2023,4,,2023-01-23,2023-01-29,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,128,8,EUR/tête,COT-VRO-veaux14j_synthese-A23-S04.csv
+2023,5,,2023-01-30,2023-02-05,Élevage supérieur,Mâle,,213,5,EUR/tête,COT-VRO-veaux14j_synthese-A23-S05.csv
+2023,5,,2023-01-30,2023-02-05,Élevage supérieur,Femelle,,176,2,EUR/tête,COT-VRO-veaux14j_synthese-A23-S05.csv
+2023,5,,2023-01-30,2023-02-05,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,64,8,EUR/tête,COT-VRO-veaux14j_synthese-A23-S05.csv
+2023,5,,2023-01-30,2023-02-05,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,82,10,EUR/tête,COT-VRO-veaux14j_synthese-A23-S05.csv
+2023,5,,2023-01-30,2023-02-05,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,105,10,EUR/tête,COT-VRO-veaux14j_synthese-A23-S05.csv
+2023,5,,2023-01-30,2023-02-05,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,135,7,EUR/tête,COT-VRO-veaux14j_synthese-A23-S05.csv
+2023,6,,2023-02-06,2023-02-12,Élevage supérieur,Mâle,,217,4,EUR/tête,COT-VRO-veaux14j_synthese-A23-S06.csv
+2023,6,,2023-02-06,2023-02-12,Élevage supérieur,Femelle,,180,4,EUR/tête,COT-VRO-veaux14j_synthese-A23-S06.csv
+2023,6,,2023-02-06,2023-02-12,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,64,0,EUR/tête,COT-VRO-veaux14j_synthese-A23-S06.csv
+2023,6,,2023-02-06,2023-02-12,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,84,2,EUR/tête,COT-VRO-veaux14j_synthese-A23-S06.csv
+2023,6,,2023-02-06,2023-02-12,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,107,2,EUR/tête,COT-VRO-veaux14j_synthese-A23-S06.csv
+2023,6,,2023-02-06,2023-02-12,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,138,3,EUR/tête,COT-VRO-veaux14j_synthese-A23-S06.csv
+2023,7,,2023-02-13,2023-02-19,Élevage supérieur,Mâle,,221,4,EUR/tête,COT-VRO-veaux14j_synthese-A23-S07.csv
+2023,7,,2023-02-13,2023-02-19,Élevage supérieur,Femelle,,186,6,EUR/tête,COT-VRO-veaux14j_synthese-A23-S07.csv
+2023,7,,2023-02-13,2023-02-19,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,65,1,EUR/tête,COT-VRO-veaux14j_synthese-A23-S07.csv
+2023,7,,2023-02-13,2023-02-19,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,85,1,EUR/tête,COT-VRO-veaux14j_synthese-A23-S07.csv
+2023,7,,2023-02-13,2023-02-19,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,109,2,EUR/tête,COT-VRO-veaux14j_synthese-A23-S07.csv
+2023,7,,2023-02-13,2023-02-19,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,140,2,EUR/tête,COT-VRO-veaux14j_synthese-A23-S07.csv
+2023,8,,2023-02-20,2023-02-26,Élevage supérieur,Mâle,,225,4,EUR/tête,COT-VRO-veaux14j_synthese-A23-S08.csv
+2023,8,,2023-02-20,2023-02-26,Élevage supérieur,Femelle,,187,1,EUR/tête,COT-VRO-veaux14j_synthese-A23-S08.csv
+2023,8,,2023-02-20,2023-02-26,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,61,-4,EUR/tête,COT-VRO-veaux14j_synthese-A23-S08.csv
+2023,8,,2023-02-20,2023-02-26,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,87,2,EUR/tête,COT-VRO-veaux14j_synthese-A23-S08.csv
+2023,8,,2023-02-20,2023-02-26,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,110,1,EUR/tête,COT-VRO-veaux14j_synthese-A23-S08.csv
+2023,8,,2023-02-20,2023-02-26,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,142,2,EUR/tête,COT-VRO-veaux14j_synthese-A23-S08.csv
+2023,9,,2023-02-27,2023-03-05,Élevage supérieur,Mâle,,225,0,EUR/tête,COT-VRO-veaux14j_synthese-A23-S09.csv
+2023,9,,2023-02-27,2023-03-05,Élevage supérieur,Femelle,,190,3,EUR/tête,COT-VRO-veaux14j_synthese-A23-S09.csv
+2023,9,,2023-02-27,2023-03-05,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,63,2,EUR/tête,COT-VRO-veaux14j_synthese-A23-S09.csv
+2023,9,,2023-02-27,2023-03-05,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,87,0,EUR/tête,COT-VRO-veaux14j_synthese-A23-S09.csv
+2023,9,,2023-02-27,2023-03-05,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,111,1,EUR/tête,COT-VRO-veaux14j_synthese-A23-S09.csv
+2023,9,,2023-02-27,2023-03-05,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,142,0,EUR/tête,COT-VRO-veaux14j_synthese-A23-S09.csv
+2023,10,,2023-03-06,2023-03-12,Élevage supérieur,Mâle,,227,2,EUR/tête,COT-VRO-veaux14j_synthese-A23-S10.csv
+2023,10,,2023-03-06,2023-03-12,Élevage supérieur,Femelle,,191,1,EUR/tête,COT-VRO-veaux14j_synthese-A23-S10.csv
+2023,10,,2023-03-06,2023-03-12,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,64,1,EUR/tête,COT-VRO-veaux14j_synthese-A23-S10.csv
+2023,10,,2023-03-06,2023-03-12,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,88,1,EUR/tête,COT-VRO-veaux14j_synthese-A23-S10.csv
+2023,10,,2023-03-06,2023-03-12,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,112,1,EUR/tête,COT-VRO-veaux14j_synthese-A23-S10.csv
+2023,10,,2023-03-06,2023-03-12,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,144,2,EUR/tête,COT-VRO-veaux14j_synthese-A23-S10.csv
+2023,11,,2023-03-13,2023-03-19,Élevage supérieur,Mâle,,231,4,EUR/tête,COT-VRO-veaux14j_synthese-A23-S11.csv
+2023,11,,2023-03-13,2023-03-19,Élevage supérieur,Femelle,,193,2,EUR/tête,COT-VRO-veaux14j_synthese-A23-S11.csv
+2023,11,,2023-03-13,2023-03-19,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,66,2,EUR/tête,COT-VRO-veaux14j_synthese-A23-S11.csv
+2023,11,,2023-03-13,2023-03-19,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,88,0,EUR/tête,COT-VRO-veaux14j_synthese-A23-S11.csv
+2023,11,,2023-03-13,2023-03-19,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,112,0,EUR/tête,COT-VRO-veaux14j_synthese-A23-S11.csv
+2023,11,,2023-03-13,2023-03-19,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,146,2,EUR/tête,COT-VRO-veaux14j_synthese-A23-S11.csv
+2023,12,,2023-03-20,2023-03-26,Élevage supérieur,Mâle,,233,2,EUR/tête,COT-VRO-veaux14j_synthese-A23-S12.csv
+2023,12,,2023-03-20,2023-03-26,Élevage supérieur,Femelle,,194,1,EUR/tête,COT-VRO-veaux14j_synthese-A23-S12.csv
+2023,12,,2023-03-20,2023-03-26,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,64,-2,EUR/tête,COT-VRO-veaux14j_synthese-A23-S12.csv
+2023,12,,2023-03-20,2023-03-26,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,90,2,EUR/tête,COT-VRO-veaux14j_synthese-A23-S12.csv
+2023,12,,2023-03-20,2023-03-26,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,113,1,EUR/tête,COT-VRO-veaux14j_synthese-A23-S12.csv
+2023,12,,2023-03-20,2023-03-26,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,147,1,EUR/tête,COT-VRO-veaux14j_synthese-A23-S12.csv
+2023,13,,2023-03-27,2023-04-02,Élevage supérieur,Mâle,,235,2,EUR/tête,COT-VRO-veaux14j_synthese-A23-S13.csv
+2023,13,,2023-03-27,2023-04-02,Élevage supérieur,Femelle,,200,6,EUR/tête,COT-VRO-veaux14j_synthese-A23-S13.csv
+2023,13,,2023-03-27,2023-04-02,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,64,0,EUR/tête,COT-VRO-veaux14j_synthese-A23-S13.csv
+2023,13,,2023-03-27,2023-04-02,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,88,-2,EUR/tête,COT-VRO-veaux14j_synthese-A23-S13.csv
+2023,13,,2023-03-27,2023-04-02,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,113,0,EUR/tête,COT-VRO-veaux14j_synthese-A23-S13.csv
+2023,13,,2023-03-27,2023-04-02,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,147,0,EUR/tête,COT-VRO-veaux14j_synthese-A23-S13.csv
+2023,14,,2023-04-03,2023-04-09,Élevage supérieur,Mâle,,238,3,EUR/tête,COT-VRO-veaux14j_synthese-A23-S14.csv
+2023,14,,2023-04-03,2023-04-09,Élevage supérieur,Femelle,,201,1,EUR/tête,COT-VRO-veaux14j_synthese-A23-S14.csv
+2023,14,,2023-04-03,2023-04-09,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,72,8,EUR/tête,COT-VRO-veaux14j_synthese-A23-S14.csv
+2023,14,,2023-04-03,2023-04-09,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,97,9,EUR/tête,COT-VRO-veaux14j_synthese-A23-S14.csv
+2023,14,,2023-04-03,2023-04-09,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,121,8,EUR/tête,COT-VRO-veaux14j_synthese-A23-S14.csv
+2023,14,,2023-04-03,2023-04-09,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,153,6,EUR/tête,COT-VRO-veaux14j_synthese-A23-S14.csv
+2023,15,,2023-04-10,2023-04-16,Élevage supérieur,Mâle,,240,2,EUR/tête,COT-VRO-veaux14j_synthese-A23-S15.csv
+2023,15,,2023-04-10,2023-04-16,Élevage supérieur,Femelle,,200,-1,EUR/tête,COT-VRO-veaux14j_synthese-A23-S15.csv
+2023,15,,2023-04-10,2023-04-16,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,76,4,EUR/tête,COT-VRO-veaux14j_synthese-A23-S15.csv
+2023,15,,2023-04-10,2023-04-16,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,97,0,EUR/tête,COT-VRO-veaux14j_synthese-A23-S15.csv
+2023,15,,2023-04-10,2023-04-16,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,121,0,EUR/tête,COT-VRO-veaux14j_synthese-A23-S15.csv
+2023,15,,2023-04-10,2023-04-16,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,155,2,EUR/tête,COT-VRO-veaux14j_synthese-A23-S15.csv
+2023,16,,2023-04-17,2023-04-23,Élevage supérieur,Mâle,,259,19,EUR/tête,COT-VRO-veaux14j_synthese-A23-S16.csv
+2023,16,,2023-04-17,2023-04-23,Élevage supérieur,Femelle,,216,16,EUR/tête,COT-VRO-veaux14j_synthese-A23-S16.csv
+2023,16,,2023-04-17,2023-04-23,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,72,-4,EUR/tête,COT-VRO-veaux14j_synthese-A23-S16.csv
+2023,16,,2023-04-17,2023-04-23,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,99,2,EUR/tête,COT-VRO-veaux14j_synthese-A23-S16.csv
+2023,16,,2023-04-17,2023-04-23,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,122,1,EUR/tête,COT-VRO-veaux14j_synthese-A23-S16.csv
+2023,16,,2023-04-17,2023-04-23,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,162,7,EUR/tête,COT-VRO-veaux14j_synthese-A23-S16.csv
+2023,17,,2023-04-24,2023-04-30,Élevage supérieur,Mâle,,260,1,EUR/tête,COT-VRO-veaux14j_synthese-A23-S17.csv
+2023,17,,2023-04-24,2023-04-30,Élevage supérieur,Femelle,,215,-1,EUR/tête,COT-VRO-veaux14j_synthese-A23-S17.csv
+2023,17,,2023-04-24,2023-04-30,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,76,4,EUR/tête,COT-VRO-veaux14j_synthese-A23-S17.csv
+2023,17,,2023-04-24,2023-04-30,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,104,5,EUR/tête,COT-VRO-veaux14j_synthese-A23-S17.csv
+2023,17,,2023-04-24,2023-04-30,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,127,5,EUR/tête,COT-VRO-veaux14j_synthese-A23-S17.csv
+2023,17,,2023-04-24,2023-04-30,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,166,4,EUR/tête,COT-VRO-veaux14j_synthese-A23-S17.csv
+2023,18,,2023-05-01,2023-05-07,Élevage supérieur,Mâle,,261,1,EUR/tête,COT-VRO-veaux14j_synthese-A23-S18.csv
+2023,18,,2023-05-01,2023-05-07,Élevage supérieur,Femelle,,217,2,EUR/tête,COT-VRO-veaux14j_synthese-A23-S18.csv
+2023,18,,2023-05-01,2023-05-07,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,80,4,EUR/tête,COT-VRO-veaux14j_synthese-A23-S18.csv
+2023,18,,2023-05-01,2023-05-07,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,103,-1,EUR/tête,COT-VRO-veaux14j_synthese-A23-S18.csv
+2023,18,,2023-05-01,2023-05-07,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,127,0,EUR/tête,COT-VRO-veaux14j_synthese-A23-S18.csv
+2023,18,,2023-05-01,2023-05-07,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,166,0,EUR/tête,COT-VRO-veaux14j_synthese-A23-S18.csv
+2023,19,,2023-05-08,2023-05-14,Élevage supérieur,Mâle,,258,-3,EUR/tête,COT-VRO-veaux14j_synthese-A23-S19.csv
+2023,19,,2023-05-08,2023-05-14,Élevage supérieur,Femelle,,214,-3,EUR/tête,COT-VRO-veaux14j_synthese-A23-S19.csv
+2023,19,,2023-05-08,2023-05-14,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,80,0,EUR/tête,COT-VRO-veaux14j_synthese-A23-S19.csv
+2023,19,,2023-05-08,2023-05-14,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,103,0,EUR/tête,COT-VRO-veaux14j_synthese-A23-S19.csv
+2023,19,,2023-05-08,2023-05-14,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,128,1,EUR/tête,COT-VRO-veaux14j_synthese-A23-S19.csv
+2023,19,,2023-05-08,2023-05-14,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,166,0,EUR/tête,COT-VRO-veaux14j_synthese-A23-S19.csv
+2023,20,,2023-05-15,2023-05-21,Élevage supérieur,Mâle,,259,1,EUR/tête,COT-VRO-veaux14j_synthese-A23-S20.csv
+2023,20,,2023-05-15,2023-05-21,Élevage supérieur,Femelle,,214,0,EUR/tête,COT-VRO-veaux14j_synthese-A23-S20.csv
+2023,20,,2023-05-15,2023-05-21,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,76,-4,EUR/tête,COT-VRO-veaux14j_synthese-A23-S20.csv
+2023,20,,2023-05-15,2023-05-21,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,104,1,EUR/tête,COT-VRO-veaux14j_synthese-A23-S20.csv
+2023,20,,2023-05-15,2023-05-21,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,128,0,EUR/tête,COT-VRO-veaux14j_synthese-A23-S20.csv
+2023,20,,2023-05-15,2023-05-21,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,165,-1,EUR/tête,COT-VRO-veaux14j_synthese-A23-S20.csv
+2023,21,,2023-05-22,2023-05-28,Élevage supérieur,Mâle,,266,7,EUR/tête,COT-VRO-veaux14j_synthese-A23-S21.csv
+2023,21,,2023-05-22,2023-05-28,Élevage supérieur,Femelle,,222,8,EUR/tête,COT-VRO-veaux14j_synthese-A23-S21.csv
+2023,21,,2023-05-22,2023-05-28,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,77,1,EUR/tête,COT-VRO-veaux14j_synthese-A23-S21.csv
+2023,21,,2023-05-22,2023-05-28,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,106,2,EUR/tête,COT-VRO-veaux14j_synthese-A23-S21.csv
+2023,21,,2023-05-22,2023-05-28,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,131,3,EUR/tête,COT-VRO-veaux14j_synthese-A23-S21.csv
+2023,21,,2023-05-22,2023-05-28,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,169,4,EUR/tête,COT-VRO-veaux14j_synthese-A23-S21.csv
+2023,22,,2023-05-29,2023-06-04,Élevage supérieur,Mâle,,269,3,EUR/tête,COT-VRO-veaux14j_synthese-A23-S22.csv
+2023,22,,2023-05-29,2023-06-04,Élevage supérieur,Femelle,,226,4,EUR/tête,COT-VRO-veaux14j_synthese-A23-S22.csv
+2023,22,,2023-05-29,2023-06-04,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,81,4,EUR/tête,COT-VRO-veaux14j_synthese-A23-S22.csv
+2023,22,,2023-05-29,2023-06-04,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,108,2,EUR/tête,COT-VRO-veaux14j_synthese-A23-S22.csv
+2023,22,,2023-05-29,2023-06-04,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,134,3,EUR/tête,COT-VRO-veaux14j_synthese-A23-S22.csv
+2023,22,,2023-05-29,2023-06-04,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,172,3,EUR/tête,COT-VRO-veaux14j_synthese-A23-S22.csv
+2023,23,,2023-06-05,2023-06-11,Élevage supérieur,Mâle,,272,3,EUR/tête,COT-VRO-veaux14j_synthese-A23-S23.csv
+2023,23,,2023-06-05,2023-06-11,Élevage supérieur,Femelle,,229,3,EUR/tête,COT-VRO-veaux14j_synthese-A23-S23.csv
+2023,23,,2023-06-05,2023-06-11,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,83,2,EUR/tête,COT-VRO-veaux14j_synthese-A23-S23.csv
+2023,23,,2023-06-05,2023-06-11,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,111,3,EUR/tête,COT-VRO-veaux14j_synthese-A23-S23.csv
+2023,23,,2023-06-05,2023-06-11,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,135,1,EUR/tête,COT-VRO-veaux14j_synthese-A23-S23.csv
+2023,23,,2023-06-05,2023-06-11,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,177,5,EUR/tête,COT-VRO-veaux14j_synthese-A23-S23.csv
+2023,24,,2023-06-12,2023-06-18,Élevage supérieur,Mâle,,274,2,EUR/tête,COT-VRO-veaux14j_synthese-A23-S24.csv
+2023,24,,2023-06-12,2023-06-18,Élevage supérieur,Femelle,,231,2,EUR/tête,COT-VRO-veaux14j_synthese-A23-S24.csv
+2023,24,,2023-06-12,2023-06-18,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,84,1,EUR/tête,COT-VRO-veaux14j_synthese-A23-S24.csv
+2023,24,,2023-06-12,2023-06-18,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,114,3,EUR/tête,COT-VRO-veaux14j_synthese-A23-S24.csv
+2023,24,,2023-06-12,2023-06-18,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,138,3,EUR/tête,COT-VRO-veaux14j_synthese-A23-S24.csv
+2023,24,,2023-06-12,2023-06-18,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,179,2,EUR/tête,COT-VRO-veaux14j_synthese-A23-S24.csv
+2023,25,,2023-06-19,2023-06-25,Élevage supérieur,Mâle,,276,2,EUR/tête,COT-VRO-veaux14j_synthese-A23-S25.csv
+2023,25,,2023-06-19,2023-06-25,Élevage supérieur,Femelle,,235,4,EUR/tête,COT-VRO-veaux14j_synthese-A23-S25.csv
+2023,25,,2023-06-19,2023-06-25,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,91,7,EUR/tête,COT-VRO-veaux14j_synthese-A23-S25.csv
+2023,25,,2023-06-19,2023-06-25,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,118,4,EUR/tête,COT-VRO-veaux14j_synthese-A23-S25.csv
+2023,25,,2023-06-19,2023-06-25,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,142,4,EUR/tête,COT-VRO-veaux14j_synthese-A23-S25.csv
+2023,25,,2023-06-19,2023-06-25,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,183,4,EUR/tête,COT-VRO-veaux14j_synthese-A23-S25.csv
+2023,26,,2023-06-26,2023-07-02,Élevage supérieur,Mâle,,276,0,EUR/tête,COT-VRO-veaux14j_synthese-A23-S26.csv
+2023,26,,2023-06-26,2023-07-02,Élevage supérieur,Femelle,,234,-1,EUR/tête,COT-VRO-veaux14j_synthese-A23-S26.csv
+2023,26,,2023-06-26,2023-07-02,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,89,-2,EUR/tête,COT-VRO-veaux14j_synthese-A23-S26.csv
+2023,26,,2023-06-26,2023-07-02,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,118,0,EUR/tête,COT-VRO-veaux14j_synthese-A23-S26.csv
+2023,26,,2023-06-26,2023-07-02,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,142,0,EUR/tête,COT-VRO-veaux14j_synthese-A23-S26.csv
+2023,26,,2023-06-26,2023-07-02,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,182,-1,EUR/tête,COT-VRO-veaux14j_synthese-A23-S26.csv
+2023,27,,2023-07-03,2023-07-09,Élevage supérieur,Mâle,,277,1,EUR/tête,COT-VRO-veaux14j_synthese-A23-S27.csv
+2023,27,,2023-07-03,2023-07-09,Élevage supérieur,Femelle,,229,-5,EUR/tête,COT-VRO-veaux14j_synthese-A23-S27.csv
+2023,27,,2023-07-03,2023-07-09,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,89,0,EUR/tête,COT-VRO-veaux14j_synthese-A23-S27.csv
+2023,27,,2023-07-03,2023-07-09,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,118,0,EUR/tête,COT-VRO-veaux14j_synthese-A23-S27.csv
+2023,27,,2023-07-03,2023-07-09,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,143,1,EUR/tête,COT-VRO-veaux14j_synthese-A23-S27.csv
+2023,27,,2023-07-03,2023-07-09,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,182,0,EUR/tête,COT-VRO-veaux14j_synthese-A23-S27.csv
+2023,28,,2023-07-10,2023-07-16,Élevage supérieur,Mâle,,274,-3,EUR/tête,COT-VRO-veaux14j_synthese-A23-S28.csv
+2023,28,,2023-07-10,2023-07-16,Élevage supérieur,Femelle,,226,-3,EUR/tête,COT-VRO-veaux14j_synthese-A23-S28.csv
+2023,28,,2023-07-10,2023-07-16,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,86,-3,EUR/tête,COT-VRO-veaux14j_synthese-A23-S28.csv
+2023,28,,2023-07-10,2023-07-16,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,115,-3,EUR/tête,COT-VRO-veaux14j_synthese-A23-S28.csv
+2023,28,,2023-07-10,2023-07-16,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,140,-3,EUR/tête,COT-VRO-veaux14j_synthese-A23-S28.csv
+2023,28,,2023-07-10,2023-07-16,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,180,-2,EUR/tête,COT-VRO-veaux14j_synthese-A23-S28.csv
+2023,29,,2023-07-17,2023-07-23,Élevage supérieur,Mâle,,265,-9,EUR/tête,COT-VRO-veaux14j_synthese-A23-S29.csv
+2023,29,,2023-07-17,2023-07-23,Élevage supérieur,Femelle,,216,-10,EUR/tête,COT-VRO-veaux14j_synthese-A23-S29.csv
+2023,29,,2023-07-17,2023-07-23,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,76,-10,EUR/tête,COT-VRO-veaux14j_synthese-A23-S29.csv
+2023,29,,2023-07-17,2023-07-23,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,104,-11,EUR/tête,COT-VRO-veaux14j_synthese-A23-S29.csv
+2023,29,,2023-07-17,2023-07-23,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,128,-12,EUR/tête,COT-VRO-veaux14j_synthese-A23-S29.csv
+2023,29,,2023-07-17,2023-07-23,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,169,-11,EUR/tête,COT-VRO-veaux14j_synthese-A23-S29.csv
+2023,30,,2023-07-24,2023-07-30,Élevage supérieur,Mâle,,251,-14,EUR/tête,COT-VRO-veaux14j_synthese-A23-S30.csv
+2023,30,,2023-07-24,2023-07-30,Élevage supérieur,Femelle,,207,-9,EUR/tête,COT-VRO-veaux14j_synthese-A23-S30.csv
+2023,30,,2023-07-24,2023-07-30,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,72,-4,EUR/tête,COT-VRO-veaux14j_synthese-A23-S30.csv
+2023,30,,2023-07-24,2023-07-30,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,95,-9,EUR/tête,COT-VRO-veaux14j_synthese-A23-S30.csv
+2023,30,,2023-07-24,2023-07-30,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,120,-8,EUR/tête,COT-VRO-veaux14j_synthese-A23-S30.csv
+2023,30,,2023-07-24,2023-07-30,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,159,-10,EUR/tête,COT-VRO-veaux14j_synthese-A23-S30.csv
+2023,32,,2023-08-07,2023-08-13,Élevage supérieur,Mâle,,235,-1,EUR/tête,COT-VRO-veaux14j_synthese-A23-S32.csv
+2023,32,,2023-08-07,2023-08-13,Élevage supérieur,Femelle,,191,-5,EUR/tête,COT-VRO-veaux14j_synthese-A23-S32.csv
+2023,32,,2023-08-07,2023-08-13,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,60,-2,EUR/tête,COT-VRO-veaux14j_synthese-A23-S32.csv
+2023,32,,2023-08-07,2023-08-13,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,85,-1,EUR/tête,COT-VRO-veaux14j_synthese-A23-S32.csv
+2023,32,,2023-08-07,2023-08-13,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,108,-3,EUR/tête,COT-VRO-veaux14j_synthese-A23-S32.csv
+2023,32,,2023-08-07,2023-08-13,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,146,-2,EUR/tête,COT-VRO-veaux14j_synthese-A23-S32.csv
+2023,34,,2023-08-21,2023-08-27,Élevage supérieur,Mâle,,232,,EUR/tête,COT-VRO-veaux14j_synthese-A23-S34.csv
+2023,34,,2023-08-21,2023-08-27,Élevage supérieur,Femelle,,188,,EUR/tête,COT-VRO-veaux14j_synthese-A23-S34.csv
+2023,34,,2023-08-21,2023-08-27,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,54,,EUR/tête,COT-VRO-veaux14j_synthese-A23-S34.csv
+2023,34,,2023-08-21,2023-08-27,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,75,,EUR/tête,COT-VRO-veaux14j_synthese-A23-S34.csv
+2023,34,,2023-08-21,2023-08-27,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,99,,EUR/tête,COT-VRO-veaux14j_synthese-A23-S34.csv
+2023,34,,2023-08-21,2023-08-27,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,140,,EUR/tête,COT-VRO-veaux14j_synthese-A23-S34.csv
+2023,35,,2023-08-28,2023-09-03,Élevage supérieur,Mâle,,231,-1,EUR/tête,COT-VRO-veaux14j_synthese-A23-S35.csv
+2023,35,,2023-08-28,2023-09-03,Élevage supérieur,Femelle,,189,1,EUR/tête,COT-VRO-veaux14j_synthese-A23-S35.csv
+2023,35,,2023-08-28,2023-09-03,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,47,-7,EUR/tête,COT-VRO-veaux14j_synthese-A23-S35.csv
+2023,35,,2023-08-28,2023-09-03,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,69,-6,EUR/tête,COT-VRO-veaux14j_synthese-A23-S35.csv
+2023,35,,2023-08-28,2023-09-03,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,92,-7,EUR/tête,COT-VRO-veaux14j_synthese-A23-S35.csv
+2023,35,,2023-08-28,2023-09-03,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,136,-4,EUR/tête,COT-VRO-veaux14j_synthese-A23-S35.csv
+2023,36,,2023-09-04,2023-09-10,Élevage supérieur,Mâle,,230,-1,EUR/tête,COT-VRO-veaux14j_synthese-A23-S36.csv
+2023,36,,2023-09-04,2023-09-10,Élevage supérieur,Femelle,,188,-1,EUR/tête,COT-VRO-veaux14j_synthese-A23-S36.csv
+2023,36,,2023-09-04,2023-09-10,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,47,0,EUR/tête,COT-VRO-veaux14j_synthese-A23-S36.csv
+2023,36,,2023-09-04,2023-09-10,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,70,1,EUR/tête,COT-VRO-veaux14j_synthese-A23-S36.csv
+2023,36,,2023-09-04,2023-09-10,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,93,1,EUR/tête,COT-VRO-veaux14j_synthese-A23-S36.csv
+2023,36,,2023-09-04,2023-09-10,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,136,0,EUR/tête,COT-VRO-veaux14j_synthese-A23-S36.csv
+2023,37,,2023-09-11,2023-09-17,Élevage supérieur,Mâle,,235,5,EUR/tête,COT-VRO-veaux14j_synthese-A23-S37.csv
+2023,37,,2023-09-11,2023-09-17,Élevage supérieur,Femelle,,193,5,EUR/tête,COT-VRO-veaux14j_synthese-A23-S37.csv
+2023,37,,2023-09-11,2023-09-17,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,48,1,EUR/tête,COT-VRO-veaux14j_synthese-A23-S37.csv
+2023,37,,2023-09-11,2023-09-17,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,73,3,EUR/tête,COT-VRO-veaux14j_synthese-A23-S37.csv
+2023,37,,2023-09-11,2023-09-17,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,96,3,EUR/tête,COT-VRO-veaux14j_synthese-A23-S37.csv
+2023,37,,2023-09-11,2023-09-17,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,139,3,EUR/tête,COT-VRO-veaux14j_synthese-A23-S37.csv
+2023,38,,2023-09-18,2023-09-24,Élevage supérieur,Mâle,,234,-1,EUR/tête,COT-VRO-veaux14j_synthese-A23-S38.csv
+2023,38,,2023-09-18,2023-09-24,Élevage supérieur,Femelle,,192,-1,EUR/tête,COT-VRO-veaux14j_synthese-A23-S38.csv
+2023,38,,2023-09-18,2023-09-24,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,48,0,EUR/tête,COT-VRO-veaux14j_synthese-A23-S38.csv
+2023,38,,2023-09-18,2023-09-24,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,74,1,EUR/tête,COT-VRO-veaux14j_synthese-A23-S38.csv
+2023,38,,2023-09-18,2023-09-24,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,96,0,EUR/tête,COT-VRO-veaux14j_synthese-A23-S38.csv
+2023,38,,2023-09-18,2023-09-24,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,139,0,EUR/tête,COT-VRO-veaux14j_synthese-A23-S38.csv
+2023,39,,2023-09-25,2023-10-01,Élevage supérieur,Mâle,,232,-2,EUR/tête,COT-VRO-veaux14j_synthese-A23-S39.csv
+2023,39,,2023-09-25,2023-10-01,Élevage supérieur,Femelle,,187,-5,EUR/tête,COT-VRO-veaux14j_synthese-A23-S39.csv
+2023,39,,2023-09-25,2023-10-01,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,40,-8,EUR/tête,COT-VRO-veaux14j_synthese-A23-S39.csv
+2023,39,,2023-09-25,2023-10-01,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,66,-8,EUR/tête,COT-VRO-veaux14j_synthese-A23-S39.csv
+2023,39,,2023-09-25,2023-10-01,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,91,-5,EUR/tête,COT-VRO-veaux14j_synthese-A23-S39.csv
+2023,39,,2023-09-25,2023-10-01,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,134,-5,EUR/tête,COT-VRO-veaux14j_synthese-A23-S39.csv
+2023,40,,2023-10-02,2023-10-08,Élevage supérieur,Mâle,,223,-9,EUR/tête,COT-VRO-veaux14j_synthese-A23-S40.csv
+2023,40,,2023-10-02,2023-10-08,Élevage supérieur,Femelle,,179,-8,EUR/tête,COT-VRO-veaux14j_synthese-A23-S40.csv
+2023,40,,2023-10-02,2023-10-08,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,34,-6,EUR/tête,COT-VRO-veaux14j_synthese-A23-S40.csv
+2023,40,,2023-10-02,2023-10-08,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,56,-10,EUR/tête,COT-VRO-veaux14j_synthese-A23-S40.csv
+2023,40,,2023-10-02,2023-10-08,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,81,-10,EUR/tête,COT-VRO-veaux14j_synthese-A23-S40.csv
+2023,40,,2023-10-02,2023-10-08,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,125,-9,EUR/tête,COT-VRO-veaux14j_synthese-A23-S40.csv
+2023,41,,2023-10-09,2023-10-15,Élevage supérieur,Mâle,,219,-4,EUR/tête,COT-VRO-veaux14j_synthese-A23-S41.csv
+2023,41,,2023-10-09,2023-10-15,Élevage supérieur,Femelle,,176,-3,EUR/tête,COT-VRO-veaux14j_synthese-A23-S41.csv
+2023,41,,2023-10-09,2023-10-15,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,31,-3,EUR/tête,COT-VRO-veaux14j_synthese-A23-S41.csv
+2023,41,,2023-10-09,2023-10-15,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,51,-5,EUR/tête,COT-VRO-veaux14j_synthese-A23-S41.csv
+2023,41,,2023-10-09,2023-10-15,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,75,-6,EUR/tête,COT-VRO-veaux14j_synthese-A23-S41.csv
+2023,41,,2023-10-09,2023-10-15,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,121,-4,EUR/tête,COT-VRO-veaux14j_synthese-A23-S41.csv
+2023,42,,2023-10-16,2023-10-22,Élevage supérieur,Mâle,,220,1,EUR/tête,COT-VRO-veaux14j_synthese-A23-S42.csv
+2023,42,,2023-10-16,2023-10-22,Élevage supérieur,Femelle,,174,-2,EUR/tête,COT-VRO-veaux14j_synthese-A23-S42.csv
+2023,42,,2023-10-16,2023-10-22,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,28,-3,EUR/tête,COT-VRO-veaux14j_synthese-A23-S42.csv
+2023,42,,2023-10-16,2023-10-22,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,49,-2,EUR/tête,COT-VRO-veaux14j_synthese-A23-S42.csv
+2023,42,,2023-10-16,2023-10-22,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,72,-3,EUR/tête,COT-VRO-veaux14j_synthese-A23-S42.csv
+2023,42,,2023-10-16,2023-10-22,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,120,-1,EUR/tête,COT-VRO-veaux14j_synthese-A23-S42.csv
+2023,43,,2023-10-23,2023-10-29,Élevage supérieur,Mâle,,219,-1,EUR/tête,COT-VRO-veaux14j_synthese-A23-S43.csv
+2023,43,,2023-10-23,2023-10-29,Élevage supérieur,Femelle,,177,3,EUR/tête,COT-VRO-veaux14j_synthese-A23-S43.csv
+2023,43,,2023-10-23,2023-10-29,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,35,7,EUR/tête,COT-VRO-veaux14j_synthese-A23-S43.csv
+2023,43,,2023-10-23,2023-10-29,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,52,3,EUR/tête,COT-VRO-veaux14j_synthese-A23-S43.csv
+2023,43,,2023-10-23,2023-10-29,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,75,3,EUR/tête,COT-VRO-veaux14j_synthese-A23-S43.csv
+2023,43,,2023-10-23,2023-10-29,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,121,1,EUR/tête,COT-VRO-veaux14j_synthese-A23-S43.csv
+2023,44,,2023-10-30,2023-11-05,Élevage supérieur,Mâle,,220,1,EUR/tête,COT-VRO-veaux14j_synthese-A23-S44.csv
+2023,44,,2023-10-30,2023-11-05,Élevage supérieur,Femelle,,173,-4,EUR/tête,COT-VRO-veaux14j_synthese-A23-S44.csv
+2023,44,,2023-10-30,2023-11-05,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,46,11,EUR/tête,COT-VRO-veaux14j_synthese-A23-S44.csv
+2023,44,,2023-10-30,2023-11-05,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,51,-1,EUR/tête,COT-VRO-veaux14j_synthese-A23-S44.csv
+2023,44,,2023-10-30,2023-11-05,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,73,-2,EUR/tête,COT-VRO-veaux14j_synthese-A23-S44.csv
+2023,44,,2023-10-30,2023-11-05,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,123,2,EUR/tête,COT-VRO-veaux14j_synthese-A23-S44.csv
+2023,45,,2023-11-06,2023-11-12,Élevage supérieur,Mâle,,220,0,EUR/tête,COT-VRO-veaux14j_synthese-A23-S45.csv
+2023,45,,2023-11-06,2023-11-12,Élevage supérieur,Femelle,,175,2,EUR/tête,COT-VRO-veaux14j_synthese-A23-S45.csv
+2023,45,,2023-11-06,2023-11-12,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,43,-3,EUR/tête,COT-VRO-veaux14j_synthese-A23-S45.csv
+2023,45,,2023-11-06,2023-11-12,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,51,0,EUR/tête,COT-VRO-veaux14j_synthese-A23-S45.csv
+2023,45,,2023-11-06,2023-11-12,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,73,0,EUR/tête,COT-VRO-veaux14j_synthese-A23-S45.csv
+2023,45,,2023-11-06,2023-11-12,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,122,-1,EUR/tête,COT-VRO-veaux14j_synthese-A23-S45.csv
+2023,46,,2023-11-13,2023-11-19,Élevage supérieur,Mâle,,221,1,EUR/tête,COT-VRO-veaux14j_synthese-A23-S46.csv
+2023,46,,2023-11-13,2023-11-19,Élevage supérieur,Femelle,,175,0,EUR/tête,COT-VRO-veaux14j_synthese-A23-S46.csv
+2023,46,,2023-11-13,2023-11-19,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,44,1,EUR/tête,COT-VRO-veaux14j_synthese-A23-S46.csv
+2023,46,,2023-11-13,2023-11-19,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,51,0,EUR/tête,COT-VRO-veaux14j_synthese-A23-S46.csv
+2023,46,,2023-11-13,2023-11-19,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,73,0,EUR/tête,COT-VRO-veaux14j_synthese-A23-S46.csv
+2023,46,,2023-11-13,2023-11-19,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,123,1,EUR/tête,COT-VRO-veaux14j_synthese-A23-S46.csv
+2023,47,,2023-11-20,2023-11-26,Élevage supérieur,Mâle,,223,2,EUR/tête,COT-VRO-veaux14j_synthese-A23-S47.csv
+2023,47,,2023-11-20,2023-11-26,Élevage supérieur,Femelle,,177,2,EUR/tête,COT-VRO-veaux14j_synthese-A23-S47.csv
+2023,47,,2023-11-20,2023-11-26,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,44,0,EUR/tête,COT-VRO-veaux14j_synthese-A23-S47.csv
+2023,47,,2023-11-20,2023-11-26,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,51,0,EUR/tête,COT-VRO-veaux14j_synthese-A23-S47.csv
+2023,47,,2023-11-20,2023-11-26,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,73,0,EUR/tête,COT-VRO-veaux14j_synthese-A23-S47.csv
+2023,47,,2023-11-20,2023-11-26,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,124,1,EUR/tête,COT-VRO-veaux14j_synthese-A23-S47.csv
+2023,48,,2023-11-27,2023-12-03,Élevage supérieur,Mâle,,217,-6,EUR/tête,COT-VRO-veaux14j_synthese-A23-S48.csv
+2023,48,,2023-11-27,2023-12-03,Élevage supérieur,Femelle,,173,-4,EUR/tête,COT-VRO-veaux14j_synthese-A23-S48.csv
+2023,48,,2023-11-27,2023-12-03,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,40,-4,EUR/tête,COT-VRO-veaux14j_synthese-A23-S48.csv
+2023,48,,2023-11-27,2023-12-03,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,51,0,EUR/tête,COT-VRO-veaux14j_synthese-A23-S48.csv
+2023,48,,2023-11-27,2023-12-03,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,73,0,EUR/tête,COT-VRO-veaux14j_synthese-A23-S48.csv
+2023,48,,2023-11-27,2023-12-03,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,121,-3,EUR/tête,COT-VRO-veaux14j_synthese-A23-S48.csv
+2023,49,,2023-12-04,2023-12-10,Élevage supérieur,Mâle,,221,4,EUR/tête,COT-VRO-veaux14j_synthese-A23-S49.csv
+2023,49,,2023-12-04,2023-12-10,Élevage supérieur,Femelle,,177,4,EUR/tête,COT-VRO-veaux14j_synthese-A23-S49.csv
+2023,49,,2023-12-04,2023-12-10,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,31,-9,EUR/tête,COT-VRO-veaux14j_synthese-A23-S49.csv
+2023,49,,2023-12-04,2023-12-10,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,54,3,EUR/tête,COT-VRO-veaux14j_synthese-A23-S49.csv
+2023,49,,2023-12-04,2023-12-10,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,76,3,EUR/tête,COT-VRO-veaux14j_synthese-A23-S49.csv
+2023,49,,2023-12-04,2023-12-10,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,122,1,EUR/tête,COT-VRO-veaux14j_synthese-A23-S49.csv
+2023,50,,2023-12-11,2023-12-17,Élevage supérieur,Mâle,,222,1,EUR/tête,COT-VRO-veaux14j_synthese-A23-S50.csv
+2023,50,,2023-12-11,2023-12-17,Élevage supérieur,Femelle,,177,0,EUR/tête,COT-VRO-veaux14j_synthese-A23-S50.csv
+2023,50,,2023-12-11,2023-12-17,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,32,1,EUR/tête,COT-VRO-veaux14j_synthese-A23-S50.csv
+2023,50,,2023-12-11,2023-12-17,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,55,1,EUR/tête,COT-VRO-veaux14j_synthese-A23-S50.csv
+2023,50,,2023-12-11,2023-12-17,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,77,1,EUR/tête,COT-VRO-veaux14j_synthese-A23-S50.csv
+2023,50,,2023-12-11,2023-12-17,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,123,1,EUR/tête,COT-VRO-veaux14j_synthese-A23-S50.csv
+2023,51,,2023-12-18,2023-12-24,Élevage supérieur,Mâle,,222,0,EUR/tête,COT-VRO-veaux14j_synthese-A23-S51.csv
+2023,51,,2023-12-18,2023-12-24,Élevage supérieur,Femelle,,178,1,EUR/tête,COT-VRO-veaux14j_synthese-A23-S51.csv
+2023,51,,2023-12-18,2023-12-24,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,32,0,EUR/tête,COT-VRO-veaux14j_synthese-A23-S51.csv
+2023,51,,2023-12-18,2023-12-24,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,54,-1,EUR/tête,COT-VRO-veaux14j_synthese-A23-S51.csv
+2023,51,,2023-12-18,2023-12-24,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,76,-1,EUR/tête,COT-VRO-veaux14j_synthese-A23-S51.csv
+2023,51,,2023-12-18,2023-12-24,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,123,0,EUR/tête,COT-VRO-veaux14j_synthese-A23-S51.csv
+2023,52,,2023-12-25,2023-12-31,Élevage supérieur,Mâle,,222,0,EUR/tête,COT-VRO-veaux14j_synthese-A23-S52.csv
+2023,52,,2023-12-25,2023-12-31,Élevage supérieur,Femelle,,178,0,EUR/tête,COT-VRO-veaux14j_synthese-A23-S52.csv
+2023,52,,2023-12-25,2023-12-31,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,32,0,EUR/tête,COT-VRO-veaux14j_synthese-A23-S52.csv
+2023,52,,2023-12-25,2023-12-31,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,54,0,EUR/tête,COT-VRO-veaux14j_synthese-A23-S52.csv
+2023,52,,2023-12-25,2023-12-31,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,76,0,EUR/tête,COT-VRO-veaux14j_synthese-A23-S52.csv
+2023,52,,2023-12-25,2023-12-31,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,123,0,EUR/tête,COT-VRO-veaux14j_synthese-A23-S52.csv
+2024,1,,2024-01-01,2024-01-07,Élevage supérieur,Mâle,,229,7,EUR/tête,COT-VRO-veaux14j_synthese-A24-S01.csv
+2024,1,,2024-01-01,2024-01-07,Élevage supérieur,Femelle,,185,7,EUR/tête,COT-VRO-veaux14j_synthese-A24-S01.csv
+2024,1,,2024-01-01,2024-01-07,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,30,-2,EUR/tête,COT-VRO-veaux14j_synthese-A24-S01.csv
+2024,1,,2024-01-01,2024-01-07,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,55,1,EUR/tête,COT-VRO-veaux14j_synthese-A24-S01.csv
+2024,1,,2024-01-01,2024-01-07,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,77,1,EUR/tête,COT-VRO-veaux14j_synthese-A24-S01.csv
+2024,1,,2024-01-01,2024-01-07,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,126,3,EUR/tête,COT-VRO-veaux14j_synthese-A24-S01.csv
+2024,2,,2024-01-08,2024-01-14,Élevage supérieur,Mâle,,228,-1,EUR/tête,COT-VRO-veaux14j_synthese-A24-S02.csv
+2024,2,,2024-01-08,2024-01-14,Élevage supérieur,Femelle,,182,-3,EUR/tête,COT-VRO-veaux14j_synthese-A24-S02.csv
+2024,2,,2024-01-08,2024-01-14,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,26,-4,EUR/tête,COT-VRO-veaux14j_synthese-A24-S02.csv
+2024,2,,2024-01-08,2024-01-14,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,55,0,EUR/tête,COT-VRO-veaux14j_synthese-A24-S02.csv
+2024,2,,2024-01-08,2024-01-14,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,78,1,EUR/tête,COT-VRO-veaux14j_synthese-A24-S02.csv
+2024,2,,2024-01-08,2024-01-14,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,125,-1,EUR/tête,COT-VRO-veaux14j_synthese-A24-S02.csv
+2024,3,,2024-01-15,2024-01-21,Élevage supérieur,Mâle,,231,3,EUR/tête,COT-VRO-veaux14j_synthese-A24-S03.csv
+2024,3,,2024-01-15,2024-01-21,Élevage supérieur,Femelle,,184,2,EUR/tête,COT-VRO-veaux14j_synthese-A24-S03.csv
+2024,3,,2024-01-15,2024-01-21,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,25,-1,EUR/tête,COT-VRO-veaux14j_synthese-A24-S03.csv
+2024,3,,2024-01-15,2024-01-21,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,55,0,EUR/tête,COT-VRO-veaux14j_synthese-A24-S03.csv
+2024,3,,2024-01-15,2024-01-21,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,79,1,EUR/tête,COT-VRO-veaux14j_synthese-A24-S03.csv
+2024,3,,2024-01-15,2024-01-21,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,127,2,EUR/tête,COT-VRO-veaux14j_synthese-A24-S03.csv
+2024,4,,2024-01-22,2024-01-28,Élevage supérieur,Mâle,,231,0,EUR/tête,COT-VRO-veaux14j_synthese-A24-S04.csv
+2024,4,,2024-01-22,2024-01-28,Élevage supérieur,Femelle,,184,0,EUR/tête,COT-VRO-veaux14j_synthese-A24-S04.csv
+2024,4,,2024-01-22,2024-01-28,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,25,0,EUR/tête,COT-VRO-veaux14j_synthese-A24-S04.csv
+2024,4,,2024-01-22,2024-01-28,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,55,0,EUR/tête,COT-VRO-veaux14j_synthese-A24-S04.csv
+2024,4,,2024-01-22,2024-01-28,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,79,0,EUR/tête,COT-VRO-veaux14j_synthese-A24-S04.csv
+2024,4,,2024-01-22,2024-01-28,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,127,0,EUR/tête,COT-VRO-veaux14j_synthese-A24-S04.csv
+2024,5,,2024-01-29,2024-02-04,Élevage supérieur,Mâle,,233,2,EUR/tête,COT-VRO-veaux14j_synthese-A24-S05.csv
+2024,5,,2024-01-29,2024-02-04,Élevage supérieur,Femelle,,187,3,EUR/tête,COT-VRO-veaux14j_synthese-A24-S05.csv
+2024,5,,2024-01-29,2024-02-04,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,29,4,EUR/tête,COT-VRO-veaux14j_synthese-A24-S05.csv
+2024,5,,2024-01-29,2024-02-04,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,58,3,EUR/tête,COT-VRO-veaux14j_synthese-A24-S05.csv
+2024,5,,2024-01-29,2024-02-04,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,82,3,EUR/tête,COT-VRO-veaux14j_synthese-A24-S05.csv
+2024,5,,2024-01-29,2024-02-04,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,129,2,EUR/tête,COT-VRO-veaux14j_synthese-A24-S05.csv
+2024,6,,2024-02-05,2024-02-11,Élevage supérieur,Mâle,,238,5,EUR/tête,COT-VRO-veaux14j_synthese-A24-S06.csv
+2024,6,,2024-02-05,2024-02-11,Élevage supérieur,Femelle,,190,3,EUR/tête,COT-VRO-veaux14j_synthese-A24-S06.csv
+2024,6,,2024-02-05,2024-02-11,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,31,2,EUR/tête,COT-VRO-veaux14j_synthese-A24-S06.csv
+2024,6,,2024-02-05,2024-02-11,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,64,6,EUR/tête,COT-VRO-veaux14j_synthese-A24-S06.csv
+2024,6,,2024-02-05,2024-02-11,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,87,5,EUR/tête,COT-VRO-veaux14j_synthese-A24-S06.csv
+2024,6,,2024-02-05,2024-02-11,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,134,5,EUR/tête,COT-VRO-veaux14j_synthese-A24-S06.csv
+2024,7,,2024-02-12,2024-02-18,Élevage supérieur,Mâle,,245,7,EUR/tête,COT-VRO-veaux14j_synthese-A24-S07.csv
+2024,7,,2024-02-12,2024-02-18,Élevage supérieur,Femelle,,194,4,EUR/tête,COT-VRO-veaux14j_synthese-A24-S07.csv
+2024,7,,2024-02-12,2024-02-18,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,32,1,EUR/tête,COT-VRO-veaux14j_synthese-A24-S07.csv
+2024,7,,2024-02-12,2024-02-18,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,68,4,EUR/tête,COT-VRO-veaux14j_synthese-A24-S07.csv
+2024,7,,2024-02-12,2024-02-18,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,91,4,EUR/tête,COT-VRO-veaux14j_synthese-A24-S07.csv
+2024,7,,2024-02-12,2024-02-18,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,139,5,EUR/tête,COT-VRO-veaux14j_synthese-A24-S07.csv
+2024,8,,2024-02-19,2024-02-25,Élevage supérieur,Mâle,,245,0,EUR/tête,COT-VRO-veaux14j_synthese-A24-S08.csv
+2024,8,,2024-02-19,2024-02-25,Élevage supérieur,Femelle,,199,5,EUR/tête,COT-VRO-veaux14j_synthese-A24-S08.csv
+2024,8,,2024-02-19,2024-02-25,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,35,3,EUR/tête,COT-VRO-veaux14j_synthese-A24-S08.csv
+2024,8,,2024-02-19,2024-02-25,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,70,2,EUR/tête,COT-VRO-veaux14j_synthese-A24-S08.csv
+2024,8,,2024-02-19,2024-02-25,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,94,3,EUR/tête,COT-VRO-veaux14j_synthese-A24-S08.csv
+2024,8,,2024-02-19,2024-02-25,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,140,1,EUR/tête,COT-VRO-veaux14j_synthese-A24-S08.csv
+2024,9,,2024-02-26,2024-03-03,Élevage supérieur,Mâle,,247,2,EUR/tête,COT-VRO-veaux14j_synthese-A24-S09.csv
+2024,9,,2024-02-26,2024-03-03,Élevage supérieur,Femelle,,200,1,EUR/tête,COT-VRO-veaux14j_synthese-A24-S09.csv
+2024,9,,2024-02-26,2024-03-03,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,39,4,EUR/tête,COT-VRO-veaux14j_synthese-A24-S09.csv
+2024,9,,2024-02-26,2024-03-03,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,74,4,EUR/tête,COT-VRO-veaux14j_synthese-A24-S09.csv
+2024,9,,2024-02-26,2024-03-03,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,98,4,EUR/tête,COT-VRO-veaux14j_synthese-A24-S09.csv
+2024,9,,2024-02-26,2024-03-03,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,143,3,EUR/tête,COT-VRO-veaux14j_synthese-A24-S09.csv
+2024,10,,2024-03-04,2024-03-10,Élevage supérieur,Mâle,,250,3,EUR/tête,COT-VRO-veaux14j_synthese-A24-S10.csv
+2024,10,,2024-03-04,2024-03-10,Élevage supérieur,Femelle,,203,3,EUR/tête,COT-VRO-veaux14j_synthese-A24-S10.csv
+2024,10,,2024-03-04,2024-03-10,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,46,7,EUR/tête,COT-VRO-veaux14j_synthese-A24-S10.csv
+2024,10,,2024-03-04,2024-03-10,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,81,7,EUR/tête,COT-VRO-veaux14j_synthese-A24-S10.csv
+2024,10,,2024-03-04,2024-03-10,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,102,4,EUR/tête,COT-VRO-veaux14j_synthese-A24-S10.csv
+2024,10,,2024-03-04,2024-03-10,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,148,5,EUR/tête,COT-VRO-veaux14j_synthese-A24-S10.csv
+2024,11,,2024-03-11,2024-03-17,Élevage supérieur,Mâle,,254,4,EUR/tête,COT-VRO-veaux14j_synthese-A24-S11.csv
+2024,11,,2024-03-11,2024-03-17,Élevage supérieur,Femelle,,205,2,EUR/tête,COT-VRO-veaux14j_synthese-A24-S11.csv
+2024,11,,2024-03-11,2024-03-17,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,49,3,EUR/tête,COT-VRO-veaux14j_synthese-A24-S11.csv
+2024,11,,2024-03-11,2024-03-17,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,84,3,EUR/tête,COT-VRO-veaux14j_synthese-A24-S11.csv
+2024,11,,2024-03-11,2024-03-17,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,106,4,EUR/tête,COT-VRO-veaux14j_synthese-A24-S11.csv
+2024,11,,2024-03-11,2024-03-17,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,152,4,EUR/tête,COT-VRO-veaux14j_synthese-A24-S11.csv
+2024,12,,2024-03-18,2024-03-24,Élevage supérieur,Mâle,,263,9,EUR/tête,COT-VRO-veaux14j_synthese-A24-S12.csv
+2024,12,,2024-03-18,2024-03-24,Élevage supérieur,Femelle,,211,6,EUR/tête,COT-VRO-veaux14j_synthese-A24-S12.csv
+2024,12,,2024-03-18,2024-03-24,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,57,8,EUR/tête,COT-VRO-veaux14j_synthese-A24-S12.csv
+2024,12,,2024-03-18,2024-03-24,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,92,8,EUR/tête,COT-VRO-veaux14j_synthese-A24-S12.csv
+2024,12,,2024-03-18,2024-03-24,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,113,7,EUR/tête,COT-VRO-veaux14j_synthese-A24-S12.csv
+2024,12,,2024-03-18,2024-03-24,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,160,8,EUR/tête,COT-VRO-veaux14j_synthese-A24-S12.csv
+2024,13,,2024-03-25,2024-03-31,Élevage supérieur,Mâle,,261,-2,EUR/tête,COT-VRO-veaux14j_synthese-A24-S13.csv
+2024,13,,2024-03-25,2024-03-31,Élevage supérieur,Femelle,,215,4,EUR/tête,COT-VRO-veaux14j_synthese-A24-S13.csv
+2024,13,,2024-03-25,2024-03-31,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,63,6,EUR/tête,COT-VRO-veaux14j_synthese-A24-S13.csv
+2024,13,,2024-03-25,2024-03-31,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,97,5,EUR/tête,COT-VRO-veaux14j_synthese-A24-S13.csv
+2024,13,,2024-03-25,2024-03-31,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,118,5,EUR/tête,COT-VRO-veaux14j_synthese-A24-S13.csv
+2024,13,,2024-03-25,2024-03-31,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,162,2,EUR/tête,COT-VRO-veaux14j_synthese-A24-S13.csv
+2024,14,,2024-04-01,2024-04-07,Élevage supérieur,Mâle,,261,0,EUR/tête,COT-VRO-veaux14j_synthese-A24-S14.csv
+2024,14,,2024-04-01,2024-04-07,Élevage supérieur,Femelle,,217,2,EUR/tête,COT-VRO-veaux14j_synthese-A24-S14.csv
+2024,14,,2024-04-01,2024-04-07,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,64,1,EUR/tête,COT-VRO-veaux14j_synthese-A24-S14.csv
+2024,14,,2024-04-01,2024-04-07,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,99,2,EUR/tête,COT-VRO-veaux14j_synthese-A24-S14.csv
+2024,14,,2024-04-01,2024-04-07,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,120,2,EUR/tête,COT-VRO-veaux14j_synthese-A24-S14.csv
+2024,14,,2024-04-01,2024-04-07,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,163,1,EUR/tête,COT-VRO-veaux14j_synthese-A24-S14.csv
+2024,15,,2024-04-08,2024-04-14,Élevage supérieur,Mâle,,266,5,EUR/tête,COT-VRO-veaux14j_synthese-A24-S15.csv
+2024,15,,2024-04-08,2024-04-14,Élevage supérieur,Femelle,,222,5,EUR/tête,COT-VRO-veaux14j_synthese-A24-S15.csv
+2024,15,,2024-04-08,2024-04-14,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,70,6,EUR/tête,COT-VRO-veaux14j_synthese-A24-S15.csv
+2024,15,,2024-04-08,2024-04-14,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,107,8,EUR/tête,COT-VRO-veaux14j_synthese-A24-S15.csv
+2024,15,,2024-04-08,2024-04-14,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,128,8,EUR/tête,COT-VRO-veaux14j_synthese-A24-S15.csv
+2024,15,,2024-04-08,2024-04-14,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,170,7,EUR/tête,COT-VRO-veaux14j_synthese-A24-S15.csv
+2024,16,,2024-04-15,2024-04-21,Élevage supérieur,Mâle,,272,6,EUR/tête,COT-VRO-veaux14j_synthese-A24-S16.csv
+2024,16,,2024-04-15,2024-04-21,Élevage supérieur,Femelle,,230,8,EUR/tête,COT-VRO-veaux14j_synthese-A24-S16.csv
+2024,16,,2024-04-15,2024-04-21,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,78,8,EUR/tête,COT-VRO-veaux14j_synthese-A24-S16.csv
+2024,16,,2024-04-15,2024-04-21,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,118,11,EUR/tête,COT-VRO-veaux14j_synthese-A24-S16.csv
+2024,16,,2024-04-15,2024-04-21,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,139,11,EUR/tête,COT-VRO-veaux14j_synthese-A24-S16.csv
+2024,16,,2024-04-15,2024-04-21,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,178,8,EUR/tête,COT-VRO-veaux14j_synthese-A24-S16.csv
+2024,17,,2024-04-22,2024-04-28,Élevage supérieur,Mâle,,273,1,EUR/tête,COT-VRO-veaux14j_synthese-A24-S17.csv
+2024,17,,2024-04-22,2024-04-28,Élevage supérieur,Femelle,,231,1,EUR/tête,COT-VRO-veaux14j_synthese-A24-S17.csv
+2024,17,,2024-04-22,2024-04-28,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,84,6,EUR/tête,COT-VRO-veaux14j_synthese-A24-S17.csv
+2024,17,,2024-04-22,2024-04-28,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,122,4,EUR/tête,COT-VRO-veaux14j_synthese-A24-S17.csv
+2024,17,,2024-04-22,2024-04-28,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,142,3,EUR/tête,COT-VRO-veaux14j_synthese-A24-S17.csv
+2024,17,,2024-04-22,2024-04-28,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,181,3,EUR/tête,COT-VRO-veaux14j_synthese-A24-S17.csv
+2024,18,,2024-04-29,2024-05-05,Élevage supérieur,Mâle,,277,4,EUR/tête,COT-VRO-veaux14j_synthese-A24-S18.csv
+2024,18,,2024-04-29,2024-05-05,Élevage supérieur,Femelle,,233,2,EUR/tête,COT-VRO-veaux14j_synthese-A24-S18.csv
+2024,18,,2024-04-29,2024-05-05,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,88,4,EUR/tête,COT-VRO-veaux14j_synthese-A24-S18.csv
+2024,18,,2024-04-29,2024-05-05,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,124,2,EUR/tête,COT-VRO-veaux14j_synthese-A24-S18.csv
+2024,18,,2024-04-29,2024-05-05,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,143,1,EUR/tête,COT-VRO-veaux14j_synthese-A24-S18.csv
+2024,18,,2024-04-29,2024-05-05,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,184,3,EUR/tête,COT-VRO-veaux14j_synthese-A24-S18.csv
+2024,19,,2024-05-06,2024-05-12,Élevage supérieur,Mâle,,277,0,EUR/tête,COT-VRO-veaux14j_synthese-A24-S19.csv
+2024,19,,2024-05-06,2024-05-12,Élevage supérieur,Femelle,,233,0,EUR/tête,COT-VRO-veaux14j_synthese-A24-S19.csv
+2024,19,,2024-05-06,2024-05-12,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,88,0,EUR/tête,COT-VRO-veaux14j_synthese-A24-S19.csv
+2024,19,,2024-05-06,2024-05-12,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,124,0,EUR/tête,COT-VRO-veaux14j_synthese-A24-S19.csv
+2024,19,,2024-05-06,2024-05-12,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,143,0,EUR/tête,COT-VRO-veaux14j_synthese-A24-S19.csv
+2024,19,,2024-05-06,2024-05-12,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,184,0,EUR/tête,COT-VRO-veaux14j_synthese-A24-S19.csv
+2024,20,,2024-05-13,2024-05-19,Élevage supérieur,Mâle,,279,2,EUR/tête,COT-VRO-veaux14j_synthese-A24-S20.csv
+2024,20,,2024-05-13,2024-05-19,Élevage supérieur,Femelle,,234,1,EUR/tête,COT-VRO-veaux14j_synthese-A24-S20.csv
+2024,20,,2024-05-13,2024-05-19,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,88,0,EUR/tête,COT-VRO-veaux14j_synthese-A24-S20.csv
+2024,20,,2024-05-13,2024-05-19,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,125,1,EUR/tête,COT-VRO-veaux14j_synthese-A24-S20.csv
+2024,20,,2024-05-13,2024-05-19,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,145,2,EUR/tête,COT-VRO-veaux14j_synthese-A24-S20.csv
+2024,20,,2024-05-13,2024-05-19,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,186,2,EUR/tête,COT-VRO-veaux14j_synthese-A24-S20.csv
+2024,21,,2024-05-20,2024-05-26,Élevage supérieur,Mâle,,285,6,EUR/tête,COT-VRO-veaux14j_synthese-A24-S21.csv
+2024,21,,2024-05-20,2024-05-26,Élevage supérieur,Femelle,,238,4,EUR/tête,COT-VRO-veaux14j_synthese-A24-S21.csv
+2024,21,,2024-05-20,2024-05-26,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,88,0,EUR/tête,COT-VRO-veaux14j_synthese-A24-S21.csv
+2024,21,,2024-05-20,2024-05-26,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,124,-1,EUR/tête,COT-VRO-veaux14j_synthese-A24-S21.csv
+2024,21,,2024-05-20,2024-05-26,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,145,0,EUR/tête,COT-VRO-veaux14j_synthese-A24-S21.csv
+2024,21,,2024-05-20,2024-05-26,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,188,2,EUR/tête,COT-VRO-veaux14j_synthese-A24-S21.csv
+2024,22,,2024-05-27,2024-06-02,Élevage supérieur,Mâle,,286,1,EUR/tête,COT-VRO-veaux14j_synthese-A24-S22.csv
+2024,22,,2024-05-27,2024-06-02,Élevage supérieur,Femelle,,236,-2,EUR/tête,COT-VRO-veaux14j_synthese-A24-S22.csv
+2024,22,,2024-05-27,2024-06-02,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,90,2,EUR/tête,COT-VRO-veaux14j_synthese-A24-S22.csv
+2024,22,,2024-05-27,2024-06-02,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,126,2,EUR/tête,COT-VRO-veaux14j_synthese-A24-S22.csv
+2024,22,,2024-05-27,2024-06-02,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,147,2,EUR/tête,COT-VRO-veaux14j_synthese-A24-S22.csv
+2024,22,,2024-05-27,2024-06-02,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,189,1,EUR/tête,COT-VRO-veaux14j_synthese-A24-S22.csv
+2024,23,,2024-06-03,2024-06-09,Élevage supérieur,Mâle,,285,-1,EUR/tête,COT-VRO-veaux14j_synthese-A24-S23.csv
+2024,23,,2024-06-03,2024-06-09,Élevage supérieur,Femelle,,235,-1,EUR/tête,COT-VRO-veaux14j_synthese-A24-S23.csv
+2024,23,,2024-06-03,2024-06-09,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,90,0,EUR/tête,COT-VRO-veaux14j_synthese-A24-S23.csv
+2024,23,,2024-06-03,2024-06-09,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,127,1,EUR/tête,COT-VRO-veaux14j_synthese-A24-S23.csv
+2024,23,,2024-06-03,2024-06-09,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,148,1,EUR/tête,COT-VRO-veaux14j_synthese-A24-S23.csv
+2024,23,,2024-06-03,2024-06-09,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,189,0,EUR/tête,COT-VRO-veaux14j_synthese-A24-S23.csv
+2024,24,,2024-06-10,2024-06-16,Élevage supérieur,Mâle,,292,7,EUR/tête,COT-VRO-veaux14j_synthese-A24-S24.csv
+2024,24,,2024-06-10,2024-06-16,Élevage supérieur,Femelle,,242,7,EUR/tête,COT-VRO-veaux14j_synthese-A24-S24.csv
+2024,24,,2024-06-10,2024-06-16,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,92,2,EUR/tête,COT-VRO-veaux14j_synthese-A24-S24.csv
+2024,24,,2024-06-10,2024-06-16,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,129,2,EUR/tête,COT-VRO-veaux14j_synthese-A24-S24.csv
+2024,24,,2024-06-10,2024-06-16,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,151,3,EUR/tête,COT-VRO-veaux14j_synthese-A24-S24.csv
+2024,24,,2024-06-10,2024-06-16,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,193,4,EUR/tête,COT-VRO-veaux14j_synthese-A24-S24.csv
+2024,25,,2024-06-17,2024-06-23,Élevage supérieur,Mâle,,291,-1,EUR/tête,COT-VRO-veaux14j_synthese-A24-S25.csv
+2024,25,,2024-06-17,2024-06-23,Élevage supérieur,Femelle,,242,0,EUR/tête,COT-VRO-veaux14j_synthese-A24-S25.csv
+2024,25,,2024-06-17,2024-06-23,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,94,2,EUR/tête,COT-VRO-veaux14j_synthese-A24-S25.csv
+2024,25,,2024-06-17,2024-06-23,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,130,1,EUR/tête,COT-VRO-veaux14j_synthese-A24-S25.csv
+2024,25,,2024-06-17,2024-06-23,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,152,1,EUR/tête,COT-VRO-veaux14j_synthese-A24-S25.csv
+2024,25,,2024-06-17,2024-06-23,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,194,1,EUR/tête,COT-VRO-veaux14j_synthese-A24-S25.csv
+2024,26,,2024-06-24,2024-06-30,Élevage supérieur,Mâle,,293,2,EUR/tête,COT-VRO-veaux14j_synthese-A24-S26.csv
+2024,26,,2024-06-24,2024-06-30,Élevage supérieur,Femelle,,244,2,EUR/tête,COT-VRO-veaux14j_synthese-A24-S26.csv
+2024,26,,2024-06-24,2024-06-30,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,94,0,EUR/tête,COT-VRO-veaux14j_synthese-A24-S26.csv
+2024,26,,2024-06-24,2024-06-30,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,130,0,EUR/tête,COT-VRO-veaux14j_synthese-A24-S26.csv
+2024,26,,2024-06-24,2024-06-30,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,151,-1,EUR/tête,COT-VRO-veaux14j_synthese-A24-S26.csv
+2024,26,,2024-06-24,2024-06-30,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,194,0,EUR/tête,COT-VRO-veaux14j_synthese-A24-S26.csv
+2024,27,,2024-07-01,2024-07-07,Élevage supérieur,Mâle,,292,-1,EUR/tête,COT-VRO-veaux14j_synthese-A24-S27.csv
+2024,27,,2024-07-01,2024-07-07,Élevage supérieur,Femelle,,246,2,EUR/tête,COT-VRO-veaux14j_synthese-A24-S27.csv
+2024,27,,2024-07-01,2024-07-07,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,96,2,EUR/tête,COT-VRO-veaux14j_synthese-A24-S27.csv
+2024,27,,2024-07-01,2024-07-07,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,132,2,EUR/tête,COT-VRO-veaux14j_synthese-A24-S27.csv
+2024,27,,2024-07-01,2024-07-07,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,153,2,EUR/tête,COT-VRO-veaux14j_synthese-A24-S27.csv
+2024,27,,2024-07-01,2024-07-07,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,194,0,EUR/tête,COT-VRO-veaux14j_synthese-A24-S27.csv
+2024,28,,2024-07-08,2024-07-14,Élevage supérieur,Mâle,,300,8,EUR/tête,COT-VRO-veaux14j_synthese-A24-S28.csv
+2024,28,,2024-07-08,2024-07-14,Élevage supérieur,Femelle,,253,7,EUR/tête,COT-VRO-veaux14j_synthese-A24-S28.csv
+2024,28,,2024-07-08,2024-07-14,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,101,5,EUR/tête,COT-VRO-veaux14j_synthese-A24-S28.csv
+2024,28,,2024-07-08,2024-07-14,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,137,5,EUR/tête,COT-VRO-veaux14j_synthese-A24-S28.csv
+2024,28,,2024-07-08,2024-07-14,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,157,4,EUR/tête,COT-VRO-veaux14j_synthese-A24-S28.csv
+2024,28,,2024-07-08,2024-07-14,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,200,6,EUR/tête,COT-VRO-veaux14j_synthese-A24-S28.csv
+2024,29,,2024-07-15,2024-07-21,Élevage supérieur,Mâle,,302,2,EUR/tête,COT-VRO-veaux14j_synthese-A24-S29.csv
+2024,29,,2024-07-15,2024-07-21,Élevage supérieur,Femelle,,239,-14,EUR/tête,COT-VRO-veaux14j_synthese-A24-S29.csv
+2024,29,,2024-07-15,2024-07-21,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,105,4,EUR/tête,COT-VRO-veaux14j_synthese-A24-S29.csv
+2024,29,,2024-07-15,2024-07-21,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,142,5,EUR/tête,COT-VRO-veaux14j_synthese-A24-S29.csv
+2024,29,,2024-07-15,2024-07-21,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,162,5,EUR/tête,COT-VRO-veaux14j_synthese-A24-S29.csv
+2024,29,,2024-07-15,2024-07-21,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,203,3,EUR/tête,COT-VRO-veaux14j_synthese-A24-S29.csv
+2024,30,,2024-07-22,2024-07-28,Élevage supérieur,Mâle,,300,-2,EUR/tête,COT-VRO-veaux14j_synthese-A24-S30.csv
+2024,30,,2024-07-22,2024-07-28,Élevage supérieur,Femelle,,238,-1,EUR/tête,COT-VRO-veaux14j_synthese-A24-S30.csv
+2024,30,,2024-07-22,2024-07-28,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,106,1,EUR/tête,COT-VRO-veaux14j_synthese-A24-S30.csv
+2024,30,,2024-07-22,2024-07-28,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,143,1,EUR/tête,COT-VRO-veaux14j_synthese-A24-S30.csv
+2024,30,,2024-07-22,2024-07-28,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,163,1,EUR/tête,COT-VRO-veaux14j_synthese-A24-S30.csv
+2024,30,,2024-07-22,2024-07-28,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,203,0,EUR/tête,COT-VRO-veaux14j_synthese-A24-S30.csv
+2024,31,,2024-07-29,2024-08-04,Élevage supérieur,Mâle,,302,2,EUR/tête,COT-VRO-veaux14j_synthese-A24-S31.csv
+2024,31,,2024-07-29,2024-08-04,Élevage supérieur,Femelle,,255,17,EUR/tête,COT-VRO-veaux14j_synthese-A24-S31.csv
+2024,31,,2024-07-29,2024-08-04,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,106,0,EUR/tête,COT-VRO-veaux14j_synthese-A24-S31.csv
+2024,31,,2024-07-29,2024-08-04,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,143,0,EUR/tête,COT-VRO-veaux14j_synthese-A24-S31.csv
+2024,31,,2024-07-29,2024-08-04,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,166,3,EUR/tête,COT-VRO-veaux14j_synthese-A24-S31.csv
+2024,31,,2024-07-29,2024-08-04,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,204,1,EUR/tête,COT-VRO-veaux14j_synthese-A24-S31.csv
+2024,32,,2024-08-05,2024-08-11,Élevage supérieur,Mâle,,298,-4,EUR/tête,COT-VRO-veaux14j_synthese-A24-S32.csv
+2024,32,,2024-08-05,2024-08-11,Élevage supérieur,Femelle,,249,-6,EUR/tête,COT-VRO-veaux14j_synthese-A24-S32.csv
+2024,32,,2024-08-05,2024-08-11,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,103,-3,EUR/tête,COT-VRO-veaux14j_synthese-A24-S32.csv
+2024,32,,2024-08-05,2024-08-11,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,140,-3,EUR/tête,COT-VRO-veaux14j_synthese-A24-S32.csv
+2024,32,,2024-08-05,2024-08-11,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,161,-5,EUR/tête,COT-VRO-veaux14j_synthese-A24-S32.csv
+2024,32,,2024-08-05,2024-08-11,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,201,-3,EUR/tête,COT-VRO-veaux14j_synthese-A24-S32.csv
+2024,33,,2024-08-12,2024-08-18,Élevage supérieur,Mâle,,290,-8,EUR/tête,COT-VRO-veaux14j_synthese-A24-S33.csv
+2024,33,,2024-08-12,2024-08-18,Élevage supérieur,Femelle,,240,-9,EUR/tête,COT-VRO-veaux14j_synthese-A24-S33.csv
+2024,33,,2024-08-12,2024-08-18,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,96,-7,EUR/tête,COT-VRO-veaux14j_synthese-A24-S33.csv
+2024,33,,2024-08-12,2024-08-18,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,132,-8,EUR/tête,COT-VRO-veaux14j_synthese-A24-S33.csv
+2024,33,,2024-08-12,2024-08-18,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,156,-5,EUR/tête,COT-VRO-veaux14j_synthese-A24-S33.csv
+2024,33,,2024-08-12,2024-08-18,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,194,-7,EUR/tête,COT-VRO-veaux14j_synthese-A24-S33.csv
+2024,34,,2024-08-19,2024-08-25,Élevage supérieur,Mâle,,283,-7,EUR/tête,COT-VRO-veaux14j_synthese-A24-S34.csv
+2024,34,,2024-08-19,2024-08-25,Élevage supérieur,Femelle,,235,-5,EUR/tête,COT-VRO-veaux14j_synthese-A24-S34.csv
+2024,34,,2024-08-19,2024-08-25,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,80,-16,EUR/tête,COT-VRO-veaux14j_synthese-A24-S34.csv
+2024,34,,2024-08-19,2024-08-25,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,115,-17,EUR/tête,COT-VRO-veaux14j_synthese-A24-S34.csv
+2024,34,,2024-08-19,2024-08-25,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,146,-10,EUR/tête,COT-VRO-veaux14j_synthese-A24-S34.csv
+2024,34,,2024-08-19,2024-08-25,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,182,-12,EUR/tête,COT-VRO-veaux14j_synthese-A24-S34.csv
+2024,35,,2024-08-26,2024-09-01,Élevage supérieur,Mâle,,275,-8,EUR/tête,COT-VRO-veaux14j_synthese-A24-S35.csv
+2024,35,,2024-08-26,2024-09-01,Élevage supérieur,Femelle,,224,-11,EUR/tête,COT-VRO-veaux14j_synthese-A24-S35.csv
+2024,35,,2024-08-26,2024-09-01,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,72,-8,EUR/tête,COT-VRO-veaux14j_synthese-A24-S35.csv
+2024,35,,2024-08-26,2024-09-01,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,109,-6,EUR/tête,COT-VRO-veaux14j_synthese-A24-S35.csv
+2024,35,,2024-08-26,2024-09-01,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,139,-7,EUR/tête,COT-VRO-veaux14j_synthese-A24-S35.csv
+2024,35,,2024-08-26,2024-09-01,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,174,-8,EUR/tête,COT-VRO-veaux14j_synthese-A24-S35.csv
+2024,36,,2024-09-02,2024-09-08,Élevage supérieur,Mâle,,262,-13,EUR/tête,COT-VRO-veaux14j_synthese-A24-S36.csv
+2024,36,,2024-09-02,2024-09-08,Élevage supérieur,Femelle,,212,-12,EUR/tête,COT-VRO-veaux14j_synthese-A24-S36.csv
+2024,36,,2024-09-02,2024-09-08,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,52,-20,EUR/tête,COT-VRO-veaux14j_synthese-A24-S36.csv
+2024,36,,2024-09-02,2024-09-08,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,87,-22,EUR/tête,COT-VRO-veaux14j_synthese-A24-S36.csv
+2024,36,,2024-09-02,2024-09-08,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,119,-20,EUR/tête,COT-VRO-veaux14j_synthese-A24-S36.csv
+2024,36,,2024-09-02,2024-09-08,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,156,-18,EUR/tête,COT-VRO-veaux14j_synthese-A24-S36.csv
+2024,37,,2024-09-09,2024-09-15,Élevage supérieur,Mâle,,257,-5,EUR/tête,COT-VRO-veaux14j_synthese-A24-S37.csv
+2024,37,,2024-09-09,2024-09-15,Élevage supérieur,Femelle,,208,-4,EUR/tête,COT-VRO-veaux14j_synthese-A24-S37.csv
+2024,37,,2024-09-09,2024-09-15,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,45,-7,EUR/tête,COT-VRO-veaux14j_synthese-A24-S37.csv
+2024,37,,2024-09-09,2024-09-15,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,79,-8,EUR/tête,COT-VRO-veaux14j_synthese-A24-S37.csv
+2024,37,,2024-09-09,2024-09-15,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,111,-8,EUR/tête,COT-VRO-veaux14j_synthese-A24-S37.csv
+2024,37,,2024-09-09,2024-09-15,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,150,-6,EUR/tête,COT-VRO-veaux14j_synthese-A24-S37.csv
+2024,38,,2024-09-16,2024-09-22,Élevage supérieur,Mâle,,255,-2,EUR/tête,COT-VRO-veaux14j_synthese-A24-S38.csv
+2024,38,,2024-09-16,2024-09-22,Élevage supérieur,Femelle,,206,-2,EUR/tête,COT-VRO-veaux14j_synthese-A24-S38.csv
+2024,38,,2024-09-16,2024-09-22,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,43,-2,EUR/tête,COT-VRO-veaux14j_synthese-A24-S38.csv
+2024,38,,2024-09-16,2024-09-22,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,77,-2,EUR/tête,COT-VRO-veaux14j_synthese-A24-S38.csv
+2024,38,,2024-09-16,2024-09-22,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,110,-1,EUR/tête,COT-VRO-veaux14j_synthese-A24-S38.csv
+2024,38,,2024-09-16,2024-09-22,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,148,-2,EUR/tête,COT-VRO-veaux14j_synthese-A24-S38.csv
+2024,41,,2024-10-07,2024-10-13,Élevage supérieur,Mâle,,247,,EUR/tête,COT-VRO-veaux14j_synthese-A24-S41.csv
+2024,41,,2024-10-07,2024-10-13,Élevage supérieur,Femelle,,201,,EUR/tête,COT-VRO-veaux14j_synthese-A24-S41.csv
+2024,41,,2024-10-07,2024-10-13,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,40,,EUR/tête,COT-VRO-veaux14j_synthese-A24-S41.csv
+2024,41,,2024-10-07,2024-10-13,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,70,,EUR/tête,COT-VRO-veaux14j_synthese-A24-S41.csv
+2024,41,,2024-10-07,2024-10-13,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,103,,EUR/tête,COT-VRO-veaux14j_synthese-A24-S41.csv
+2024,41,,2024-10-07,2024-10-13,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,142,,EUR/tête,COT-VRO-veaux14j_synthese-A24-S41.csv
+2024,42,,2024-10-14,2024-10-20,Élevage supérieur,Mâle,,248,1,EUR/tête,COT-VRO-veaux14j_synthese-A24-S42.csv
+2024,42,,2024-10-14,2024-10-20,Élevage supérieur,Femelle,,200,-1,EUR/tête,COT-VRO-veaux14j_synthese-A24-S42.csv
+2024,42,,2024-10-14,2024-10-20,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,40,0,EUR/tête,COT-VRO-veaux14j_synthese-A24-S42.csv
+2024,42,,2024-10-14,2024-10-20,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,70,0,EUR/tête,COT-VRO-veaux14j_synthese-A24-S42.csv
+2024,42,,2024-10-14,2024-10-20,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,102,-1,EUR/tête,COT-VRO-veaux14j_synthese-A24-S42.csv
+2024,42,,2024-10-14,2024-10-20,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,142,0,EUR/tête,COT-VRO-veaux14j_synthese-A24-S42.csv
+2024,43,,2024-10-21,2024-10-27,Élevage supérieur,Mâle,,250,2,EUR/tête,COT-VRO-veaux14j_synthese-A24-S43.csv
+2024,43,,2024-10-21,2024-10-27,Élevage supérieur,Femelle,,202,2,EUR/tête,COT-VRO-veaux14j_synthese-A24-S43.csv
+2024,43,,2024-10-21,2024-10-27,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,39,-1,EUR/tête,COT-VRO-veaux14j_synthese-A24-S43.csv
+2024,43,,2024-10-21,2024-10-27,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,71,1,EUR/tête,COT-VRO-veaux14j_synthese-A24-S43.csv
+2024,43,,2024-10-21,2024-10-27,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,103,1,EUR/tête,COT-VRO-veaux14j_synthese-A24-S43.csv
+2024,43,,2024-10-21,2024-10-27,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,143,1,EUR/tête,COT-VRO-veaux14j_synthese-A24-S43.csv
+2024,44,,2024-10-28,2024-11-03,Élevage supérieur,Mâle,,253,3,EUR/tête,COT-VRO-veaux14j_synthese-A24-S44.csv
+2024,44,,2024-10-28,2024-11-03,Élevage supérieur,Femelle,,205,3,EUR/tête,COT-VRO-veaux14j_synthese-A24-S44.csv
+2024,44,,2024-10-28,2024-11-03,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,41,2,EUR/tête,COT-VRO-veaux14j_synthese-A24-S44.csv
+2024,44,,2024-10-28,2024-11-03,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,72,1,EUR/tête,COT-VRO-veaux14j_synthese-A24-S44.csv
+2024,44,,2024-10-28,2024-11-03,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,105,2,EUR/tête,COT-VRO-veaux14j_synthese-A24-S44.csv
+2024,44,,2024-10-28,2024-11-03,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,145,2,EUR/tête,COT-VRO-veaux14j_synthese-A24-S44.csv
+2024,45,,2024-11-04,2024-11-10,Élevage supérieur,Mâle,,264,11,EUR/tête,COT-VRO-veaux14j_synthese-A24-S45.csv
+2024,45,,2024-11-04,2024-11-10,Élevage supérieur,Femelle,,220,15,EUR/tête,COT-VRO-veaux14j_synthese-A24-S45.csv
+2024,45,,2024-11-04,2024-11-10,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,55,14,EUR/tête,COT-VRO-veaux14j_synthese-A24-S45.csv
+2024,45,,2024-11-04,2024-11-10,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,88,16,EUR/tête,COT-VRO-veaux14j_synthese-A24-S45.csv
+2024,45,,2024-11-04,2024-11-10,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,120,15,EUR/tête,COT-VRO-veaux14j_synthese-A24-S45.csv
+2024,45,,2024-11-04,2024-11-10,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,159,14,EUR/tête,COT-VRO-veaux14j_synthese-A24-S45.csv
+2024,46,,2024-11-11,2024-11-17,Élevage supérieur,Mâle,,266,2,EUR/tête,COT-VRO-veaux14j_synthese-A24-S46.csv
+2024,46,,2024-11-11,2024-11-17,Élevage supérieur,Femelle,,223,3,EUR/tête,COT-VRO-veaux14j_synthese-A24-S46.csv
+2024,46,,2024-11-11,2024-11-17,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,57,2,EUR/tête,COT-VRO-veaux14j_synthese-A24-S46.csv
+2024,46,,2024-11-11,2024-11-17,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,91,3,EUR/tête,COT-VRO-veaux14j_synthese-A24-S46.csv
+2024,46,,2024-11-11,2024-11-17,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,124,4,EUR/tête,COT-VRO-veaux14j_synthese-A24-S46.csv
+2024,46,,2024-11-11,2024-11-17,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,161,2,EUR/tête,COT-VRO-veaux14j_synthese-A24-S46.csv
+2024,47,,2024-11-18,2024-11-24,Élevage supérieur,Mâle,,275,9,EUR/tête,COT-VRO-veaux14j_synthese-A24-S47.csv
+2024,47,,2024-11-18,2024-11-24,Élevage supérieur,Femelle,,229,6,EUR/tête,COT-VRO-veaux14j_synthese-A24-S47.csv
+2024,47,,2024-11-18,2024-11-24,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,59,2,EUR/tête,COT-VRO-veaux14j_synthese-A24-S47.csv
+2024,47,,2024-11-18,2024-11-24,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,93,2,EUR/tête,COT-VRO-veaux14j_synthese-A24-S47.csv
+2024,47,,2024-11-18,2024-11-24,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,127,3,EUR/tête,COT-VRO-veaux14j_synthese-A24-S47.csv
+2024,47,,2024-11-18,2024-11-24,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,166,5,EUR/tête,COT-VRO-veaux14j_synthese-A24-S47.csv
+2024,48,,2024-11-25,2024-12-01,Élevage supérieur,Mâle,,282,7,EUR/tête,COT-VRO-veaux14j_synthese-A24-S48.csv
+2024,48,,2024-11-25,2024-12-01,Élevage supérieur,Femelle,,235,6,EUR/tête,COT-VRO-veaux14j_synthese-A24-S48.csv
+2024,48,,2024-11-25,2024-12-01,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,82,23,EUR/tête,COT-VRO-veaux14j_synthese-A24-S48.csv
+2024,48,,2024-11-25,2024-12-01,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,117,24,EUR/tête,COT-VRO-veaux14j_synthese-A24-S48.csv
+2024,48,,2024-11-25,2024-12-01,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,143,16,EUR/tête,COT-VRO-veaux14j_synthese-A24-S48.csv
+2024,48,,2024-11-25,2024-12-01,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,181,15,EUR/tête,COT-VRO-veaux14j_synthese-A24-S48.csv
+2024,49,,2024-12-02,2024-12-08,Élevage supérieur,Mâle,,283,1,EUR/tête,COT-VRO-veaux14j_synthese-A24-S49.csv
+2024,49,,2024-12-02,2024-12-08,Élevage supérieur,Femelle,,236,1,EUR/tête,COT-VRO-veaux14j_synthese-A24-S49.csv
+2024,49,,2024-12-02,2024-12-08,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,82,0,EUR/tête,COT-VRO-veaux14j_synthese-A24-S49.csv
+2024,49,,2024-12-02,2024-12-08,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,117,0,EUR/tête,COT-VRO-veaux14j_synthese-A24-S49.csv
+2024,49,,2024-12-02,2024-12-08,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,144,1,EUR/tête,COT-VRO-veaux14j_synthese-A24-S49.csv
+2024,49,,2024-12-02,2024-12-08,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,182,1,EUR/tête,COT-VRO-veaux14j_synthese-A24-S49.csv
+2024,50,,2024-12-09,2024-12-15,Élevage supérieur,Mâle,,282,-1,EUR/tête,COT-VRO-veaux14j_synthese-A24-S50.csv
+2024,50,,2024-12-09,2024-12-15,Élevage supérieur,Femelle,,234,-2,EUR/tête,COT-VRO-veaux14j_synthese-A24-S50.csv
+2024,50,,2024-12-09,2024-12-15,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,83,1,EUR/tête,COT-VRO-veaux14j_synthese-A24-S50.csv
+2024,50,,2024-12-09,2024-12-15,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,118,1,EUR/tête,COT-VRO-veaux14j_synthese-A24-S50.csv
+2024,50,,2024-12-09,2024-12-15,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,145,1,EUR/tête,COT-VRO-veaux14j_synthese-A24-S50.csv
+2024,50,,2024-12-09,2024-12-15,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,182,0,EUR/tête,COT-VRO-veaux14j_synthese-A24-S50.csv
+2024,51,,2024-12-16,2024-12-22,Élevage supérieur,Mâle,,283,1,EUR/tête,COT-VRO-veaux14j_synthese-A24-S51.csv
+2024,51,,2024-12-16,2024-12-22,Élevage supérieur,Femelle,,235,1,EUR/tête,COT-VRO-veaux14j_synthese-A24-S51.csv
+2024,51,,2024-12-16,2024-12-22,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,83,0,EUR/tête,COT-VRO-veaux14j_synthese-A24-S51.csv
+2024,51,,2024-12-16,2024-12-22,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,119,1,EUR/tête,COT-VRO-veaux14j_synthese-A24-S51.csv
+2024,51,,2024-12-16,2024-12-22,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,146,1,EUR/tête,COT-VRO-veaux14j_synthese-A24-S51.csv
+2024,51,,2024-12-16,2024-12-22,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,183,1,EUR/tête,COT-VRO-veaux14j_synthese-A24-S51.csv
+2024,52,,2024-12-23,2024-12-29,Élevage supérieur,Mâle,,283,0,EUR/tête,COT-VRO-veaux14j_synthese-A24-S52.csv
+2024,52,,2024-12-23,2024-12-29,Élevage supérieur,Femelle,,235,0,EUR/tête,COT-VRO-veaux14j_synthese-A24-S52.csv
+2024,52,,2024-12-23,2024-12-29,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,83,0,EUR/tête,COT-VRO-veaux14j_synthese-A24-S52.csv
+2024,52,,2024-12-23,2024-12-29,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,119,0,EUR/tête,COT-VRO-veaux14j_synthese-A24-S52.csv
+2024,52,,2024-12-23,2024-12-29,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,146,0,EUR/tête,COT-VRO-veaux14j_synthese-A24-S52.csv
+2024,52,,2024-12-23,2024-12-29,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,183,0,EUR/tête,COT-VRO-veaux14j_synthese-A24-S52.csv
+2025,2,,2025-01-06,2025-01-12,Élevage supérieur,Mâle,,285,,EUR/tête,COT-VRO-veaux14j_synthese-A25-S02.csv
+2025,2,,2025-01-06,2025-01-12,Élevage supérieur,Femelle,,241,,EUR/tête,COT-VRO-veaux14j_synthese-A25-S02.csv
+2025,2,,2025-01-06,2025-01-12,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,90,,EUR/tête,COT-VRO-veaux14j_synthese-A25-S02.csv
+2025,2,,2025-01-06,2025-01-12,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,124,,EUR/tête,COT-VRO-veaux14j_synthese-A25-S02.csv
+2025,2,,2025-01-06,2025-01-12,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,152,,EUR/tête,COT-VRO-veaux14j_synthese-A25-S02.csv
+2025,2,,2025-01-06,2025-01-12,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,188,,EUR/tête,COT-VRO-veaux14j_synthese-A25-S02.csv
+2025,3,,2025-01-13,2025-01-19,Élevage supérieur,Mâle,,291,6,EUR/tête,COT-VRO-veaux14j_synthese-A25-S03.csv
+2025,3,,2025-01-13,2025-01-19,Élevage supérieur,Femelle,,245,4,EUR/tête,COT-VRO-veaux14j_synthese-A25-S03.csv
+2025,3,,2025-01-13,2025-01-19,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,93,3,EUR/tête,COT-VRO-veaux14j_synthese-A25-S03.csv
+2025,3,,2025-01-13,2025-01-19,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,131,7,EUR/tête,COT-VRO-veaux14j_synthese-A25-S03.csv
+2025,3,,2025-01-13,2025-01-19,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,158,6,EUR/tête,COT-VRO-veaux14j_synthese-A25-S03.csv
+2025,3,,2025-01-13,2025-01-19,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,193,5,EUR/tête,COT-VRO-veaux14j_synthese-A25-S03.csv
+2025,4,,2025-01-20,2025-01-26,Élevage supérieur,Mâle,,298,7,EUR/tête,COT-VRO-veaux14j_synthese-A25-S04.csv
+2025,4,,2025-01-20,2025-01-26,Élevage supérieur,Femelle,,254,9,EUR/tête,COT-VRO-veaux14j_synthese-A25-S04.csv
+2025,4,,2025-01-20,2025-01-26,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,108,15,EUR/tête,COT-VRO-veaux14j_synthese-A25-S04.csv
+2025,4,,2025-01-20,2025-01-26,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,146,15,EUR/tête,COT-VRO-veaux14j_synthese-A25-S04.csv
+2025,4,,2025-01-20,2025-01-26,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,168,10,EUR/tête,COT-VRO-veaux14j_synthese-A25-S04.csv
+2025,4,,2025-01-20,2025-01-26,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,204,11,EUR/tête,COT-VRO-veaux14j_synthese-A25-S04.csv
+2025,5,,2025-01-27,2025-02-02,Élevage supérieur,Mâle,,312,14,EUR/tête,COT-VRO-veaux14j_synthese-A25-S05.csv
+2025,5,,2025-01-27,2025-02-02,Élevage supérieur,Femelle,,267,13,EUR/tête,COT-VRO-veaux14j_synthese-A25-S05.csv
+2025,5,,2025-01-27,2025-02-02,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,123,15,EUR/tête,COT-VRO-veaux14j_synthese-A25-S05.csv
+2025,5,,2025-01-27,2025-02-02,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,161,15,EUR/tête,COT-VRO-veaux14j_synthese-A25-S05.csv
+2025,5,,2025-01-27,2025-02-02,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,184,16,EUR/tête,COT-VRO-veaux14j_synthese-A25-S05.csv
+2025,5,,2025-01-27,2025-02-02,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,219,15,EUR/tête,COT-VRO-veaux14j_synthese-A25-S05.csv
+2025,6,,2025-02-03,2025-02-09,Élevage supérieur,Mâle,,317,5,EUR/tête,COT-VRO-veaux14j_synthese-A25-S06.csv
+2025,6,,2025-02-03,2025-02-09,Élevage supérieur,Femelle,,267,0,EUR/tête,COT-VRO-veaux14j_synthese-A25-S06.csv
+2025,6,,2025-02-03,2025-02-09,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,126,3,EUR/tête,COT-VRO-veaux14j_synthese-A25-S06.csv
+2025,6,,2025-02-03,2025-02-09,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,166,5,EUR/tête,COT-VRO-veaux14j_synthese-A25-S06.csv
+2025,6,,2025-02-03,2025-02-09,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,189,5,EUR/tête,COT-VRO-veaux14j_synthese-A25-S06.csv
+2025,6,,2025-02-03,2025-02-09,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,224,5,EUR/tête,COT-VRO-veaux14j_synthese-A25-S06.csv
+2025,7,,2025-02-10,2025-02-16,Élevage supérieur,Mâle,,312,-5,EUR/tête,COT-VRO-veaux14j_synthese-A25-S07.csv
+2025,7,,2025-02-10,2025-02-16,Élevage supérieur,Femelle,,263,-4,EUR/tête,COT-VRO-veaux14j_synthese-A25-S07.csv
+2025,7,,2025-02-10,2025-02-16,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,121,-5,EUR/tête,COT-VRO-veaux14j_synthese-A25-S07.csv
+2025,7,,2025-02-10,2025-02-16,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,160,-6,EUR/tête,COT-VRO-veaux14j_synthese-A25-S07.csv
+2025,7,,2025-02-10,2025-02-16,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,187,-2,EUR/tête,COT-VRO-veaux14j_synthese-A25-S07.csv
+2025,7,,2025-02-10,2025-02-16,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,219,-5,EUR/tête,COT-VRO-veaux14j_synthese-A25-S07.csv
+2025,8,,2025-02-17,2025-02-23,Élevage supérieur,Mâle,,322,10,EUR/tête,COT-VRO-veaux14j_synthese-A25-S08.csv
+2025,8,,2025-02-17,2025-02-23,Élevage supérieur,Femelle,,269,6,EUR/tête,COT-VRO-veaux14j_synthese-A25-S08.csv
+2025,8,,2025-02-17,2025-02-23,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,127,6,EUR/tête,COT-VRO-veaux14j_synthese-A25-S08.csv
+2025,8,,2025-02-17,2025-02-23,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,166,6,EUR/tête,COT-VRO-veaux14j_synthese-A25-S08.csv
+2025,8,,2025-02-17,2025-02-23,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,192,5,EUR/tête,COT-VRO-veaux14j_synthese-A25-S08.csv
+2025,8,,2025-02-17,2025-02-23,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,226,7,EUR/tête,COT-VRO-veaux14j_synthese-A25-S08.csv
+2025,9,,2025-02-24,2025-03-02,Élevage supérieur,Mâle,,325,3,EUR/tête,COT-VRO-veaux14j_synthese-A25-S09.csv
+2025,9,,2025-02-24,2025-03-02,Élevage supérieur,Femelle,,275,6,EUR/tête,COT-VRO-veaux14j_synthese-A25-S09.csv
+2025,9,,2025-02-24,2025-03-02,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,131,4,EUR/tête,COT-VRO-veaux14j_synthese-A25-S09.csv
+2025,9,,2025-02-24,2025-03-02,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,169,3,EUR/tête,COT-VRO-veaux14j_synthese-A25-S09.csv
+2025,9,,2025-02-24,2025-03-02,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,196,4,EUR/tête,COT-VRO-veaux14j_synthese-A25-S09.csv
+2025,9,,2025-02-24,2025-03-02,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,230,4,EUR/tête,COT-VRO-veaux14j_synthese-A25-S09.csv
+2025,10,,2025-03-03,2025-03-09,Élevage supérieur,Mâle,,337,12,EUR/tête,COT-VRO-veaux14j_synthese-A25-S10.csv
+2025,10,,2025-03-03,2025-03-09,Élevage supérieur,Femelle,,284,9,EUR/tête,COT-VRO-veaux14j_synthese-A25-S10.csv
+2025,10,,2025-03-03,2025-03-09,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,133,2,EUR/tête,COT-VRO-veaux14j_synthese-A25-S10.csv
+2025,10,,2025-03-03,2025-03-09,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,171,2,EUR/tête,COT-VRO-veaux14j_synthese-A25-S10.csv
+2025,10,,2025-03-03,2025-03-09,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,199,3,EUR/tête,COT-VRO-veaux14j_synthese-A25-S10.csv
+2025,10,,2025-03-03,2025-03-09,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,236,6,EUR/tête,COT-VRO-veaux14j_synthese-A25-S10.csv
+2025,11,,2025-03-10,2025-03-16,Élevage supérieur,Mâle,,348,11,EUR/tête,COT-VRO-veaux14j_synthese-A25-S11.csv
+2025,11,,2025-03-10,2025-03-16,Élevage supérieur,Femelle,,302,18,EUR/tête,COT-VRO-veaux14j_synthese-A25-S11.csv
+2025,11,,2025-03-10,2025-03-16,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,146,13,EUR/tête,COT-VRO-veaux14j_synthese-A25-S11.csv
+2025,11,,2025-03-10,2025-03-16,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,179,8,EUR/tête,COT-VRO-veaux14j_synthese-A25-S11.csv
+2025,11,,2025-03-10,2025-03-16,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,208,9,EUR/tête,COT-VRO-veaux14j_synthese-A25-S11.csv
+2025,11,,2025-03-10,2025-03-16,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,246,10,EUR/tête,COT-VRO-veaux14j_synthese-A25-S11.csv
+2025,12,,2025-03-17,2025-03-23,Élevage supérieur,Mâle,,365,17,EUR/tête,COT-VRO-veaux14j_synthese-A25-S12.csv
+2025,12,,2025-03-17,2025-03-23,Élevage supérieur,Femelle,,318,16,EUR/tête,COT-VRO-veaux14j_synthese-A25-S12.csv
+2025,12,,2025-03-17,2025-03-23,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,173,27,EUR/tête,COT-VRO-veaux14j_synthese-A25-S12.csv
+2025,12,,2025-03-17,2025-03-23,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,205,26,EUR/tête,COT-VRO-veaux14j_synthese-A25-S12.csv
+2025,12,,2025-03-17,2025-03-23,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,241,33,EUR/tête,COT-VRO-veaux14j_synthese-A25-S12.csv
+2025,12,,2025-03-17,2025-03-23,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,270,24,EUR/tête,COT-VRO-veaux14j_synthese-A25-S12.csv
+2025,13,,2025-03-24,2025-03-30,Élevage supérieur,Mâle,,371,6,EUR/tête,COT-VRO-veaux14j_synthese-A25-S13.csv
+2025,13,,2025-03-24,2025-03-30,Élevage supérieur,Femelle,,324,6,EUR/tête,COT-VRO-veaux14j_synthese-A25-S13.csv
+2025,13,,2025-03-24,2025-03-30,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,174,1,EUR/tête,COT-VRO-veaux14j_synthese-A25-S13.csv
+2025,13,,2025-03-24,2025-03-30,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,207,2,EUR/tête,COT-VRO-veaux14j_synthese-A25-S13.csv
+2025,13,,2025-03-24,2025-03-30,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,243,2,EUR/tête,COT-VRO-veaux14j_synthese-A25-S13.csv
+2025,13,,2025-03-24,2025-03-30,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,273,3,EUR/tête,COT-VRO-veaux14j_synthese-A25-S13.csv
+2025,14,,2025-03-31,2025-04-06,Élevage supérieur,Mâle,,377,6,EUR/tête,COT-VRO-veaux14j_synthese-A25-S14.csv
+2025,14,,2025-03-31,2025-04-06,Élevage supérieur,Femelle,,325,1,EUR/tête,COT-VRO-veaux14j_synthese-A25-S14.csv
+2025,14,,2025-03-31,2025-04-06,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,177,3,EUR/tête,COT-VRO-veaux14j_synthese-A25-S14.csv
+2025,14,,2025-03-31,2025-04-06,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,211,4,EUR/tête,COT-VRO-veaux14j_synthese-A25-S14.csv
+2025,14,,2025-03-31,2025-04-06,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,247,4,EUR/tête,COT-VRO-veaux14j_synthese-A25-S14.csv
+2025,14,,2025-03-31,2025-04-06,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,278,5,EUR/tête,COT-VRO-veaux14j_synthese-A25-S14.csv
+2025,15,,2025-04-07,2025-04-13,Élevage supérieur,Mâle,,382,5,EUR/tête,COT-VRO-veaux14j_synthese-A25-S15.csv
+2025,15,,2025-04-07,2025-04-13,Élevage supérieur,Femelle,,331,6,EUR/tête,COT-VRO-veaux14j_synthese-A25-S15.csv
+2025,15,,2025-04-07,2025-04-13,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,181,4,EUR/tête,COT-VRO-veaux14j_synthese-A25-S15.csv
+2025,15,,2025-04-07,2025-04-13,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,217,6,EUR/tête,COT-VRO-veaux14j_synthese-A25-S15.csv
+2025,15,,2025-04-07,2025-04-13,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,249,2,EUR/tête,COT-VRO-veaux14j_synthese-A25-S15.csv
+2025,15,,2025-04-07,2025-04-13,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,283,5,EUR/tête,COT-VRO-veaux14j_synthese-A25-S15.csv
+2025,16,,2025-04-14,2025-04-20,Élevage supérieur,Mâle,,392,10,EUR/tête,COT-VRO-veaux14j_synthese-A25-S16.csv
+2025,16,,2025-04-14,2025-04-20,Élevage supérieur,Femelle,,338,7,EUR/tête,COT-VRO-veaux14j_synthese-A25-S16.csv
+2025,16,,2025-04-14,2025-04-20,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,190,9,EUR/tête,COT-VRO-veaux14j_synthese-A25-S16.csv
+2025,16,,2025-04-14,2025-04-20,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,225,8,EUR/tête,COT-VRO-veaux14j_synthese-A25-S16.csv
+2025,16,,2025-04-14,2025-04-20,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,256,7,EUR/tête,COT-VRO-veaux14j_synthese-A25-S16.csv
+2025,16,,2025-04-14,2025-04-20,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,291,8,EUR/tête,COT-VRO-veaux14j_synthese-A25-S16.csv
+2025,17,,2025-04-21,2025-04-27,Élevage supérieur,Mâle,,392,0,EUR/tête,COT-VRO-veaux14j_synthese-A25-S17.csv
+2025,17,,2025-04-21,2025-04-27,Élevage supérieur,Femelle,,341,3,EUR/tête,COT-VRO-veaux14j_synthese-A25-S17.csv
+2025,17,,2025-04-21,2025-04-27,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,196,6,EUR/tête,COT-VRO-veaux14j_synthese-A25-S17.csv
+2025,17,,2025-04-21,2025-04-27,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,230,5,EUR/tête,COT-VRO-veaux14j_synthese-A25-S17.csv
+2025,17,,2025-04-21,2025-04-27,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,260,4,EUR/tête,COT-VRO-veaux14j_synthese-A25-S17.csv
+2025,17,,2025-04-21,2025-04-27,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,294,3,EUR/tête,COT-VRO-veaux14j_synthese-A25-S17.csv
+2025,18,,2025-04-28,2025-05-04,Élevage supérieur,Mâle,,402,10,EUR/tête,COT-VRO-veaux14j_synthese-A25-S18.csv
+2025,18,,2025-04-28,2025-05-04,Élevage supérieur,Femelle,,345,4,EUR/tête,COT-VRO-veaux14j_synthese-A25-S18.csv
+2025,18,,2025-04-28,2025-05-04,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,204,8,EUR/tête,COT-VRO-veaux14j_synthese-A25-S18.csv
+2025,18,,2025-04-28,2025-05-04,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,238,8,EUR/tête,COT-VRO-veaux14j_synthese-A25-S18.csv
+2025,18,,2025-04-28,2025-05-04,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,269,9,EUR/tête,COT-VRO-veaux14j_synthese-A25-S18.csv
+2025,18,,2025-04-28,2025-05-04,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,303,9,EUR/tête,COT-VRO-veaux14j_synthese-A25-S18.csv
+2025,19,,2025-05-05,2025-05-11,Élevage supérieur,Mâle,,402,0,EUR/tête,COT-VRO-veaux14j_synthese-A25-S19.csv
+2025,19,,2025-05-05,2025-05-11,Élevage supérieur,Femelle,,348,3,EUR/tête,COT-VRO-veaux14j_synthese-A25-S19.csv
+2025,19,,2025-05-05,2025-05-11,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,205,1,EUR/tête,COT-VRO-veaux14j_synthese-A25-S19.csv
+2025,19,,2025-05-05,2025-05-11,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,239,1,EUR/tête,COT-VRO-veaux14j_synthese-A25-S19.csv
+2025,19,,2025-05-05,2025-05-11,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,270,1,EUR/tête,COT-VRO-veaux14j_synthese-A25-S19.csv
+2025,19,,2025-05-05,2025-05-11,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,304,1,EUR/tête,COT-VRO-veaux14j_synthese-A25-S19.csv
+2025,20,,2025-05-12,2025-05-18,Élevage supérieur,Mâle,,422,20,EUR/tête,COT-VRO-veaux14j_synthese-A25-S20.csv
+2025,20,,2025-05-12,2025-05-18,Élevage supérieur,Femelle,,368,20,EUR/tête,COT-VRO-veaux14j_synthese-A25-S20.csv
+2025,20,,2025-05-12,2025-05-18,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,223,18,EUR/tête,COT-VRO-veaux14j_synthese-A25-S20.csv
+2025,20,,2025-05-12,2025-05-18,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,256,17,EUR/tête,COT-VRO-veaux14j_synthese-A25-S20.csv
+2025,20,,2025-05-12,2025-05-18,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,287,17,EUR/tête,COT-VRO-veaux14j_synthese-A25-S20.csv
+2025,20,,2025-05-12,2025-05-18,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,322,18,EUR/tête,COT-VRO-veaux14j_synthese-A25-S20.csv
+2025,21,,2025-05-19,2025-05-25,Élevage supérieur,Mâle,,428,6,EUR/tête,COT-VRO-veaux14j_synthese-A25-S21.csv
+2025,21,,2025-05-19,2025-05-25,Élevage supérieur,Femelle,,372,4,EUR/tête,COT-VRO-veaux14j_synthese-A25-S21.csv
+2025,21,,2025-05-19,2025-05-25,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,224,1,EUR/tête,COT-VRO-veaux14j_synthese-A25-S21.csv
+2025,21,,2025-05-19,2025-05-25,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,256,0,EUR/tête,COT-VRO-veaux14j_synthese-A25-S21.csv
+2025,21,,2025-05-19,2025-05-25,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,287,0,EUR/tête,COT-VRO-veaux14j_synthese-A25-S21.csv
+2025,21,,2025-05-19,2025-05-25,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,325,3,EUR/tête,COT-VRO-veaux14j_synthese-A25-S21.csv
+2025,22,,2025-05-26,2025-06-01,Élevage supérieur,Mâle,,443,15,EUR/tête,COT-VRO-veaux14j_synthese-A25-S22.csv
+2025,22,,2025-05-26,2025-06-01,Élevage supérieur,Femelle,,390,18,EUR/tête,COT-VRO-veaux14j_synthese-A25-S22.csv
+2025,22,,2025-05-26,2025-06-01,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,234,10,EUR/tête,COT-VRO-veaux14j_synthese-A25-S22.csv
+2025,22,,2025-05-26,2025-06-01,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,269,13,EUR/tête,COT-VRO-veaux14j_synthese-A25-S22.csv
+2025,22,,2025-05-26,2025-06-01,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,301,14,EUR/tête,COT-VRO-veaux14j_synthese-A25-S22.csv
+2025,22,,2025-05-26,2025-06-01,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,338,13,EUR/tête,COT-VRO-veaux14j_synthese-A25-S22.csv
+2025,23,,2025-06-02,2025-06-08,Élevage supérieur,Mâle,,444,1,EUR/tête,COT-VRO-veaux14j_synthese-A25-S23.csv
+2025,23,,2025-06-02,2025-06-08,Élevage supérieur,Femelle,,386,-4,EUR/tête,COT-VRO-veaux14j_synthese-A25-S23.csv
+2025,23,,2025-06-02,2025-06-08,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,243,9,EUR/tête,COT-VRO-veaux14j_synthese-A25-S23.csv
+2025,23,,2025-06-02,2025-06-08,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,277,8,EUR/tête,COT-VRO-veaux14j_synthese-A25-S23.csv
+2025,23,,2025-06-02,2025-06-08,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,310,9,EUR/tête,COT-VRO-veaux14j_synthese-A25-S23.csv
+2025,23,,2025-06-02,2025-06-08,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,347,9,EUR/tête,COT-VRO-veaux14j_synthese-A25-S23.csv
+2025,24,,2025-06-09,2025-06-15,Élevage supérieur,Mâle,,456,12,EUR/tête,COT-VRO-veaux14j_synthese-A25-S24.csv
+2025,24,,2025-06-09,2025-06-15,Élevage supérieur,Femelle,,399,13,EUR/tête,COT-VRO-veaux14j_synthese-A25-S24.csv
+2025,24,,2025-06-09,2025-06-15,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,262,19,EUR/tête,COT-VRO-veaux14j_synthese-A25-S24.csv
+2025,24,,2025-06-09,2025-06-15,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,292,15,EUR/tête,COT-VRO-veaux14j_synthese-A25-S24.csv
+2025,24,,2025-06-09,2025-06-15,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,324,14,EUR/tête,COT-VRO-veaux14j_synthese-A25-S24.csv
+2025,24,,2025-06-09,2025-06-15,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,361,14,EUR/tête,COT-VRO-veaux14j_synthese-A25-S24.csv
+2025,25,,2025-06-16,2025-06-22,Élevage supérieur,Mâle,,461,5,EUR/tête,COT-VRO-veaux14j_synthese-A25-S25.csv
+2025,25,,2025-06-16,2025-06-22,Élevage supérieur,Femelle,,403,4,EUR/tête,COT-VRO-veaux14j_synthese-A25-S25.csv
+2025,25,,2025-06-16,2025-06-22,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,262,0,EUR/tête,COT-VRO-veaux14j_synthese-A25-S25.csv
+2025,25,,2025-06-16,2025-06-22,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,295,3,EUR/tête,COT-VRO-veaux14j_synthese-A25-S25.csv
+2025,25,,2025-06-16,2025-06-22,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,326,2,EUR/tête,COT-VRO-veaux14j_synthese-A25-S25.csv
+2025,25,,2025-06-16,2025-06-22,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,365,4,EUR/tête,COT-VRO-veaux14j_synthese-A25-S25.csv
+2025,26,,2025-06-23,2025-06-29,Élevage supérieur,Mâle,,477,16,EUR/tête,COT-VRO-veaux14j_synthese-A25-S26.csv
+2025,26,,2025-06-23,2025-06-29,Élevage supérieur,Femelle,,420,17,EUR/tête,COT-VRO-veaux14j_synthese-A25-S26.csv
+2025,26,,2025-06-23,2025-06-29,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,279,17,EUR/tête,COT-VRO-veaux14j_synthese-A25-S26.csv
+2025,26,,2025-06-23,2025-06-29,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,316,21,EUR/tête,COT-VRO-veaux14j_synthese-A25-S26.csv
+2025,26,,2025-06-23,2025-06-29,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,348,22,EUR/tête,COT-VRO-veaux14j_synthese-A25-S26.csv
+2025,26,,2025-06-23,2025-06-29,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,383,18,EUR/tête,COT-VRO-veaux14j_synthese-A25-S26.csv
+2025,27,,2025-06-30,2025-07-06,Élevage supérieur,Mâle,,489,12,EUR/tête,COT-VRO-veaux14j_synthese-A25-S27.csv
+2025,27,,2025-06-30,2025-07-06,Élevage supérieur,Femelle,,432,12,EUR/tête,COT-VRO-veaux14j_synthese-A25-S27.csv
+2025,27,,2025-06-30,2025-07-06,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,279,0,EUR/tête,COT-VRO-veaux14j_synthese-A25-S27.csv
+2025,27,,2025-06-30,2025-07-06,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,321,5,EUR/tête,COT-VRO-veaux14j_synthese-A25-S27.csv
+2025,27,,2025-06-30,2025-07-06,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,352,4,EUR/tête,COT-VRO-veaux14j_synthese-A25-S27.csv
+2025,27,,2025-06-30,2025-07-06,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,390,7,EUR/tête,COT-VRO-veaux14j_synthese-A25-S27.csv
+2025,28,,2025-07-07,2025-07-13,Élevage supérieur,Mâle,,488,-1,EUR/tête,COT-VRO-veaux14j_synthese-A25-S28.csv
+2025,28,,2025-07-07,2025-07-13,Élevage supérieur,Femelle,,427,-5,EUR/tête,COT-VRO-veaux14j_synthese-A25-S28.csv
+2025,28,,2025-07-07,2025-07-13,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,278,-1,EUR/tête,COT-VRO-veaux14j_synthese-A25-S28.csv
+2025,28,,2025-07-07,2025-07-13,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,320,-1,EUR/tête,COT-VRO-veaux14j_synthese-A25-S28.csv
+2025,28,,2025-07-07,2025-07-13,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,350,-2,EUR/tête,COT-VRO-veaux14j_synthese-A25-S28.csv
+2025,28,,2025-07-07,2025-07-13,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,389,-1,EUR/tête,COT-VRO-veaux14j_synthese-A25-S28.csv
+2025,29,,2025-07-14,2025-07-20,Élevage supérieur,Mâle,,496,8,EUR/tête,COT-VRO-veaux14j_synthese-A25-S29.csv
+2025,29,,2025-07-14,2025-07-20,Élevage supérieur,Femelle,,435,8,EUR/tête,COT-VRO-veaux14j_synthese-A25-S29.csv
+2025,29,,2025-07-14,2025-07-20,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,280,2,EUR/tête,COT-VRO-veaux14j_synthese-A25-S29.csv
+2025,29,,2025-07-14,2025-07-20,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,320,0,EUR/tête,COT-VRO-veaux14j_synthese-A25-S29.csv
+2025,29,,2025-07-14,2025-07-20,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,352,2,EUR/tête,COT-VRO-veaux14j_synthese-A25-S29.csv
+2025,29,,2025-07-14,2025-07-20,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,393,4,EUR/tête,COT-VRO-veaux14j_synthese-A25-S29.csv
+2025,30,,2025-07-21,2025-07-27,Élevage supérieur,Mâle,,486,-10,EUR/tête,COT-VRO-veaux14j_synthese-A25-S30.csv
+2025,30,,2025-07-21,2025-07-27,Élevage supérieur,Femelle,,425,-10,EUR/tête,COT-VRO-veaux14j_synthese-A25-S30.csv
+2025,30,,2025-07-21,2025-07-27,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,276,-4,EUR/tête,COT-VRO-veaux14j_synthese-A25-S30.csv
+2025,30,,2025-07-21,2025-07-27,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,318,-2,EUR/tête,COT-VRO-veaux14j_synthese-A25-S30.csv
+2025,30,,2025-07-21,2025-07-27,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,349,-3,EUR/tête,COT-VRO-veaux14j_synthese-A25-S30.csv
+2025,30,,2025-07-21,2025-07-27,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,387,-6,EUR/tête,COT-VRO-veaux14j_synthese-A25-S30.csv
+2025,31,,2025-07-28,2025-08-03,Élevage supérieur,Mâle,,484,-2,EUR/tête,COT-VRO-veaux14j_synthese-A25-S31.csv
+2025,31,,2025-07-28,2025-08-03,Élevage supérieur,Femelle,,419,-6,EUR/tête,COT-VRO-veaux14j_synthese-A25-S31.csv
+2025,31,,2025-07-28,2025-08-03,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,256,-20,EUR/tête,COT-VRO-veaux14j_synthese-A25-S31.csv
+2025,31,,2025-07-28,2025-08-03,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,297,-21,EUR/tête,COT-VRO-veaux14j_synthese-A25-S31.csv
+2025,31,,2025-07-28,2025-08-03,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,329,-20,EUR/tête,COT-VRO-veaux14j_synthese-A25-S31.csv
+2025,31,,2025-07-28,2025-08-03,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,374,-13,EUR/tête,COT-VRO-veaux14j_synthese-A25-S31.csv
+2025,32,,2025-08-04,2025-08-10,Élevage supérieur,Mâle,,474,-10,EUR/tête,COT-VRO-veaux14j_synthese-A25-S32.csv
+2025,32,,2025-08-04,2025-08-10,Élevage supérieur,Femelle,,405,-14,EUR/tête,COT-VRO-veaux14j_synthese-A25-S32.csv
+2025,32,,2025-08-04,2025-08-10,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,238,-18,EUR/tête,COT-VRO-veaux14j_synthese-A25-S32.csv
+2025,32,,2025-08-04,2025-08-10,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,277,-20,EUR/tête,COT-VRO-veaux14j_synthese-A25-S32.csv
+2025,32,,2025-08-04,2025-08-10,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,310,-19,EUR/tête,COT-VRO-veaux14j_synthese-A25-S32.csv
+2025,32,,2025-08-04,2025-08-10,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,359,-15,EUR/tête,COT-VRO-veaux14j_synthese-A25-S32.csv
+2025,33,,2025-08-11,2025-08-17,Élevage supérieur,Mâle,,475,1,EUR/tête,COT-VRO-veaux14j_synthese-A25-S33.csv
+2025,33,,2025-08-11,2025-08-17,Élevage supérieur,Femelle,,408,3,EUR/tête,COT-VRO-veaux14j_synthese-A25-S33.csv
+2025,33,,2025-08-11,2025-08-17,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,241,3,EUR/tête,COT-VRO-veaux14j_synthese-A25-S33.csv
+2025,33,,2025-08-11,2025-08-17,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,278,1,EUR/tête,COT-VRO-veaux14j_synthese-A25-S33.csv
+2025,33,,2025-08-11,2025-08-17,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,312,2,EUR/tête,COT-VRO-veaux14j_synthese-A25-S33.csv
+2025,33,,2025-08-11,2025-08-17,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,360,1,EUR/tête,COT-VRO-veaux14j_synthese-A25-S33.csv
+2025,34,,2025-08-18,2025-08-24,Élevage supérieur,Mâle,,476,1,EUR/tête,COT-VRO-veaux14j_synthese-A25-S34.csv
+2025,34,,2025-08-18,2025-08-24,Élevage supérieur,Femelle,,405,-3,EUR/tête,COT-VRO-veaux14j_synthese-A25-S34.csv
+2025,34,,2025-08-18,2025-08-24,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,233,-8,EUR/tête,COT-VRO-veaux14j_synthese-A25-S34.csv
+2025,34,,2025-08-18,2025-08-24,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,273,-5,EUR/tête,COT-VRO-veaux14j_synthese-A25-S34.csv
+2025,34,,2025-08-18,2025-08-24,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,309,-3,EUR/tête,COT-VRO-veaux14j_synthese-A25-S34.csv
+2025,34,,2025-08-18,2025-08-24,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,358,-2,EUR/tête,COT-VRO-veaux14j_synthese-A25-S34.csv
+2025,35,,2025-08-25,2025-08-31,Élevage supérieur,Mâle,,481,5,EUR/tête,COT-VRO-veaux14j_synthese-A25-S35.csv
+2025,35,,2025-08-25,2025-08-31,Élevage supérieur,Femelle,,408,3,EUR/tête,COT-VRO-veaux14j_synthese-A25-S35.csv
+2025,35,,2025-08-25,2025-08-31,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,253,20,EUR/tête,COT-VRO-veaux14j_synthese-A25-S35.csv
+2025,35,,2025-08-25,2025-08-31,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,291,18,EUR/tête,COT-VRO-veaux14j_synthese-A25-S35.csv
+2025,35,,2025-08-25,2025-08-31,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,327,18,EUR/tête,COT-VRO-veaux14j_synthese-A25-S35.csv
+2025,35,,2025-08-25,2025-08-31,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,371,13,EUR/tête,COT-VRO-veaux14j_synthese-A25-S35.csv
+2025,36,,2025-09-01,2025-09-07,Élevage supérieur,Mâle,,483,2,EUR/tête,COT-VRO-veaux14j_synthese-A25-S36.csv
+2025,36,,2025-09-01,2025-09-07,Élevage supérieur,Femelle,,417,9,EUR/tête,COT-VRO-veaux14j_synthese-A25-S36.csv
+2025,36,,2025-09-01,2025-09-07,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,249,-4,EUR/tête,COT-VRO-veaux14j_synthese-A25-S36.csv
+2025,36,,2025-09-01,2025-09-07,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,287,-4,EUR/tête,COT-VRO-veaux14j_synthese-A25-S36.csv
+2025,36,,2025-09-01,2025-09-07,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,328,1,EUR/tête,COT-VRO-veaux14j_synthese-A25-S36.csv
+2025,36,,2025-09-01,2025-09-07,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,370,-1,EUR/tête,COT-VRO-veaux14j_synthese-A25-S36.csv
+2025,37,,2025-09-08,2025-09-14,Élevage supérieur,Mâle,,490,7,EUR/tête,COT-VRO-veaux14j_synthese-A25-S37.csv
+2025,37,,2025-09-08,2025-09-14,Élevage supérieur,Femelle,,420,3,EUR/tête,COT-VRO-veaux14j_synthese-A25-S37.csv
+2025,37,,2025-09-08,2025-09-14,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,252,3,EUR/tête,COT-VRO-veaux14j_synthese-A25-S37.csv
+2025,37,,2025-09-08,2025-09-14,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,290,3,EUR/tête,COT-VRO-veaux14j_synthese-A25-S37.csv
+2025,37,,2025-09-08,2025-09-14,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,331,3,EUR/tête,COT-VRO-veaux14j_synthese-A25-S37.csv
+2025,37,,2025-09-08,2025-09-14,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,375,5,EUR/tête,COT-VRO-veaux14j_synthese-A25-S37.csv
+2025,38,,2025-09-15,2025-09-21,Élevage supérieur,Mâle,,499,9,EUR/tête,COT-VRO-veaux14j_synthese-A25-S38.csv
+2025,38,,2025-09-15,2025-09-21,Élevage supérieur,Femelle,,428,8,EUR/tête,COT-VRO-veaux14j_synthese-A25-S38.csv
+2025,38,,2025-09-15,2025-09-21,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,256,4,EUR/tête,COT-VRO-veaux14j_synthese-A25-S38.csv
+2025,38,,2025-09-15,2025-09-21,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,306,16,EUR/tête,COT-VRO-veaux14j_synthese-A25-S38.csv
+2025,38,,2025-09-15,2025-09-21,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,349,18,EUR/tête,COT-VRO-veaux14j_synthese-A25-S38.csv
+2025,38,,2025-09-15,2025-09-21,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,386,11,EUR/tête,COT-VRO-veaux14j_synthese-A25-S38.csv
+2025,39,,2025-09-22,2025-09-28,Élevage supérieur,Mâle,,512,13,EUR/tête,COT-VRO-veaux14j_synthese-A25-S39.csv
+2025,39,,2025-09-22,2025-09-28,Élevage supérieur,Femelle,,441,13,EUR/tête,COT-VRO-veaux14j_synthese-A25-S39.csv
+2025,39,,2025-09-22,2025-09-28,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,270,14,EUR/tête,COT-VRO-veaux14j_synthese-A25-S39.csv
+2025,39,,2025-09-22,2025-09-28,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,319,13,EUR/tête,COT-VRO-veaux14j_synthese-A25-S39.csv
+2025,39,,2025-09-22,2025-09-28,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,364,15,EUR/tête,COT-VRO-veaux14j_synthese-A25-S39.csv
+2025,39,,2025-09-22,2025-09-28,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,400,14,EUR/tête,COT-VRO-veaux14j_synthese-A25-S39.csv
+2025,40,,2025-09-29,2025-10-05,Élevage supérieur,Mâle,,519,7,EUR/tête,COT-VRO-veaux14j_synthese-A25-S40.csv
+2025,40,,2025-09-29,2025-10-05,Élevage supérieur,Femelle,,456,15,EUR/tête,COT-VRO-veaux14j_synthese-A25-S40.csv
+2025,40,,2025-09-29,2025-10-05,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,268,-2,EUR/tête,COT-VRO-veaux14j_synthese-A25-S40.csv
+2025,40,,2025-09-29,2025-10-05,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,318,-1,EUR/tête,COT-VRO-veaux14j_synthese-A25-S40.csv
+2025,40,,2025-09-29,2025-10-05,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,363,-1,EUR/tête,COT-VRO-veaux14j_synthese-A25-S40.csv
+2025,40,,2025-09-29,2025-10-05,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,402,2,EUR/tête,COT-VRO-veaux14j_synthese-A25-S40.csv
+2025,41,,2025-10-06,2025-10-12,Élevage supérieur,Mâle,,489,-30,EUR/tête,COT-VRO-veaux14j_synthese-A25-S41.csv
+2025,41,,2025-10-06,2025-10-12,Élevage supérieur,Femelle,,438,-18,EUR/tête,COT-VRO-veaux14j_synthese-A25-S41.csv
+2025,41,,2025-10-06,2025-10-12,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,273,5,EUR/tête,COT-VRO-veaux14j_synthese-A25-S41.csv
+2025,41,,2025-10-06,2025-10-12,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,321,3,EUR/tête,COT-VRO-veaux14j_synthese-A25-S41.csv
+2025,41,,2025-10-06,2025-10-12,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,366,3,EUR/tête,COT-VRO-veaux14j_synthese-A25-S41.csv
+2025,41,,2025-10-06,2025-10-12,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,391,-11,EUR/tête,COT-VRO-veaux14j_synthese-A25-S41.csv
+2025,42,,2025-10-13,2025-10-19,Élevage supérieur,Mâle,,463,-26,EUR/tête,COT-VRO-veaux14j_synthese-A25-S42.csv
+2025,42,,2025-10-13,2025-10-19,Élevage supérieur,Femelle,,405,-33,EUR/tête,COT-VRO-veaux14j_synthese-A25-S42.csv
+2025,42,,2025-10-13,2025-10-19,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,229,-44,EUR/tête,COT-VRO-veaux14j_synthese-A25-S42.csv
+2025,42,,2025-10-13,2025-10-19,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,278,-43,EUR/tête,COT-VRO-veaux14j_synthese-A25-S42.csv
+2025,42,,2025-10-13,2025-10-19,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,325,-41,EUR/tête,COT-VRO-veaux14j_synthese-A25-S42.csv
+2025,42,,2025-10-13,2025-10-19,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,356,-35,EUR/tête,COT-VRO-veaux14j_synthese-A25-S42.csv
+2025,43,,2025-10-20,2025-10-26,Élevage supérieur,Mâle,,442,-21,EUR/tête,COT-VRO-veaux14j_synthese-A25-S43.csv
+2025,43,,2025-10-20,2025-10-26,Élevage supérieur,Femelle,,380,-25,EUR/tête,COT-VRO-veaux14j_synthese-A25-S43.csv
+2025,43,,2025-10-20,2025-10-26,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,203,-26,EUR/tête,COT-VRO-veaux14j_synthese-A25-S43.csv
+2025,43,,2025-10-20,2025-10-26,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,244,-34,EUR/tête,COT-VRO-veaux14j_synthese-A25-S43.csv
+2025,43,,2025-10-20,2025-10-26,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,291,-34,EUR/tête,COT-VRO-veaux14j_synthese-A25-S43.csv
+2025,43,,2025-10-20,2025-10-26,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,328,-28,EUR/tête,COT-VRO-veaux14j_synthese-A25-S43.csv
+2025,44,,2025-10-27,2025-11-02,Élevage supérieur,Mâle,,372,-70,EUR/tête,COT-VRO-veaux14j_synthese-A25-S44.csv
+2025,44,,2025-10-27,2025-11-02,Élevage supérieur,Femelle,,324,-56,EUR/tête,COT-VRO-veaux14j_synthese-A25-S44.csv
+2025,44,,2025-10-27,2025-11-02,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,142,-61,EUR/tête,COT-VRO-veaux14j_synthese-A25-S44.csv
+2025,44,,2025-10-27,2025-11-02,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,186,-58,EUR/tête,COT-VRO-veaux14j_synthese-A25-S44.csv
+2025,44,,2025-10-27,2025-11-02,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,225,-66,EUR/tête,COT-VRO-veaux14j_synthese-A25-S44.csv
+2025,44,,2025-10-27,2025-11-02,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,263,-65,EUR/tête,COT-VRO-veaux14j_synthese-A25-S44.csv
+2025,45,,2025-11-03,2025-11-09,Élevage supérieur,Mâle,,375,3,EUR/tête,COT-VRO-veaux14j_synthese-A25-S45.csv
+2025,45,,2025-11-03,2025-11-09,Élevage supérieur,Femelle,,328,4,EUR/tête,COT-VRO-veaux14j_synthese-A25-S45.csv
+2025,45,,2025-11-03,2025-11-09,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,141,-1,EUR/tête,COT-VRO-veaux14j_synthese-A25-S45.csv
+2025,45,,2025-11-03,2025-11-09,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,183,-3,EUR/tête,COT-VRO-veaux14j_synthese-A25-S45.csv
+2025,45,,2025-11-03,2025-11-09,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,224,-1,EUR/tête,COT-VRO-veaux14j_synthese-A25-S45.csv
+2025,45,,2025-11-03,2025-11-09,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,264,1,EUR/tête,COT-VRO-veaux14j_synthese-A25-S45.csv
+2025,46,,2025-11-10,2025-11-16,Élevage supérieur,Mâle,,380,5,EUR/tête,COT-VRO-veaux14j_synthese-A25-S46.csv
+2025,46,,2025-11-10,2025-11-16,Élevage supérieur,Femelle,,333,5,EUR/tête,COT-VRO-veaux14j_synthese-A25-S46.csv
+2025,46,,2025-11-10,2025-11-16,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,142,1,EUR/tête,COT-VRO-veaux14j_synthese-A25-S46.csv
+2025,46,,2025-11-10,2025-11-16,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,187,4,EUR/tête,COT-VRO-veaux14j_synthese-A25-S46.csv
+2025,46,,2025-11-10,2025-11-16,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,228,4,EUR/tête,COT-VRO-veaux14j_synthese-A25-S46.csv
+2025,46,,2025-11-10,2025-11-16,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,268,4,EUR/tête,COT-VRO-veaux14j_synthese-A25-S46.csv
+2025,47,,2025-11-17,2025-11-23,Élevage supérieur,Mâle,,390,10,EUR/tête,COT-VRO-veaux14j_synthese-A25-S47.csv
+2025,47,,2025-11-17,2025-11-23,Élevage supérieur,Femelle,,338,5,EUR/tête,COT-VRO-veaux14j_synthese-A25-S47.csv
+2025,47,,2025-11-17,2025-11-23,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,148,6,EUR/tête,COT-VRO-veaux14j_synthese-A25-S47.csv
+2025,47,,2025-11-17,2025-11-23,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,199,12,EUR/tête,COT-VRO-veaux14j_synthese-A25-S47.csv
+2025,47,,2025-11-17,2025-11-23,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,247,19,EUR/tête,COT-VRO-veaux14j_synthese-A25-S47.csv
+2025,47,,2025-11-17,2025-11-23,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,279,11,EUR/tête,COT-VRO-veaux14j_synthese-A25-S47.csv
+2025,48,,2025-11-24,2025-11-30,Élevage supérieur,Mâle,,391,1,EUR/tête,COT-VRO-veaux14j_synthese-A25-S48.csv
+2025,48,,2025-11-24,2025-11-30,Élevage supérieur,Femelle,,340,2,EUR/tête,COT-VRO-veaux14j_synthese-A25-S48.csv
+2025,48,,2025-11-24,2025-11-30,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,143,-5,EUR/tête,COT-VRO-veaux14j_synthese-A25-S48.csv
+2025,48,,2025-11-24,2025-11-30,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,196,-3,EUR/tête,COT-VRO-veaux14j_synthese-A25-S48.csv
+2025,48,,2025-11-24,2025-11-30,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,244,-3,EUR/tête,COT-VRO-veaux14j_synthese-A25-S48.csv
+2025,48,,2025-11-24,2025-11-30,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,277,-2,EUR/tête,COT-VRO-veaux14j_synthese-A25-S48.csv
+2025,49,,2025-12-01,2025-12-07,Élevage supérieur,Mâle,,391,0,EUR/tête,COT-VRO-veaux14j_synthese-A25-S49.csv
+2025,49,,2025-12-01,2025-12-07,Élevage supérieur,Femelle,,342,2,EUR/tête,COT-VRO-veaux14j_synthese-A25-S49.csv
+2025,49,,2025-12-01,2025-12-07,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,143,0,EUR/tête,COT-VRO-veaux14j_synthese-A25-S49.csv
+2025,49,,2025-12-01,2025-12-07,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,195,-1,EUR/tête,COT-VRO-veaux14j_synthese-A25-S49.csv
+2025,49,,2025-12-01,2025-12-07,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,243,-1,EUR/tête,COT-VRO-veaux14j_synthese-A25-S49.csv
+2025,49,,2025-12-01,2025-12-07,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,277,0,EUR/tête,COT-VRO-veaux14j_synthese-A25-S49.csv
+2025,50,,2025-12-08,2025-12-14,Élevage supérieur,Mâle,,385,-6,EUR/tête,COT-VRO-veaux14j_synthese-A25-S50.csv
+2025,50,,2025-12-08,2025-12-14,Élevage supérieur,Femelle,,336,-6,EUR/tête,COT-VRO-veaux14j_synthese-A25-S50.csv
+2025,50,,2025-12-08,2025-12-14,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,135,-8,EUR/tête,COT-VRO-veaux14j_synthese-A25-S50.csv
+2025,50,,2025-12-08,2025-12-14,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,185,-10,EUR/tête,COT-VRO-veaux14j_synthese-A25-S50.csv
+2025,50,,2025-12-08,2025-12-14,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,237,-6,EUR/tête,COT-VRO-veaux14j_synthese-A25-S50.csv
+2025,50,,2025-12-08,2025-12-14,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,270,-7,EUR/tête,COT-VRO-veaux14j_synthese-A25-S50.csv
+2025,51,,2025-12-15,2025-12-21,Élevage supérieur,Mâle,,375,-10,EUR/tête,COT-VRO-veaux14j_synthese-A25-S51.csv
+2025,51,,2025-12-15,2025-12-21,Élevage supérieur,Femelle,,326,-10,EUR/tête,COT-VRO-veaux14j_synthese-A25-S51.csv
+2025,51,,2025-12-15,2025-12-21,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,126,-9,EUR/tête,COT-VRO-veaux14j_synthese-A25-S51.csv
+2025,51,,2025-12-15,2025-12-21,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,175,-10,EUR/tête,COT-VRO-veaux14j_synthese-A25-S51.csv
+2025,51,,2025-12-15,2025-12-21,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,225,-12,EUR/tête,COT-VRO-veaux14j_synthese-A25-S51.csv
+2025,51,,2025-12-15,2025-12-21,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,259,-11,EUR/tête,COT-VRO-veaux14j_synthese-A25-S51.csv
+2025,52,,2025-12-22,2025-12-28,Élevage supérieur,Mâle,,374,-1,EUR/tête,COT-VRO-veaux14j_synthese-A25-S52.csv
+2025,52,,2025-12-22,2025-12-28,Élevage supérieur,Femelle,,325,-1,EUR/tête,COT-VRO-veaux14j_synthese-A25-S52.csv
+2025,52,,2025-12-22,2025-12-28,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,127,1,EUR/tête,COT-VRO-veaux14j_synthese-A25-S52.csv
+2025,52,,2025-12-22,2025-12-28,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,175,0,EUR/tête,COT-VRO-veaux14j_synthese-A25-S52.csv
+2025,52,,2025-12-22,2025-12-28,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,219,-6,EUR/tête,COT-VRO-veaux14j_synthese-A25-S52.csv
+2025,52,,2025-12-22,2025-12-28,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,258,-1,EUR/tête,COT-VRO-veaux14j_synthese-A25-S52.csv
+2026,1,,2025-12-29,2026-01-04,Élevage supérieur,Mâle,,368,-6,EUR/tête,COT-VRO-veaux14j_synthese-A26-S01.csv
+2026,1,,2025-12-29,2026-01-04,Élevage supérieur,Femelle,,320,-5,EUR/tête,COT-VRO-veaux14j_synthese-A26-S01.csv
+2026,1,,2025-12-29,2026-01-04,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,127,0,EUR/tête,COT-VRO-veaux14j_synthese-A26-S01.csv
+2026,1,,2025-12-29,2026-01-04,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,177,2,EUR/tête,COT-VRO-veaux14j_synthese-A26-S01.csv
+2026,1,,2025-12-29,2026-01-04,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,218,-1,EUR/tête,COT-VRO-veaux14j_synthese-A26-S01.csv
+2026,1,,2025-12-29,2026-01-04,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,256,-2,EUR/tête,COT-VRO-veaux14j_synthese-A26-S01.csv
+2026,2,,2026-01-05,2026-01-11,Élevage supérieur,Mâle,,373,5,EUR/tête,COT-VRO-veaux14j_synthese-A26-S02.csv
+2026,2,,2026-01-05,2026-01-11,Élevage supérieur,Femelle,,324,4,EUR/tête,COT-VRO-veaux14j_synthese-A26-S02.csv
+2026,2,,2026-01-05,2026-01-11,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,124,-3,EUR/tête,COT-VRO-veaux14j_synthese-A26-S02.csv
+2026,2,,2026-01-05,2026-01-11,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,176,-1,EUR/tête,COT-VRO-veaux14j_synthese-A26-S02.csv
+2026,2,,2026-01-05,2026-01-11,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,224,6,EUR/tête,COT-VRO-veaux14j_synthese-A26-S02.csv
+2026,2,,2026-01-05,2026-01-11,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,258,2,EUR/tête,COT-VRO-veaux14j_synthese-A26-S02.csv
+2026,3,,2026-01-12,2026-01-18,Élevage supérieur,Mâle,,381,8,EUR/tête,COT-VRO-veaux14j_synthese-A26-S03.csv
+2026,3,,2026-01-12,2026-01-18,Élevage supérieur,Femelle,,334,10,EUR/tête,COT-VRO-veaux14j_synthese-A26-S03.csv
+2026,3,,2026-01-12,2026-01-18,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,125,1,EUR/tête,COT-VRO-veaux14j_synthese-A26-S03.csv
+2026,3,,2026-01-12,2026-01-18,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,178,2,EUR/tête,COT-VRO-veaux14j_synthese-A26-S03.csv
+2026,3,,2026-01-12,2026-01-18,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,227,3,EUR/tête,COT-VRO-veaux14j_synthese-A26-S03.csv
+2026,3,,2026-01-12,2026-01-18,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,263,5,EUR/tête,COT-VRO-veaux14j_synthese-A26-S03.csv
+2026,4,,2026-01-19,2026-01-25,Élevage supérieur,Mâle,,383,2,EUR/tête,COT-VRO-veaux14j_synthese-A26-S04.csv
+2026,4,,2026-01-19,2026-01-25,Élevage supérieur,Femelle,,332,-2,EUR/tête,COT-VRO-veaux14j_synthese-A26-S04.csv
+2026,4,,2026-01-19,2026-01-25,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,134,9,EUR/tête,COT-VRO-veaux14j_synthese-A26-S04.csv
+2026,4,,2026-01-19,2026-01-25,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,188,10,EUR/tête,COT-VRO-veaux14j_synthese-A26-S04.csv
+2026,4,,2026-01-19,2026-01-25,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,238,11,EUR/tête,COT-VRO-veaux14j_synthese-A26-S04.csv
+2026,4,,2026-01-19,2026-01-25,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,270,7,EUR/tête,COT-VRO-veaux14j_synthese-A26-S04.csv
+2026,5,,2026-01-26,2026-02-01,Élevage supérieur,Mâle,,416,33,EUR/tête,COT-VRO-veaux14j_synthese-A26-S05.csv
+2026,5,,2026-01-26,2026-02-01,Élevage supérieur,Femelle,,356,24,EUR/tête,COT-VRO-veaux14j_synthese-A26-S05.csv
+2026,5,,2026-01-26,2026-02-01,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,148,14,EUR/tête,COT-VRO-veaux14j_synthese-A26-S05.csv
+2026,5,,2026-01-26,2026-02-01,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,208,20,EUR/tête,COT-VRO-veaux14j_synthese-A26-S05.csv
+2026,5,,2026-01-26,2026-02-01,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,260,22,EUR/tête,COT-VRO-veaux14j_synthese-A26-S05.csv
+2026,5,,2026-01-26,2026-02-01,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,294,24,EUR/tête,COT-VRO-veaux14j_synthese-A26-S05.csv
+2026,6,,2026-02-02,2026-02-08,Élevage supérieur,Mâle,,445,29,EUR/tête,COT-VRO-veaux14j_synthese-A26-S06.csv
+2026,6,,2026-02-02,2026-02-08,Élevage supérieur,Femelle,,384,28,EUR/tête,COT-VRO-veaux14j_synthese-A26-S06.csv
+2026,6,,2026-02-02,2026-02-08,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,157,9,EUR/tête,COT-VRO-veaux14j_synthese-A26-S06.csv
+2026,6,,2026-02-02,2026-02-08,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,226,18,EUR/tête,COT-VRO-veaux14j_synthese-A26-S06.csv
+2026,6,,2026-02-02,2026-02-08,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,276,16,EUR/tête,COT-VRO-veaux14j_synthese-A26-S06.csv
+2026,6,,2026-02-02,2026-02-08,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,315,21,EUR/tête,COT-VRO-veaux14j_synthese-A26-S06.csv
+2026,7,,2026-02-09,2026-02-15,Élevage supérieur,Mâle,,475,30,EUR/tête,COT-VRO-veaux14j_synthese-A26-S07.csv
+2026,7,,2026-02-09,2026-02-15,Élevage supérieur,Femelle,,407,23,EUR/tête,COT-VRO-veaux14j_synthese-A26-S07.csv
+2026,7,,2026-02-09,2026-02-15,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,190,33,EUR/tête,COT-VRO-veaux14j_synthese-A26-S07.csv
+2026,7,,2026-02-09,2026-02-15,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,249,23,EUR/tête,COT-VRO-veaux14j_synthese-A26-S07.csv
+2026,7,,2026-02-09,2026-02-15,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,289,13,EUR/tête,COT-VRO-veaux14j_synthese-A26-S07.csv
+2026,7,,2026-02-09,2026-02-15,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,341,26,EUR/tête,COT-VRO-veaux14j_synthese-A26-S07.csv
+2026,8,,2026-02-16,2026-02-22,Élevage supérieur,Mâle,,497,22,EUR/tête,COT-VRO-veaux14j_synthese-A26-S08.csv
+2026,8,,2026-02-16,2026-02-22,Élevage supérieur,Femelle,,420,13,EUR/tête,COT-VRO-veaux14j_synthese-A26-S08.csv
+2026,8,,2026-02-16,2026-02-22,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,184,-6,EUR/tête,COT-VRO-veaux14j_synthese-A26-S08.csv
+2026,8,,2026-02-16,2026-02-22,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,245,-4,EUR/tête,COT-VRO-veaux14j_synthese-A26-S08.csv
+2026,8,,2026-02-16,2026-02-22,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,288,-1,EUR/tête,COT-VRO-veaux14j_synthese-A26-S08.csv
+2026,8,,2026-02-16,2026-02-22,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,348,7,EUR/tête,COT-VRO-veaux14j_synthese-A26-S08.csv
+2026,9,,2026-02-23,2026-03-01,Élevage supérieur,Mâle,,497,0,EUR/tête,COT-VRO-veaux14j_synthese-A26-S09.csv
+2026,9,,2026-02-23,2026-03-01,Élevage supérieur,Femelle,,417,-3,EUR/tête,COT-VRO-veaux14j_synthese-A26-S09.csv
+2026,9,,2026-02-23,2026-03-01,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,192,8,EUR/tête,COT-VRO-veaux14j_synthese-A26-S09.csv
+2026,9,,2026-02-23,2026-03-01,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,251,6,EUR/tête,COT-VRO-veaux14j_synthese-A26-S09.csv
+2026,9,,2026-02-23,2026-03-01,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,294,6,EUR/tête,COT-VRO-veaux14j_synthese-A26-S09.csv
+2026,9,,2026-02-23,2026-03-01,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,352,4,EUR/tête,COT-VRO-veaux14j_synthese-A26-S09.csv
+2026,10,,2026-03-02,2026-03-08,Élevage supérieur,Mâle,,515,18,EUR/tête,COT-VRO-veaux14j_synthese-A26-S10.csv
+2026,10,,2026-03-02,2026-03-08,Élevage supérieur,Femelle,,439,22,EUR/tête,COT-VRO-veaux14j_synthese-A26-S10.csv
+2026,10,,2026-03-02,2026-03-08,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,207,15,EUR/tête,COT-VRO-veaux14j_synthese-A26-S10.csv
+2026,10,,2026-03-02,2026-03-08,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,271,20,EUR/tête,COT-VRO-veaux14j_synthese-A26-S10.csv
+2026,10,,2026-03-02,2026-03-08,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,310,16,EUR/tête,COT-VRO-veaux14j_synthese-A26-S10.csv
+2026,10,,2026-03-02,2026-03-08,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,370,18,EUR/tête,COT-VRO-veaux14j_synthese-A26-S10.csv
+2026,11,,2026-03-09,2026-03-15,Élevage supérieur,Mâle,,521,6,EUR/tête,COT-VRO-veaux14j_synthese-A26-S11.csv
+2026,11,,2026-03-09,2026-03-15,Élevage supérieur,Femelle,,447,8,EUR/tête,COT-VRO-veaux14j_synthese-A26-S11.csv
+2026,11,,2026-03-09,2026-03-15,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,217,10,EUR/tête,COT-VRO-veaux14j_synthese-A26-S11.csv
+2026,11,,2026-03-09,2026-03-15,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,284,13,EUR/tête,COT-VRO-veaux14j_synthese-A26-S11.csv
+2026,11,,2026-03-09,2026-03-15,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,328,18,EUR/tête,COT-VRO-veaux14j_synthese-A26-S11.csv
+2026,11,,2026-03-09,2026-03-15,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,380,10,EUR/tête,COT-VRO-veaux14j_synthese-A26-S11.csv
+2026,12,,2026-03-16,2026-03-22,Élevage supérieur,Mâle,,520,-1,EUR/tête,COT-VRO-veaux14j_synthese-A26-S12.csv
+2026,12,,2026-03-16,2026-03-22,Élevage supérieur,Femelle,,443,-4,EUR/tête,COT-VRO-veaux14j_synthese-A26-S12.csv
+2026,12,,2026-03-16,2026-03-22,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,221,4,EUR/tête,COT-VRO-veaux14j_synthese-A26-S12.csv
+2026,12,,2026-03-16,2026-03-22,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,288,4,EUR/tête,COT-VRO-veaux14j_synthese-A26-S12.csv
+2026,12,,2026-03-16,2026-03-22,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,332,4,EUR/tête,COT-VRO-veaux14j_synthese-A26-S12.csv
+2026,12,,2026-03-16,2026-03-22,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,382,2,EUR/tête,COT-VRO-veaux14j_synthese-A26-S12.csv
+2026,13,,2026-03-23,2026-03-29,Élevage supérieur,Mâle,,527,7,EUR/tête,COT-VRO-veaux14j_synthese-A26-S13.csv
+2026,13,,2026-03-23,2026-03-29,Élevage supérieur,Femelle,,446,3,EUR/tête,COT-VRO-veaux14j_synthese-A26-S13.csv
+2026,13,,2026-03-23,2026-03-29,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,221,0,EUR/tête,COT-VRO-veaux14j_synthese-A26-S13.csv
+2026,13,,2026-03-23,2026-03-29,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,287,-1,EUR/tête,COT-VRO-veaux14j_synthese-A26-S13.csv
+2026,13,,2026-03-23,2026-03-29,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,332,0,EUR/tête,COT-VRO-veaux14j_synthese-A26-S13.csv
+2026,13,,2026-03-23,2026-03-29,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,385,3,EUR/tête,COT-VRO-veaux14j_synthese-A26-S13.csv
+2026,14,,2026-03-30,2026-04-05,Élevage supérieur,Mâle,,527,0,EUR/tête,COT-VRO-veaux14j_synthese-A26-S14.csv
+2026,14,,2026-03-30,2026-04-05,Élevage supérieur,Femelle,,445,-1,EUR/tête,COT-VRO-veaux14j_synthese-A26-S14.csv
+2026,14,,2026-03-30,2026-04-05,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,219,-2,EUR/tête,COT-VRO-veaux14j_synthese-A26-S14.csv
+2026,14,,2026-03-30,2026-04-05,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,286,-1,EUR/tête,COT-VRO-veaux14j_synthese-A26-S14.csv
+2026,14,,2026-03-30,2026-04-05,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,333,1,EUR/tête,COT-VRO-veaux14j_synthese-A26-S14.csv
+2026,14,,2026-03-30,2026-04-05,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,384,-1,EUR/tête,COT-VRO-veaux14j_synthese-A26-S14.csv
+2026,15,,2026-04-06,2026-04-12,Élevage supérieur,Mâle,,525,-2,EUR/tête,COT-VRO-veaux14j_synthese-A26-S15.csv
+2026,15,,2026-04-06,2026-04-12,Élevage supérieur,Femelle,,445,0,EUR/tête,COT-VRO-veaux14j_synthese-A26-S15.csv
+2026,15,,2026-04-06,2026-04-12,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,218,-1,EUR/tête,COT-VRO-veaux14j_synthese-A26-S15.csv
+2026,15,,2026-04-06,2026-04-12,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,285,-1,EUR/tête,COT-VRO-veaux14j_synthese-A26-S15.csv
+2026,15,,2026-04-06,2026-04-12,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,330,-3,EUR/tête,COT-VRO-veaux14j_synthese-A26-S15.csv
+2026,15,,2026-04-06,2026-04-12,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,383,-1,EUR/tête,COT-VRO-veaux14j_synthese-A26-S15.csv
+2026,16,,2026-04-13,2026-04-19,Élevage supérieur,Mâle,,535,10,EUR/tête,COT-VRO-veaux14j_synthese-A26-S16.csv
+2026,16,,2026-04-13,2026-04-19,Élevage supérieur,Femelle,,454,9,EUR/tête,COT-VRO-veaux14j_synthese-A26-S16.csv
+2026,16,,2026-04-13,2026-04-19,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,221,3,EUR/tête,COT-VRO-veaux14j_synthese-A26-S16.csv
+2026,16,,2026-04-13,2026-04-19,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,288,3,EUR/tête,COT-VRO-veaux14j_synthese-A26-S16.csv
+2026,16,,2026-04-13,2026-04-19,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,333,3,EUR/tête,COT-VRO-veaux14j_synthese-A26-S16.csv
+2026,16,,2026-04-13,2026-04-19,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,389,6,EUR/tête,COT-VRO-veaux14j_synthese-A26-S16.csv
+2026,17,,2026-04-20,2026-04-26,Élevage supérieur,Mâle,,544,9,EUR/tête,COT-VRO-veaux14j_synthese-A26-S17.csv
+2026,17,,2026-04-20,2026-04-26,Élevage supérieur,Femelle,,460,6,EUR/tête,COT-VRO-veaux14j_synthese-A26-S17.csv
+2026,17,,2026-04-20,2026-04-26,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,219,-2,EUR/tête,COT-VRO-veaux14j_synthese-A26-S17.csv
+2026,17,,2026-04-20,2026-04-26,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,286,-2,EUR/tête,COT-VRO-veaux14j_synthese-A26-S17.csv
+2026,17,,2026-04-20,2026-04-26,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,330,-3,EUR/tête,COT-VRO-veaux14j_synthese-A26-S17.csv
+2026,17,,2026-04-20,2026-04-26,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,391,2,EUR/tête,COT-VRO-veaux14j_synthese-A26-S17.csv
+2026,18,,2026-04-27,2026-05-03,Élevage supérieur,Mâle,,556,12,EUR/tête,COT-VRO-veaux14j_synthese-A26-S18.csv
+2026,18,,2026-04-27,2026-05-03,Élevage supérieur,Femelle,,467,7,EUR/tête,COT-VRO-veaux14j_synthese-A26-S18.csv
+2026,18,,2026-04-27,2026-05-03,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,232,13,EUR/tête,COT-VRO-veaux14j_synthese-A26-S18.csv
+2026,18,,2026-04-27,2026-05-03,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,297,11,EUR/tête,COT-VRO-veaux14j_synthese-A26-S18.csv
+2026,18,,2026-04-27,2026-05-03,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,340,10,EUR/tête,COT-VRO-veaux14j_synthese-A26-S18.csv
+2026,18,,2026-04-27,2026-05-03,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,403,12,EUR/tête,COT-VRO-veaux14j_synthese-A26-S18.csv
+2026,19,,2026-05-04,2026-05-10,Élevage supérieur,Mâle,,592,36,EUR/tête,COT-VRO-veaux14j_synthese-A26-S19.csv
+2026,19,,2026-05-04,2026-05-10,Élevage supérieur,Femelle,,506,39,EUR/tête,COT-VRO-veaux14j_synthese-A26-S19.csv
+2026,19,,2026-05-04,2026-05-10,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,272,40,EUR/tête,COT-VRO-veaux14j_synthese-A26-S19.csv
+2026,19,,2026-05-04,2026-05-10,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,324,27,EUR/tête,COT-VRO-veaux14j_synthese-A26-S19.csv
+2026,19,,2026-05-04,2026-05-10,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,365,25,EUR/tête,COT-VRO-veaux14j_synthese-A26-S19.csv
+2026,19,,2026-05-04,2026-05-10,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,435,32,EUR/tête,COT-VRO-veaux14j_synthese-A26-S19.csv
+2026,20,,2026-05-11,2026-05-17,Élevage supérieur,Mâle,,592,0,EUR/tête,COT-VRO-veaux14j_synthese-A26-S20.csv
+2026,20,,2026-05-11,2026-05-17,Élevage supérieur,Femelle,,504,-2,EUR/tête,COT-VRO-veaux14j_synthese-A26-S20.csv
+2026,20,,2026-05-11,2026-05-17,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,255,-17,EUR/tête,COT-VRO-veaux14j_synthese-A26-S20.csv
+2026,20,,2026-05-11,2026-05-17,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,320,-4,EUR/tête,COT-VRO-veaux14j_synthese-A26-S20.csv
+2026,20,,2026-05-11,2026-05-17,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,365,0,EUR/tête,COT-VRO-veaux14j_synthese-A26-S20.csv
+2026,20,,2026-05-11,2026-05-17,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,431,-4,EUR/tête,COT-VRO-veaux14j_synthese-A26-S20.csv
+2026,21,,2026-05-18,2026-05-24,Élevage supérieur,Mâle,,591,-1,EUR/tête,COT-VRO-veaux14j_synthese-A26-S21.csv
+2026,21,,2026-05-18,2026-05-24,Élevage supérieur,Femelle,,495,-9,EUR/tête,COT-VRO-veaux14j_synthese-A26-S21.csv
+2026,21,,2026-05-18,2026-05-24,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,248,-7,EUR/tête,COT-VRO-veaux14j_synthese-A26-S21.csv
+2026,21,,2026-05-18,2026-05-24,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,312,-8,EUR/tête,COT-VRO-veaux14j_synthese-A26-S21.csv
+2026,21,,2026-05-18,2026-05-24,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,360,-5,EUR/tête,COT-VRO-veaux14j_synthese-A26-S21.csv
+2026,21,,2026-05-18,2026-05-24,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,427,-4,EUR/tête,COT-VRO-veaux14j_synthese-A26-S21.csv
+2026,22,,2026-05-25,2026-05-31,Élevage supérieur,Mâle,,581,-10,EUR/tête,COT-VRO-veaux14j_synthese-A26-S22.csv
+2026,22,,2026-05-25,2026-05-31,Élevage supérieur,Femelle,,494,-1,EUR/tête,COT-VRO-veaux14j_synthese-A26-S22.csv
+2026,22,,2026-05-25,2026-05-31,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,244,-4,EUR/tête,COT-VRO-veaux14j_synthese-A26-S22.csv
+2026,22,,2026-05-25,2026-05-31,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,309,-3,EUR/tête,COT-VRO-veaux14j_synthese-A26-S22.csv
+2026,22,,2026-05-25,2026-05-31,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,355,-5,EUR/tête,COT-VRO-veaux14j_synthese-A26-S22.csv
+2026,22,,2026-05-25,2026-05-31,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,421,-6,EUR/tête,COT-VRO-veaux14j_synthese-A26-S22.csv
+2026,23,,2026-06-01,2026-06-07,Élevage supérieur,Mâle,,541,-40,EUR/tête,COT-VRO-veaux14j_synthese-A26-S23.csv
+2026,23,,2026-06-01,2026-06-07,Élevage supérieur,Femelle,,469,-25,EUR/tête,COT-VRO-veaux14j_synthese-A26-S23.csv
+2026,23,,2026-06-01,2026-06-07,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,229,-15,EUR/tête,COT-VRO-veaux14j_synthese-A26-S23.csv
+2026,23,,2026-06-01,2026-06-07,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,293,-16,EUR/tête,COT-VRO-veaux14j_synthese-A26-S23.csv
+2026,23,,2026-06-01,2026-06-07,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,338,-17,EUR/tête,COT-VRO-veaux14j_synthese-A26-S23.csv
+2026,23,,2026-06-01,2026-06-07,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,374,-47,EUR/tête,COT-VRO-veaux14j_synthese-A26-S23.csv
+2026,24,,2026-06-08,2026-06-14,Élevage supérieur,Mâle,,521,-20,EUR/tête,COT-VRO-veaux14j_synthese-A26-S24.csv
+2026,24,,2026-06-08,2026-06-14,Élevage supérieur,Femelle,,460,-9,EUR/tête,COT-VRO-veaux14j_synthese-A26-S24.csv
+2026,24,,2026-06-08,2026-06-14,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,211,-18,EUR/tête,COT-VRO-veaux14j_synthese-A26-S24.csv
+2026,24,,2026-06-08,2026-06-14,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,276,-17,EUR/tête,COT-VRO-veaux14j_synthese-A26-S24.csv
+2026,24,,2026-06-08,2026-06-14,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,325,-13,EUR/tête,COT-VRO-veaux14j_synthese-A26-S24.csv
+2026,24,,2026-06-08,2026-06-14,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,357,-17,EUR/tête,COT-VRO-veaux14j_synthese-A26-S24.csv
+2026,25,,2026-06-15,2026-06-21,Élevage supérieur,Mâle,,518,-3,EUR/tête,COT-VRO-veaux14j_synthese-A26-S25.csv
+2026,25,,2026-06-15,2026-06-21,Élevage supérieur,Femelle,,452,-8,EUR/tête,COT-VRO-veaux14j_synthese-A26-S25.csv
+2026,25,,2026-06-15,2026-06-21,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,205,-6,EUR/tête,COT-VRO-veaux14j_synthese-A26-S25.csv
+2026,25,,2026-06-15,2026-06-21,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,268,-8,EUR/tête,COT-VRO-veaux14j_synthese-A26-S25.csv
+2026,25,,2026-06-15,2026-06-21,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,314,-11,EUR/tête,COT-VRO-veaux14j_synthese-A26-S25.csv
+2026,25,,2026-06-15,2026-06-21,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,350,-7,EUR/tête,COT-VRO-veaux14j_synthese-A26-S25.csv
+2026,26,,2026-06-22,2026-06-28,Élevage supérieur,Mâle,,526,8,EUR/tête,COT-VRO-veaux14j_synthese-A26-S26.csv
+2026,26,,2026-06-22,2026-06-28,Élevage supérieur,Femelle,,454,2,EUR/tête,COT-VRO-veaux14j_synthese-A26-S26.csv
+2026,26,,2026-06-22,2026-06-28,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,188,-17,EUR/tête,COT-VRO-veaux14j_synthese-A26-S26.csv
+2026,26,,2026-06-22,2026-06-28,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,251,-17,EUR/tête,COT-VRO-veaux14j_synthese-A26-S26.csv
+2026,26,,2026-06-22,2026-06-28,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,298,-16,EUR/tête,COT-VRO-veaux14j_synthese-A26-S26.csv
+2026,26,,2026-06-22,2026-06-28,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,342,-8,EUR/tête,COT-VRO-veaux14j_synthese-A26-S26.csv
+2026,27,,2026-06-29,2026-07-05,Élevage supérieur,Mâle,,479,-47,EUR/tête,COT-VRO-veaux14j_synthese-A26-S27.csv
+2026,27,,2026-06-29,2026-07-05,Élevage supérieur,Femelle,,416,-38,EUR/tête,COT-VRO-veaux14j_synthese-A26-S27.csv
+2026,27,,2026-06-29,2026-07-05,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,157,-31,EUR/tête,COT-VRO-veaux14j_synthese-A26-S27.csv
+2026,27,,2026-06-29,2026-07-05,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,222,-29,EUR/tête,COT-VRO-veaux14j_synthese-A26-S27.csv
+2026,27,,2026-06-29,2026-07-05,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,269,-29,EUR/tête,COT-VRO-veaux14j_synthese-A26-S27.csv
+2026,27,,2026-06-29,2026-07-05,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,306,-36,EUR/tête,COT-VRO-veaux14j_synthese-A26-S27.csv
+2026,28,,2026-07-06,2026-07-12,Élevage supérieur,Mâle,,446,-33,EUR/tête,COT-VRO-veaux14j_synthese-A26-S28.csv
+2026,28,,2026-07-06,2026-07-12,Élevage supérieur,Femelle,,380,-36,EUR/tête,COT-VRO-veaux14j_synthese-A26-S28.csv
+2026,28,,2026-07-06,2026-07-12,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,122,-35,EUR/tête,COT-VRO-veaux14j_synthese-A26-S28.csv
+2026,28,,2026-07-06,2026-07-12,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,190,-32,EUR/tête,COT-VRO-veaux14j_synthese-A26-S28.csv
+2026,28,,2026-07-06,2026-07-12,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,233,-36,EUR/tête,COT-VRO-veaux14j_synthese-A26-S28.csv
+2026,28,,2026-07-06,2026-07-12,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,273,-33,EUR/tête,COT-VRO-veaux14j_synthese-A26-S28.csv
+2026,29,,2026-07-13,2026-07-19,Élevage supérieur,Mâle,,435,-11,EUR/tête,COT-VRO-veaux14j_synthese-A26-S29.csv
+2026,29,,2026-07-13,2026-07-19,Élevage supérieur,Femelle,,373,-7,EUR/tête,COT-VRO-veaux14j_synthese-A26-S29.csv
+2026,29,,2026-07-13,2026-07-19,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,114,-8,EUR/tête,COT-VRO-veaux14j_synthese-A26-S29.csv
+2026,29,,2026-07-13,2026-07-19,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,181,-9,EUR/tête,COT-VRO-veaux14j_synthese-A26-S29.csv
+2026,29,,2026-07-13,2026-07-19,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,222,-11,EUR/tête,COT-VRO-veaux14j_synthese-A26-S29.csv
+2026,29,,2026-07-13,2026-07-19,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,263,-10,EUR/tête,COT-VRO-veaux14j_synthese-A26-S29.csv
+2026,30,,2026-07-20,2026-07-26,Élevage supérieur,Mâle,,388,-47,EUR/tête,COT-VRO-veaux14j_synthese-A26-S30.csv
+2026,30,,2026-07-20,2026-07-26,Élevage supérieur,Femelle,,322,-51,EUR/tête,COT-VRO-veaux14j_synthese-A26-S30.csv
+2026,30,,2026-07-20,2026-07-26,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,82,-32,EUR/tête,COT-VRO-veaux14j_synthese-A26-S30.csv
+2026,30,,2026-07-20,2026-07-26,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,145,-36,EUR/tête,COT-VRO-veaux14j_synthese-A26-S30.csv
+2026,30,,2026-07-20,2026-07-26,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,189,-33,EUR/tête,COT-VRO-veaux14j_synthese-A26-S30.csv
+2026,30,,2026-07-20,2026-07-26,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,224,-39,EUR/tête,COT-VRO-veaux14j_synthese-A26-S30.csv
+2026,31,,2026-07-27,2026-08-02,Élevage supérieur,Mâle,,364,-24,EUR/tête,COT-VRO-veaux14j_synthese-A26-S31.csv
+2026,31,,2026-07-27,2026-08-02,Élevage supérieur,Femelle,,301,-21,EUR/tête,COT-VRO-veaux14j_synthese-A26-S31.csv
+2026,31,,2026-07-27,2026-08-02,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,57,-25,EUR/tête,COT-VRO-veaux14j_synthese-A26-S31.csv
+2026,31,,2026-07-27,2026-08-02,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,126,-19,EUR/tête,COT-VRO-veaux14j_synthese-A26-S31.csv
+2026,31,,2026-07-27,2026-08-02,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,169,-20,EUR/tête,COT-VRO-veaux14j_synthese-A26-S31.csv
+2026,31,,2026-07-27,2026-08-02,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,203,-21,EUR/tête,COT-VRO-veaux14j_synthese-A26-S31.csv
+2026,32,,2026-08-03,2026-08-09,Élevage supérieur,Mâle,,344,-20,EUR/tête,COT-VRO-veaux14j_synthese-A26-S32.csv
+2026,32,,2026-08-03,2026-08-09,Élevage supérieur,Femelle,,285,-16,EUR/tête,COT-VRO-veaux14j_synthese-A26-S32.csv
+2026,32,,2026-08-03,2026-08-09,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,45,-12,EUR/tête,COT-VRO-veaux14j_synthese-A26-S32.csv
+2026,32,,2026-08-03,2026-08-09,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,120,-6,EUR/tête,COT-VRO-veaux14j_synthese-A26-S32.csv
+2026,32,,2026-08-03,2026-08-09,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,159,-10,EUR/tête,COT-VRO-veaux14j_synthese-A26-S32.csv
+2026,32,,2026-08-03,2026-08-09,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,190,-13,EUR/tête,COT-VRO-veaux14j_synthese-A26-S32.csv
+2026,33,,2026-08-10,2026-08-16,Élevage supérieur,Mâle,,344,0,EUR/tête,COT-VRO-veaux14j_synthese-A26-S33.csv
+2026,33,,2026-08-10,2026-08-16,Élevage supérieur,Femelle,,280,-5,EUR/tête,COT-VRO-veaux14j_synthese-A26-S33.csv
+2026,33,,2026-08-10,2026-08-16,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,45,0,EUR/tête,COT-VRO-veaux14j_synthese-A26-S33.csv
+2026,33,,2026-08-10,2026-08-16,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,122,2,EUR/tête,COT-VRO-veaux14j_synthese-A26-S33.csv
+2026,33,,2026-08-10,2026-08-16,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,161,2,EUR/tête,COT-VRO-veaux14j_synthese-A26-S33.csv
+2026,33,,2026-08-10,2026-08-16,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,191,1,EUR/tête,COT-VRO-veaux14j_synthese-A26-S33.csv
+2026,34,,2026-08-17,2026-08-23,Élevage supérieur,Mâle,,345,1,EUR/tête,COT-VRO-veaux14j_synthese-A26-S34.csv
+2026,34,,2026-08-17,2026-08-23,Élevage supérieur,Femelle,,291,11,EUR/tête,COT-VRO-veaux14j_synthese-A26-S34.csv
+2026,34,,2026-08-17,2026-08-23,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,57,12,EUR/tête,COT-VRO-veaux14j_synthese-A26-S34.csv
+2026,34,,2026-08-17,2026-08-23,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,133,11,EUR/tête,COT-VRO-veaux14j_synthese-A26-S34.csv
+2026,34,,2026-08-17,2026-08-23,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,172,11,EUR/tête,COT-VRO-veaux14j_synthese-A26-S34.csv
+2026,34,,2026-08-17,2026-08-23,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,198,7,EUR/tête,COT-VRO-veaux14j_synthese-A26-S34.csv
+2026,35,,2026-08-24,2026-08-30,Élevage supérieur,Mâle,,343,-2,EUR/tête,COT-VRO-veaux14j_synthese-A26-S35.csv
+2026,35,,2026-08-24,2026-08-30,Élevage supérieur,Femelle,,288,-3,EUR/tête,COT-VRO-veaux14j_synthese-A26-S35.csv
+2026,35,,2026-08-24,2026-08-30,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,47,-10,EUR/tête,COT-VRO-veaux14j_synthese-A26-S35.csv
+2026,35,,2026-08-24,2026-08-30,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,125,-8,EUR/tête,COT-VRO-veaux14j_synthese-A26-S35.csv
+2026,35,,2026-08-24,2026-08-30,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,165,-7,EUR/tête,COT-VRO-veaux14j_synthese-A26-S35.csv
+2026,35,,2026-08-24,2026-08-30,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,193,-5,EUR/tête,COT-VRO-veaux14j_synthese-A26-S35.csv
+2026,36,,2026-08-31,2026-09-06,Élevage supérieur,Mâle,,344,1,EUR/tête,COT-VRO-veaux14j_synthese-A26-S36.csv
+2026,36,,2026-08-31,2026-09-06,Élevage supérieur,Femelle,,288,0,EUR/tête,COT-VRO-veaux14j_synthese-A26-S36.csv
+2026,36,,2026-08-31,2026-09-06,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,50,3,EUR/tête,COT-VRO-veaux14j_synthese-A26-S36.csv
+2026,36,,2026-08-31,2026-09-06,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,126,1,EUR/tête,COT-VRO-veaux14j_synthese-A26-S36.csv
+2026,36,,2026-08-31,2026-09-06,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,165,0,EUR/tête,COT-VRO-veaux14j_synthese-A26-S36.csv
+2026,36,,2026-08-31,2026-09-06,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,194,1,EUR/tête,COT-VRO-veaux14j_synthese-A26-S36.csv
+2026,37,,2026-09-07,2026-09-13,Élevage supérieur,Mâle,,348,4,EUR/tête,COT-VRO-veaux14j_synthese-A26-S37.csv
+2026,37,,2026-09-07,2026-09-13,Élevage supérieur,Femelle,,295,7,EUR/tête,COT-VRO-veaux14j_synthese-A26-S37.csv
+2026,37,,2026-09-07,2026-09-13,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,55,5,EUR/tête,COT-VRO-veaux14j_synthese-A26-S37.csv
+2026,37,,2026-09-07,2026-09-13,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,132,6,EUR/tête,COT-VRO-veaux14j_synthese-A26-S37.csv
+2026,37,,2026-09-07,2026-09-13,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,172,7,EUR/tête,COT-VRO-veaux14j_synthese-A26-S37.csv
+2026,37,,2026-09-07,2026-09-13,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,199,5,EUR/tête,COT-VRO-veaux14j_synthese-A26-S37.csv
+2026,38,,2026-09-14,2026-09-20,Élevage supérieur,Mâle,,349,1,EUR/tête,COT-VRO-veaux14j_synthese-A26-S38.csv
+2026,38,,2026-09-14,2026-09-20,Élevage supérieur,Femelle,,296,1,EUR/tête,COT-VRO-veaux14j_synthese-A26-S38.csv
+2026,38,,2026-09-14,2026-09-20,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,53,-2,EUR/tête,COT-VRO-veaux14j_synthese-A26-S38.csv
+2026,38,,2026-09-14,2026-09-20,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,130,-2,EUR/tête,COT-VRO-veaux14j_synthese-A26-S38.csv
+2026,38,,2026-09-14,2026-09-20,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,169,-3,EUR/tête,COT-VRO-veaux14j_synthese-A26-S38.csv
+2026,38,,2026-09-14,2026-09-20,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,198,-1,EUR/tête,COT-VRO-veaux14j_synthese-A26-S38.csv

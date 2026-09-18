@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Le Prix du Bétail — les cours de la viande, semaine après semaine</title>
+  <meta name="description" content="Prix du veau, du bœuf, de l'agneau, du porc et du chevreau payés aux éleveurs, chaque semaine, d'après les cotations officielles FranceAgriMer.">
+  <meta property="og:title" content="Le Prix du Bétail">
+  <meta property="og:description" content="Les cours de la viande, semaine après semaine — données FranceAgriMer.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://leprixdubetail.fr/">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="chart.umd.min.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="./">
+        <img src="favicon.svg" alt="" width="40" height="40">
+        <span>
+          <span class="brand-name">Le Prix du Bétail</span>
+          <span class="brand-tag">Les cours de la viande, semaine après semaine</span>
+        </span>
+      </a>
+      <nav class="nav">
+        <a href="#semaine">Cette semaine</a>
+        <a href="#evolution">Évolution</a>
+        <a href="#detail">Détail</a>
+        <a href="#comprendre">Comprendre</a>
+        <a href="#donnees">Données</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="semaine" class="wrap section">
+      <div class="section-head">
+        <h1>Combien est payée la viande aux éleveurs cette semaine&nbsp;?</h1>
+        <p class="lead">Les cotations officielles relevées par FranceAgriMer à l'entrée des abattoirs et sur les marchés aux bestiaux. <span id="maj" class="muted"></span></p>
+      </div>
+      <div id="cards" class="cards" aria-live="polite">
+        <p class="muted">Chargement des cotations…</p>
+      </div>
+    </section>
+
+    <section id="evolution" class="wrap section">
+      <div class="section-head">
+        <h2>Évolution des prix</h2>
+        <p class="lead">Choisissez une viande pour voir son prix dans le temps, ou comparer les années entre elles.</p>
+      </div>
+      <div class="panel">
+        <div class="controls">
+          <label class="select">
+            <span class="sr-only">Viande</span>
+            <select id="indicateur"></select>
+          </label>
+          <div class="seg" role="group" aria-label="Affichage">
+            <button type="button" data-mode="temps" class="on">Chronologique</button>
+            <button type="button" data-mode="annees">Comparer les années</button>
+          </div>
+          <div class="seg" role="group" aria-label="Période" id="periodes">
+            <button type="button" data-range="52">1 an</button>
+            <button type="button" data-range="156">3 ans</button>
+            <button type="button" data-range="0" class="on">Tout</button>
+          </div>
+        </div>
+        <div class="chart-box"><canvas id="chart" aria-label="Graphique de l'évolution du prix" role="img"></canvas></div>
+        <div id="stats" class="stats"></div>
+      </div>
+    </section>
+
+    <section id="detail" class="wrap section">
+      <div class="section-head">
+        <h2>Le détail de la semaine</h2>
+        <p class="lead">Les cotations par catégorie d'animal, telles que publiées. La petite valeur sous chaque prix est l'écart avec la semaine précédente.</p>
+      </div>
+      <div id="tabs" class="tabs" role="tablist"></div>
+      <div id="table" class="panel table-panel"></div>
+    </section>
+
+    <section id="comprendre" class="wrap section">
+      <div class="section-head">
+        <h2>Comprendre ces prix</h2>
+      </div>
+      <div class="explain">
+        <article>
+          <h3>Un prix payé à l'éleveur</h3>
+          <p>Ce sont des prix de gros : ce que l'abattoir ou l'acheteur paie pour l'animal. Le prix en boucherie ou en supermarché est bien plus élevé, car il inclut la découpe, les pertes, le transport, la distribution et les marges.</p>
+        </article>
+        <article>
+          <h3>Kilo de carcasse, kilo vif, par tête</h3>
+          <p>Le <strong>poids vif</strong> est celui de l'animal vivant. La <strong>carcasse</strong> est l'animal abattu, sans la peau, la tête ni les abats : environ 55 à 60 % du poids vif chez un bovin. Les petits veaux, eux, se vendent <strong>à la tête</strong>.</p>
+        </article>
+        <article>
+          <h3>La grille EUROP</h3>
+          <p>Les carcasses sont classées selon leur <strong>conformation</strong> (le développement musculaire) : <strong>E</strong> excellente, <strong>U</strong> très bonne, <strong>R</strong> bonne, <strong>O</strong> assez bonne, <strong>P</strong> médiocre. Les signes +, = et − affinent la classe.</p>
+        </article>
+        <article>
+          <h3>Le prix moyen pondéré</h3>
+          <p>C'est la moyenne des cotations de toutes les catégories, pondérée par les volumes réellement abattus. C'est le meilleur résumé du marché d'une semaine, et c'est lui qu'affichent les cartes en haut de page.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="donnees" class="wrap section">
+      <div class="section-head">
+        <h2>Télécharger les données</h2>
+        <p class="lead">Toutes les cotations depuis janvier 2023, remises en forme : un fichier CSV par série, une ligne par semaine et par catégorie. Mise à jour automatique chaque samedi.</p>
+      </div>
+      <ul id="downloads" class="downloads"></ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p><strong>Source :</strong> <a href="https://visionet.franceagrimer.fr" rel="noopener">FranceAgriMer — Réseau des Nouvelles des Marchés (RNM)</a>. Les données sont reprises telles que publiées ; seules leur mise en forme et leur présentation sont propres à ce site.</p>
+      <p class="muted">Le Prix du Bétail est un site indépendant, sans lien avec FranceAgriMer.</p>
+    </div>
+  </footer>
+</body>
+</html>

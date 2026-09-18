@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.venv/
+.idea/
+# Copie locale des données pour prévisualiser le site (générée au déploiement)
+site/data/

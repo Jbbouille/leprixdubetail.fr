@@ -1,0 +1,22 @@
+GROS BOVINS BIOS
+COTATIONS NATIONALES MENSUELLES DES GROS BOVINS ENTREE ABATTOIR BIO
+EN EURO
+MOIS DE mai 2026
+
+EN EURO/KG NET, frais de transport inclus
+
+;;Jeunes bovins 8 à 24 mois;Jeunes bovins 12 à 24 mois;;;;Taureaux;Boeufs;;;Génisses;;;Vaches;;;;;;;
+;;Viande Mixte Lait;Viande hors Bl/Parth.;Blonde/Parth.;Mixte;Lait;VML;Viande;Mixte;Lait;Viande Mixte Lait;Viande +350Kg;Mixte Lait;Viande tous poids, toutes races;Viande hors Bl/Parth. -10 a +350kg;Blonde/Parth. -10 ans +350Kg;Charolaise -10 ans +350Kg;Limousine -10 ans +350Kg;Mixte;Lait;
+E;Cot;;;;;;;;;;;;;;;;;;;
+E;Var;;;;;;;;;;;;;;;;;;;
+U;Cot;;;;;;;7,98;;;;;;7,97;;;;;;
+U;Var;;;;;;;-0,30;;;;;;-0,24;;;;;;
+R;Cot;;;;;;;7,66;;;7,66;7,69;;7,69;7,71;;7,56;;;
+R;Var;;;;;;;-0,34;;;-0,23;-0,22;;-0,23;-0,25;;-0,33;;;
+O;Cot;;;;;;;7,35;6,99;;;;;7,21;;;;;6,89;6,69
+O;Var;;;;;;;;;;;;;;;;;;-0,22;-0,22
+P;Cot;;;;;;;;;;;;;;;;;;;6,54
+P;Var;;;;;;;;;;;;;;;;;;;-0,19
+
+PMP;Var
+7,37;-0,34

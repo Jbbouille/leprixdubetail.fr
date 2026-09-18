@@ -1,0 +1,61 @@
+PETITS VEAUX
+COTATION DES VEAUX DE 14 JOURS A 4 SEMAINES SUR LES MARCHES DE REFERENCE
+EN EURO
+SEMAINE N° 22 DU 29/05/2023 AU 04/06/2023
+
+EN EURO/Tête
+;RACES;SEXE;CONFORMATION;AGEN;ARMO;BOUR;CARE;CHAG;LAMB;LEZA;RETH;TALA;;MOYENNE NATIONALE;variation
+;;;POIDS
+VEAUX;RACES À VIANDE;MALE;E;460,00;;;;;;470,00;;;;467,04;0;Mise à jour annuelle des coefficients de pondération d'après les effectifs commercialisés en 2022 sur les différents marchés.;LIMOUSINS
+VEAUX;Limousins;MALE;U;380,00;;;;;;400,00;;;;394,08;0;Mise à jour annuelle des coefficients de pondération d'après les effectifs commercialisés en 2022 sur les différents marchés.;LIMOUSINS
+VEAUX;ou;MALE;R;265,00;;;;;;250,00;;;;254,44;0;Mise à jour annuelle des coefficients de pondération d'après les effectifs commercialisés en 2022 sur les différents marchés.;LIMOUSINS
+VEAUX;Blonds;MALE;O;;;;;;;80,00;;;;80,00;0;Mise à jour annuelle des coefficients de pondération d'après les effectifs commercialisés en 2022 sur les différents marchés.;LIMOUSINS
+VEAUX;;FEMELLE;E;360,00;;;;;;390,00;;;;380,60;0;Mise à jour annuelle des coefficients de pondération d'après les effectifs commercialisés en 2022 sur les différents marchés.;LIMOUSINS
+VEAUX;;FEMELLE;U;305,00;;;;;;330,00;;;;322,17;0;Mise à jour annuelle des coefficients de pondération d'après les effectifs commercialisés en 2022 sur les différents marchés.;LIMOUSINS
+VEAUX;;FEMELLE;R;175,00;;;;;;150,00;;;;157,83;0;Mise à jour annuelle des coefficients de pondération d'après les effectifs commercialisés en 2022 sur les différents marchés.;LIMOUSINS
+VEAUX;;FEMELLE;O;75,00;;;;;;50,00;;;;57,83;0;Mise à jour annuelle des coefficients de pondération d'après les effectifs commercialisés en 2022 sur les différents marchés.;LIMOUSINS
+VEAUX;RACES À VIANDE;MALE;E;;;;;;;430,00;;;;430,00;0;Mise à jour annuelle des coefficients de pondération d'après les effectifs commercialisés en 2022 sur les différents marchés.;CHAROLAIS
+VEAUX;Charolais;MALE;U;;;;;;;370,00;;;;370,00;0;Mise à jour annuelle des coefficients de pondération d'après les effectifs commercialisés en 2022 sur les différents marchés.;CHAROLAIS
+VEAUX;ou;MALE;R;;;;;;;220,00;;;;220,00;0;Mise à jour annuelle des coefficients de pondération d'après les effectifs commercialisés en 2022 sur les différents marchés.;CHAROLAIS
+VEAUX;Blanc Bleu;MALE;O;;;;;;;90,00;;;;90,00;0;Mise à jour annuelle des coefficients de pondération d'après les effectifs commercialisés en 2022 sur les différents marchés.;CHAROLAIS
+VEAUX;;FEMELLE;E;;;;;;;375,00;;;;375,00;0;Mise à jour annuelle des coefficients de pondération d'après les effectifs commercialisés en 2022 sur les différents marchés.;CHAROLAIS
+VEAUX;;FEMELLE;U;;;;;;;320,00;;;;320,00;0;Mise à jour annuelle des coefficients de pondération d'après les effectifs commercialisés en 2022 sur les différents marchés.;CHAROLAIS
+VEAUX;;FEMELLE;R;;;;;;;160,00;;;;160,00;0;Mise à jour annuelle des coefficients de pondération d'après les effectifs commercialisés en 2022 sur les différents marchés.;CHAROLAIS
+VEAUX;;FEMELLE;O;;;;;;;90,00;;;;90,00;0;Mise à jour annuelle des coefficients de pondération d'après les effectifs commercialisés en 2022 sur les différents marchés.;CHAROLAIS
+VEAUX;CROISÉS;MALE;E;;;;;;;440,00;;;;440,00;20,00;Mise à jour annuelle des coefficients de pondération d'après les effectifs commercialisés en 2022 sur les différents marchés.;CROISE VIANDE
+VEAUX;RACES À VIANDE;MALE;U;;;;;370,00;;370,00;;;;370,00;15,29;Mise à jour annuelle des coefficients de pondération d'après les effectifs commercialisés en 2022 sur les différents marchés.;CROISE VIANDE
+VEAUX;Mère race à viande X;MALE;R;;;;;270,00;;270,00;;;;270,00;15,29;Mise à jour annuelle des coefficients de pondération d'après les effectifs commercialisés en 2022 sur les différents marchés.;CROISE VIANDE
+VEAUX;mâle race à viande;MALE;O;;;;;170,00;;120,00;;;;131,77;15,30;Mise à jour annuelle des coefficients de pondération d'après les effectifs commercialisés en 2022 sur les différents marchés.;CROISE VIANDE
+VEAUX;;FEMELLE;E;;;;;;;385,00;;;;385,00;10,00;Mise à jour annuelle des coefficients de pondération d'après les effectifs commercialisés en 2022 sur les différents marchés.;CROISE VIANDE
+VEAUX;;FEMELLE;U;;;;;320,00;;320,00;;;;320,00;12,75;Mise à jour annuelle des coefficients de pondération d'après les effectifs commercialisés en 2022 sur les différents marchés.;CROISE VIANDE
+VEAUX;;FEMELLE;R;;;;;220,00;;220,00;;;;220,00;0;Mise à jour annuelle des coefficients de pondération d'après les effectifs commercialisés en 2022 sur les différents marchés.;CROISE VIANDE
+VEAUX;;FEMELLE;O;;;;;150,00;;100,00;;;;118,12;12,76;Mise à jour annuelle des coefficients de pondération d'après les effectifs commercialisés en 2022 sur les différents marchés.;CROISE VIANDE
+VEAUX;CROISÉS MIXTES;MALE;U;310,00;;440,00;370,00;370,00;;370,00;;500,00;;453,02;2,30;Mise à jour annuelle des coefficients de pondération d'après les effectifs commercialisés en 2022 sur les différents marchés.;CROISE MIXTE
+VEAUX;Mère race mixte X;MALE;R;200,00;;330,00;260,00;270,00;;270,00;;420,00;;359,63;2,30;Mise à jour annuelle des coefficients de pondération d'après les effectifs commercialisés en 2022 sur les différents marchés.;CROISE MIXTE
+VEAUX;mâle race à viande;MALE;O;145,00;;250,00;160,00;170,00;;140,00;;290,00;;248,32;2,30;Mise à jour annuelle des coefficients de pondération d'après les effectifs commercialisés en 2022 sur les différents marchés.;CROISE MIXTE
+VEAUX;ou;MALE;P;;;;;;;50,00;;;;50,00;0;Mise à jour annuelle des coefficients de pondération d'après les effectifs commercialisés en 2022 sur les différents marchés.;CROISE MIXTE
+VEAUX;Mère race mixte X;FEMELLE;U;250,00;;340,00;300,00;320,00;;300,00;;410,00;;364,50;2,05;Mise à jour annuelle des coefficients de pondération d'après les effectifs commercialisés en 2022 sur les différents marchés.;CROISE MIXTE
+VEAUX;mâle race mixte;FEMELLE;R;170,00;;270,00;200,00;220,00;;200,00;;330,00;;282,36;2,05;Mise à jour annuelle des coefficients de pondération d'après les effectifs commercialisés en 2022 sur les différents marchés.;CROISE MIXTE
+VEAUX;;FEMELLE;O;120,00;;220,00;130,00;150,00;;120,00;;230,00;;202,51;2,05;Mise à jour annuelle des coefficients de pondération d'après les effectifs commercialisés en 2022 sur les différents marchés.;CROISE MIXTE
+VEAUX;;FEMELLE;P;;;;;;;40,00;;;;40,00;10,00;Mise à jour annuelle des coefficients de pondération d'après les effectifs commercialisés en 2022 sur les différents marchés.;CROISE MIXTE
+VEAUX;CROISÉS LAITIERS;MALE;R;175,00;390,00;;240,00;250,00;426,00;250,00;;340,00;;288,24;5,14;Mise à jour annuelle des coefficients de pondération d'après les effectifs commercialisés en 2022 sur les différents marchés.;CROISE LAITIER
+VEAUX;Mère race laitière X;MALE;O;135,00;282,00;;125,00;145,00;239,00;140,00;;260,00;;176,76;0,87;Mise à jour annuelle des coefficients de pondération d'après les effectifs commercialisés en 2022 sur les différents marchés.;CROISE LAITIER
+VEAUX;mâle race à viande;MALE;P;80,00;;;105,00;110,00;;50,00;;160,00;;83,11;0,79;Mise à jour annuelle des coefficients de pondération d'après les effectifs commercialisés en 2022 sur les différents marchés.;CROISE LAITIER
+VEAUX;ou;FEMELLE;R;155,00;292,00;;180,00;220,00;298,00;200,00;;270,00;;225,67;5,00;Mise à jour annuelle des coefficients de pondération d'après les effectifs commercialisés en 2022 sur les différents marchés.;CROISE LAITIER
+VEAUX;Mère race laitière X;FEMELLE;O;115,00;224,00;;120,00;125,00;196,00;120,00;;220,00;;147,70;4,65;Mise à jour annuelle des coefficients de pondération d'après les effectifs commercialisés en 2022 sur les différents marchés.;CROISE LAITIER
+VEAUX;mâle race mixte;FEMELLE;P;70,00;;;100,00;60,00;;40,00;;130,00;;60,89;5,44;Mise à jour annuelle des coefficients de pondération d'après les effectifs commercialisés en 2022 sur les différents marchés.;CROISE LAITIER
+VEAUX;RACES MIXTES PURES;MALE;> 60 KG;;;285,00;;;;250,00;;280,00;;278,25;0;Mise à jour annuelle des coefficients de pondération d'après les effectifs commercialisés en 2022 sur les différents marchés.;MONTBELIARDS
+VEAUX;Montbéliarde,;MALE;55 A 60 KG;;;245,00;;;;190,00;;;;233,70;0;Mise à jour annuelle des coefficients de pondération d'après les effectifs commercialisés en 2022 sur les différents marchés.;MONTBELIARDS
+VEAUX;Abondance,;MALE;50 A 55 KG;;;195,00;;;;130,00;;;;181,64;0;Mise à jour annuelle des coefficients de pondération d'après les effectifs commercialisés en 2022 sur les différents marchés.;MONTBELIARDS
+VEAUX;Tarentaise;MALE;45 A 50 KG;;;150,00;;;;90,00;;220,00;;154,30;0;Mise à jour annuelle des coefficients de pondération d'après les effectifs commercialisés en 2022 sur les différents marchés.;MONTBELIARDS
+VEAUX;;MALE;< 45 KG;;;85,00;;;;50,00;;150,00;;92,39;0;Mise à jour annuelle des coefficients de pondération d'après les effectifs commercialisés en 2022 sur les différents marchés.;MONTBELIARDS
+VEAUX;RACES MIXTES PURES;MALE;> 60 KG;;;;175,00;160,00;;180,00;;;;173,31;4,03;Mise à jour annuelle des coefficients de pondération d'après les effectifs commercialisés en 2022 sur les différents marchés.;NORMANDS
+VEAUX;Normande;MALE;55 A 60 KG;;;;135,00;130,00;;150,00;;;;139,28;4,03;Mise à jour annuelle des coefficients de pondération d'après les effectifs commercialisés en 2022 sur les différents marchés.;NORMANDS
+VEAUX;;MALE;50 A 55 KG;;;;105,00;110,00;;110,00;;;;107,99;4,03;Mise à jour annuelle des coefficients de pondération d'après les effectifs commercialisés en 2022 sur les différents marchés.;NORMANDS
+VEAUX;;MALE;45 A 50 KG;;;;85,00;95,00;;90,00;;;;89,16;4,03;Mise à jour annuelle des coefficients de pondération d'après les effectifs commercialisés en 2022 sur les différents marchés.;NORMANDS
+VEAUX;;MALE;< 45 KG;;;;;80,00;;40,00;;;;55,68;0;Mise à jour annuelle des coefficients de pondération d'après les effectifs commercialisés en 2022 sur les différents marchés.;NORMANDS
+VEAUX;RACES LAITIÈRES;MALE;> 55 KG;135,00;180,00;160,00;155,00;160,00;254,00;160,00;;150,00;;167,62;8,00;Mise à jour annuelle des coefficients de pondération d'après les effectifs commercialisés en 2022 sur les différents marchés.;LAITIER
+VEAUX;Prim'Holstein;MALE;50 A 55 KG;110,00;160,00;130,00;140,00;130,00;211,00;120,00;;130,00;;133,92;2,56;Mise à jour annuelle des coefficients de pondération d'après les effectifs commercialisés en 2022 sur les différents marchés.;LAITIER
+VEAUX;;MALE;45 A 50 KG;80,00;120,00;105,00;90,00;110,00;173,00;100,00;;85,00;;108,17;2,65;Mise à jour annuelle des coefficients de pondération d'après les effectifs commercialisés en 2022 sur les différents marchés.;LAITIER
+VEAUX;;MALE;40 A 45 KG;;50,00;60,00;;95,00;;80,00;;70,00;;81,07;4,02;Mise à jour annuelle des coefficients de pondération d'après les effectifs commercialisés en 2022 sur les différents marchés.;LAITIER
+VEAUX;;MALE;< 40 KG;;20,00;;;80,00;;40,00;;;;51,12;0;Mise à jour annuelle des coefficients de pondération d'après les effectifs commercialisés en 2022 sur les différents marchés.;LAITIER

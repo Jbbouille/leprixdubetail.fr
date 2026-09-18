@@ -1,0 +1,26 @@
+GROS BOVINS SIQO
+COTATIONS NATIONALES MENSUELLES DES GROS BOVINS ENTREE ABATTOIR SIQO* HORS BIO
+EN EURO;(*) : Signe d’Identification de Qualité et d’Origine
+MOIS DE janvier 2025
+
+EN EURO/KG NET, frais de transport inclus
+
+;;Jeunes bovins 12 à 24 mois;Boeufs;Génisses;;Vaches;;;;;
+;;Viande toutes races;Viande;Viande mixte mait;Viande +350kg;Viande tous poids, toutes races;Viande hors Bl/Parth. -10 a +350kg;Blonde d'A et Parth. -10 ans +350Kg;Charolaise -10 ans +350Kg;Limousine -10 ans +350Kg;
+E;Cot;;;;;;;;;
+E;Var;;;;;;;;;
+U+;Cot;;;;;;;6,99;;
+U+;Var;;;;;;;-0,28;;
+U=;Cot;5,96;;6,19;6,35;6,33;6,23;6,77;;6,33
+U=;Var;0,18;;-0,10;0;-0,20;-0,31;-0,01;;-0,30
+U-;Cot;;;;6,10;;6,04;6,60;5,79;6,28
+U-;Var;;;;-0,03;;0;0,04;0,01;0,04
+R+;Cot;;;;5,93;;5,88;;5,76;6,14
+R+;Var;;;;0;;0;;0,04;0,05
+R=;Cot;;;5,90;;5,89;5,81;;5,71;
+R=;Var;;;0,02;;0,03;0,06;;0,03;
+R-;Cot;;;;;;;;;
+R-;Var;;;;;;;;;
+
+PMP;Var
+6,11;-0,09

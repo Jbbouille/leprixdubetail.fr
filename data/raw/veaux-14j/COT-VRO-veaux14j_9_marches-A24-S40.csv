@@ -1,0 +1,66 @@
+PETITS VEAUX
+COTATION DES VEAUX DE 14 JOURS A 4 SEMAINES SUR LES MARCHES DE REFERENCE
+EN EURO
+SEMAINE N° 40 DU 30/09/2024 AU 06/10/2024
+
+EN EURO/Tête
+;RACES;SEXE;CONFORMATION;AGEN;ARMO;BOUR;CARE;CHAG;LAMB;LEZA;RETH;TALA;;MOYENNE NATIONALE;variation
+;;;POIDS
+VEAUX;RACES À VIANDE;MALE;E;520,00;;;;;;;;;;;;;LIMOUSINS
+VEAUX;Limousins;MALE;U;440,00;;;;;;;;;;;;;LIMOUSINS
+VEAUX;ou;MALE;R;250,00;;;;;;;;;;;;;LIMOUSINS
+VEAUX;Blonds;MALE;O;;;;;;;;;;;;;;LIMOUSINS
+VEAUX;;FEMELLE;E;410,00;;;;;;;;;;;;;LIMOUSINS
+VEAUX;;FEMELLE;U;345,00;;;;;;;;;;;;;LIMOUSINS
+VEAUX;;FEMELLE;R;175,00;;;;;;;;;;;;;LIMOUSINS
+VEAUX;;FEMELLE;O;;;;;;;;;;;;;;LIMOUSINS
+VEAUX;RACES À VIANDE;MALE;E;;;;;;;;;;;;;;CHAROLAIS
+VEAUX;Charolais;MALE;U;;;;;;;;;;;;;;CHAROLAIS
+VEAUX;ou;MALE;R;;;;;;;;;;;;;;CHAROLAIS
+VEAUX;Blanc Bleu;MALE;O;;;;;;;;;;;;;;CHAROLAIS
+VEAUX;;FEMELLE;E;;;;;;;;;;;;;;CHAROLAIS
+VEAUX;;FEMELLE;U;;;;;;;;;;;;;;CHAROLAIS
+VEAUX;;FEMELLE;R;;;;;;;;;;;;;;CHAROLAIS
+VEAUX;;FEMELLE;O;;;;;;;;;;;;;;CHAROLAIS
+VEAUX;CROISÉS;MALE;E;;;;;;;;;;;;;;CROISE VIANDE
+VEAUX;RACES À VIANDE;MALE;U;;;;;375,00;;;;;;;;;CROISE VIANDE
+VEAUX;Mère race à viande X;MALE;R;;;;;235,00;;;;;;;;;CROISE VIANDE
+VEAUX;mâle race à viande;MALE;O;;;;;155,00;;;;;;;;;CROISE VIANDE
+VEAUX;;FEMELLE;E;;;;;;;;;;;;;;CROISE VIANDE
+VEAUX;;FEMELLE;U;;;;;315,00;;;;;;;;;CROISE VIANDE
+VEAUX;;FEMELLE;R;;;;;195,00;;;;;;;;;CROISE VIANDE
+VEAUX;;FEMELLE;O;;;;;135,00;;;;;;;;;CROISE VIANDE
+VEAUX;CROISÉS MIXTES;MALE;U;350,00;;450,00;400,00;375,00;;;;510,00;;;;;CROISE MIXTE
+VEAUX;Mère race mixte X;MALE;R;205,00;;320,00;280,00;235,00;;;;430,00;;;;;CROISE MIXTE
+VEAUX;mâle race à viande;MALE;O;115,00;;210,00;180,00;155,00;;;;270,00;;;;;CROISE MIXTE
+VEAUX;ou;MALE;P;;;;;;;;;;;;;;CROISE MIXTE
+VEAUX;Mère race mixte X;FEMELLE;U;265,00;;355,00;320,00;315,00;;;;410,00;;;;;CROISE MIXTE
+VEAUX;mâle race mixte;FEMELLE;R;150,00;;260,00;220,00;195,00;;;;340,00;;;;;CROISE MIXTE
+VEAUX;;FEMELLE;O;105,00;;180,00;165,00;135,00;;;;210,00;;;;;CROISE MIXTE
+VEAUX;;FEMELLE;P;;;;;;;;;;;;;;CROISE MIXTE
+VEAUX;CROISÉS LAITIERS;MALE;R;205,00;380,00;;225,00;220,00;425,00;;195,00;340,00;;;;;CROISE LAITIER
+VEAUX;Mère race laitière X;MALE;O;100,00;330,00;;125,00;135,00;251,00;;145,00;230,00;;;;;CROISE LAITIER
+VEAUX;mâle race à viande;MALE;P;;;;;90,00;131,00;;;100,00;;;;;CROISE LAITIER
+VEAUX;ou;FEMELLE;R;145,00;290,00;;185,00;200,00;326,00;;;260,00;;;;;CROISE LAITIER
+VEAUX;Mère race laitière X;FEMELLE;O;105,00;240,00;;95,00;115,00;205,00;;95,00;180,00;;;;;CROISE LAITIER
+VEAUX;mâle race mixte;FEMELLE;P;;;;;65,00;101,00;;;70,00;;;;;CROISE LAITIER
+VEAUX;RACES MIXTES PURES;MALE;> 60 KG;;;280,00;;;;;;270,00;;;;;MONTBELIARDS
+VEAUX;Montbéliarde,;MALE;55 A 60 KG;;;245,00;;;;;;;;;;;MONTBELIARDS
+VEAUX;Abondance,;MALE;50 A 55 KG;;;175,00;;;;;;190,00;;;;;MONTBELIARDS
+VEAUX;Tarentaise;MALE;45 A 50 KG;;;105,00;;;;;;110,00;;;;;MONTBELIARDS
+VEAUX;;MALE;< 45 KG;;;25,00;;;;;;;;;;;MONTBELIARDS
+VEAUX;RACES MIXTES PURES;MALE;> 60 KG;;;;165,00;130,00;;;;;;;;;NORMANDS
+VEAUX;Normande;MALE;55 A 60 KG;;;;120,00;90,00;;;;;;;;;NORMANDS
+VEAUX;;MALE;50 A 55 KG;;;;110,00;70,00;;;;;;;;;NORMANDS
+VEAUX;;MALE;45 A 50 KG;;;;;55,00;;;;;;;;;NORMANDS
+VEAUX;;MALE;< 45 KG;;;;;35,00;;;;;;;;;NORMANDS
+VEAUX;RACES LAITIÈRES;MALE;> 55 KG;145,00;160,00;145,00;;130,00;184,00;;95,00;120,00;;;;;LAITIER
+VEAUX;Prim'Holstein;MALE;50 A 55 KG;110,00;150,00;120,00;110,00;90,00;148,00;;80,00;90,00;;;;;LAITIER
+VEAUX;;MALE;45 A 50 KG;;120,00;60,00;70,00;70,00;114,00;;60,00;;;;;;LAITIER
+VEAUX;;MALE;40 A 45 KG;;90,00;20,00;;35,00;75,00;;25,00;40,00;;;;;LAITIER
+VEAUX;;MALE;< 40 KG;;;;;;24,00;;;;;;;;LAITIER
+;;;;;;;;;;;;;;;;;
+Vu la situation sanitaire FCO-BTV3, les apports de petits veaux sur les marchés aux bestiaux sont de plus en plus perturbés et en forte baisse pour certains.;;;;;;;;;;;;;;;;;
+Ces évolutions subies sont susceptibles d’entraîner des évolutions importantes des cotations nationales qui ne reflètent plus uniquement l’évolution des prix unitaires.;;;;;;;;;;;;;;;;;
+En effet, les cotations nationales des petits veaux sont pondérées selon l’importance des différentes places de marché pour chaque catégorie.;;;;;;;;;;;;;;;;;
+En conséquence, la publication des moyennes nationales est interrompue. Vous remerciant de votre compréhension.;;;;;;;;;;;;;;;;;
