@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" rx="14" fill="#2f5d3a"/>
+  <rect width="64" height="64" rx="14" fill="#2b7a3d"/>
   <!-- tête de vache stylisée -->
-  <path d="M14 20c-4 0-7-3-7-6 3 1 6 1 9 0l4 3z" fill="#e9c46a"/>
-  <path d="M50 20c4 0 7-3 7-6-3 1-6 1-9 0l-4 3z" fill="#e9c46a"/>
-  <path d="M20 16h24c4 0 6 3 6 7v9c0 4-2 7-4 10l-3 9c-1 3-4 5-7 5h-8c-3 0-6-2-7-5l-3-9c-2-3-4-6-4-10v-9c0-4 2-7 6-7z" fill="#f4ecdc"/>
-  <ellipse cx="32" cy="46" rx="10" ry="7" fill="#d98b6a"/>
-  <circle cx="28" cy="46" r="1.8" fill="#6b3a2a"/>
-  <circle cx="36" cy="46" r="1.8" fill="#6b3a2a"/>
-  <circle cx="25" cy="29" r="2.4" fill="#26302a"/>
-  <circle cx="39" cy="29" r="2.4" fill="#26302a"/>
+  <path d="M14 20c-4 0-7-3-7-6 3 1 6 1 9 0l4 3z" fill="#d7dde2"/>
+  <path d="M50 20c4 0 7-3 7-6-3 1-6 1-9 0l-4 3z" fill="#d7dde2"/>
+  <path d="M20 16h24c4 0 6 3 6 7v9c0 4-2 7-4 10l-3 9c-1 3-4 5-7 5h-8c-3 0-6-2-7-5l-3-9c-2-3-4-6-4-10v-9c0-4 2-7 6-7z" fill="#ffffff"/>
+  <ellipse cx="32" cy="46" rx="10" ry="7" fill="#c9d0d6"/>
+  <circle cx="28" cy="46" r="1.8" fill="#1d2125"/>
+  <circle cx="36" cy="46" r="1.8" fill="#1d2125"/>
+  <circle cx="25" cy="29" r="2.4" fill="#1d2125"/>
+  <circle cx="39" cy="29" r="2.4" fill="#1d2125"/>
 </svg>

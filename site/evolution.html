@@ -3,20 +3,20 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Le Prix du Bétail — les cours de la viande, semaine après semaine</title>
-  <meta name="description" content="Prix du veau, du bœuf, de l'agneau, du porc et du chevreau payés aux éleveurs, chaque semaine, d'après les cotations officielles FranceAgriMer.">
-  <meta property="og:title" content="Le Prix du Bétail">
-  <meta property="og:description" content="Les cours de la viande, semaine après semaine — données FranceAgriMer.">
+  <title>Évolution des prix — Le Prix du Bétail</title>
+  <meta name="description" content="Évolution du prix du veau, du bœuf, de l'agneau, du porc et du chevreau payés aux éleveurs depuis 2023, d'après les cotations FranceAgriMer.">
+  <meta property="og:title" content="Évolution des prix — Le Prix du Bétail">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://leprixdubetail.fr/">
+  <meta property="og:url" content="https://leprixdubetail.fr/evolution.html">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <script src="chart.umd.min.js" defer></script>
   <script src="app.js" defer></script>
 </head>
-<body class="page-dashboard">
+<body class="page-evolution">
   <header class="site-header">
     <div class="wrap header-inner">
       <a class="brand" href="./">
@@ -27,33 +27,37 @@
         </span>
       </a>
       <nav class="nav">
-        <a href="./" aria-current="page">Tableau de bord</a>
-        <a href="evolution.html">Évolution</a>
+        <a href="./">Tableau de bord</a>
+        <a href="evolution.html" aria-current="page">Évolution</a>
         <a href="comprendre.html">Comprendre</a>
       </nav>
     </div>
   </header>
 
-  <main>
-    <section id="semaine" class="wrap section">
-      <div class="section-head">
-        <h1>Combien est payée la viande aux éleveurs cette semaine&nbsp;?</h1>
-        <p class="lead">Les cotations officielles relevées par FranceAgriMer à l'entrée des abattoirs et sur les marchés aux bestiaux. <span id="maj" class="muted"></span></p>
+  <main class="wrap section evolution">
+    <div class="evolution-head">
+      <h1>Évolution des prix</h1>
+      <div class="controls">
+        <label class="select">
+          <span class="sr-only">Viande</span>
+          <select id="indicateur"></select>
+        </label>
+        <div class="seg" role="group" aria-label="Affichage">
+          <button type="button" data-mode="temps" class="on">Chronologique</button>
+          <button type="button" data-mode="annees">Comparer les années</button>
+        </div>
+        <div class="seg" role="group" aria-label="Période" id="periodes">
+          <button type="button" data-range="52">1 an</button>
+          <button type="button" data-range="156">3 ans</button>
+          <button type="button" data-range="0" class="on">Tout</button>
+        </div>
       </div>
-      <div id="cards" class="cards" aria-live="polite">
-        <p class="muted">Chargement des cotations…</p>
-      </div>
-    </section>
-
-    <section id="detail" class="wrap section">
-      <div class="section-head">
-        <h2>Le détail de la semaine</h2>
-        <p class="lead">Les cotations par catégorie d'animal, telles que publiées. La petite valeur sous chaque prix est l'écart avec la semaine précédente.</p>
-      </div>
-      <div id="tabs" class="tabs" role="tablist"></div>
-      <div id="table" class="panel table-panel"></div>
-    </section>
-
+    </div>
+    <div class="panel chart-panel">
+      <p id="serie-titre" class="chart-title"></p>
+      <div class="chart-box"><canvas id="chart" aria-label="Graphique de l'évolution du prix" role="img"></canvas></div>
+    </div>
+    <div id="stats" class="stats"></div>
   </main>
 
   <footer class="site-footer">

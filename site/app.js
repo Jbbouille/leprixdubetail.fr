@@ -107,7 +107,7 @@ function sparkline(points) {
   // dessiné comme une extrémité ronde pour ne pas être déformé en ellipse
   return `<svg class="spark" viewBox="0 0 ${w} ${h}" preserveAspectRatio="none" aria-hidden="true">
     <path d="${d}" fill="none" stroke="${css("--green")}" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke"/>
-    <path d="${end}" stroke="${css("--clay")}" stroke-width="6" stroke-linecap="round" vector-effect="non-scaling-stroke"/></svg>`;
+    <path d="${end}" stroke="${css("--green")}" stroke-width="6" stroke-linecap="round" vector-effect="non-scaling-stroke"/></svg>`;
 }
 
 function deltaBadge(prix, variation, unite) {
@@ -129,10 +129,9 @@ function renderCards() {
     const meta = META[s.id] || { nom: s.libelle, sous: "" };
     const ageJours = (now - parseDate(last.fin)) / 864e5;
     const stale = ageJours > (s.periodicite === "mensuelle" ? 75 : 40);
-    const card = el("button", {
-      class: "card" + (stale ? " stale" : ""), type: "button",
-      "aria-label": `${meta.nom} : voir l'évolution`,
-      onclick: () => { selectSerie(s.id); $("#evolution").scrollIntoView(); },
+    const card = el("a", {
+      class: "card" + (stale ? " stale" : ""), href: `evolution.html?serie=${s.id}`,
+      "aria-label": `${meta.nom} : voir l'évolution du prix`,
     },
       el("div", { class: "card-top" },
         el("span", { class: "tag" }, s.espece),
@@ -153,13 +152,20 @@ function renderCards() {
 function selectSerie(id) {
   state.serie = state.series.find((s) => s.id === id) || state.series[0];
   $("#indicateur").value = state.serie.id;
+  const meta = META[state.serie.id] || {};
+  $("#serie-titre").textContent = `${state.serie.libelle} · en ${state.serie.unite}` +
+    (state.serie.periodicite === "mensuelle" ? " · cotation mensuelle" : "");
+  document.title = `${meta.nom || state.serie.libelle} — évolution du prix — Le Prix du Bétail`;
+  // Garder la viande choisie dans l'adresse, pour pouvoir partager le lien
+  const url = new URL(location.href);
+  url.searchParams.set("serie", state.serie.id);
+  history.replaceState(null, "", url);
   renderChart();
 }
 
 function yearColors(n) {
-  // Années anciennes : du clair au foncé ; année en cours : couleur d'accent
-  const base = css("--green");
-  return Array.from({ length: n }, (_, i) => (i === n - 1 ? css("--clay") : base));
+  // Années passées en gris, année en cours en vert
+  return Array.from({ length: n }, (_, i) => (i === n - 1 ? css("--green") : css("--past")));
 }
 
 function renderChart() {
@@ -358,11 +364,13 @@ function renderDownloads() {
 // ------------------------------------------------------------------ démarrage
 
 async function main() {
-  renderDownloads();
+  const dashboard = !!$("#cards");
+  if ($("#downloads")) renderDownloads();
+  if (!dashboard && !$("#chart")) return; // page « Comprendre et télécharger »
   try {
     const [ind, det] = await Promise.all([
       fetch("data/indicateurs.json").then((r) => r.json()),
-      fetch("data/details.json").then((r) => r.json()),
+      dashboard ? fetch("data/details.json").then((r) => r.json()) : { tableaux: [] },
     ]);
     const order = Object.keys(META);
     state.series = ind.indicateurs
@@ -370,16 +378,23 @@ async function main() {
       .sort((a, b) => order.indexOf(a.id) - order.indexOf(b.id));
     state.tables = det.tableaux;
   } catch (err) {
-    $("#cards").innerHTML = '<p class="error">Les données n\'ont pas pu être chargées. Réessayez dans un instant.</p>';
+    const box = $("#cards") || $(".chart-box");
+    box.innerHTML = `<p class="error">Les données n'ont pas pu être chargées. Réessayez dans un instant.</p>`;
     console.error(err);
     return;
   }
 
-  const latest = state.series.reduce((a, s) => (s.dernier.fin > a ? s.dernier.fin : a), "");
-  $("#maj").textContent = `Dernières données : ${fmtDate(parseDate(latest))}.`;
+  if (dashboard) {
+    const latest = state.series.reduce((a, s) => (s.dernier.fin > a ? s.dernier.fin : a), "");
+    $("#maj").textContent = `Dernières données : ${fmtDate(parseDate(latest))}.`;
+    renderCards();
+    renderTabs();
+    renderTable();
+    matchMedia("(prefers-color-scheme: dark)").addEventListener("change", renderCards);
+    return;
+  }
 
-  renderCards();
-
+  // Page « Évolution des prix »
   const select = $("#indicateur");
   for (const s of state.series) select.append(el("option", { value: s.id }, (META[s.id] || {}).nom || s.libelle));
   select.addEventListener("change", () => selectSerie(select.value));
@@ -395,15 +410,8 @@ async function main() {
     renderChart();
   }));
 
-  // Chart.js est chargé en « defer » après ce script : on attend qu'il soit prêt
-  const start = () => selectSerie(state.series[0].id);
-  if (window.Chart) start(); else window.addEventListener("load", start);
-
-  renderTabs();
-  renderTable();
-
-  // Suivre le thème clair / sombre du système
-  matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => { renderCards(); renderChart(); });
+  selectSerie(new URLSearchParams(location.search).get("serie") || state.series[0].id);
+  matchMedia("(prefers-color-scheme: dark)").addEventListener("change", renderChart);
 }
 
 main();
