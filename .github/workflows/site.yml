@@ -39,6 +39,12 @@ jobs:
           mkdir -p site/data
           cp data/processed/*.json data/processed/*.csv site/data/
 
+      - name: Versionner les fichiers (invalidation du cache navigateur)
+        run: |
+          version="${GITHUB_SHA::8}"
+          sed -i "s/__VERSION__/${version}/g" site/*.html site/app.js
+          ! grep -rl "__VERSION__" site/ || { echo "Marqueur __VERSION__ non remplacé"; exit 1; }
+
       - uses: actions/configure-pages@v5
 
       - uses: actions/upload-pages-artifact@v3

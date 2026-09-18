@@ -369,8 +369,8 @@ async function main() {
   if (!dashboard && !$("#chart")) return; // page « Comprendre et télécharger »
   try {
     const [ind, det] = await Promise.all([
-      fetch("data/indicateurs.json").then((r) => r.json()),
-      dashboard ? fetch("data/details.json").then((r) => r.json()) : { tableaux: [] },
+      fetch("data/indicateurs.json?v=__VERSION__").then((r) => r.json()),
+      dashboard ? fetch("data/details.json?v=__VERSION__").then((r) => r.json()) : { tableaux: [] },
     ]);
     const order = Object.keys(META);
     state.series = ind.indicateurs
