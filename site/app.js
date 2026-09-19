@@ -42,7 +42,7 @@ const FICHIERS = [
 const MOIS_COURTS = ["janv.", "févr.", "mars", "avr.", "mai", "juin", "juil.", "août", "sept.", "oct.", "nov.", "déc."];
 const MOIS_LONGS = ["janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août", "septembre", "octobre", "novembre", "décembre"];
 
-const state = { series: [], serie: null, mode: "temps", range: 0, chart: null, tables: [], table: 0 };
+const state = { series: [], serie: null, mode: "temps", range: 0, model: null, tables: [], table: 0 };
 
 // ------------------------------------------------------------------ outils
 
@@ -163,113 +163,187 @@ function selectSerie(id) {
   renderChart();
 }
 
-function yearColors(n) {
-  // Années passées en gris, année en cours en vert
-  return Array.from({ length: n }, (_, i) => (i === n - 1 ? css("--green") : css("--past")));
+// Numéro de la semaine qui contient le 1er de chaque mois (graduations de la vue par année)
+const SEMAINE_DEBUT_MOIS = [1, 5, 9, 14, 18, 22, 27, 31, 35, 40, 44, 48];
+
+function capitalize(t) {
+  return t.replace(/^./, (c) => c.toUpperCase());
 }
 
-function renderChart() {
-  const s = state.serie;
-  if (!s) return;
-  if (!window.Chart) {
-    $(".chart-box").innerHTML = '<p class="error">Le graphique n\'a pas pu être chargé.</p>';
-    return;
+// Graduations de l'axe du temps : un libellé tous les 2, 6 ou 12 mois selon la durée affichée,
+// l'année écrite au passage de janvier
+function timeTicks(x0, x1) {
+  const jours = (x1 - x0) / 864e5;
+  const pas = jours <= 400 ? 2 : jours <= 1600 ? 6 : 12;
+  const d = new Date(x0);
+  const cur = new Date(d.getFullYear(), d.getMonth() + 1, 1);
+  while (cur.getMonth() % pas) cur.setMonth(cur.getMonth() + 1);
+  const ticks = [];
+  for (; cur.getTime() <= x1; cur.setMonth(cur.getMonth() + pas)) {
+    const m = cur.getMonth();
+    ticks.push({ x: cur.getTime(), label: m === 0 ? String(cur.getFullYear()) : MOIS_COURTS[m] });
   }
+  return ticks;
+}
+
+// Données du graphique selon le mode : une série (chronologique) ou une série par année
+function buildModel(s) {
   const mensuel = s.periodicite === "mensuelle";
-  const ink = css("--ink-soft"), line = css("--line");
-  Chart.defaults.font.family = css("--sans") || "Inter, sans-serif";
-  Chart.defaults.color = ink;
-
-  let data, options;
-  const baseScales = {
-    y: {
-      grid: { color: line }, border: { display: false },
-      ticks: { callback: (v) => fmtNum(v, s.unite) + " €" },
-      title: { display: true, text: s.unite },
-    },
-  };
-  const tooltip = {
-    backgroundColor: css("--surface"), titleColor: css("--ink"), bodyColor: css("--ink"),
-    borderColor: line, borderWidth: 1, padding: 10,
-  };
-
-  document.querySelectorAll("#periodes button").forEach((b) => (b.disabled = state.mode === "annees"));
-
   if (state.mode === "temps") {
     let pts = s.points;
     if (state.range) {
       const lim = parseDate(pts[pts.length - 1].debut).getTime() - state.range * 7 * 864e5;
       pts = pts.filter((p) => parseDate(p.debut).getTime() > lim);
     }
-    data = {
-      labels: pts.map((p) => {
-        const d = parseDate(p.debut);
-        return mensuel ? `${MOIS_COURTS[d.getMonth()]} ${d.getFullYear()}` : fmtDate(d);
-      }),
-      datasets: [{
-        label: s.libelle, data: pts.map((p) => p.prix),
-        borderColor: css("--green"), backgroundColor: css("--green-soft"),
-        fill: true, tension: 0.25, pointRadius: pts.length > 60 ? 0 : 2.5, pointHoverRadius: 4, borderWidth: 2,
-      }],
-    };
-    options = {
-      scales: { ...baseScales, x: { grid: { display: false }, ticks: { maxTicksLimit: 8, maxRotation: 0 } } },
-      plugins: {
-        legend: { display: false },
-        tooltip: { ...tooltip, callbacks: {
-          title: (items) => periodeLabel(pts[items[0].dataIndex]),
-          label: (item) => {
-            const p = pts[item.dataIndex];
-            const v = p.variation == null ? "" : `  (${fmtNum(p.variation, s.unite, true)} €)`;
-            return ` ${fmtNum(p.prix, s.unite)} ${s.unite}${v}`;
-          },
-        } },
-      },
-    };
-  } else {
-    const years = [...new Set(s.points.map((p) => p.annee))].sort();
-    const n = mensuel ? 12 : 53;
-    const colors = yearColors(years.length);
-    data = {
-      labels: Array.from({ length: n }, (_, i) => (mensuel ? MOIS_COURTS[i] : `S${i + 1}`)),
-      datasets: years.map((y, k) => {
-        const row = Array(n).fill(null);
-        for (const p of s.points) if (p.annee === y) row[(mensuel ? p.mois : p.semaine) - 1] = p.prix;
-        const current = k === years.length - 1;
-        // L'année en cours ressort ; les années passées s'estompent avec l'ancienneté
-        const alpha = current ? 1 : 0.3 + 0.5 * (k / Math.max(years.length - 1, 1));
-        return {
-          label: String(y), data: row, spanGaps: true, tension: 0.25, pointRadius: 0, pointHoverRadius: 4,
-          borderColor: withAlpha(colors[k], alpha), backgroundColor: withAlpha(colors[k], alpha),
-          borderWidth: current ? 3 : 1.6, order: current ? 0 : 1,
-        };
-      }),
-    };
-    options = {
-      scales: { ...baseScales, x: { grid: { display: false }, ticks: { maxTicksLimit: 13, maxRotation: 0 } } },
-      plugins: {
-        legend: { position: "top", align: "end", labels: { boxWidth: 14, boxHeight: 3 } },
-        tooltip: { ...tooltip, mode: "index", intersect: false, callbacks: {
-          title: (items) => (mensuel ? MOIS_LONGS[items[0].dataIndex] : `Semaine ${items[0].dataIndex + 1}`),
-          label: (item) => item.raw == null ? null : ` ${item.dataset.label} : ${fmtNum(item.raw, s.unite)} ${s.unite}`,
-        } },
-      },
-    };
+    const points = pts.map((p) => ({ x: parseDate(p.debut).getTime(), prix: p.prix, p }));
+    const domain = d3.extent(points, (d) => d.x);
+    return { series: [{ label: s.libelle, current: true, area: true, points }], domain, ticks: timeTicks(...domain) };
   }
+  const years = [...new Set(s.points.map((p) => p.annee))].sort();
+  const series = years.map((y, k) => ({
+    label: String(y),
+    current: k === years.length - 1,
+    // L'année en cours ressort ; les années passées s'estompent avec l'ancienneté
+    opacity: k === years.length - 1 ? 1 : 0.35 + 0.45 * (k / Math.max(years.length - 1, 1)),
+    points: s.points.filter((p) => p.annee === y).map((p) => ({ x: mensuel ? p.mois : p.semaine, prix: p.prix, p })),
+  }));
+  const ticks = mensuel
+    ? MOIS_COURTS.map((m, i) => ({ x: i + 1, label: m }))
+    : SEMAINE_DEBUT_MOIS.map((w, i) => ({ x: w, label: MOIS_COURTS[i] }));
+  return { series, domain: mensuel ? [1, 12] : [1, 53], ticks };
+}
 
-  options = { ...options, responsive: true, maintainAspectRatio: false, animation: { duration: 250 },
-    interaction: { mode: state.mode === "annees" ? "index" : "nearest", intersect: false } };
-
-  if (state.chart) state.chart.destroy();
-  state.chart = new Chart($("#chart"), { type: "line", data, options });
+function renderChart() {
+  const s = state.serie;
+  if (!s) return;
+  const box = $("#chart");
+  if (!window.d3) {
+    box.innerHTML = `<p class="error">Le graphique n'a pas pu être chargé.</p>`;
+    return;
+  }
+  document.querySelectorAll("#periodes button").forEach((b) => (b.disabled = state.mode === "annees"));
+  state.model = buildModel(s);
+  renderLegend(state.model);
+  drawChart();
   renderStats();
 }
 
-function withAlpha(color, a) {
-  const m = color.match(/^#([0-9a-f]{6})$/i);
-  if (!m) return color;
-  const n = parseInt(m[1], 16);
-  return `rgba(${n >> 16}, ${(n >> 8) & 255}, ${n & 255}, ${a.toFixed(2)})`;
+function renderLegend(model) {
+  const box = $("#legende");
+  box.hidden = state.mode !== "annees";
+  box.innerHTML = "";
+  if (box.hidden) return;
+  for (const se of model.series) {
+    const sw = el("span", { class: "sw" + (se.current ? " current" : "") });
+    sw.style.opacity = se.opacity;
+    box.append(el("span", { class: "item" }, sw, se.label));
+  }
+}
+
+function drawChart() {
+  const s = state.serie, model = state.model, box = $("#chart");
+  const W = box.clientWidth, H = box.clientHeight;
+  if (!W || !H) return;
+  const M = { top: 10, right: 14, bottom: 30, left: W < 500 ? 56 : 68 };
+  const mensuel = s.periodicite === "mensuelle";
+
+  d3.select(box).select("svg").remove();
+  const all = model.series.flatMap((se) => se.points);
+  const [lo, hi] = d3.extent(all, (d) => d.prix);
+  const pad = (hi - lo) * 0.08 || hi * 0.05 || 1;
+  const x = d3.scaleLinear().domain(model.domain).range([M.left, W - M.right]);
+  const y = d3.scaleLinear().domain([lo - pad, hi + pad]).nice().range([H - M.bottom, M.top]);
+
+  const svg = d3.select(box).insert("svg", ":first-child")
+    .attr("class", "chart-svg").attr("width", W).attr("height", H);
+
+  // Axe Y avec la grille horizontale
+  svg.append("g").attr("class", "axis axis-y").attr("transform", `translate(${M.left},0)`)
+    .call(d3.axisLeft(y).ticks(H < 340 ? 4 : 6).tickSize(-(W - M.left - M.right)).tickPadding(8)
+      .tickFormat((v) => `${fmtNum(v, s.unite)} €`))
+    .call((g) => g.select(".domain").remove());
+
+  // Axe X : on espace les libellés s'ils sont trop serrés (mobile)
+  let ticks = model.ticks.filter((t) => t.x >= model.domain[0] && t.x <= model.domain[1]);
+  const tropSerre = () => ticks.length > 1 && (W - M.left - M.right) / ticks.length < 46;
+  // Les années (libellés numériques) sont gardées en priorité sur les mois
+  if (tropSerre() && ticks.filter((t) => /^\d{4}$/.test(t.label)).length > 1) ticks = ticks.filter((t) => /^\d{4}$/.test(t.label));
+  while (tropSerre()) ticks = ticks.filter((_, i) => i % 2 === 0);
+  svg.append("g").attr("class", "axis axis-x").attr("transform", `translate(0,${H - M.bottom})`)
+    .call(d3.axisBottom(x).tickValues(ticks.map((t) => t.x)).tickFormat((_, i) => ticks[i].label)
+      .tickSize(0).tickPadding(10));
+
+  // Courbes : années passées d'abord, année en cours par-dessus
+  const ordered = [...model.series].sort((a, b) => a.current - b.current);
+  const lineGen = d3.line().x((d) => x(d.x)).y((d) => y(d.prix)).curve(d3.curveMonotoneX);
+  const areaGen = d3.area().x((d) => x(d.x)).y0(H - M.bottom).y1((d) => y(d.prix)).curve(d3.curveMonotoneX);
+  for (const se of ordered) {
+    if (se.area) svg.append("path").attr("class", "area").attr("d", areaGen(se.points));
+    svg.append("path")
+      .attr("class", `line ${se.current ? "current" : "past"}${state.mode === "annees" ? " annees" : ""}`)
+      .attr("stroke-opacity", se.opacity ?? 1)
+      .attr("d", lineGen(se.points));
+  }
+
+  // Survol : ligne verticale, points et infobulle
+  const focus = svg.append("g").attr("class", "focus").style("display", "none");
+  const focusLine = focus.append("line").attr("class", "focus-line").attr("y1", M.top).attr("y2", H - M.bottom);
+  const dots = focus.selectAll("circle").data(ordered).join("circle")
+    .attr("r", 4).attr("class", (se) => `dot ${se.current ? "current" : "past"}`);
+  const tip = $("#infobulle");
+
+  function show(event) {
+    const [mx] = d3.pointer(event, svg.node());
+    const xv = x.invert(mx);
+    let xi, titre, rows;
+    if (state.mode === "temps") {
+      const pts = model.series[0].points;
+      const d = pts[d3.bisector((p) => p.x).center(pts, xv)];
+      xi = d.x;
+      titre = periodeLabel(d.p);
+      rows = [{ se: model.series[0], d }];
+    } else {
+      xi = Math.round(Math.min(model.domain[1], Math.max(model.domain[0], xv)));
+      titre = mensuel ? capitalize(MOIS_LONGS[xi - 1]) : `Semaine ${xi}`;
+      rows = model.series.map((se) => ({ se, d: se.points.find((p) => p.x === xi) })).filter((r) => r.d).reverse();
+    }
+    const px = x(xi);
+    focus.style("display", null);
+    focusLine.attr("x1", px).attr("x2", px);
+    dots.each(function (se) {
+      const r = rows.find((row) => row.se === se);
+      d3.select(this).style("display", r ? null : "none").attr("cx", px).attr("cy", r ? y(r.d.prix) : 0);
+    });
+
+    tip.innerHTML = "";
+    tip.append(el("b", {}, titre));
+    for (const { se, d } of rows) {
+      const v = state.mode === "temps" && d.p.variation != null
+        ? el("span", { class: `d ${sens(d.p.variation)}` },
+          ` ${d.p.variation === 0 ? "=" : fmtNum(d.p.variation, s.unite, true) + " €"}`)
+        : "";
+      const label = state.mode === "annees" ? el("span", { class: "annee" }, `${se.label} : `) : "";
+      tip.append(el("div", { class: se.current ? "row current" : "row" }, label, `${fmtNum(d.prix, s.unite)} ${s.unite}`, v));
+    }
+    tip.hidden = false;
+    const tw = tip.offsetWidth;
+    let left = px + 14;
+    if (left + tw > W - 4) left = Math.max(4, px - 14 - tw);
+    tip.style.left = `${left}px`;
+    tip.style.top = `${M.top}px`;
+  }
+
+  function hide(event) {
+    // Au doigt, l'infobulle reste affichée après avoir levé le doigt
+    if (event && event.pointerType && event.pointerType !== "mouse") return;
+    focus.style("display", "none");
+    tip.hidden = true;
+  }
+
+  svg.append("rect").attr("class", "overlay")
+    .attr("x", M.left).attr("y", M.top).attr("width", W - M.left - M.right).attr("height", H - M.top - M.bottom)
+    .on("pointermove", show).on("pointerdown", show).on("pointerleave", hide);
+  tip.hidden = true;
 }
 
 function renderStats() {
@@ -411,7 +485,13 @@ async function main() {
   }));
 
   selectSerie(new URLSearchParams(location.search).get("serie") || state.series[0].id);
-  matchMedia("(prefers-color-scheme: dark)").addEventListener("change", renderChart);
+
+  // Le SVG a une taille fixe en pixels : on le redessine quand son conteneur change de taille
+  let timer = 0;
+  new ResizeObserver(() => {
+    clearTimeout(timer);
+    timer = setTimeout(() => state.model && drawChart(), 60);
+  }).observe($("#chart"));
 }
 
 main();

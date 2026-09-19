@@ -1,0 +1,14 @@
+{
+  "name": "leprixdubetail",
+  "private": true,
+  "scripts": {
+    "build:d3": "bun build build/d3.js --target=browser --format=iife --minify --outfile=site/d3.min.js"
+  },
+  "devDependencies": {
+    "d3-array": "3.2.4",
+    "d3-axis": "3.0.0",
+    "d3-scale": "4.0.2",
+    "d3-selection": "3.0.0",
+    "d3-shape": "3.2.0"
+  }
+}

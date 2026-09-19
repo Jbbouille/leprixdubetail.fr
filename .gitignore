@@ -4,3 +4,4 @@ __pycache__/
 .idea/
 # Copie locale des données pour prévisualiser le site (générée au déploiement)
 site/data/
+node_modules/

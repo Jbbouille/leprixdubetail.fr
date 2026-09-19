@@ -29,6 +29,17 @@ Le site statique est dans `site/` (HTML, CSS et JavaScript, sans étape de build
 L'action [`site.yml`](.github/workflows/site.yml) le publie sur GitHub Pages à chaque modification
 du site et après chaque mise à jour des données, en copiant `data/processed/` dans `site/data/`.
 
+Le graphique de la page Évolution est dessiné en SVG avec quelques modules de
+[D3](https://d3js.org) (échelles, courbes, axes, sélection), regroupés dans `site/d3.min.js`
+(≈ 15 Ko compressés). Ce fichier est commité ; pour le reconstruire, par exemple après une mise à jour de D3 :
+
+```bash
+bun install
+bun run build:d3
+```
+
+La liste des fonctions D3 exposées est dans [`build/d3.js`](build/d3.js).
+
 Pour le prévisualiser en local :
 
 ```bash
