@@ -444,7 +444,9 @@ def series_of(name: str) -> str:
 
 
 def process(col: Collector) -> None:
-    for path in sorted(RAW_DIR.rglob("*.csv")):
+    # Tri sur le texte du chemin (sensible à la casse) : même ordre sous Windows et Linux,
+    # donc des fichiers de sortie identiques en local et dans GitHub Actions
+    for path in sorted(RAW_DIR.rglob("*.csv"), key=lambda p: p.relative_to(RAW_DIR).as_posix()):
         rows = read_rows(path)
         periode = parse_periode(rows)
         if periode is None:
@@ -630,6 +632,12 @@ def write_csv(path: Path, rows: list[dict]) -> None:
             w.writerow({k: fmt(v) for k, v in r.items()})
 
 
+def write_json(path: Path, data: dict) -> None:
+    # JSON compact (sans indentation ni espaces) : ces fichiers sont chargés par le site ;
+    # pour lire les données, les CSV sont plus pratiques
+    path.write_text(json.dumps(data, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+
+
 def fmt(v):
     if isinstance(v, float):
         return f"{v:.3f}".rstrip("0").rstrip(".") if v != int(v) else str(int(v))
@@ -663,16 +671,12 @@ def main() -> int:
         })
     for s in series.values():
         s["dernier"] = s["points"][-1] if s["points"] else None
-    (OUT_DIR / "indicateurs.json").write_text(
-        json.dumps({"source": "FranceAgriMer — RNM / Visionet", "indicateurs": list(series.values())},
-                   ensure_ascii=False, indent=1),
-        encoding="utf-8",
-    )
+    write_json(OUT_DIR / "indicateurs.json",
+               {"source": "FranceAgriMer — RNM / Visionet", "indicateurs": list(series.values())})
     print(f"indicateurs: {len(indicateurs)} points, {len(series)} séries")
 
     details = build_details(col)
-    (OUT_DIR / "details.json").write_text(
-        json.dumps({"tableaux": details}, ensure_ascii=False, indent=1), encoding="utf-8")
+    write_json(OUT_DIR / "details.json", {"tableaux": details})
     print(f"details: {len(details)} tableaux")
     return 0
 
