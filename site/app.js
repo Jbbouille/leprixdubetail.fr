@@ -42,7 +42,7 @@ const FICHIERS = [
 const MOIS_COURTS = ["janv.", "févr.", "mars", "avr.", "mai", "juin", "juil.", "août", "sept.", "oct.", "nov.", "déc."];
 const MOIS_LONGS = ["janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août", "septembre", "octobre", "novembre", "décembre"];
 
-const state = { series: [], serie: null, mode: "temps", range: 0, model: null, tables: [], table: 0 };
+const state = { series: [], serie: null, mode: "temps", range: "", model: null, tables: [], table: 0 };
 
 // ------------------------------------------------------------------ outils
 
@@ -156,11 +156,31 @@ function selectSerie(id) {
   $("#serie-titre").textContent = `${state.serie.libelle} · en ${state.serie.unite}` +
     (state.serie.periodicite === "mensuelle" ? " · cotation mensuelle" : "");
   document.title = `${meta.nom || state.serie.libelle} — évolution du prix — Le Prix du Bétail`;
-  // Garder la viande choisie dans l'adresse, pour pouvoir partager le lien
+  renderChart();
+}
+
+// Durée de chaque période, en semaines (clé = valeur du paramètre « periode » de l'adresse)
+const PERIODES = { "3a": 156, "1a": 52, "6m": 26, "3m": 13 };
+
+// Garder viande, période et vue dans l'adresse, pour pouvoir partager le lien tel quel
+function syncUrl() {
   const url = new URL(location.href);
   url.searchParams.set("serie", state.serie.id);
+  if (state.range) url.searchParams.set("periode", state.range);
+  else url.searchParams.delete("periode");
+  if (state.mode === "annees") url.searchParams.set("vue", "annees");
+  else url.searchParams.delete("vue");
   history.replaceState(null, "", url);
-  renderChart();
+}
+
+function setMode(mode) {
+  state.mode = mode === "annees" ? "annees" : "temps";
+  document.querySelectorAll("[data-mode]").forEach((b) => b.classList.toggle("on", b.dataset.mode === state.mode));
+}
+
+function setRange(range) {
+  state.range = range in PERIODES ? range : "";
+  document.querySelectorAll("[data-range]").forEach((b) => b.classList.toggle("on", b.dataset.range === state.range));
 }
 
 // Numéro de la semaine qui contient le 1er de chaque mois (graduations de la vue par année)
@@ -170,11 +190,11 @@ function capitalize(t) {
   return t.replace(/^./, (c) => c.toUpperCase());
 }
 
-// Graduations de l'axe du temps : un libellé tous les 2, 6 ou 12 mois selon la durée affichée,
+// Graduations de l'axe du temps : un libellé tous les 1, 2, 6 ou 12 mois selon la durée affichée,
 // l'année écrite au passage de janvier
 function timeTicks(x0, x1) {
   const jours = (x1 - x0) / 864e5;
-  const pas = jours <= 400 ? 2 : jours <= 1600 ? 6 : 12;
+  const pas = jours <= 200 ? 1 : jours <= 400 ? 2 : jours <= 1600 ? 6 : 12;
   const d = new Date(x0);
   const cur = new Date(d.getFullYear(), d.getMonth() + 1, 1);
   while (cur.getMonth() % pas) cur.setMonth(cur.getMonth() + 1);
@@ -186,15 +206,18 @@ function timeTicks(x0, x1) {
   return ticks;
 }
 
+// Cotations de la période choisie (« » = tout l'historique)
+function pointsPeriode(s, range) {
+  if (!range) return s.points;
+  const lim = parseDate(s.points[s.points.length - 1].debut).getTime() - PERIODES[range] * 7 * 864e5;
+  return s.points.filter((p) => parseDate(p.debut).getTime() > lim);
+}
+
 // Données du graphique selon le mode : une série (chronologique) ou une série par année
 function buildModel(s) {
   const mensuel = s.periodicite === "mensuelle";
   if (state.mode === "temps") {
-    let pts = s.points;
-    if (state.range) {
-      const lim = parseDate(pts[pts.length - 1].debut).getTime() - state.range * 7 * 864e5;
-      pts = pts.filter((p) => parseDate(p.debut).getTime() > lim);
-    }
+    const pts = pointsPeriode(s, state.range);
     const points = pts.map((p) => ({ x: parseDate(p.debut).getTime(), prix: p.prix, p }));
     const domain = d3.extent(points, (d) => d.x);
     return { series: [{ label: s.libelle, current: true, area: true, points }], domain, ticks: timeTicks(...domain) };
@@ -222,6 +245,7 @@ function renderChart() {
     return;
   }
   document.querySelectorAll("#periodes button").forEach((b) => (b.disabled = state.mode === "annees"));
+  syncUrl();
   state.model = buildModel(s);
   renderLegend(state.model);
   drawChart();
@@ -283,6 +307,11 @@ function drawChart() {
       .attr("class", `line ${se.current ? "current" : "past"}${state.mode === "annees" ? " annees" : ""}`)
       .attr("stroke-opacity", se.opacity ?? 1)
       .attr("d", lineGen(se.points));
+    // Sur une période courte, chaque cotation est marquée d'un point
+    if (state.mode === "temps" && se.points.length <= 60) {
+      svg.append("g").selectAll("circle").data(se.points).join("circle")
+        .attr("class", "pt").attr("r", 2.5).attr("cx", (d) => x(d.x)).attr("cy", (d) => y(d.prix));
+    }
   }
 
   // Survol : ligne verticale, points et infobulle
@@ -346,28 +375,34 @@ function drawChart() {
   tip.hidden = true;
 }
 
+// Libellé de la période choisie, pour les encarts sous le graphique
+const PERIODES_LIBELLES = { "3a": "sur 3 ans", "1a": "sur 12 mois", "6m": "sur 6 mois", "3m": "sur 3 mois" };
+
 function renderStats() {
-  const s = state.serie, pts = s.points, last = pts[pts.length - 1];
-  const lim = parseDate(last.debut).getTime() - 365 * 864e5;
-  const year = pts.filter((p) => parseDate(p.debut).getTime() > lim);
-  const min = year.reduce((a, b) => (b.prix < a.prix ? b : a));
-  const max = year.reduce((a, b) => (b.prix > a.prix ? b : a));
-  const avg = year.reduce((a, b) => a + b.prix, 0) / year.length;
-  const ago = pts.find((p) => p.annee === last.annee - 1 && (s.periodicite === "mensuelle" ? p.mois === last.mois : p.semaine === last.semaine));
-  const u = s.unite;
+  const s = state.serie, u = s.unite;
+  // Même sélection que le graphique ; la vue par année porte sur tout l'historique
+  const pts = pointsPeriode(s, state.mode === "temps" ? state.range : "");
+  const first = pts[0], last = pts[pts.length - 1];
+  const min = pts.reduce((a, b) => (b.prix < a.prix ? b : a));
+  const max = pts.reduce((a, b) => (b.prix > a.prix ? b : a));
+  const avg = pts.reduce((a, b) => a + b.prix, 0) / pts.length;
+  const range = state.mode === "temps" ? state.range : "";
+  const d0 = parseDate(first.debut);
+  const surPeriode = PERIODES_LIBELLES[range] || `depuis ${MOIS_COURTS[d0.getMonth()]} ${d0.getFullYear()}`;
+
   const stat = (b, span) => el("div", { class: "stat" }, el("b", {}, b), el("span", {}, span));
   const box = $("#stats");
   box.innerHTML = "";
   box.append(
     stat(`${fmtNum(last.prix, u)} €`, `Dernière cotation (${s.periodicite === "mensuelle" ? periodeLabel(last) : "sem. " + last.semaine})`),
-    stat(`${fmtNum(avg, u)} €`, "Moyenne sur 12 mois"),
-    stat(`${fmtNum(min.prix, u)} – ${fmtNum(max.prix, u)} €`, "Plus bas – plus haut sur 12 mois"),
+    stat(`${fmtNum(avg, u)} €`, `Moyenne ${surPeriode}`),
+    stat(`${fmtNum(min.prix, u)} – ${fmtNum(max.prix, u)} €`, `Plus bas – plus haut ${surPeriode}`),
   );
-  if (ago) {
-    const d = last.prix - ago.prix;
-    const pct = (d / ago.prix) * 100;
+  if (pts.length > 1) {
+    const d = last.prix - first.prix;
+    const pct = (d / first.prix) * 100;
     box.append(stat(`${fmtNum(d, u, true)} € (${pct >= 0 ? "+" : "−"}${Math.abs(pct).toLocaleString("fr-FR", { maximumFractionDigits: 1 })} %)`,
-      "Par rapport à l'an dernier, même période"));
+      `Évolution ${surPeriode}`));
   }
 }
 
@@ -474,17 +509,19 @@ async function main() {
   select.addEventListener("change", () => selectSerie(select.value));
 
   document.querySelectorAll("[data-mode]").forEach((b) => b.addEventListener("click", () => {
-    state.mode = b.dataset.mode;
-    document.querySelectorAll("[data-mode]").forEach((x) => x.classList.toggle("on", x === b));
+    setMode(b.dataset.mode);
     renderChart();
   }));
   document.querySelectorAll("[data-range]").forEach((b) => b.addEventListener("click", () => {
-    state.range = Number(b.dataset.range);
-    document.querySelectorAll("[data-range]").forEach((x) => x.classList.toggle("on", x === b));
+    setRange(b.dataset.range);
     renderChart();
   }));
 
-  selectSerie(new URLSearchParams(location.search).get("serie") || state.series[0].id);
+  // État initial repris de l'adresse (lien partagé)
+  const params = new URLSearchParams(location.search);
+  setMode(params.get("vue"));
+  setRange(params.get("periode") || "");
+  selectSerie(params.get("serie") || state.series[0].id);
 
   // Le SVG a une taille fixe en pixels : on le redessine quand son conteneur change de taille
   let timer = 0;

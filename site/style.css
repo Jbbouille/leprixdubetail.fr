@@ -152,6 +152,7 @@ h3 { font-size: 1.1rem; font-weight: 600; }
 .line.current { stroke: var(--green); }
 .line.past { stroke: var(--past); stroke-width: 1.6; }
 .line.current.annees { stroke-width: 3; }
+.pt { fill: var(--green); }
 .focus-line { stroke: var(--ink-soft); stroke-width: 1; stroke-dasharray: 3 3; }
 .dot { stroke: var(--surface); stroke-width: 2; }
 .dot.current { fill: var(--green); }
@@ -168,8 +169,9 @@ h3 { font-size: 1.1rem; font-weight: 600; }
 .tip .row { color: var(--ink-soft); font-variant-numeric: tabular-nums; }
 .tip .row.current { color: var(--ink); font-weight: 600; }
 .tip .d { margin-left: 6px; font-size: .8rem; }
-.tip .d.up { color: var(--up); }
-.tip .d.down { color: var(--down); }
+/* Dans l'infobulle : hausse en vert, baisse en rouge */
+.tip .d.up { color: var(--green); }
+.tip .d.down { color: var(--up); }
 .legend { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 6px 16px; margin: 0 0 8px; font-size: .85rem; color: var(--ink-soft); }
 .legend[hidden] { display: none; }
 .legend .item { display: inline-flex; align-items: center; gap: 6px; }
