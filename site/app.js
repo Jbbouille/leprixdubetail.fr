@@ -268,23 +268,32 @@ function drawChart() {
   const s = state.serie, model = state.model, box = $("#chart");
   const W = box.clientWidth, H = box.clientHeight;
   if (!W || !H) return;
-  const M = { top: 10, right: 14, bottom: 30, left: W < 500 ? 56 : 68 };
+  const petit = W < 500;
+  const M = { top: 10, right: petit ? 6 : 14, bottom: 30, left: 0 };
   const mensuel = s.periodicite === "mensuelle";
 
   d3.select(box).select("svg").remove();
   const all = model.series.flatMap((se) => se.points);
   const [lo, hi] = d3.extent(all, (d) => d.prix);
   const pad = (hi - lo) * 0.08 || hi * 0.05 || 1;
-  const x = d3.scaleLinear().domain(model.domain).range([M.left, W - M.right]);
   const y = d3.scaleLinear().domain([lo - pad, hi + pad]).nice().range([H - M.bottom, M.top]);
+  const nbTicksY = H < 340 ? 4 : 6;
+  // Sur mobile, pas de « € » sur l'axe : l'unité est déjà dans le titre du graphique
+  const fmtY = (v) => (petit ? fmtNum(v, s.unite) : `${fmtNum(v, s.unite)} €`);
 
   const svg = d3.select(box).insert("svg", ":first-child")
     .attr("class", "chart-svg").attr("width", W).attr("height", H);
 
+  // Marge gauche ajustée à la largeur réelle des libellés de l'axe Y
+  const probe = svg.append("g").attr("class", "axis");
+  const largeurs = y.ticks(nbTicksY).map((v) => probe.append("text").text(fmtY(v)).node().getComputedTextLength());
+  probe.remove();
+  M.left = Math.ceil(Math.max(0, ...largeurs)) + 12;
+  const x = d3.scaleLinear().domain(model.domain).range([M.left, W - M.right]);
+
   // Axe Y avec la grille horizontale
   svg.append("g").attr("class", "axis axis-y").attr("transform", `translate(${M.left},0)`)
-    .call(d3.axisLeft(y).ticks(H < 340 ? 4 : 6).tickSize(-(W - M.left - M.right)).tickPadding(8)
-      .tickFormat((v) => `${fmtNum(v, s.unite)} €`))
+    .call(d3.axisLeft(y).ticks(nbTicksY).tickSize(-(W - M.left - M.right)).tickPadding(8).tickFormat(fmtY))
     .call((g) => g.select(".domain").remove());
 
   // Axe X : on espace les libellés s'ils sont trop serrés (mobile)
@@ -329,11 +338,12 @@ function drawChart() {
       const pts = model.series[0].points;
       const d = pts[d3.bisector((p) => p.x).center(pts, xv)];
       xi = d.x;
-      titre = periodeLabel(d.p);
+      // « S44 » plutôt que « Semaine 44 » : l'infobulle reste étroite
+      titre = periodeLabel(d.p).replace(/^Semaine /, "S");
       rows = [{ se: model.series[0], d }];
     } else {
       xi = Math.round(Math.min(model.domain[1], Math.max(model.domain[0], xv)));
-      titre = mensuel ? capitalize(MOIS_LONGS[xi - 1]) : `Semaine ${xi}`;
+      titre = mensuel ? capitalize(MOIS_LONGS[xi - 1]) : `S${xi}`;
       rows = model.series.map((se) => ({ se, d: se.points.find((p) => p.x === xi) })).filter((r) => r.d).reverse();
     }
     const px = x(xi);
@@ -363,11 +373,13 @@ function drawChart() {
   }
 
   function hide(event) {
-    // Au doigt, l'infobulle reste affichée après avoir levé le doigt
+    // Au doigt, l'infobulle reste affichée après avoir levé le doigt ;
+    // elle se ferme en touchant ailleurs ou en faisant défiler la page (voir main)
     if (event && event.pointerType && event.pointerType !== "mouse") return;
     focus.style("display", "none");
     tip.hidden = true;
   }
+  state.hideTip = () => hide();
 
   svg.append("rect").attr("class", "overlay")
     .attr("x", M.left).attr("y", M.top).attr("width", W - M.left - M.right).attr("height", H - M.top - M.bottom)
@@ -394,7 +406,9 @@ function renderStats() {
   const box = $("#stats");
   box.innerHTML = "";
   box.append(
-    stat(`${fmtNum(last.prix, u)} €`, `Dernière cotation (${s.periodicite === "mensuelle" ? periodeLabel(last) : "sem. " + last.semaine})`),
+    stat(`${fmtNum(last.prix, u)} €`, `Dernière cotation (${s.periodicite === "mensuelle"
+      ? periodeLabel(last)
+      : `S${last.semaine} – ${fmtDate(parseDate(last.fin))}`})`),
     stat(`${fmtNum(avg, u)} €`, `Moyenne ${surPeriode}`),
     stat(`${fmtNum(min.prix, u)} – ${fmtNum(max.prix, u)} €`, `Plus bas – plus haut ${surPeriode}`),
   );
@@ -529,6 +543,12 @@ async function main() {
     clearTimeout(timer);
     timer = setTimeout(() => state.model && drawChart(), 60);
   }).observe($("#chart"));
+
+  // Fermer l'infobulle (utile au doigt, où il n'y a pas de « sortie » du graphique) :
+  // en touchant en dehors de la zone du graphique, ou quand la page défile
+  const overlay = () => $("#chart .overlay");
+  document.addEventListener("pointerdown", (e) => { if (e.target !== overlay()) state.hideTip?.(); });
+  window.addEventListener("scroll", () => state.hideTip?.(), { passive: true });
 }
 
 main();
