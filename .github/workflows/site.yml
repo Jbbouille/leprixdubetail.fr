@@ -42,7 +42,7 @@ jobs:
       - name: Versionner les fichiers (invalidation du cache navigateur)
         run: |
           version="${GITHUB_SHA::8}"
-          sed -i "s/__VERSION__/${version}/g" site/*.html site/app.js
+          sed -i "s/__VERSION__/${version}/g" site/*.html site/app.js site/sw.js
           ! grep -rl "__VERSION__" site/ || { echo "Marqueur __VERSION__ non remplacé"; exit 1; }
 
       - uses: actions/configure-pages@v5

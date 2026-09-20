@@ -29,6 +29,15 @@ Le site statique est dans `site/` (HTML, CSS et JavaScript, sans étape de build
 L'action [`site.yml`](.github/workflows/site.yml) le publie sur GitHub Pages à chaque modification
 du site et après chaque mise à jour des données, en copiant `data/processed/` dans `site/data/`.
 
+Le site est une application installable (PWA) : [`manifest.webmanifest`](site/manifest.webmanifest)
+décrit l'application, [`sw.js`](site/sw.js) met les pages en cache pour l'usage hors connexion
+(les données sont demandées au réseau d'abord, avec repli sur le cache). Les icônes et le favicon
+sont générés depuis un même dessin par [`build/icons.py`](build/icons.py) :
+
+```bash
+python build/icons.py
+```
+
 Le graphique de la page Évolution est dessiné en SVG avec quelques modules de
 [D3](https://d3js.org) (échelles, courbes, axes, sélection), regroupés dans `site/d3.min.js`
 (≈ 15 Ko compressés). Ce fichier est commité ; pour le reconstruire, par exemple après une mise à jour de D3 :

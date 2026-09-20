@@ -410,7 +410,7 @@ function renderStats() {
   box.append(
     stat(`${fmtNum(last.prix, u)} €`, `Dernière cotation (${s.periodicite === "mensuelle"
       ? periodeLabel(last)
-      : `S${last.semaine} – ${fmtDate(parseDate(last.fin))}`})`),
+      : libellePeriode(last)})`),
     stat(`${fmtNum(avg, u)} €`, `Moyenne ${surPeriode}`),
     stat(`${fmtNum(min.prix, u)} – ${fmtNum(max.prix, u)} €`, `Plus bas – plus haut ${surPeriode}`),
   );
@@ -438,8 +438,10 @@ function tuile(titre, valeur, variation, unite, detail, avecVariation = true) {
   return bloc;
 }
 
+// « S38 · du 14 au 20 sept. 2026 » : c'est la semaine cotée, pas la date de publication
+// (FranceAgriMer publie dès la fin des marchés, avant le dimanche)
 function libellePeriode(p) {
-  return p.mois ? periodeLabel(p) : `S${p.semaine} – ${fmtDate(parseDate(p.fin))}`;
+  return periodeLabel(p).replace(/^Semaine /, "S");
 }
 
 function renderResume() {
@@ -616,3 +618,8 @@ function observerTailleEtInfobulle() {
 }
 
 main();
+
+// Application installable : le service worker met le site en cache pour l'usage hors connexion
+if ("serviceWorker" in navigator) {
+  addEventListener("load", () => navigator.serviceWorker.register("sw.js").catch(() => {}));
+}
