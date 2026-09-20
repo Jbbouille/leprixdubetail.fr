@@ -130,8 +130,8 @@ function renderCards() {
     const ageJours = (now - parseDate(last.fin)) / 864e5;
     const stale = ageJours > (s.periodicite === "mensuelle" ? 75 : 40);
     const card = el("a", {
-      class: "card" + (stale ? " stale" : ""), href: `evolution.html?serie=${s.id}`,
-      "aria-label": `${meta.nom} : voir l'évolution du prix`,
+      class: "card" + (stale ? " stale" : ""), href: `essentiel.html?serie=${s.id}`,
+      "aria-label": `${meta.nom} : voir le détail du prix`,
     },
       el("div", { class: "card-top" },
         el("span", { class: "tag" }, s.espece),
@@ -151,8 +151,8 @@ function renderCards() {
 
 function selectSerie(id) {
   state.serie = state.series.find((s) => s.id === id) || state.series[0];
-  $("#indicateur").value = state.serie.id;
   const meta = META[state.serie.id] || {};
+  if ($("#indicateur")) $("#indicateur").value = state.serie.id;
   $("#serie-titre").textContent = `${state.serie.libelle} · en ${state.serie.unite}` +
     (state.serie.periodicite === "mensuelle" ? " · cotation mensuelle" : "");
   document.title = `${meta.nom || state.serie.libelle} — évolution du prix — Le Prix du Bétail`;
@@ -254,6 +254,7 @@ function renderChart() {
 
 function renderLegend(model) {
   const box = $("#legende");
+  if (!box) return; // page « L'essentiel » : pas de comparaison des années
   box.hidden = state.mode !== "annees";
   box.innerHTML = "";
   if (box.hidden) return;
@@ -391,6 +392,7 @@ function drawChart() {
 const PERIODES_LIBELLES = { "3a": "sur 3 ans", "1a": "sur 12 mois", "6m": "sur 6 mois", "3m": "sur 3 mois" };
 
 function renderStats() {
+  if (!$("#stats")) return renderResume(); // page « L'essentiel » : un résumé à la place des encarts
   const s = state.serie, u = s.unite;
   // Même sélection que le graphique ; la vue par année porte sur tout l'historique
   const pts = pointsPeriode(s, state.mode === "temps" ? state.range : "");
@@ -418,6 +420,54 @@ function renderStats() {
     box.append(stat(`${fmtNum(d, u, true)} € (${pct >= 0 ? "+" : "−"}${Math.abs(pct).toLocaleString("fr-FR", { maximumFractionDigits: 1 })} %)`,
       `Évolution ${surPeriode}`));
   }
+}
+
+// ------------------------------------------------------------------ page « L'essentiel »
+
+// Un prix, avec sa variation ; la couleur suit le sens : vert en hausse, rouge en baisse
+function tuile(titre, valeur, variation, unite, detail, avecVariation = true) {
+  const bloc = el("div", { class: "tuile" }, el("span", { class: "tuile-titre" }, titre));
+  const sens = variation == null || variation === 0 ? "stable" : variation > 0 ? "hausse" : "baisse";
+  bloc.append(el("b", { class: `tuile-valeur ${sens}` }, valeur));
+  if (variation != null && avecVariation) {
+    const fleche = variation > 0 ? "▲ " : variation < 0 ? "▼ " : "";
+    bloc.append(el("span", { class: `tuile-var ${sens}` },
+      variation === 0 ? "= stable" : `${fleche}${fmtNum(variation, unite, true)} €`));
+  }
+  if (detail) bloc.append(el("span", { class: "tuile-detail" }, detail));
+  return bloc;
+}
+
+function libellePeriode(p) {
+  return p.mois ? periodeLabel(p) : `S${p.semaine} – ${fmtDate(parseDate(p.fin))}`;
+}
+
+function renderResume() {
+  const s = state.serie, u = s.unite;
+  const meta = META[s.id] || {};
+  $("#essentiel-titre").textContent = meta.nom || s.libelle;
+  $("#essentiel-sous").textContent = `${s.libelle}, en ${u}. ` +
+    (s.periodicite === "mensuelle" ? "Cotation mensuelle" : "Cotation hebdomadaire") + " — source FranceAgriMer.";
+  document.title = `${meta.nom || s.libelle} — Le Prix du Bétail`;
+  $("#lien-evolution").href = `evolution.html?serie=${s.id}`;
+
+  const [avant, dernier] = s.points.slice(-2);
+  const six = pointsPeriode(s, "6m");
+  const moyenne = six.reduce((a, b) => a + b.prix, 0) / six.length;
+  const evolution = six[six.length - 1].prix - six[0].prix;
+  const pct = (evolution / six[0].prix) * 100;
+
+  const box = $("#resume");
+  box.innerHTML = "";
+  box.append(
+    tuile("Dernière cotation", `${fmtNum(dernier.prix, u)} €`, dernier.variation, u, libellePeriode(dernier)),
+    tuile("Cotation précédente", `${fmtNum(avant.prix, u)} €`, avant.variation, u, libellePeriode(avant)),
+    tuile("Moyenne sur 6 mois", `${fmtNum(moyenne, u)} €`, null, u, `${six.length} cotations`),
+    tuile("Évolution sur 6 mois",
+      `${evolution > 0 ? "▲ " : evolution < 0 ? "▼ " : ""}${fmtNum(evolution, u, true)} €`, evolution, u,
+      `${pct >= 0 ? "+" : "−"}${Math.abs(pct).toLocaleString("fr-FR", { maximumFractionDigits: 1 })} % depuis ${fmtDate(parseDate(six[0].debut))}`,
+      false),
+  );
 }
 
 // ------------------------------------------------------------------ tableaux
@@ -517,6 +567,17 @@ async function main() {
     return;
   }
 
+  const params = new URLSearchParams(location.search);
+
+  // Page « L'essentiel » : tout vient de l'adresse, aucun réglage à l'écran
+  if ($("#essentiel")) {
+    setMode("temps");
+    setRange(params.get("periode") || "6m");
+    selectSerie(params.get("serie") || state.series[0].id);
+    observerTailleEtInfobulle();
+    return;
+  }
+
   // Page « Évolution des prix »
   const select = $("#indicateur");
   for (const s of state.series) select.append(el("option", { value: s.id }, (META[s.id] || {}).nom || s.libelle));
@@ -532,11 +593,14 @@ async function main() {
   }));
 
   // État initial repris de l'adresse (lien partagé)
-  const params = new URLSearchParams(location.search);
   setMode(params.get("vue"));
   setRange(params.get("periode") || "");
   selectSerie(params.get("serie") || state.series[0].id);
 
+  observerTailleEtInfobulle();
+}
+
+function observerTailleEtInfobulle() {
   // Le SVG a une taille fixe en pixels : on le redessine quand son conteneur change de taille
   let timer = 0;
   new ResizeObserver(() => {

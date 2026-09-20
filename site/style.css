@@ -239,6 +239,20 @@ main { flex: 1 0 auto; width: 100%; }
 .page-evolution .chart-box { height: clamp(260px, min(50vw, 100vh - 260px), 560px); }
 @media (max-width: 700px) { .page-evolution .chart-box { height: clamp(240px, 75vw, 100vh - 200px); } }
 .page-evolution .stats { margin-top: 14px; }
+/* Page « L'essentiel » : les chiffres clés avant le graphique -------------------------------- */
+.page-essentiel .chart-box { height: clamp(220px, min(38vw, 100vh - 380px), 420px); }
+.resume { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 12px; margin-bottom: 18px; }
+.tuile { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); padding: 16px 18px; display: flex; flex-direction: column; gap: 2px; }
+.tuile-titre { font-size: .82rem; color: var(--ink-soft); }
+.tuile-valeur { font-family: var(--serif); font-size: 2rem; line-height: 1.1; font-variant-numeric: tabular-nums; }
+.tuile-valeur.hausse { color: var(--green); }
+.tuile-valeur.baisse { color: var(--up); }
+.tuile-var { font-size: .9rem; font-weight: 600; }
+.tuile-var.hausse { color: var(--green); }
+.tuile-var.baisse { color: var(--up); }
+.tuile-var.stable { color: var(--ink-soft); }
+.tuile-detail { font-size: .8rem; color: var(--ink-soft); }
+
 @media (max-width: 560px) {
   /* Sur mobile, le graphique récupère un maximum de largeur */
   .chart-panel { padding: 12px 8px 6px; }

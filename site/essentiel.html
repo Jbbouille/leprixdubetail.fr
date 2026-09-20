@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>L'essentiel — Le Prix du Bétail</title>
+  <meta name="description" content="Le prix d'une viande en un coup d'œil : les deux dernières cotations, la moyenne et l'évolution sur 6 mois.">
+  <meta property="og:title" content="L'essentiel — Le Prix du Bétail">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://leprixdubetail.fr/essentiel.html">
+  <link rel="icon" href="favicon.svg?v=__VERSION__" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css?v=__VERSION__">
+  <script src="d3.min.js?v=__VERSION__" defer></script>
+  <script src="app.js?v=__VERSION__" defer></script>
+  <script src="email.js?v=__VERSION__" defer></script>
+</head>
+<body class="page-essentiel">
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="./">
+        <img src="favicon.svg" alt="" width="40" height="40">
+        <span>
+          <span class="brand-name">Le Prix du Bétail</span>
+          <span class="brand-tag">Les cours de la viande, semaine après semaine</span>
+        </span>
+      </a>
+      <nav class="nav">
+        <a href="./">Tableau de bord</a>
+        <a href="evolution.html">Évolution</a>
+        <a href="comprendre.html">Comprendre</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap section essentiel" id="essentiel">
+    <div class="section-head">
+      <h1 id="essentiel-titre">Chargement…</h1>
+      <p class="lead" id="essentiel-sous"></p>
+    </div>
+    <div id="resume" class="resume"></div>
+    <div class="panel chart-panel">
+      <p id="serie-titre" class="chart-title"></p>
+      <div id="chart" class="chart-box" role="img" aria-label="Graphique de l'évolution du prix">
+        <div id="infobulle" class="tip" hidden></div>
+      </div>
+    </div>
+    <p class="lead"><a id="lien-evolution" href="evolution.html">Voir l'historique complet et comparer les années →</a></p>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p><strong>Source :</strong> <a href="https://visionet.franceagrimer.fr" rel="noopener">FranceAgriMer — Réseau des Nouvelles des Marchés (RNM)</a>. Les données sont reprises telles que publiées ; seules leur mise en forme et leur présentation sont propres à ce site.</p>
+      <p class="muted">Une question, une remarque, une erreur repérée ? Écrivez-nous : <a class="email" rel="nofollow noindex" href="tontact-leprixdubetail/">votre ckontkact example fr</a></p>
+      <p class="muted">Le Prix du Bétail est un site indépendant, sans lien avec FranceAgriMer. Code source et données : <a href="https://github.com/Jbbouille/leprixdubetail.fr" rel="noopener">github.com/Jbbouille/leprixdubetail.fr</a>.</p>
+    </div>
+  </footer>
+</body>
+</html>
