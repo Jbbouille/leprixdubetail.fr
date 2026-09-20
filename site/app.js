@@ -448,8 +448,8 @@ function renderResume() {
   const s = state.serie, u = s.unite;
   const meta = META[s.id] || {};
   $("#essentiel-titre").textContent = meta.nom || s.libelle;
-  $("#essentiel-sous").textContent = `${s.libelle}, en ${u}. ` +
-    (s.periodicite === "mensuelle" ? "Cotation mensuelle" : "Cotation hebdomadaire") + " — source FranceAgriMer.";
+  // L'unité est rappelée sous le graphique, la source figure en pied de page
+  $("#essentiel-sous").textContent = s.periodicite === "mensuelle" ? "Cotation mensuelle" : "Cotation hebdomadaire";
   document.title = `${meta.nom || s.libelle} — Le Prix du Bétail`;
   $("#lien-evolution").href = `evolution.html?serie=${s.id}`;
 
