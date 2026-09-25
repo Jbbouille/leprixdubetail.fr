@@ -47,6 +47,11 @@
         <div class="seg" role="group" aria-label="Affichage">
           <button type="button" data-mode="temps" class="on">Chronologique</button>
           <button type="button" data-mode="annees">Comparer les années</button>
+          <button type="button" data-mode="races" id="bouton-races" hidden>Par race</button>
+        </div>
+        <div class="controls-races" id="controls-races" hidden>
+          <label class="select"><span class="sr-only">Sexe</span><select id="sexe"></select></label>
+          <label class="select"><span class="sr-only">Catégorie</span><select id="categorie"></select></label>
         </div>
         <div class="seg" role="group" aria-label="Période" id="periodes">
           <button type="button" data-range="" class="on">Tout</button>

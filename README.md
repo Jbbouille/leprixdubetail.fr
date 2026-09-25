@@ -65,6 +65,7 @@ Tous les fichiers sont en UTF-8, séparateur virgule, au format long : une ligne
 |---|---|
 | `indicateurs.csv` / `indicateurs.json` | Un prix de référence par espèce et par période (pour le site) |
 | `details.json` | Tableaux croisés de la dernière semaine, prêts à afficher (pour le site) |
+| `veaux_races.json` | Historique des petits veaux par race, sexe et catégorie (vue « Par race ») |
 | `veaux_boucherie.csv` | Veaux de boucherie par mode d'élevage, région, couleur, conformation |
 | `veaux_boucherie_pmp.csv` | Prix moyens pondérés des veaux de boucherie |
 | `veaux_14j.csv` | Veaux de 14 jours à 4 semaines : moyennes nationales et prix moyen pondéré |

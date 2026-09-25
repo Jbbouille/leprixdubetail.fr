@@ -44,7 +44,8 @@ const FICHIERS = [
 const MOIS_COURTS = ["janv.", "févr.", "mars", "avr.", "mai", "juin", "juil.", "août", "sept.", "oct.", "nov.", "déc."];
 const MOIS_LONGS = ["janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août", "septembre", "octobre", "novembre", "décembre"];
 
-const state = { series: [], serie: null, mode: "temps", range: "", model: null, tables: [], table: 0 };
+const state = { series: [], serie: null, mode: "temps", range: "", model: null, races: null,
+  sexe: "Mâle", categorie: "U", tables: [], table: 0 };
 
 // ------------------------------------------------------------------ outils
 
@@ -155,6 +156,11 @@ function selectSerie(id) {
   state.serie = state.series.find((s) => s.id === id) || state.series[0];
   const meta = META[state.serie.id] || {};
   if ($("#indicateur")) $("#indicateur").value = state.serie.id;
+  const boutonRaces = $("#bouton-races");
+  if (boutonRaces) {
+    boutonRaces.hidden = state.serie.id !== SERIE_RACES;
+    if (boutonRaces.hidden && state.mode === "races") setMode("temps");
+  }
   $("#serie-titre").textContent = `${state.serie.libelle} · en ${state.serie.unite}` +
     (state.serie.periodicite === "mensuelle" ? " · cotation mensuelle" : "");
   document.title = `${meta.nom || state.serie.libelle} — évolution du prix — Le Prix du Bétail`;
@@ -170,14 +176,48 @@ function syncUrl() {
   url.searchParams.set("serie", state.serie.id);
   if (state.range) url.searchParams.set("periode", state.range);
   else url.searchParams.delete("periode");
-  if (state.mode === "annees") url.searchParams.set("vue", "annees");
+  if (state.mode !== "temps") url.searchParams.set("vue", state.mode);
   else url.searchParams.delete("vue");
+  if (state.mode === "races") {
+    url.searchParams.set("sexe", state.sexe);
+    url.searchParams.set("categorie", state.categorie);
+  } else {
+    url.searchParams.delete("sexe");
+    url.searchParams.delete("categorie");
+  }
   history.replaceState(null, "", url);
 }
 
 function setMode(mode) {
-  state.mode = mode === "annees" ? "annees" : "temps";
+  state.mode = ["annees", "races"].includes(mode) ? mode : "temps";
   document.querySelectorAll("[data-mode]").forEach((b) => b.classList.toggle("on", b.dataset.mode === state.mode));
+  if ($("#controls-races")) $("#controls-races").hidden = state.mode !== "races";
+}
+
+// La vue « Par race » n'existe que pour les petits veaux
+const SERIE_RACES = "veau_14j";
+
+async function chargerRaces() {
+  if (!state.races) state.races = await (await fetch("data/veaux_races.json?v=__VERSION__")).json();
+  return state.races;
+}
+
+// Remplit les deux menus (sexe, catégorie) d'après les séries disponibles
+function renderChoixRaces() {
+  const d = state.races;
+  const sexes = [...new Set(d.series.map((se) => se.sexe))];
+  if (!sexes.includes(state.sexe)) state.sexe = sexes[0];
+  const cats = [...new Set(d.series.filter((se) => se.sexe === state.sexe).map((se) => se.categorie))];
+  if (!cats.includes(state.categorie)) state.categorie = cats[0];
+
+  const remplir = (sel, valeurs, actif, etiquette) => {
+    sel.innerHTML = "";
+    for (const v of valeurs) sel.append(el("option", { value: v }, etiquette(v)));
+    sel.value = actif;
+  };
+  remplir($("#sexe"), sexes, state.sexe, (v) => v + "s");
+  remplir($("#categorie"), cats, state.categorie,
+    (v) => (libelleConformation(v) ? `Conformation ${v}` : v));
 }
 
 function setRange(range) {
@@ -215,9 +255,33 @@ function pointsPeriode(s, range) {
   return s.points.filter((p) => parseDate(p.debut).getTime() > lim);
 }
 
-// Données du graphique selon le mode : une série (chronologique) ou une série par année
+// Vue « Par race » : une courbe par race, pour un sexe et une catégorie donnés
+function buildModelRaces() {
+  const d = state.races;
+  const choisies = d.series.filter((se) => se.sexe === state.sexe && se.categorie === state.categorie);
+  const dernier = d.semaines[d.semaines.length - 1];
+  const lim = state.range
+    ? parseDate(dernier.debut).getTime() - PERIODES[state.range] * 7 * 864e5
+    : -Infinity;
+
+  const series = choisies.map((se, k) => ({
+    label: se.race,
+    couleur: k % 6,
+    points: d.semaines.flatMap((sem, i) => {
+      const prix = se.prix[i];
+      if (prix == null || parseDate(sem.debut).getTime() <= lim) return [];
+      return [{ x: parseDate(sem.debut).getTime(), prix, p: { ...sem, variation: se.variations[i] } }];
+    }),
+  })).filter((se) => se.points.length);
+
+  const domain = d3.extent(series.flatMap((se) => se.points), (p) => p.x);
+  return { series, domain, ticks: timeTicks(...domain), parRace: true };
+}
+
+// Données du graphique selon le mode : une série (chronologique), une par année, ou une par race
 function buildModel(s) {
   const mensuel = s.periodicite === "mensuelle";
+  if (state.mode === "races") return buildModelRaces();
   if (state.mode === "temps") {
     const pts = pointsPeriode(s, state.range);
     const points = pts.map((p) => ({ x: parseDate(p.debut).getTime(), prix: p.prix, p }));
@@ -247,6 +311,12 @@ function renderChart() {
     return;
   }
   document.querySelectorAll("#periodes button").forEach((b) => (b.disabled = state.mode === "annees"));
+  if (state.mode === "races") {
+    renderChoixRaces();
+    const cat = libelleConformation(state.categorie) ? `conformation ${state.categorie}` : state.categorie;
+    $("#serie-titre").textContent =
+      `Veaux de 14 jours à 4 semaines par race — ${state.sexe.toLowerCase()}s, ${cat} · en €/tête`;
+  }
   syncUrl();
   state.model = buildModel(s);
   renderLegend(state.model);
@@ -257,12 +327,12 @@ function renderChart() {
 function renderLegend(model) {
   const box = $("#legende");
   if (!box) return; // page « L'essentiel » : pas de comparaison des années
-  box.hidden = state.mode !== "annees";
+  box.hidden = state.mode === "temps";
   box.innerHTML = "";
   if (box.hidden) return;
   for (const se of model.series) {
-    const sw = el("span", { class: "sw" + (se.current ? " current" : "") });
-    sw.style.opacity = se.opacity;
+    const sw = el("span", { class: se.couleur != null ? `sw serie s${se.couleur}` : "sw" + (se.current ? " current" : "") });
+    if (se.opacity != null) sw.style.opacity = se.opacity;
     box.append(el("span", { class: "item" }, sw, se.label));
   }
 }
@@ -316,7 +386,9 @@ function drawChart() {
   for (const se of ordered) {
     if (se.area) svg.append("path").attr("class", "area").attr("d", areaGen(se.points));
     svg.append("path")
-      .attr("class", `line ${se.current ? "current" : "past"}${state.mode === "annees" ? " annees" : ""}`)
+      .attr("class", se.couleur != null
+        ? `line serie s${se.couleur}`
+        : `line ${se.current ? "current" : "past"}${state.mode === "annees" ? " annees" : ""}`)
       .attr("stroke-opacity", se.opacity ?? 1)
       .attr("d", lineGen(se.points));
     // Sur une période courte, chaque cotation est marquée d'un point
@@ -330,14 +402,21 @@ function drawChart() {
   const focus = svg.append("g").attr("class", "focus").style("display", "none");
   const focusLine = focus.append("line").attr("class", "focus-line").attr("y1", M.top).attr("y2", H - M.bottom);
   const dots = focus.selectAll("circle").data(ordered).join("circle")
-    .attr("r", 4).attr("class", (se) => `dot ${se.current ? "current" : "past"}`);
+    .attr("r", 4).attr("class", (se) => (se.couleur != null ? `dot serie s${se.couleur}` : `dot ${se.current ? "current" : "past"}`));
   const tip = $("#infobulle");
 
   function show(event) {
     const [mx] = d3.pointer(event, svg.node());
     const xv = x.invert(mx);
     let xi, titre, rows;
-    if (state.mode === "temps") {
+    if (model.parRace) {
+      // on se cale sur la semaine la plus proche, puis on liste les races cotées cette semaine-là
+      const ref = model.series[0].points;
+      const proche = ref[d3.bisector((p) => p.x).center(ref, xv)];
+      xi = proche.x;
+      titre = periodeLabel(proche.p).replace(/^Semaine /, "S");
+      rows = model.series.map((se) => ({ se, d: se.points.find((p) => p.x === xi) })).filter((r) => r.d);
+    } else if (state.mode === "temps") {
       const pts = model.series[0].points;
       const d = pts[d3.bisector((p) => p.x).center(pts, xv)];
       xi = d.x;
@@ -364,7 +443,7 @@ function drawChart() {
         ? el("span", { class: `d ${sens(d.p.variation)}` },
           ` ${d.p.variation === 0 ? "=" : fmtNum(d.p.variation, s.unite, true) + " €"}`)
         : "";
-      const label = state.mode === "annees" ? el("span", { class: "annee" }, `${se.label} : `) : "";
+      const label = state.mode === "temps" ? "" : el("span", { class: "annee" }, `${se.label} : `);
       tip.append(el("div", { class: se.current ? "row current" : "row" }, label, `${fmtNum(d.prix, s.unite)} ${s.unite}`, v));
     }
     tip.hidden = false;
@@ -609,16 +688,22 @@ async function main() {
   for (const s of state.series) select.append(el("option", { value: s.id }, (META[s.id] || {}).nom || s.libelle));
   select.addEventListener("change", () => selectSerie(select.value));
 
-  document.querySelectorAll("[data-mode]").forEach((b) => b.addEventListener("click", () => {
+  document.querySelectorAll("[data-mode]").forEach((b) => b.addEventListener("click", async () => {
+    if (b.dataset.mode === "races") await chargerRaces();
     setMode(b.dataset.mode);
     renderChart();
   }));
+  $("#sexe").addEventListener("change", () => { state.sexe = $("#sexe").value; renderChart(); });
+  $("#categorie").addEventListener("change", () => { state.categorie = $("#categorie").value; renderChart(); });
   document.querySelectorAll("[data-range]").forEach((b) => b.addEventListener("click", () => {
     setRange(b.dataset.range);
     renderChart();
   }));
 
   // État initial repris de l'adresse (lien partagé)
+  state.sexe = params.get("sexe") || "Mâle";
+  state.categorie = params.get("categorie") || "U";
+  if (params.get("vue") === "races") await chargerRaces();
   setMode(params.get("vue"));
   setRange(params.get("periode") || "");
   selectSerie(params.get("serie") || state.series[0].id);
@@ -643,7 +728,9 @@ function observerTailleEtInfobulle() {
 
 main();
 
-// Application installable : le service worker met le site en cache pour l'usage hors connexion
-if ("serviceWorker" in navigator) {
+// Application installable : le service worker met le site en cache pour l'usage hors connexion.
+// Pas en local : il y resservirait sans cesse l'ancienne version pendant le développement.
+const local = ["localhost", "127.0.0.1"].includes(location.hostname);
+if ("serviceWorker" in navigator && !local) {
   addEventListener("load", () => navigator.serviceWorker.register("sw.js").catch(() => {}));
 }

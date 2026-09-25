@@ -152,6 +152,25 @@ h3 { font-size: 1.1rem; font-weight: 600; }
 .line.current { stroke: var(--green); }
 .line.past { stroke: var(--past); stroke-width: 1.6; }
 .line.current.annees { stroke-width: 3; }
+/* Palette des races (vue « Par race ») */
+.s0 { --serie: var(--green); }
+.s1 { --serie: #1c6fb8; }
+.s2 { --serie: #b1512e; }
+.s3 { --serie: #7b4fa8; }
+.s4 { --serie: #0f7f8c; }
+.s5 { --serie: #8a6d1f; }
+@media (prefers-color-scheme: dark) {
+  .s1 { --serie: #74b9f5; }
+  .s2 { --serie: #e0906f; }
+  .s3 { --serie: #c0a2e8; }
+  .s4 { --serie: #6fc9d4; }
+  .s5 { --serie: #d8bc63; }
+}
+.line.serie { stroke: var(--serie); stroke-width: 2.2; }
+.dot.serie { fill: var(--serie); }
+.legend .sw.serie { background: var(--serie); height: 4px; }
+.controls-races { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 16px; }
+.controls-races[hidden] { display: none; }
 .pt { fill: var(--green); }
 .focus-line { stroke: var(--ink-soft); stroke-width: 1; stroke-dasharray: 3 3; }
 .dot { stroke: var(--surface); stroke-width: 2; }
@@ -257,4 +276,8 @@ main { flex: 1 0 auto; width: 100%; }
   /* Sur mobile, le graphique récupère un maximum de largeur */
   .chart-panel { padding: 12px 8px 6px; }
   .chart-title { padding: 0 4px; }
+  /* Les libellés de ligne (« Croisés mixtes · Mâle ») passent à la ligne au lieu
+     de manger toute la largeur du tableau */
+  tbody th { white-space: normal; max-width: 108px; font-size: .85rem; line-height: 1.25; }
+  th, td { padding: 8px 7px; }
 }

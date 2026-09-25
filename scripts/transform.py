@@ -589,6 +589,40 @@ RACES_VIANDE = ["Limousins", "Charolais", "Croise Viande", "Croise Mixte", "Croi
 RACES_LAIT = ["Montbeliards", "Normands", "Laitier"]
 
 
+def build_races(col: Collector) -> dict:
+    """Historique des moyennes nationales des petits veaux, par race, sexe et catégorie.
+
+    Les prix sont rangés dans des listes alignées sur la liste des semaines
+    (valeur vide = pas de cotation cette semaine-là), ce qui garde le fichier compact.
+    """
+    rows = [r for r in col.rows("veaux_14j_marches") if r["marche"] == "MOYENNE NATIONALE"]
+    semaines = sorted({(r["annee"], r["semaine"], r["date_debut"], r["date_fin"]) for r in rows},
+                      key=lambda s: s[2])
+    index = {(s[0], s[1]): i for i, s in enumerate(semaines)}
+
+    series: dict[tuple, dict] = {}
+    for r in rows:
+        cle = (r["type_racial"], r["sexe"], r["conformation"] or r["poids"])
+        s = series.setdefault(cle, {
+            "race": RACES_VEAUX.get(r["type_racial"], r["type_racial"]),
+            "sexe": r["sexe"],
+            "categorie": (r["conformation"] or r["poids"].replace(" a ", " à ")),
+            "type": "conformation" if r["conformation"] else "poids",
+            "prix": [None] * len(semaines),
+            "variations": [None] * len(semaines),
+        })
+        i = index[(r["annee"], r["semaine"])]
+        s["prix"][i] = r["prix"]
+        s["variations"][i] = r["variation"] if r["variation"] != "" else None
+
+    ordre = {r: i for i, r in enumerate(RACES_VIANDE + RACES_LAIT)}
+    return {
+        "unite": "€/tête",
+        "semaines": [{"annee": a, "semaine": sem, "debut": d, "fin": f} for a, sem, d, f in semaines],
+        "series": [series[c] for c in sorted(series, key=lambda c: (ordre.get(c[0], 99), c[1] != "Mâle", c[2]))],
+    }
+
+
 def build_details(col: Collector) -> list[dict]:
     veaux_pmp_labels = {"ENTREE ABATTOIR": "Ensemble des veaux de boucherie",
                         "NON ELEVES AU PIS": "Veaux non élevés au pis",
@@ -704,6 +738,10 @@ def main() -> int:
 
     details = build_details(col)
     write_json(OUT_DIR / "details.json", {"tableaux": details})
+
+    races = build_races(col)
+    write_json(OUT_DIR / "veaux_races.json", races)
+    print(f"veaux_races: {len(races['series'])} séries, {len(races['semaines'])} semaines")
     print(f"details: {len(details)} tableaux")
     return 0
 
