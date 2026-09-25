@@ -578,12 +578,23 @@ CLASSES_GB = [f"{c}{s}" for c in "EUROP" for s in "+=-"] + EUROP
 CATEGORIES_GB = ["Jeunes bovins 8 à 24 mois", "Jeunes bovins 12 à 24 mois", "Taureaux",
                  "Boeufs", "Génisses", "Vaches"]
 
+# Types raciaux des petits veaux, tels qu'écrits par FranceAgriMer -> libellés du site
+RACES_VEAUX = {
+    "Limousins": "Limousins, blonds", "Charolais": "Charolais, blanc bleu",
+    "Croise Viande": "Croisés viande", "Croise Mixte": "Croisés mixtes",
+    "Croise Laitier": "Croisés laitiers", "Montbeliards": "Montbéliards, abondance, tarentaise",
+    "Normands": "Normands", "Laitier": "Laitiers (prim'holstein)",
+}
+RACES_VIANDE = ["Limousins", "Charolais", "Croise Viande", "Croise Mixte", "Croise Laitier"]
+RACES_LAIT = ["Montbeliards", "Normands", "Laitier"]
+
 
 def build_details(col: Collector) -> list[dict]:
     veaux_pmp_labels = {"ENTREE ABATTOIR": "Ensemble des veaux de boucherie",
                         "NON ELEVES AU PIS": "Veaux non élevés au pis",
                         "ELEVES AU PIS": "Veaux élevés au pis (sous la mère)"}
     gb_std = [r for r in col.rows("gros_bovins_abattoir") if r["qualite"] == "Standard"]
+    marches_14j = [r for r in col.rows("veaux_14j_marches") if r["marche"] == "MOYENNE NATIONALE"]
     tables = [
         pivot("veau_boucherie_pmp", "Veaux de boucherie — prix moyens pondérés", "Veau",
               "€/kg carcasse",
@@ -600,6 +611,22 @@ def build_details(col: Collector) -> list[dict]:
               col.rows("veaux_14j"),
               lambda r: " · ".join(x for x in (r["categorie"], r["sexe"], r["poids"]) if x),
               lambda r: "Prix"),
+        pivot("veau_14j_races", "Veaux de 14 jours — races à viande et croisés", "Veau", "€/tête",
+              [r for r in marches_14j if r["conformation"]],
+              lambda r: f"{RACES_VEAUX.get(r['type_racial'], r['type_racial'])} · {r['sexe']}",
+              lambda r: r["conformation"],
+              row_order=[f"{RACES_VEAUX[r]} · {s}" for r in RACES_VIANDE for s in ("Mâle", "Femelle")],
+              col_order=EUROP,
+              note="Moyennes nationales des marchés aux bestiaux. Colonnes : conformation (E = excellente … P = médiocre)."),
+        pivot("veau_14j_laitiers", "Veaux de 14 jours — races laitières et mixtes", "Veau", "€/tête",
+              [r for r in marches_14j if r["poids"]],
+              lambda r: f"{RACES_VEAUX.get(r['type_racial'], r['type_racial'])} · {r['sexe']}",
+              lambda r: r["poids"].replace(" a ", " à "),
+              row_order=[f"{RACES_VEAUX[r]} · {s}" for r in RACES_LAIT for s in ("Mâle", "Femelle")],
+              # du plus lourd au plus léger ; les tranches diffèrent selon les races
+              col_order=["> 60 kg", "55 à 60 kg", "> 55 kg", "50 à 55 kg", "45 à 50 kg",
+                         "< 45 kg", "40 à 45 kg", "< 40 kg"],
+              note="Moyennes nationales des marchés aux bestiaux. Ces veaux se vendent au poids, non à la conformation."),
         pivot("gros_bovins", "Gros bovins entrée abattoir — cotation nationale", "Bœuf", "€/kg net",
               gb_std, lambda r: r["classe"], lambda r: f"{r['categorie']} — {r['type']}",
               row_order=CLASSES_GB,

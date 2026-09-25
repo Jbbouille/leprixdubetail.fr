@@ -16,6 +16,8 @@ const ONGLETS = {
   veau_boucherie_pmp: "Veau de boucherie",
   veau_boucherie: "Veau par qualité",
   veau_14j: "Petits veaux",
+  veau_14j_races: "Petits veaux par race",
+  veau_14j_laitiers: "Petits veaux laitiers",
   gros_bovins: "Gros bovins",
   agneau: "Agneaux",
   porc: "Porc",
@@ -485,6 +487,28 @@ function renderTabs() {
   });
 }
 
+// Grille EUROP : explication affichée au survol (et au focus clavier)
+const CONFORMATION = {
+  E: "E — conformation excellente", U: "U — très bonne", R: "R — bonne",
+  O: "O — assez bonne", P: "P — médiocre",
+};
+
+function libelleConformation(texte) {
+  const m = /^([EUROP])([+=-])?$/.exec(texte);
+  if (!m) return null;
+  const signe = { "+": " (haut de classe)", "=": " (milieu de classe)", "-": " (bas de classe)" };
+  return CONFORMATION[m[1]] + (m[2] ? signe[m[2]] : "");
+}
+
+// Cellule d'en-tête, avec une aide au survol quand c'est une classe de conformation
+function cellule(balise, texte, classe) {
+  const aide = libelleConformation(texte);
+  const attrs = classe ? { class: classe } : {};
+  return aide
+    ? el(balise, attrs, el("abbr", { class: "aide", title: aide }, texte))
+    : el(balise, attrs, texte);
+}
+
 function renderTable() {
   const t = state.tables[state.table];
   const box = $("#table");
@@ -505,12 +529,12 @@ function renderTable() {
     }
     thead = el("thead", {},
       el("tr", { class: "group" }, el("th", {}, ""), ...groups.map(({ g, n }) => el("th", { colspan: String(n) }, g))),
-      el("tr", {}, el("th", {}, ""), ...t.colonnes.map((c) => el("th", {}, c.split(" — ")[1]))));
+      el("tr", {}, el("th", {}, ""), ...t.colonnes.map((c) => cellule("th", c.split(" — ")[1]))));
   } else {
     thead = el("thead", {}, el("tr", {}, el("th", {}, ""),
-      ...t.colonnes.map((c) => el("th", {}, simple ? `Prix (${unite})` : c))));
+      ...t.colonnes.map((c) => cellule("th", simple ? `Prix (${unite})` : c))));
   }
-  const tbody = el("tbody", {}, ...t.lignes.map((ligne, i) => el("tr", {}, el("th", {}, ligne),
+  const tbody = el("tbody", {}, ...t.lignes.map((ligne, i) => el("tr", {}, cellule("th", ligne),
     ...t.valeurs[i].map((v) => {
       if (!v) return el("td", { class: "empty" }, "·");
       const s = sens(v.variation);
