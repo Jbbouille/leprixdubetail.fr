@@ -269,3 +269,4 @@ annee,semaine,mois,date_debut,date_fin,prix,variation,qualite,unite,source
 2026,35,,2026-08-24,2026-08-30,6.6,0.02,Standard,EUR/kg net,COT-VRO-GBST_nationale-A26-S35.csv
 2026,36,,2026-08-31,2026-09-06,6.59,-0.01,Standard,EUR/kg net,COT-VRO-GBST_nationale-A26-S36.csv
 2026,37,,2026-09-07,2026-09-13,6.6,0.01,Standard,EUR/kg net,COT-VRO-GBST_nationale-A26-S37.csv
+2026,38,,2026-09-14,2026-09-20,6.61,0.01,Standard,EUR/kg net,COT-VRO-GBST_nationale-A26-S38.csv

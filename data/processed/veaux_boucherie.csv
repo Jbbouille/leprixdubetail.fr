@@ -12699,3 +12699,61 @@ annee,semaine,mois,date_debut,date_fin,mode,region,couleur,conformation,unite,pr
 2026,37,,2026-09-07,2026-09-13,Ensemble,COTATION NATIONALE,ROSE,O,EUR/kg carcasse,6.42,-0.07,COT-VRO-veaux_bouch_synthese-A26-S37.csv
 2026,37,,2026-09-07,2026-09-13,Ensemble,COTATION NATIONALE,ROSE,P,EUR/kg carcasse,5.77,-0.06,COT-VRO-veaux_bouch_synthese-A26-S37.csv
 2026,37,,2026-09-07,2026-09-13,Ensemble,COTATION NATIONALE,ROUGE,O,EUR/kg carcasse,5.28,,COT-VRO-veaux_bouch_synthese-A26-S37.csv
+2026,38,,2026-09-14,2026-09-20,Non élevés au pis,NORD,ROSE TRES CLAIR,R,EUR/kg carcasse,8.21,-0.11,COT-VRO-veaux_bouch_non_pis-A26-S38.csv
+2026,38,,2026-09-14,2026-09-20,Non élevés au pis,NORD,ROSE CLAIR,U,EUR/kg carcasse,9.14,0.04,COT-VRO-veaux_bouch_non_pis-A26-S38.csv
+2026,38,,2026-09-14,2026-09-20,Non élevés au pis,NORD,ROSE CLAIR,R,EUR/kg carcasse,7.95,0.03,COT-VRO-veaux_bouch_non_pis-A26-S38.csv
+2026,38,,2026-09-14,2026-09-20,Non élevés au pis,NORD,ROSE CLAIR,O,EUR/kg carcasse,7.65,0.06,COT-VRO-veaux_bouch_non_pis-A26-S38.csv
+2026,38,,2026-09-14,2026-09-20,Non élevés au pis,NORD,ROSE CLAIR,P,EUR/kg carcasse,6.66,-0.01,COT-VRO-veaux_bouch_non_pis-A26-S38.csv
+2026,38,,2026-09-14,2026-09-20,Non élevés au pis,NORD,ROSE,R,EUR/kg carcasse,6.68,0.09,COT-VRO-veaux_bouch_non_pis-A26-S38.csv
+2026,38,,2026-09-14,2026-09-20,Non élevés au pis,NORD,ROSE,O,EUR/kg carcasse,6.34,0.05,COT-VRO-veaux_bouch_non_pis-A26-S38.csv
+2026,38,,2026-09-14,2026-09-20,Non élevés au pis,NORD,ROSE,P,EUR/kg carcasse,5.57,0,COT-VRO-veaux_bouch_non_pis-A26-S38.csv
+2026,38,,2026-09-14,2026-09-20,Non élevés au pis,SUD,ROSE CLAIR,U,EUR/kg carcasse,9.31,0.03,COT-VRO-veaux_bouch_non_pis-A26-S38.csv
+2026,38,,2026-09-14,2026-09-20,Non élevés au pis,SUD,ROSE CLAIR,R,EUR/kg carcasse,8.56,0.02,COT-VRO-veaux_bouch_non_pis-A26-S38.csv
+2026,38,,2026-09-14,2026-09-20,Non élevés au pis,SUD,ROSE CLAIR,O,EUR/kg carcasse,7.61,0,COT-VRO-veaux_bouch_non_pis-A26-S38.csv
+2026,38,,2026-09-14,2026-09-20,Non élevés au pis,SUD,ROSE CLAIR,P,EUR/kg carcasse,7.14,-0.08,COT-VRO-veaux_bouch_non_pis-A26-S38.csv
+2026,38,,2026-09-14,2026-09-20,Non élevés au pis,SUD,ROSE,R,EUR/kg carcasse,7.79,-0.01,COT-VRO-veaux_bouch_non_pis-A26-S38.csv
+2026,38,,2026-09-14,2026-09-20,Non élevés au pis,SUD,ROSE,O,EUR/kg carcasse,6.94,0,COT-VRO-veaux_bouch_non_pis-A26-S38.csv
+2026,38,,2026-09-14,2026-09-20,Non élevés au pis,SUD,ROSE,P,EUR/kg carcasse,6.63,-0.15,COT-VRO-veaux_bouch_non_pis-A26-S38.csv
+2026,38,,2026-09-14,2026-09-20,Non élevés au pis,SUD,ROUGE,O,EUR/kg carcasse,6.16,,COT-VRO-veaux_bouch_non_pis-A26-S38.csv
+2026,38,,2026-09-14,2026-09-20,Non élevés au pis,COTATION NATIONALE,ROSE TRES CLAIR,R,EUR/kg carcasse,8.21,-0.11,COT-VRO-veaux_bouch_non_pis-A26-S38.csv
+2026,38,,2026-09-14,2026-09-20,Non élevés au pis,COTATION NATIONALE,ROSE CLAIR,U,EUR/kg carcasse,9.22,0.02,COT-VRO-veaux_bouch_non_pis-A26-S38.csv
+2026,38,,2026-09-14,2026-09-20,Non élevés au pis,COTATION NATIONALE,ROSE CLAIR,R,EUR/kg carcasse,8.23,0,COT-VRO-veaux_bouch_non_pis-A26-S38.csv
+2026,38,,2026-09-14,2026-09-20,Non élevés au pis,COTATION NATIONALE,ROSE CLAIR,O,EUR/kg carcasse,7.64,0.04,COT-VRO-veaux_bouch_non_pis-A26-S38.csv
+2026,38,,2026-09-14,2026-09-20,Non élevés au pis,COTATION NATIONALE,ROSE CLAIR,P,EUR/kg carcasse,6.79,0.01,COT-VRO-veaux_bouch_non_pis-A26-S38.csv
+2026,38,,2026-09-14,2026-09-20,Non élevés au pis,COTATION NATIONALE,ROSE,R,EUR/kg carcasse,7.22,0.17,COT-VRO-veaux_bouch_non_pis-A26-S38.csv
+2026,38,,2026-09-14,2026-09-20,Non élevés au pis,COTATION NATIONALE,ROSE,O,EUR/kg carcasse,6.48,0.06,COT-VRO-veaux_bouch_non_pis-A26-S38.csv
+2026,38,,2026-09-14,2026-09-20,Non élevés au pis,COTATION NATIONALE,ROSE,P,EUR/kg carcasse,5.78,0.01,COT-VRO-veaux_bouch_non_pis-A26-S38.csv
+2026,38,,2026-09-14,2026-09-20,Non élevés au pis,COTATION NATIONALE,ROUGE,O,EUR/kg carcasse,6.16,0.88,COT-VRO-veaux_bouch_non_pis-A26-S38.csv
+2026,38,,2026-09-14,2026-09-20,Élevés au pis,SUD,ROSE TRES CLAIR,U,EUR/kg carcasse,12.3,-0.24,COT-VRO-veaux_bouch_pis-A26-S38.csv
+2026,38,,2026-09-14,2026-09-20,Élevés au pis,SUD,ROSE CLAIR,U,EUR/kg carcasse,12.1,0.07,COT-VRO-veaux_bouch_pis-A26-S38.csv
+2026,38,,2026-09-14,2026-09-20,Élevés au pis,SUD,ROSE CLAIR,R,EUR/kg carcasse,10.05,-0.44,COT-VRO-veaux_bouch_pis-A26-S38.csv
+2026,38,,2026-09-14,2026-09-20,Élevés au pis,COTATION NATIONALE,ROSE TRES CLAIR,U,EUR/kg carcasse,12.3,-0.24,COT-VRO-veaux_bouch_pis-A26-S38.csv
+2026,38,,2026-09-14,2026-09-20,Élevés au pis,COTATION NATIONALE,ROSE CLAIR,U,EUR/kg carcasse,12.1,0.07,COT-VRO-veaux_bouch_pis-A26-S38.csv
+2026,38,,2026-09-14,2026-09-20,Élevés au pis,COTATION NATIONALE,ROSE CLAIR,R,EUR/kg carcasse,10.05,-0.44,COT-VRO-veaux_bouch_pis-A26-S38.csv
+2026,38,,2026-09-14,2026-09-20,Ensemble,NORD,ROSE TRES CLAIR,R,EUR/kg carcasse,8.21,-0.11,COT-VRO-veaux_bouch_synthese-A26-S38.csv
+2026,38,,2026-09-14,2026-09-20,Ensemble,NORD,ROSE CLAIR,U,EUR/kg carcasse,9.14,0.04,COT-VRO-veaux_bouch_synthese-A26-S38.csv
+2026,38,,2026-09-14,2026-09-20,Ensemble,NORD,ROSE CLAIR,R,EUR/kg carcasse,7.95,0.03,COT-VRO-veaux_bouch_synthese-A26-S38.csv
+2026,38,,2026-09-14,2026-09-20,Ensemble,NORD,ROSE CLAIR,O,EUR/kg carcasse,7.65,0.06,COT-VRO-veaux_bouch_synthese-A26-S38.csv
+2026,38,,2026-09-14,2026-09-20,Ensemble,NORD,ROSE CLAIR,P,EUR/kg carcasse,6.66,-0.01,COT-VRO-veaux_bouch_synthese-A26-S38.csv
+2026,38,,2026-09-14,2026-09-20,Ensemble,NORD,ROSE,R,EUR/kg carcasse,6.68,0.09,COT-VRO-veaux_bouch_synthese-A26-S38.csv
+2026,38,,2026-09-14,2026-09-20,Ensemble,NORD,ROSE,O,EUR/kg carcasse,6.34,0.05,COT-VRO-veaux_bouch_synthese-A26-S38.csv
+2026,38,,2026-09-14,2026-09-20,Ensemble,NORD,ROSE,P,EUR/kg carcasse,5.57,0,COT-VRO-veaux_bouch_synthese-A26-S38.csv
+2026,38,,2026-09-14,2026-09-20,Ensemble,SUD,ROSE TRES CLAIR,U,EUR/kg carcasse,12.3,-0.24,COT-VRO-veaux_bouch_synthese-A26-S38.csv
+2026,38,,2026-09-14,2026-09-20,Ensemble,SUD,ROSE CLAIR,U,EUR/kg carcasse,10.21,0.04,COT-VRO-veaux_bouch_synthese-A26-S38.csv
+2026,38,,2026-09-14,2026-09-20,Ensemble,SUD,ROSE CLAIR,R,EUR/kg carcasse,8.59,0.02,COT-VRO-veaux_bouch_synthese-A26-S38.csv
+2026,38,,2026-09-14,2026-09-20,Ensemble,SUD,ROSE CLAIR,O,EUR/kg carcasse,7.61,0,COT-VRO-veaux_bouch_synthese-A26-S38.csv
+2026,38,,2026-09-14,2026-09-20,Ensemble,SUD,ROSE CLAIR,P,EUR/kg carcasse,7.14,-0.08,COT-VRO-veaux_bouch_synthese-A26-S38.csv
+2026,38,,2026-09-14,2026-09-20,Ensemble,SUD,ROSE,R,EUR/kg carcasse,7.79,-0.01,COT-VRO-veaux_bouch_synthese-A26-S38.csv
+2026,38,,2026-09-14,2026-09-20,Ensemble,SUD,ROSE,O,EUR/kg carcasse,6.94,0,COT-VRO-veaux_bouch_synthese-A26-S38.csv
+2026,38,,2026-09-14,2026-09-20,Ensemble,SUD,ROSE,P,EUR/kg carcasse,6.63,-0.15,COT-VRO-veaux_bouch_synthese-A26-S38.csv
+2026,38,,2026-09-14,2026-09-20,Ensemble,SUD,ROUGE,O,EUR/kg carcasse,6.16,,COT-VRO-veaux_bouch_synthese-A26-S38.csv
+2026,38,,2026-09-14,2026-09-20,Ensemble,COTATION NATIONALE,ROSE TRES CLAIR,U,EUR/kg carcasse,12.3,-0.24,COT-VRO-veaux_bouch_synthese-A26-S38.csv
+2026,38,,2026-09-14,2026-09-20,Ensemble,COTATION NATIONALE,ROSE TRES CLAIR,R,EUR/kg carcasse,8.21,-0.11,COT-VRO-veaux_bouch_synthese-A26-S38.csv
+2026,38,,2026-09-14,2026-09-20,Ensemble,COTATION NATIONALE,ROSE CLAIR,U,EUR/kg carcasse,9.77,0,COT-VRO-veaux_bouch_synthese-A26-S38.csv
+2026,38,,2026-09-14,2026-09-20,Ensemble,COTATION NATIONALE,ROSE CLAIR,R,EUR/kg carcasse,8.24,-0.01,COT-VRO-veaux_bouch_synthese-A26-S38.csv
+2026,38,,2026-09-14,2026-09-20,Ensemble,COTATION NATIONALE,ROSE CLAIR,O,EUR/kg carcasse,7.64,0.04,COT-VRO-veaux_bouch_synthese-A26-S38.csv
+2026,38,,2026-09-14,2026-09-20,Ensemble,COTATION NATIONALE,ROSE CLAIR,P,EUR/kg carcasse,6.79,0.01,COT-VRO-veaux_bouch_synthese-A26-S38.csv
+2026,38,,2026-09-14,2026-09-20,Ensemble,COTATION NATIONALE,ROSE,R,EUR/kg carcasse,7.22,0.17,COT-VRO-veaux_bouch_synthese-A26-S38.csv
+2026,38,,2026-09-14,2026-09-20,Ensemble,COTATION NATIONALE,ROSE,O,EUR/kg carcasse,6.48,0.06,COT-VRO-veaux_bouch_synthese-A26-S38.csv
+2026,38,,2026-09-14,2026-09-20,Ensemble,COTATION NATIONALE,ROSE,P,EUR/kg carcasse,5.78,0.01,COT-VRO-veaux_bouch_synthese-A26-S38.csv
+2026,38,,2026-09-14,2026-09-20,Ensemble,COTATION NATIONALE,ROUGE,O,EUR/kg carcasse,6.16,0.88,COT-VRO-veaux_bouch_synthese-A26-S38.csv
