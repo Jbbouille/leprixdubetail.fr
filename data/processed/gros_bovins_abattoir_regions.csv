@@ -16059,3 +16059,79 @@ annee,semaine,mois,date_debut,date_fin,region,categorie,type,classe,unite,prix,v
 2026,38,,2026-09-14,2026-09-20,GRAND-OUEST,Vaches,Lait,P+,EUR/kg net,5.39,-0.01,COT-VRO-GBST_regionale-A26-S38.csv
 2026,38,,2026-09-14,2026-09-20,GRAND-OUEST,Vaches,Lait,P=,EUR/kg net,5.35,0,COT-VRO-GBST_regionale-A26-S38.csv
 2026,38,,2026-09-14,2026-09-20,GRAND-OUEST,Vaches,Lait,P-,EUR/kg net,5.21,,COT-VRO-GBST_regionale-A26-S38.csv
+2026,39,,2026-09-21,2026-09-27,NORD-EST,Jeunes bovins 12 à 24 mois,Viande hors Bl/Parth.,U=,EUR/kg net,6.37,0,COT-VRO-GBST_regionale-A26-S39.csv
+2026,39,,2026-09-21,2026-09-27,NORD-EST,Jeunes bovins 12 à 24 mois,Blonde/Parth.,U=,EUR/kg net,6.81,-0.05,COT-VRO-GBST_regionale-A26-S39.csv
+2026,39,,2026-09-21,2026-09-27,NORD-EST,Jeunes bovins 12 à 24 mois,Viande hors Bl/Parth.,U-,EUR/kg net,6.31,0.01,COT-VRO-GBST_regionale-A26-S39.csv
+2026,39,,2026-09-21,2026-09-27,NORD-EST,Jeunes bovins 12 à 24 mois,Blonde/Parth.,U-,EUR/kg net,6.77,-0.03,COT-VRO-GBST_regionale-A26-S39.csv
+2026,39,,2026-09-21,2026-09-27,NORD-EST,Jeunes bovins 12 à 24 mois,Viande hors Bl/Parth.,R+,EUR/kg net,6.26,0,COT-VRO-GBST_regionale-A26-S39.csv
+2026,39,,2026-09-21,2026-09-27,NORD-EST,Vaches,Viande hors Bl/Parth. -10 a +350kg,R+,EUR/kg net,7.38,0,COT-VRO-GBST_regionale-A26-S39.csv
+2026,39,,2026-09-21,2026-09-27,NORD-EST,Génisses,Viande +350Kg,R+,EUR/kg net,7.39,0,COT-VRO-GBST_regionale-A26-S39.csv
+2026,39,,2026-09-21,2026-09-27,NORD-EST,Vaches,Viande hors Bl/Parth. -10 a +350kg,R=,EUR/kg net,7.18,0,COT-VRO-GBST_regionale-A26-S39.csv
+2026,39,,2026-09-21,2026-09-27,NORD-EST,Jeunes bovins 12 à 24 mois,Lait,O-,EUR/kg net,5.47,-0.02,COT-VRO-GBST_regionale-A26-S39.csv
+2026,39,,2026-09-21,2026-09-27,NORD-EST,Vaches,Lait,O-,EUR/kg net,5.41,-0.03,COT-VRO-GBST_regionale-A26-S39.csv
+2026,39,,2026-09-21,2026-09-27,NORD-EST,Boeufs,Lait,P+,EUR/kg net,5.52,-0.01,COT-VRO-GBST_regionale-A26-S39.csv
+2026,39,,2026-09-21,2026-09-27,NORD-EST,Vaches,Lait,P+,EUR/kg net,5.39,-0.02,COT-VRO-GBST_regionale-A26-S39.csv
+2026,39,,2026-09-21,2026-09-27,NORD-EST,Vaches,Lait,P=,EUR/kg net,5.35,-0.01,COT-VRO-GBST_regionale-A26-S39.csv
+2026,39,,2026-09-21,2026-09-27,CENTRE-EST,Jeunes bovins 12 à 24 mois,Viande hors Bl/Parth.,U+,EUR/kg net,6.36,,COT-VRO-GBST_regionale-A26-S39.csv
+2026,39,,2026-09-21,2026-09-27,CENTRE-EST,Jeunes bovins 12 à 24 mois,Viande hors Bl/Parth.,U=,EUR/kg net,6.33,0,COT-VRO-GBST_regionale-A26-S39.csv
+2026,39,,2026-09-21,2026-09-27,CENTRE-EST,Jeunes bovins 12 à 24 mois,Viande hors Bl/Parth.,U-,EUR/kg net,6.3,0.01,COT-VRO-GBST_regionale-A26-S39.csv
+2026,39,,2026-09-21,2026-09-27,CENTRE-EST,Vaches,Viande hors Bl/Parth. -10 a +350kg,U-,EUR/kg net,7.23,-0.01,COT-VRO-GBST_regionale-A26-S39.csv
+2026,39,,2026-09-21,2026-09-27,CENTRE-EST,Vaches,Charolaise -10 ans +350Kg,U-,EUR/kg net,7.17,-0.01,COT-VRO-GBST_regionale-A26-S39.csv
+2026,39,,2026-09-21,2026-09-27,CENTRE-EST,Génisses,Viande +350Kg,U-,EUR/kg net,7.57,-0.06,COT-VRO-GBST_regionale-A26-S39.csv
+2026,39,,2026-09-21,2026-09-27,CENTRE-EST,Jeunes bovins 12 à 24 mois,Viande hors Bl/Parth.,R+,EUR/kg net,6.26,0,COT-VRO-GBST_regionale-A26-S39.csv
+2026,39,,2026-09-21,2026-09-27,CENTRE-EST,Vaches,Viande hors Bl/Parth. -10 a +350kg,R+,EUR/kg net,7.13,-0.03,COT-VRO-GBST_regionale-A26-S39.csv
+2026,39,,2026-09-21,2026-09-27,CENTRE-EST,Vaches,Charolaise -10 ans +350Kg,R+,EUR/kg net,7.09,-0.01,COT-VRO-GBST_regionale-A26-S39.csv
+2026,39,,2026-09-21,2026-09-27,CENTRE-EST,Génisses,Viande +350Kg,R+,EUR/kg net,7.4,-0.02,COT-VRO-GBST_regionale-A26-S39.csv
+2026,39,,2026-09-21,2026-09-27,CENTRE-EST,Vaches,Viande hors Bl/Parth. -10 a +350kg,R=,EUR/kg net,7.09,-0.01,COT-VRO-GBST_regionale-A26-S39.csv
+2026,39,,2026-09-21,2026-09-27,CENTRE-EST,Vaches,Charolaise -10 ans +350Kg,R=,EUR/kg net,7.06,0,COT-VRO-GBST_regionale-A26-S39.csv
+2026,39,,2026-09-21,2026-09-27,CENTRE-EST,Génisses,Viande +350Kg,R=,EUR/kg net,7.28,-0.01,COT-VRO-GBST_regionale-A26-S39.csv
+2026,39,,2026-09-21,2026-09-27,CENTRE-EST,Vaches,Mixte,O+,EUR/kg net,6.09,0.01,COT-VRO-GBST_regionale-A26-S39.csv
+2026,39,,2026-09-21,2026-09-27,CENTRE-EST,Vaches,Mixte,O=,EUR/kg net,5.98,-0.02,COT-VRO-GBST_regionale-A26-S39.csv
+2026,39,,2026-09-21,2026-09-27,CENTRE-EST,Vaches,Lait,P+,EUR/kg net,5.36,-0.04,COT-VRO-GBST_regionale-A26-S39.csv
+2026,39,,2026-09-21,2026-09-27,GRAND-SUD,Jeunes bovins 12 à 24 mois,Viande hors Bl/Parth.,U=,EUR/kg net,6.59,0.09,COT-VRO-GBST_regionale-A26-S39.csv
+2026,39,,2026-09-21,2026-09-27,GRAND-SUD,Jeunes bovins 12 à 24 mois,Viande hors Bl/Parth.,U-,EUR/kg net,6.52,-0.03,COT-VRO-GBST_regionale-A26-S39.csv
+2026,39,,2026-09-21,2026-09-27,GRAND-SUD,Vaches,Viande hors Bl/Parth. -10 a +350kg,U-,EUR/kg net,7.82,0.02,COT-VRO-GBST_regionale-A26-S39.csv
+2026,39,,2026-09-21,2026-09-27,GRAND-SUD,Génisses,Viande +350Kg,U-,EUR/kg net,7.82,,COT-VRO-GBST_regionale-A26-S39.csv
+2026,39,,2026-09-21,2026-09-27,GRAND-SUD,Vaches,Viande hors Bl/Parth. -10 a +350kg,R+,EUR/kg net,7.47,-0.09,COT-VRO-GBST_regionale-A26-S39.csv
+2026,39,,2026-09-21,2026-09-27,GRAND-SUD,Vaches,Viande hors Bl/Parth. -10 a +350kg,R=,EUR/kg net,7.33,-0.08,COT-VRO-GBST_regionale-A26-S39.csv
+2026,39,,2026-09-21,2026-09-27,GRAND-SUD,Vaches,Lait,P+,EUR/kg net,5.38,0,COT-VRO-GBST_regionale-A26-S39.csv
+2026,39,,2026-09-21,2026-09-27,GRAND-OUEST,Jeunes bovins 12 à 24 mois,Viande hors Bl/Parth.,U+,EUR/kg net,6.53,-0.06,COT-VRO-GBST_regionale-A26-S39.csv
+2026,39,,2026-09-21,2026-09-27,GRAND-OUEST,Jeunes bovins 12 à 24 mois,Blonde/Parth.,U+,EUR/kg net,7.01,0.06,COT-VRO-GBST_regionale-A26-S39.csv
+2026,39,,2026-09-21,2026-09-27,GRAND-OUEST,Jeunes bovins 12 à 24 mois,Viande hors Bl/Parth.,U=,EUR/kg net,6.53,0.02,COT-VRO-GBST_regionale-A26-S39.csv
+2026,39,,2026-09-21,2026-09-27,GRAND-OUEST,Jeunes bovins 12 à 24 mois,Blonde/Parth.,U=,EUR/kg net,6.83,-0.02,COT-VRO-GBST_regionale-A26-S39.csv
+2026,39,,2026-09-21,2026-09-27,GRAND-OUEST,Vaches,Blonde/Parth. -10 ans +350Kg,U=,EUR/kg net,8.62,0.03,COT-VRO-GBST_regionale-A26-S39.csv
+2026,39,,2026-09-21,2026-09-27,GRAND-OUEST,Génisses,Viande +350Kg,U=,EUR/kg net,8.16,-0.08,COT-VRO-GBST_regionale-A26-S39.csv
+2026,39,,2026-09-21,2026-09-27,GRAND-OUEST,Jeunes bovins 12 à 24 mois,Viande hors Bl/Parth.,U-,EUR/kg net,6.5,-0.01,COT-VRO-GBST_regionale-A26-S39.csv
+2026,39,,2026-09-21,2026-09-27,GRAND-OUEST,Jeunes bovins 12 à 24 mois,Blonde/Parth.,U-,EUR/kg net,6.75,-0.01,COT-VRO-GBST_regionale-A26-S39.csv
+2026,39,,2026-09-21,2026-09-27,GRAND-OUEST,Vaches,Viande hors Bl/Parth. -10 a +350kg,U-,EUR/kg net,7.58,-0.11,COT-VRO-GBST_regionale-A26-S39.csv
+2026,39,,2026-09-21,2026-09-27,GRAND-OUEST,Vaches,Blonde/Parth. -10 ans +350Kg,U-,EUR/kg net,8.39,0.04,COT-VRO-GBST_regionale-A26-S39.csv
+2026,39,,2026-09-21,2026-09-27,GRAND-OUEST,Vaches,Charolaise -10 ans +350Kg,U-,EUR/kg net,7.23,0.02,COT-VRO-GBST_regionale-A26-S39.csv
+2026,39,,2026-09-21,2026-09-27,GRAND-OUEST,Vaches,Limousine -10 ans +350Kg,U-,EUR/kg net,8.06,-0.02,COT-VRO-GBST_regionale-A26-S39.csv
+2026,39,,2026-09-21,2026-09-27,GRAND-OUEST,Génisses,Viande +350Kg,U-,EUR/kg net,7.94,0.05,COT-VRO-GBST_regionale-A26-S39.csv
+2026,39,,2026-09-21,2026-09-27,GRAND-OUEST,Jeunes bovins 12 à 24 mois,Viande hors Bl/Parth.,R+,EUR/kg net,6.44,0,COT-VRO-GBST_regionale-A26-S39.csv
+2026,39,,2026-09-21,2026-09-27,GRAND-OUEST,Vaches,Viande hors Bl/Parth. -10 a +350kg,R+,EUR/kg net,7.35,-0.03,COT-VRO-GBST_regionale-A26-S39.csv
+2026,39,,2026-09-21,2026-09-27,GRAND-OUEST,Vaches,Charolaise -10 ans +350Kg,R+,EUR/kg net,7.15,0.01,COT-VRO-GBST_regionale-A26-S39.csv
+2026,39,,2026-09-21,2026-09-27,GRAND-OUEST,Vaches,Limousine -10 ans +350Kg,R+,EUR/kg net,7.89,0.02,COT-VRO-GBST_regionale-A26-S39.csv
+2026,39,,2026-09-21,2026-09-27,GRAND-OUEST,Génisses,Viande +350Kg,R+,EUR/kg net,7.45,0,COT-VRO-GBST_regionale-A26-S39.csv
+2026,39,,2026-09-21,2026-09-27,GRAND-OUEST,Jeunes bovins 12 à 24 mois,Viande hors Bl/Parth.,R=,EUR/kg net,6.32,0.01,COT-VRO-GBST_regionale-A26-S39.csv
+2026,39,,2026-09-21,2026-09-27,GRAND-OUEST,Taureaux,VML,R=,EUR/kg net,5.65,,COT-VRO-GBST_regionale-A26-S39.csv
+2026,39,,2026-09-21,2026-09-27,GRAND-OUEST,Vaches,Viande hors Bl/Parth. -10 a +350kg,R=,EUR/kg net,7.19,-0.03,COT-VRO-GBST_regionale-A26-S39.csv
+2026,39,,2026-09-21,2026-09-27,GRAND-OUEST,Vaches,Charolaise -10 ans +350Kg,R=,EUR/kg net,7.1,0,COT-VRO-GBST_regionale-A26-S39.csv
+2026,39,,2026-09-21,2026-09-27,GRAND-OUEST,Génisses,Viande +350Kg,R=,EUR/kg net,7.16,0.11,COT-VRO-GBST_regionale-A26-S39.csv
+2026,39,,2026-09-21,2026-09-27,GRAND-OUEST,Jeunes bovins 12 à 24 mois,Viande hors Bl/Parth.,R-,EUR/kg net,6.14,-0.08,COT-VRO-GBST_regionale-A26-S39.csv
+2026,39,,2026-09-21,2026-09-27,GRAND-OUEST,Jeunes bovins 12 à 24 mois,Mixte,R-,EUR/kg net,5.99,0,COT-VRO-GBST_regionale-A26-S39.csv
+2026,39,,2026-09-21,2026-09-27,GRAND-OUEST,Boeufs,Viande,R-,EUR/kg net,6.68,,COT-VRO-GBST_regionale-A26-S39.csv
+2026,39,,2026-09-21,2026-09-27,GRAND-OUEST,Vaches,Viande hors Bl/Parth. -10 a +350kg,R-,EUR/kg net,7.01,0,COT-VRO-GBST_regionale-A26-S39.csv
+2026,39,,2026-09-21,2026-09-27,GRAND-OUEST,Génisses,Viande +350Kg,R-,EUR/kg net,6.79,-0.02,COT-VRO-GBST_regionale-A26-S39.csv
+2026,39,,2026-09-21,2026-09-27,GRAND-OUEST,Vaches,Mixte,O+,EUR/kg net,6.04,-0.06,COT-VRO-GBST_regionale-A26-S39.csv
+2026,39,,2026-09-21,2026-09-27,GRAND-OUEST,Jeunes bovins 12 à 24 mois,Mixte,O=,EUR/kg net,5.9,,COT-VRO-GBST_regionale-A26-S39.csv
+2026,39,,2026-09-21,2026-09-27,GRAND-OUEST,Jeunes bovins 12 à 24 mois,Lait,O=,EUR/kg net,5.52,-0.01,COT-VRO-GBST_regionale-A26-S39.csv
+2026,39,,2026-09-21,2026-09-27,GRAND-OUEST,Taureaux,VML,O=,EUR/kg net,5.15,,COT-VRO-GBST_regionale-A26-S39.csv
+2026,39,,2026-09-21,2026-09-27,GRAND-OUEST,Boeufs,Mixte,O=,EUR/kg net,6.12,0,COT-VRO-GBST_regionale-A26-S39.csv
+2026,39,,2026-09-21,2026-09-27,GRAND-OUEST,Vaches,Mixte,O=,EUR/kg net,6.04,-0.03,COT-VRO-GBST_regionale-A26-S39.csv
+2026,39,,2026-09-21,2026-09-27,GRAND-OUEST,Jeunes bovins 12 à 24 mois,Lait,O-,EUR/kg net,5.5,-0.01,COT-VRO-GBST_regionale-A26-S39.csv
+2026,39,,2026-09-21,2026-09-27,GRAND-OUEST,Vaches,Lait,O-,EUR/kg net,5.41,0,COT-VRO-GBST_regionale-A26-S39.csv
+2026,39,,2026-09-21,2026-09-27,GRAND-OUEST,Jeunes bovins 12 à 24 mois,Lait,P+,EUR/kg net,5.49,-0.02,COT-VRO-GBST_regionale-A26-S39.csv
+2026,39,,2026-09-21,2026-09-27,GRAND-OUEST,Vaches,Lait,P+,EUR/kg net,5.39,0,COT-VRO-GBST_regionale-A26-S39.csv
+2026,39,,2026-09-21,2026-09-27,GRAND-OUEST,Vaches,Lait,P=,EUR/kg net,5.35,0,COT-VRO-GBST_regionale-A26-S39.csv
+2026,39,,2026-09-21,2026-09-27,GRAND-OUEST,Vaches,Lait,P-,EUR/kg net,5.2,-0.01,COT-VRO-GBST_regionale-A26-S39.csv
