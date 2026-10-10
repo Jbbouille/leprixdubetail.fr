@@ -5423,6 +5423,14 @@ annee,semaine,mois,date_debut,date_fin,qualite,categorie,conformation,etat_engra
 2026,36,,2026-08-31,2026-09-06,Standard,Autres femelles,R,3,EUR/kg carcasse,7.17,,COT-VRO-GBEA_communautaire-A26-S36.csv
 2026,36,,2026-08-31,2026-09-06,Standard,Autres femelles,R,4,EUR/kg carcasse,6.93,,COT-VRO-GBEA_communautaire-A26-S36.csv
 2026,36,,2026-08-31,2026-09-06,Standard,Autres femelles,O,3,EUR/kg carcasse,6.36,,COT-VRO-GBEA_communautaire-A26-S36.csv
+2026,,9,2026-09-01,2026-09-30,Bio,Males castres,R,3,EUR/kg carcasse,7.5,,COT-VRO-GBBI_prix_UE-A26-M09.csv
+2026,,9,2026-09-01,2026-09-30,Bio,Males castres,O,3,EUR/kg carcasse,6.52,,COT-VRO-GBBI_prix_UE-A26-M09.csv
+2026,,9,2026-09-01,2026-09-30,Bio,Femelles ayant deja vele,R,2,EUR/kg carcasse,7.34,,COT-VRO-GBBI_prix_UE-A26-M09.csv
+2026,,9,2026-09-01,2026-09-30,Bio,Femelles ayant deja vele,R,3,EUR/kg carcasse,7.46,,COT-VRO-GBBI_prix_UE-A26-M09.csv
+2026,,9,2026-09-01,2026-09-30,Bio,Femelles ayant deja vele,O,3,EUR/kg carcasse,6.41,,COT-VRO-GBBI_prix_UE-A26-M09.csv
+2026,,9,2026-09-01,2026-09-30,Bio,Femelles ayant deja vele,P,3,EUR/kg carcasse,5.91,,COT-VRO-GBBI_prix_UE-A26-M09.csv
+2026,,9,2026-09-01,2026-09-30,Bio,Autres femelles,R,3,EUR/kg carcasse,7.45,,COT-VRO-GBBI_prix_UE-A26-M09.csv
+2026,,9,2026-09-01,2026-09-30,Bio,Autres femelles,O,3,EUR/kg carcasse,6.45,,COT-VRO-GBBI_prix_UE-A26-M09.csv
 2026,37,,2026-09-07,2026-09-13,Standard,Males non castres de moins de 2 ans,E,2,EUR/kg carcasse,7.27,,COT-VRO-GBEA_communautaire-A26-S37.csv
 2026,37,,2026-09-07,2026-09-13,Standard,Males non castres de moins de 2 ans,U,2,EUR/kg carcasse,6.67,,COT-VRO-GBEA_communautaire-A26-S37.csv
 2026,37,,2026-09-07,2026-09-13,Standard,Males non castres de moins de 2 ans,U,3,EUR/kg carcasse,6.41,,COT-VRO-GBEA_communautaire-A26-S37.csv
@@ -5506,3 +5514,30 @@ annee,semaine,mois,date_debut,date_fin,qualite,categorie,conformation,etat_engra
 2026,39,,2026-09-21,2026-09-27,Standard,Autres femelles,R,3,EUR/kg carcasse,7.22,,COT-VRO-GBEA_communautaire-A26-S39.csv
 2026,39,,2026-09-21,2026-09-27,Standard,Autres femelles,R,4,EUR/kg carcasse,7,,COT-VRO-GBEA_communautaire-A26-S39.csv
 2026,39,,2026-09-21,2026-09-27,Standard,Autres femelles,O,3,EUR/kg carcasse,6.33,,COT-VRO-GBEA_communautaire-A26-S39.csv
+2026,40,,2026-09-28,2026-10-04,Standard,Males non castres de moins de 2 ans,E,2,EUR/kg carcasse,7.36,,COT-VRO-GBEA_communautaire-A26-S40.csv
+2026,40,,2026-09-28,2026-10-04,Standard,Males non castres de moins de 2 ans,U,2,EUR/kg carcasse,6.69,,COT-VRO-GBEA_communautaire-A26-S40.csv
+2026,40,,2026-09-28,2026-10-04,Standard,Males non castres de moins de 2 ans,U,3,EUR/kg carcasse,6.43,,COT-VRO-GBEA_communautaire-A26-S40.csv
+2026,40,,2026-09-28,2026-10-04,Standard,Males non castres de moins de 2 ans,R,2,EUR/kg carcasse,6.35,,COT-VRO-GBEA_communautaire-A26-S40.csv
+2026,40,,2026-09-28,2026-10-04,Standard,Males non castres de moins de 2 ans,R,3,EUR/kg carcasse,6.24,,COT-VRO-GBEA_communautaire-A26-S40.csv
+2026,40,,2026-09-28,2026-10-04,Standard,Males non castres de moins de 2 ans,O,2,EUR/kg carcasse,5.65,,COT-VRO-GBEA_communautaire-A26-S40.csv
+2026,40,,2026-09-28,2026-10-04,Standard,Males non castres de moins de 2 ans,O,3,EUR/kg carcasse,5.56,,COT-VRO-GBEA_communautaire-A26-S40.csv
+2026,40,,2026-09-28,2026-10-04,Standard,Males non castres de moins de 2 ans,P,3,EUR/kg carcasse,5.46,,COT-VRO-GBEA_communautaire-A26-S40.csv
+2026,40,,2026-09-28,2026-10-04,Standard,Autres males non castres,U,2,EUR/kg carcasse,5.93,,COT-VRO-GBEA_communautaire-A26-S40.csv
+2026,40,,2026-09-28,2026-10-04,Standard,Autres males non castres,R,2,EUR/kg carcasse,5.78,,COT-VRO-GBEA_communautaire-A26-S40.csv
+2026,40,,2026-09-28,2026-10-04,Standard,Males castres,R,3,EUR/kg carcasse,6.89,,COT-VRO-GBEA_communautaire-A26-S40.csv
+2026,40,,2026-09-28,2026-10-04,Standard,Males castres,O,3,EUR/kg carcasse,5.94,,COT-VRO-GBEA_communautaire-A26-S40.csv
+2026,40,,2026-09-28,2026-10-04,Standard,Males castres,P,3,EUR/kg carcasse,5.45,,COT-VRO-GBEA_communautaire-A26-S40.csv
+2026,40,,2026-09-28,2026-10-04,Standard,Femelles ayant deja vele,U,3,EUR/kg carcasse,7.87,,COT-VRO-GBEA_communautaire-A26-S40.csv
+2026,40,,2026-09-28,2026-10-04,Standard,Femelles ayant deja vele,R,2,EUR/kg carcasse,6.97,,COT-VRO-GBEA_communautaire-A26-S40.csv
+2026,40,,2026-09-28,2026-10-04,Standard,Femelles ayant deja vele,R,3,EUR/kg carcasse,7.16,,COT-VRO-GBEA_communautaire-A26-S40.csv
+2026,40,,2026-09-28,2026-10-04,Standard,Femelles ayant deja vele,R,4,EUR/kg carcasse,7.02,,COT-VRO-GBEA_communautaire-A26-S40.csv
+2026,40,,2026-09-28,2026-10-04,Standard,Femelles ayant deja vele,O,2,EUR/kg carcasse,6.34,,COT-VRO-GBEA_communautaire-A26-S40.csv
+2026,40,,2026-09-28,2026-10-04,Standard,Femelles ayant deja vele,O,3,EUR/kg carcasse,5.79,,COT-VRO-GBEA_communautaire-A26-S40.csv
+2026,40,,2026-09-28,2026-10-04,Standard,Femelles ayant deja vele,O,4,EUR/kg carcasse,5.52,,COT-VRO-GBEA_communautaire-A26-S40.csv
+2026,40,,2026-09-28,2026-10-04,Standard,Femelles ayant deja vele,P,2,EUR/kg carcasse,5.14,,COT-VRO-GBEA_communautaire-A26-S40.csv
+2026,40,,2026-09-28,2026-10-04,Standard,Femelles ayant deja vele,P,3,EUR/kg carcasse,5.33,,COT-VRO-GBEA_communautaire-A26-S40.csv
+2026,40,,2026-09-28,2026-10-04,Standard,Autres femelles,U,3,EUR/kg carcasse,7.85,,COT-VRO-GBEA_communautaire-A26-S40.csv
+2026,40,,2026-09-28,2026-10-04,Standard,Autres femelles,R,2,EUR/kg carcasse,7.12,,COT-VRO-GBEA_communautaire-A26-S40.csv
+2026,40,,2026-09-28,2026-10-04,Standard,Autres femelles,R,3,EUR/kg carcasse,7.2,,COT-VRO-GBEA_communautaire-A26-S40.csv
+2026,40,,2026-09-28,2026-10-04,Standard,Autres femelles,R,4,EUR/kg carcasse,6.95,,COT-VRO-GBEA_communautaire-A26-S40.csv
+2026,40,,2026-09-28,2026-10-04,Standard,Autres femelles,O,3,EUR/kg carcasse,6.31,,COT-VRO-GBEA_communautaire-A26-S40.csv

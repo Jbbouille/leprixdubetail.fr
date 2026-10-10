@@ -187,6 +187,7 @@ COT-VIA-cotations_csv-A26-M05.zip
 COT-VIA-cotations_csv-A26-M06.zip
 COT-VIA-cotations_csv-A26-M07.zip
 COT-VIA-cotations_csv-A26-M08.zip
+COT-VIA-cotations_csv-A26-M09.zip
 COT-VIA-cotations_csv-A26-S01.zip
 COT-VIA-cotations_csv-A26-S02.zip
 COT-VIA-cotations_csv-A26-S03.zip
@@ -226,3 +227,4 @@ COT-VIA-cotations_csv-A26-S36.zip
 COT-VIA-cotations_csv-A26-S37.zip
 COT-VIA-cotations_csv-A26-S38.zip
 COT-VIA-cotations_csv-A26-S39.zip
+COT-VIA-cotations_csv-A26-S40.zip
