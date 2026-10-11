@@ -71,7 +71,7 @@ SERIES_SITE = {
 
 # Codes de la grille communautaire : catégorie + conformation + état d'engraissement
 # (par exemple DR3 = vache, conformation R, état 3)
-CODE_EUROP = re.compile(r"^([A-Z])([SEURP])([1-5])$")
+CODE_EUROP = re.compile(r"^([A-Z])([SEUROP])([1-5])$")
 
 
 def nombre(prix: str) -> float | None:
