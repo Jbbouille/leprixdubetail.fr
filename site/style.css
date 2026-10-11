@@ -167,6 +167,20 @@ h3 { font-size: 1.1rem; font-weight: 600; }
   .s5 { --serie: #d8bc63; }
 }
 .line.serie { stroke: var(--serie); stroke-width: 2.2; }
+.line.serie.fort { stroke-width: 3.4; }   /* la France ressort parmi les autres pays */
+.s6 { --serie: #a1467e; }
+.s7 { --serie: #4a6fa5; }
+.s8 { --serie: #6b7a1f; }
+
+/* Pastilles de choix (pays comparés) */
+.chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+.chip {
+  font: inherit; font-size: .88rem; cursor: pointer;
+  background: var(--surface); color: var(--ink-soft);
+  border: 1px solid var(--line); border-radius: 99px; padding: 5px 12px;
+}
+.chip:hover { border-color: var(--green); }
+.chip.on { background: var(--green-soft); border-color: var(--green); color: var(--green); font-weight: 600; }
 .dot.serie { fill: var(--serie); }
 .legend .sw.serie { background: var(--serie); height: 4px; }
 .controls-races { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 16px; }

@@ -18,6 +18,7 @@ const COQUILLE = [
   'index.html',
   'essentiel.html',
   'evolution.html',
+  'europe.html',
   'comprendre.html',
   `style.css?v=${VERSION}`,
   `app.js?v=${VERSION}`,

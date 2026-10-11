@@ -45,7 +45,8 @@ const MOIS_COURTS = ["janv.", "févr.", "mars", "avr.", "mai", "juin", "juil.", 
 const MOIS_LONGS = ["janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août", "septembre", "octobre", "novembre", "décembre"];
 
 const state = { series: [], serie: null, mode: "temps", range: "", model: null, races: null,
-  sexe: "Mâle", categorie: "U", tables: [], table: 0 };
+  sexe: "Mâle", categorie: "U", europe: null, euSerie: "beef:ACZURO", pays: [],
+  tables: [], table: 0 };
 
 // ------------------------------------------------------------------ outils
 
@@ -303,6 +304,7 @@ function buildModel(s) {
 }
 
 function renderChart() {
+  if ($("#europe")) return renderEurope();
   const s = state.serie;
   if (!s) return;
   const box = $("#chart");
@@ -327,7 +329,8 @@ function renderChart() {
 function renderLegend(model) {
   const box = $("#legende");
   if (!box) return; // page « L'essentiel » : pas de comparaison des années
-  box.hidden = state.mode === "temps";
+  // une légende dès qu'il y a plusieurs courbes (années, races, pays)
+  box.hidden = model.series.length < 2 || model.series.every((se) => se.couleur == null && !se.current);
   box.innerHTML = "";
   if (box.hidden) return;
   for (const se of model.series) {
@@ -387,12 +390,12 @@ function drawChart() {
     if (se.area) svg.append("path").attr("class", "area").attr("d", areaGen(se.points));
     svg.append("path")
       .attr("class", se.couleur != null
-        ? `line serie s${se.couleur}`
+        ? `line serie s${se.couleur}${se.france ? " fort" : ""}`
         : `line ${se.current ? "current" : "past"}${state.mode === "annees" ? " annees" : ""}`)
       .attr("stroke-opacity", se.opacity ?? 1)
       .attr("d", lineGen(se.points));
     // Sur une période courte, chaque cotation est marquée d'un point
-    if (state.mode === "temps" && se.points.length <= 60) {
+    if (state.mode === "temps" && model.series.length === 1 && se.points.length <= 60) {
       svg.append("g").selectAll("circle").data(se.points).join("circle")
         .attr("class", "pt").attr("r", 2.5).attr("cx", (d) => x(d.x)).attr("cy", (d) => y(d.prix));
     }
@@ -409,7 +412,16 @@ function drawChart() {
     const [mx] = d3.pointer(event, svg.node());
     const xv = x.invert(mx);
     let xi, titre, rows;
-    if (model.parRace) {
+    if (model.parPays) {
+      const ref = model.series.find((se) => se.france) || model.series[0];
+      const proche = ref.points[d3.bisector((p) => p.x).center(ref.points, xv)];
+      xi = proche.x;
+      titre = periodeLabel(proche.p).replace(/^Semaine /, "S");
+      rows = model.series
+        .map((se) => ({ se, d: se.points.find((p) => p.x === xi) }))
+        .filter((r) => r.d)
+        .sort((a, b) => b.d.prix - a.d.prix);
+    } else if (model.parRace) {
       // on se cale sur la semaine la plus proche, puis on liste les races cotées cette semaine-là
       const ref = model.series[0].points;
       const proche = ref[d3.bisector((p) => p.x).center(ref, xv)];
@@ -443,7 +455,8 @@ function drawChart() {
         ? el("span", { class: `d ${sens(d.p.variation)}` },
           ` ${d.p.variation === 0 ? "=" : fmtNum(d.p.variation, s.unite, true) + " €"}`)
         : "";
-      const label = state.mode === "temps" ? "" : el("span", { class: "annee" }, `${se.label} : `);
+      // le libellé (année, race, pays) n'a de sens que s'il y a plusieurs courbes
+      const label = rows.length < 2 ? "" : el("span", { class: "annee" }, `${se.label} : `);
       tip.append(el("div", { class: se.current ? "row current" : "row" }, label, `${fmtNum(d.prix, s.unite)} ${s.unite}`, v));
     }
     tip.hidden = false;
@@ -551,6 +564,142 @@ function renderResume() {
       `${pct >= 0 ? "+" : "−"}${Math.abs(pct).toLocaleString("fr-FR", { maximumFractionDigits: 1 })} % depuis ${fmtDate(parseDate(six[0].debut))}`,
       false),
   );
+}
+
+// ------------------------------------------------------------------ page « Europe »
+
+const PAYS = {
+  EU: "Moyenne UE", FR: "France", DE: "Allemagne", ES: "Espagne", IT: "Italie",
+  IE: "Irlande", NL: "Pays-Bas", PL: "Pologne", BE: "Belgique",
+};
+const PAYS_DEFAUT = ["FR", "EU", "DE", "ES", "IE"];
+
+async function chargerEurope() {
+  if (!state.europe) state.europe = await (await fetch("data/europe.json?v=__VERSION__")).json();
+  return state.europe;
+}
+
+// Clé d'une cotation européenne : « secteur:code » (par exemple « beef:DR3 »)
+function euCle(se) {
+  return `${se.secteur}:${se.code}`;
+}
+
+function renderChoixEurope() {
+  const d = state.europe;
+  const cotations = [...new Map(d.series.map((se) => [euCle(se), se])).values()];
+  if (!cotations.some((se) => euCle(se) === state.euSerie)) state.euSerie = euCle(cotations[0]);
+
+  const select = $("#eu-serie");
+  select.innerHTML = "";
+  for (const [secteur, libelle] of Object.entries(d.secteurs)) {
+    const groupe = el("optgroup", { label: libelle });
+    for (const se of cotations.filter((c) => c.secteur === secteur)) {
+      groupe.append(el("option", { value: euCle(se) }, se.libelle));
+    }
+    if (groupe.children.length) select.append(groupe);
+  }
+  select.value = state.euSerie;
+
+  const box = $("#eu-pays");
+  box.innerHTML = "";
+  const dispo = [...new Set(d.series.filter((se) => euCle(se) === state.euSerie).map((se) => se.pays))];
+  for (const code of Object.keys(PAYS).filter((c) => dispo.includes(c))) {
+    const actif = state.pays.includes(code);
+    box.append(el("button", {
+      type: "button", class: "chip" + (actif ? " on" : ""), "aria-pressed": String(actif),
+      onclick: () => {
+        state.pays = actif ? state.pays.filter((c) => c !== code) : [...state.pays, code];
+        if (!state.pays.length) state.pays = ["FR"];
+        renderChart();
+      },
+    }, PAYS[code]));
+  }
+}
+
+function buildModelEurope() {
+  const d = state.europe;
+  const choisies = d.series.filter((se) => euCle(se) === state.euSerie && state.pays.includes(se.pays));
+  const lim = state.range
+    ? parseDate(d.semaines[d.semaines.length - 1].debut).getTime() - PERIODES[state.range] * 7 * 864e5
+    : -Infinity;
+
+  const ordre = Object.keys(PAYS);
+  const series = choisies
+    .sort((a, b) => ordre.indexOf(a.pays) - ordre.indexOf(b.pays))
+    .map((se, k) => ({
+      label: PAYS[se.pays] || se.pays,
+      pays: se.pays,
+      couleur: k % 6,
+      france: se.pays === "FR",
+      points: d.semaines.flatMap((sem, i) => {
+        const prix = se.prix[i];
+        if (prix == null || parseDate(sem.debut).getTime() <= lim) return [];
+        return [{ x: parseDate(sem.debut).getTime(), prix, p: sem }];
+      }),
+    }))
+    .filter((se) => se.points.length);
+
+  const domain = d3.extent(series.flatMap((se) => se.points), (p) => p.x);
+  return { series, domain, ticks: timeTicks(...domain), parPays: true };
+}
+
+function renderEurope() {
+  const d = state.europe;
+  const serie = d.series.find((se) => euCle(se) === state.euSerie);
+  // Série factice : le tracé et l'infobulle n'ont besoin que de l'unité
+  state.serie = { id: state.euSerie, libelle: serie.libelle, unite: serie.unite.replace("EUR/", "€/"),
+                  periodicite: "hebdomadaire", points: [] };
+  document.title = `${serie.libelle} en Europe — Le Prix du Bétail`;
+  renderChoixEurope();
+  $("#serie-titre").textContent =
+    `${d.secteurs[serie.secteur]} — ${serie.libelle} · en ${state.serie.unite} · source Commission européenne`;
+
+  const url = new URL(location.href);
+  url.searchParams.set("cotation", state.euSerie);
+  url.searchParams.set("pays", state.pays.join(","));
+  if (state.range) url.searchParams.set("periode", state.range);
+  else url.searchParams.delete("periode");
+  history.replaceState(null, "", url);
+
+  state.model = buildModelEurope();
+  renderLegend(state.model);
+  drawChart();
+  renderStatsEurope();
+}
+
+function renderStatsEurope() {
+  const u = state.serie.unite;
+  const box = $("#stats");
+  box.innerHTML = "";
+  const stat = (b, span) => el("div", { class: "stat" }, el("b", {}, b), el("span", {}, span));
+
+  // Dernière semaine où la France est cotée, pour comparer tout le monde au même moment
+  const fr = state.model.series.find((se) => se.france);
+  if (!fr) return void box.append(stat("—", "Ajoutez la France pour comparer"));
+  const dernier = fr.points[fr.points.length - 1];
+  const memeSemaine = state.model.series
+    .map((se) => ({ se, d: se.points.find((p) => p.x === dernier.x) }))
+    .filter((r) => r.d)
+    .sort((a, b) => b.d.prix - a.d.prix);
+
+  const rang = memeSemaine.findIndex((r) => r.se.france) + 1;
+  const ue = memeSemaine.find((r) => r.se.pays === "EU");
+  const haut = memeSemaine[0], bas = memeSemaine[memeSemaine.length - 1];
+
+  box.append(stat(`${fmtNum(dernier.prix, u)} €`,
+    `France · ${periodeLabel(dernier.p).replace(/^Semaine /, "S")}`));
+  if (ue && !ue.se.france) {
+    const ecart = dernier.prix - ue.d.prix;
+    const pct = (ecart / ue.d.prix) * 100;
+    box.append(stat(`${fmtNum(ecart, u, true)} € (${pct >= 0 ? "+" : "−"}${Math.abs(pct).toLocaleString("fr-FR", { maximumFractionDigits: 1 })} %)`,
+      "Écart à la moyenne de l'Union"));
+  }
+  if (memeSemaine.length > 1) {
+    box.append(stat(`${rang === 1 ? "1ᵉʳ" : rang + "ᵉ"} sur ${memeSemaine.length}`,
+      "Rang de la France, du plus cher au moins cher"));
+    box.append(stat(`${fmtNum(haut.d.prix, u)} € – ${fmtNum(bas.d.prix, u)} €`,
+      `Du plus cher (${haut.se.label}) au moins cher (${bas.se.label})`));
+  }
 }
 
 // ------------------------------------------------------------------ tableaux
@@ -673,6 +822,26 @@ async function main() {
   }
 
   const params = new URLSearchParams(location.search);
+
+  // Page « Europe » : comparaison entre pays, données chargées à part
+  if ($("#europe")) {
+    await chargerEurope();
+    state.euSerie = params.get("cotation") || state.euSerie;
+    const demandes = (params.get("pays") || "").split(",").filter((c) => c in PAYS);
+    state.pays = demandes.length ? demandes : PAYS_DEFAUT;
+    setRange(params.get("periode") || "1a");
+    $("#eu-serie").addEventListener("change", () => {
+      state.euSerie = $("#eu-serie").value;
+      renderChart();
+    });
+    document.querySelectorAll("[data-range]").forEach((b) => b.addEventListener("click", () => {
+      setRange(b.dataset.range);
+      renderChart();
+    }));
+    renderEurope();
+    observerTailleEtInfobulle();
+    return;
+  }
 
   // Page « L'essentiel » : tout vient de l'adresse, aucun réglage à l'écran
   if ($("#essentiel")) {

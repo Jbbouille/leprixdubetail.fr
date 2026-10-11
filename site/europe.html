@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Comparaison européenne — Le Prix du Bétail</title>
+  <meta name="description" content="Le prix de la viande en France comparé à celui de ses voisins européens : gros bovins, porc, agneau, veaux et broutards, semaine après semaine.">
+  <meta property="og:title" content="Comparaison européenne — Le Prix du Bétail">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://leprixdubetail.fr/europe.html">
+  <link rel="icon" href="favicon.svg?v=__VERSION__" type="image/svg+xml">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <meta name="theme-color" content="#2b7a3d">
+  <meta name="apple-mobile-web-app-title" content="Prix du Bétail">
+  <link rel="stylesheet" href="style.css?v=__VERSION__">
+  <script src="d3.min.js?v=__VERSION__" defer></script>
+  <script src="app.js?v=__VERSION__" defer></script>
+  <script src="email.js?v=__VERSION__" defer></script>
+</head>
+<body class="page-europe">
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="./">
+        <img src="favicon.svg" alt="" width="40" height="40">
+        <span>
+          <span class="brand-name">Le Prix du Bétail</span>
+          <span class="brand-tag">Les cours de la viande, semaine après semaine</span>
+        </span>
+      </a>
+      <nav class="nav">
+        <a href="./">Tableau de bord</a>
+        <a href="evolution.html">Évolution</a>
+        <a href="europe.html" aria-current="page">Europe</a>
+        <a href="comprendre.html">Comprendre</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap section evolution" id="europe">
+    <div class="evolution-head">
+      <h1>La France et ses voisins</h1>
+      <div class="controls">
+        <label class="select">
+          <span class="sr-only">Cotation</span>
+          <select id="eu-serie"></select>
+        </label>
+        <div class="seg" role="group" aria-label="Période" id="periodes">
+          <button type="button" data-range="">Tout</button>
+          <button type="button" data-range="3a">3 ans</button>
+          <button type="button" data-range="1a" class="on">1 an</button>
+          <button type="button" data-range="6m">6 mois</button>
+          <button type="button" data-range="3m">3 mois</button>
+        </div>
+      </div>
+      <div class="chips" id="eu-pays" role="group" aria-label="Pays comparés"></div>
+    </div>
+    <div class="panel chart-panel">
+      <p id="serie-titre" class="chart-title"></p>
+      <div id="legende" class="legend" hidden></div>
+      <div id="chart" class="chart-box" role="img" aria-label="Graphique de comparaison européenne">
+        <div id="infobulle" class="tip" hidden></div>
+      </div>
+    </div>
+    <div id="stats" class="stats"></div>
+    <p class="lead">Prix relevés par les États membres et publiés par la Commission européenne. Les définitions sont harmonisées à l'échelle de l'Union, mais ne recouvrent pas exactement les catégories françaises : à comparer entre pays, pas avec les cotations FranceAgriMer des autres pages.</p>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p><strong>Sources :</strong> <a href="https://visionet.franceagrimer.fr" rel="noopener">Établissement national des produits de l'agriculture et de la mer (FranceAgriMer)</a>, Réseau des Nouvelles des Marchés (RNM), et <a href="https://agridata.ec.europa.eu" rel="noopener">Commission européenne — portail agridata</a> (licence CC BY 4.0, prix convertis en euros par kilo). Les données sont reprises telles que publiées ; seules leur mise en forme et leur présentation sont propres à ce site.</p>
+      <p class="muted">Une question, une remarque, une erreur repérée ? Écrivez-nous : <a class="email" rel="nofollow noindex" href="tontact-leprixdubetail/">votre ckontkact example fr</a></p>
+      <p class="muted">Le Prix du Bétail est un site indépendant, sans lien avec FranceAgriMer. Code source et données : <a href="https://github.com/Jbbouille/leprixdubetail.fr" rel="noopener">github.com/Jbbouille/leprixdubetail.fr</a>.</p>
+    </div>
+  </footer>
+</body>
+</html>
