@@ -142,7 +142,9 @@ def main() -> int:
             print(f"  [ignoré] {zname}: archive illisible")
         done.add(zname)
     ZIPS_DONE.parent.mkdir(parents=True, exist_ok=True)
-    ZIPS_DONE.write_text("\n".join(sorted(done)) + "\n", encoding="utf-8")
+    # newline fixé : sinon le fichier est écrit en CRLF sous Windows et en LF dans
+    # GitHub Actions, ce qui ferait un faux changement à chaque exécution
+    ZIPS_DONE.write_text("\n".join(sorted(done)) + "\n", encoding="utf-8", newline="\n")
 
     # 3. CSV listés mais toujours absents : téléchargement unitaire
     for rubrique, names in listed.items():

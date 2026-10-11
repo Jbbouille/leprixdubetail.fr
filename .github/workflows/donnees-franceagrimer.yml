@@ -35,6 +35,9 @@ jobs:
       - name: Transformer les données
         run: python scripts/transform.py
 
+      - name: Collecter les prix européens (agridata)
+        run: python scripts/fetch_europe.py
+
       - name: Enregistrer s'il y a du nouveau
         run: |
           git add data/

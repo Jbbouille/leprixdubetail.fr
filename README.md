@@ -11,7 +11,11 @@ tourne chaque samedi matin (et à la demande, via *Run workflow*) :
 1. `scripts/fetch.py` liste les fichiers publiés dans les 11 rubriques « cotations en format csv »
    et télécharge ceux qui manquent dans `data/raw/` (via les ZIP hebdomadaires, puis fichier par fichier).
 2. `scripts/transform.py` relit tous les fichiers bruts et régénère `data/processed/`.
-3. S'il y a du nouveau, le résultat est commité.
+3. `scripts/fetch_europe.py` récupère les prix européens de la viande sur l'API
+   [agridata](https://agridata.ec.europa.eu) de la Commission européenne (bovins, porc,
+   ovins, animaux vifs) pour la France, huit voisins et la moyenne UE, et écrit
+   `data/processed/europe/prix-<année>.csv` (historique depuis 1991) et `europe.json`.
+4. S'il y a du nouveau, le résultat est commité.
 
 En local :
 
@@ -66,6 +70,8 @@ Tous les fichiers sont en UTF-8, séparateur virgule, au format long : une ligne
 | `indicateurs.csv` / `indicateurs.json` | Un prix de référence par espèce et par période (pour le site) |
 | `details.json` | Tableaux croisés de la dernière semaine, prêts à afficher (pour le site) |
 | `veaux_races.json` | Historique des petits veaux par race, sexe et catégorie (vue « Par race ») |
+| `europe/prix-<année>.csv` | Prix européens par pays, secteur et code de cotation (source : Commission européenne) |
+| `europe.json` | Séries européennes des dernières années, prêtes pour le site |
 | `veaux_boucherie.csv` | Veaux de boucherie par mode d'élevage, région, couleur, conformation |
 | `veaux_boucherie_pmp.csv` | Prix moyens pondérés des veaux de boucherie |
 | `veaux_14j.csv` | Veaux de 14 jours à 4 semaines : moyennes nationales et prix moyen pondéré |
@@ -83,5 +89,6 @@ Tous les fichiers sont en UTF-8, séparateur virgule, au format long : une ligne
 Les rubriques **équidés** et **gros bovins vifs** sont téléchargées mais ne contiennent aucun prix
 (modèles vides, publication arrêtée en février 2026).
 
-Source : FranceAgriMer — RNM. Les semaines manquantes correspondent à des semaines sans publication
+Sources : FranceAgriMer — RNM, et Commission européenne — portail agridata
+(données réutilisables sous licence CC BY 4.0, converties en euros par kilo). Les semaines manquantes correspondent à des semaines sans publication
 (par exemple les moyennes nationales des petits veaux, suspendues pendant l'épizootie de FCO à l'automne 2024).
