@@ -32,6 +32,8 @@ API = "https://api.tech.ec.europa.eu/agrifood/api"
 # L'API renvoie tout son historique (jusqu'à 1991 pour certains secteurs) : on garde tout
 # dans les CSV, mais le fichier du site se limite aux dernières années.
 ANNEES_SITE = 6
+# Historique visé pour les secteurs dont l'API respecte le filtre d'années (bovins)
+ANNEE_MIN = 2015
 
 # Pays suivis : la France, ses principaux voisins producteurs, et la moyenne UE
 PAYS = ["EU", "FR", "DE", "ES", "IT", "IE", "NL", "PL", "BE"]
@@ -110,7 +112,13 @@ def lire_csv() -> dict[tuple, dict]:
     lignes: dict[tuple, dict] = {}
     for fichier in sorted(CSV_DIR.glob("prix-*.csv")):
         with fichier.open(encoding="utf-8", newline="") as f:
-            lignes.update({cle(r): r for r in csv.DictReader(f)})
+            for r in csv.DictReader(f):
+                # la grille est redéduite du code à chaque lecture : les années déjà
+                # collectées profitent ainsi des corrections de décodage
+                grille = CODE_EUROP.match(r["code"])
+                r["conformation"] = grille.group(2) if grille else ""
+                r["etat_engraissement"] = grille.group(3) if grille else ""
+                lignes[cle(r)] = r
     return lignes
 
 
@@ -209,12 +217,18 @@ def main() -> int:
 
     # On ne réinterroge que l'année en cours et la précédente ; l'historique plus ancien
     # est déjà dans le CSV (et ne change plus)
-    # L'API renvoie de toute façon tout son historique : deux années suffisent en filtre
     annee = date.today().year
-    annees = [annee - 1, annee]
+
+    # Années déjà collectées, par secteur : on complète l'historique manquant une fois
+    # pour toutes, puis on ne redemande que l'année en cours et la précédente.
+    presentes: dict[str, set[int]] = {}
+    for r in lignes.values():
+        presentes.setdefault(r["secteur"], set()).add(int(r["annee"]))
 
     erreurs = 0
     for secteur in SECTEURS:
+        manquantes = [a for a in range(ANNEE_MIN, annee + 1) if a not in presentes.get(secteur, set())]
+        annees = sorted({*manquantes, annee - 1, annee})
         try:
             nouvelles = collecter(session, secteur, annees)
         except (requests.RequestException, ValueError) as exc:
