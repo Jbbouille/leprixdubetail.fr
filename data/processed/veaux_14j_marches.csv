@@ -40703,3 +40703,159 @@ annee,semaine,mois,date_debut,date_fin,type_racial,sexe,conformation,poids,march
 2026,40,,2026-09-28,2026-10-04,Laitier,Mâle,,40 a 45 kg,LEZA,EUR/tête,30,,COT-VRO-veaux14j_marches-A26-S40.csv
 2026,40,,2026-09-28,2026-10-04,Laitier,Mâle,,40 a 45 kg,MOYENNE NATIONALE,EUR/tête,39.47,-14.03,COT-VRO-veaux14j_marches-A26-S40.csv
 2026,40,,2026-09-28,2026-10-04,Laitier,Mâle,,< 40 kg,LAMB,EUR/tête,56,,COT-VRO-veaux14j_marches-A26-S40.csv
+2026,42,,2026-10-12,2026-10-18,Limousins,Mâle,U,,AGEN,EUR/tête,705,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Limousins,Mâle,U,,CHAB,EUR/tête,700,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Limousins,Mâle,U,,LEZA,EUR/tête,630,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Limousins,Mâle,U,,MOYENNE NATIONALE,EUR/tête,653.35,3.9,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Limousins,Mâle,R,,AGEN,EUR/tête,525,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Limousins,Mâle,R,,CHAB,EUR/tête,590,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Limousins,Mâle,R,,LEZA,EUR/tête,380,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Limousins,Mâle,R,,MOYENNE NATIONALE,EUR/tête,434.45,3.9,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Limousins,Femelle,U,,AGEN,EUR/tête,630,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Limousins,Femelle,U,,CHAB,EUR/tête,630,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Limousins,Femelle,U,,LEZA,EUR/tête,500,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Limousins,Femelle,U,,MOYENNE NATIONALE,EUR/tête,545.37,4.01,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Limousins,Femelle,R,,AGEN,EUR/tête,450,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Limousins,Femelle,R,,CHAB,EUR/tête,490,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Limousins,Femelle,R,,LEZA,EUR/tête,330,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Limousins,Femelle,R,,MOYENNE NATIONALE,EUR/tête,377.83,4,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Charolais,Mâle,U,,CHAB,EUR/tête,600,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Charolais,Mâle,U,,LEZA,EUR/tête,460,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Charolais,Mâle,U,,MOYENNE NATIONALE,EUR/tête,512.7,-12.47,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Charolais,Mâle,R,,CHAB,EUR/tête,470,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Charolais,Mâle,R,,LEZA,EUR/tête,290,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Charolais,Mâle,R,,MOYENNE NATIONALE,EUR/tête,357.75,0,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Charolais,Femelle,U,,CHAB,EUR/tête,540,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Charolais,Femelle,U,,LEZA,EUR/tête,360,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Charolais,Femelle,U,,MOYENNE NATIONALE,EUR/tête,423.72,-12.92,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Charolais,Femelle,R,,CHAB,EUR/tête,320,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Charolais,Femelle,R,,LEZA,EUR/tête,250,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Charolais,Femelle,R,,MOYENNE NATIONALE,EUR/tête,274.78,0,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Croise Viande,Mâle,U,,CHAB,EUR/tête,550,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Croise Viande,Mâle,U,,CHAG,EUR/tête,460,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Croise Viande,Mâle,U,,LEZA,EUR/tête,460,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Croise Viande,Mâle,U,,MOYENNE NATIONALE,EUR/tête,483.26,-12.81,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Croise Viande,Mâle,R,,CHAB,EUR/tête,390,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Croise Viande,Mâle,R,,CHAG,EUR/tête,360,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Croise Viande,Mâle,R,,LEZA,EUR/tête,290,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Croise Viande,Mâle,R,,MOYENNE NATIONALE,EUR/tête,322.92,0,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Croise Viande,Mâle,O,,CHAB,EUR/tête,220,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Croise Viande,Mâle,O,,CHAG,EUR/tête,190,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Croise Viande,Mâle,O,,MOYENNE NATIONALE,EUR/tête,211.56,0,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Croise Viande,Femelle,U,,CHAB,EUR/tête,450,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Croise Viande,Femelle,U,,CHAG,EUR/tête,380,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Croise Viande,Femelle,U,,LEZA,EUR/tête,360,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Croise Viande,Femelle,U,,MOYENNE NATIONALE,EUR/tête,399.06,-10.59,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Croise Viande,Femelle,R,,CHAB,EUR/tête,310,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Croise Viande,Femelle,R,,CHAG,EUR/tête,280,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Croise Viande,Femelle,R,,LEZA,EUR/tête,250,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Croise Viande,Femelle,R,,MOYENNE NATIONALE,EUR/tête,276.82,0,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Croise Viande,Femelle,O,,CHAB,EUR/tête,180,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Croise Viande,Femelle,O,,CHAG,EUR/tête,140,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Croise Viande,Femelle,O,,MOYENNE NATIONALE,EUR/tête,176,0,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Croise Mixte,Mâle,U,,AGEN,EUR/tête,535,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Croise Mixte,Mâle,U,,CHAB,EUR/tête,460,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Croise Mixte,Mâle,U,,CHAG,EUR/tête,460,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Croise Mixte,Mâle,U,,LEZA,EUR/tête,420,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Croise Mixte,Mâle,U,,MOYENNE NATIONALE,EUR/tête,452.42,3.16,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Croise Mixte,Mâle,R,,AGEN,EUR/tête,360,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Croise Mixte,Mâle,R,,CHAB,EUR/tête,270,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Croise Mixte,Mâle,R,,CHAG,EUR/tête,360,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Croise Mixte,Mâle,R,,LEZA,EUR/tête,280,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Croise Mixte,Mâle,R,,MOYENNE NATIONALE,EUR/tête,308.05,3.15,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Croise Mixte,Mâle,O,,AGEN,EUR/tête,260,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Croise Mixte,Mâle,O,,CHAB,EUR/tête,140,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Croise Mixte,Mâle,O,,CHAG,EUR/tête,190,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Croise Mixte,Mâle,O,,LEZA,EUR/tête,140,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Croise Mixte,Mâle,O,,MOYENNE NATIONALE,EUR/tête,169.48,3.15,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Croise Mixte,Femelle,U,,AGEN,EUR/tête,470,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Croise Mixte,Femelle,U,,CHAB,EUR/tête,380,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Croise Mixte,Femelle,U,,CHAG,EUR/tête,380,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Croise Mixte,Femelle,U,,LEZA,EUR/tête,350,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Croise Mixte,Femelle,U,,MOYENNE NATIONALE,EUR/tête,379.24,2.32,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Croise Mixte,Femelle,R,,AGEN,EUR/tête,295,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Croise Mixte,Femelle,R,,CHAB,EUR/tête,220,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Croise Mixte,Femelle,R,,CHAG,EUR/tête,280,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Croise Mixte,Femelle,R,,LEZA,EUR/tête,260,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Croise Mixte,Femelle,R,,MOYENNE NATIONALE,EUR/tête,268.04,2.32,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Croise Mixte,Femelle,O,,AGEN,EUR/tête,250,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Croise Mixte,Femelle,O,,CHAB,EUR/tête,90,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Croise Mixte,Femelle,O,,CHAG,EUR/tête,140,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Croise Mixte,Femelle,O,,LEZA,EUR/tête,140,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Croise Mixte,Femelle,O,,MOYENNE NATIONALE,EUR/tête,147.57,2.32,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Croise Laitier,Mâle,R,,AGEN,EUR/tête,350,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Croise Laitier,Mâle,R,,ARMO,EUR/tête,530,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Croise Laitier,Mâle,R,,CHAB,EUR/tête,240,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Croise Laitier,Mâle,R,,CHAG,EUR/tête,240,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Croise Laitier,Mâle,R,,LAMB,EUR/tête,444,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Croise Laitier,Mâle,R,,LEZA,EUR/tête,260,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Croise Laitier,Mâle,R,,MOYENNE NATIONALE,EUR/tête,314.01,5.65,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Croise Laitier,Mâle,O,,AGEN,EUR/tête,240,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Croise Laitier,Mâle,O,,ARMO,EUR/tête,300,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Croise Laitier,Mâle,O,,CHAB,EUR/tête,170,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Croise Laitier,Mâle,O,,CHAG,EUR/tête,140,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Croise Laitier,Mâle,O,,LAMB,EUR/tête,308,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Croise Laitier,Mâle,O,,LEZA,EUR/tête,160,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Croise Laitier,Mâle,O,,MOYENNE NATIONALE,EUR/tête,197.47,5.92,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Croise Laitier,Mâle,P,,CHAB,EUR/tête,110,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Croise Laitier,Mâle,P,,CHAG,EUR/tête,70,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Croise Laitier,Mâle,P,,LAMB,EUR/tête,166,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Croise Laitier,Mâle,P,,MOYENNE NATIONALE,EUR/tête,109.84,6.59,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Croise Laitier,Femelle,R,,AGEN,EUR/tête,280,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Croise Laitier,Femelle,R,,ARMO,EUR/tête,430,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Croise Laitier,Femelle,R,,CHAB,EUR/tête,190,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Croise Laitier,Femelle,R,,CHAG,EUR/tête,200,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Croise Laitier,Femelle,R,,LAMB,EUR/tête,414,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Croise Laitier,Femelle,R,,LEZA,EUR/tête,210,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Croise Laitier,Femelle,R,,MOYENNE NATIONALE,EUR/tête,259.3,7.99,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Croise Laitier,Femelle,O,,AGEN,EUR/tête,225,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Croise Laitier,Femelle,O,,ARMO,EUR/tête,250,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Croise Laitier,Femelle,O,,CHAB,EUR/tête,110,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Croise Laitier,Femelle,O,,CHAG,EUR/tête,100,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Croise Laitier,Femelle,O,,LAMB,EUR/tête,276,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Croise Laitier,Femelle,O,,LEZA,EUR/tête,140,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Croise Laitier,Femelle,O,,MOYENNE NATIONALE,EUR/tête,161.87,5.05,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Croise Laitier,Femelle,P,,CHAB,EUR/tête,70,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Croise Laitier,Femelle,P,,CHAG,EUR/tête,30,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Croise Laitier,Femelle,P,,MOYENNE NATIONALE,EUR/tête,38.77,0,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Montbeliards,Mâle,,55 a 60 kg,LEZA,EUR/tête,320,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Montbeliards,Mâle,,50 a 55 kg,LEZA,EUR/tête,230,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Montbeliards,Mâle,,45 a 50 kg,LEZA,EUR/tête,140,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Normands,Mâle,,55 a 60 kg,CHAB,EUR/tête,190,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Normands,Mâle,,55 a 60 kg,CHAG,EUR/tête,190,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Normands,Mâle,,55 a 60 kg,LEZA,EUR/tête,220,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Normands,Mâle,,55 a 60 kg,MOYENNE NATIONALE,EUR/tête,208.11,0,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Normands,Mâle,,50 a 55 kg,CHAB,EUR/tête,140,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Normands,Mâle,,50 a 55 kg,CHAG,EUR/tête,130,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Normands,Mâle,,50 a 55 kg,LEZA,EUR/tête,140,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Normands,Mâle,,50 a 55 kg,MOYENNE NATIONALE,EUR/tête,137.03,0,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Normands,Mâle,,45 a 50 kg,CHAB,EUR/tête,90,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Normands,Mâle,,45 a 50 kg,CHAG,EUR/tête,80,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Normands,Mâle,,45 a 50 kg,LEZA,EUR/tête,90,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Normands,Mâle,,45 a 50 kg,MOYENNE NATIONALE,EUR/tête,87.03,0,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Laitier,Mâle,,> 55 kg,AGEN,EUR/tête,210,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Laitier,Mâle,,> 55 kg,ARMO,EUR/tête,200,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Laitier,Mâle,,> 55 kg,CHAB,EUR/tête,165,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Laitier,Mâle,,> 55 kg,CHAG,EUR/tête,180,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Laitier,Mâle,,> 55 kg,LAMB,EUR/tête,200,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Laitier,Mâle,,> 55 kg,LEZA,EUR/tête,160,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Laitier,Mâle,,> 55 kg,MOYENNE NATIONALE,EUR/tête,173.77,-7.13,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Laitier,Mâle,,50 a 55 kg,AGEN,EUR/tête,165,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Laitier,Mâle,,50 a 55 kg,ARMO,EUR/tête,175,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Laitier,Mâle,,50 a 55 kg,CHAB,EUR/tête,135,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Laitier,Mâle,,50 a 55 kg,CHAG,EUR/tête,130,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Laitier,Mâle,,50 a 55 kg,LAMB,EUR/tête,174,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Laitier,Mâle,,50 a 55 kg,LEZA,EUR/tête,125,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Laitier,Mâle,,50 a 55 kg,MOYENNE NATIONALE,EUR/tête,136.19,0.72,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Laitier,Mâle,,45 a 50 kg,ARMO,EUR/tête,130,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Laitier,Mâle,,45 a 50 kg,CHAB,EUR/tête,85,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Laitier,Mâle,,45 a 50 kg,CHAG,EUR/tête,80,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Laitier,Mâle,,45 a 50 kg,LAMB,EUR/tête,146,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Laitier,Mâle,,45 a 50 kg,LEZA,EUR/tête,100,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Laitier,Mâle,,45 a 50 kg,MOYENNE NATIONALE,EUR/tête,100.4,3.01,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Laitier,Mâle,,40 a 45 kg,CHAB,EUR/tête,45,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Laitier,Mâle,,40 a 45 kg,CHAG,EUR/tête,30,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Laitier,Mâle,,40 a 45 kg,LAMB,EUR/tête,116,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Laitier,Mâle,,40 a 45 kg,LEZA,EUR/tête,30,,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Laitier,Mâle,,40 a 45 kg,MOYENNE NATIONALE,EUR/tête,40.5,4.83,COT-VRO-veaux14j_marches-A26-S42.csv
+2026,42,,2026-10-12,2026-10-18,Laitier,Mâle,,< 40 kg,LAMB,EUR/tête,66,,COT-VRO-veaux14j_marches-A26-S42.csv
