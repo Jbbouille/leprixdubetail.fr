@@ -1157,3 +1157,9 @@ annee,semaine,mois,date_debut,date_fin,categorie,sexe,poids,prix,variation,unite
 2026,42,,2026-10-12,2026-10-18,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,100,3,EUR/tête,COT-VRO-veaux14j_synthese-A26-S42.csv
 2026,42,,2026-10-12,2026-10-18,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,136,1,EUR/tête,COT-VRO-veaux14j_synthese-A26-S42.csv
 2026,42,,2026-10-12,2026-10-18,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,167,3,EUR/tête,COT-VRO-veaux14j_synthese-A26-S42.csv
+2026,43,,2026-10-19,2026-10-25,Élevage supérieur,Mâle,,309,0,EUR/tête,COT-VRO-veaux14j_synthese-A26-S43.csv
+2026,43,,2026-10-19,2026-10-25,Élevage supérieur,Femelle,,251,-4,EUR/tête,COT-VRO-veaux14j_synthese-A26-S43.csv
+2026,43,,2026-10-19,2026-10-25,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,38,-3,EUR/tête,COT-VRO-veaux14j_synthese-A26-S43.csv
+2026,43,,2026-10-19,2026-10-25,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,92,-8,EUR/tête,COT-VRO-veaux14j_synthese-A26-S43.csv
+2026,43,,2026-10-19,2026-10-25,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,128,-8,EUR/tête,COT-VRO-veaux14j_synthese-A26-S43.csv
+2026,43,,2026-10-19,2026-10-25,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,163,-4,EUR/tête,COT-VRO-veaux14j_synthese-A26-S43.csv
