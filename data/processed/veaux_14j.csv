@@ -1169,3 +1169,15 @@ annee,semaine,mois,date_debut,date_fin,categorie,sexe,poids,prix,variation,unite
 2026,44,,2026-10-26,2026-11-01,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,90,-2,EUR/tête,COT-VRO-veaux14j_synthese-A26-S44.csv
 2026,44,,2026-10-26,2026-11-01,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,127,-1,EUR/tête,COT-VRO-veaux14j_synthese-A26-S44.csv
 2026,44,,2026-10-26,2026-11-01,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,161,-2,EUR/tête,COT-VRO-veaux14j_synthese-A26-S44.csv
+2026,45,,2026-11-02,2026-11-08,Élevage supérieur,Mâle,,307,1,EUR/tête,COT-VRO-veaux14j_synthese-A26-S45.csv
+2026,45,,2026-11-02,2026-11-08,Élevage supérieur,Femelle,,253,3,EUR/tête,COT-VRO-veaux14j_synthese-A26-S45.csv
+2026,45,,2026-11-02,2026-11-08,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,40,4,EUR/tête,COT-VRO-veaux14j_synthese-A26-S45.csv
+2026,45,,2026-11-02,2026-11-08,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,95,5,EUR/tête,COT-VRO-veaux14j_synthese-A26-S45.csv
+2026,45,,2026-11-02,2026-11-08,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,130,3,EUR/tête,COT-VRO-veaux14j_synthese-A26-S45.csv
+2026,45,,2026-11-02,2026-11-08,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,164,3,EUR/tête,COT-VRO-veaux14j_synthese-A26-S45.csv
+2026,46,,2026-11-09,2026-11-15,Élevage supérieur,Mâle,,307,0,EUR/tête,COT-VRO-veaux14j_synthese-A26-S46.csv
+2026,46,,2026-11-09,2026-11-15,Élevage supérieur,Femelle,,253,0,EUR/tête,COT-VRO-veaux14j_synthese-A26-S46.csv
+2026,46,,2026-11-09,2026-11-15,Engraissement laitier (assez bonne conformation),Mâle,< 45 kg,38,-2,EUR/tête,COT-VRO-veaux14j_synthese-A26-S46.csv
+2026,46,,2026-11-09,2026-11-15,Engraissement laitier (assez bonne conformation),Mâle,45 A 50 kg,93,-2,EUR/tête,COT-VRO-veaux14j_synthese-A26-S46.csv
+2026,46,,2026-11-09,2026-11-15,Engraissement laitier (assez bonne conformation),Mâle,50 A 60 kg,128,-2,EUR/tête,COT-VRO-veaux14j_synthese-A26-S46.csv
+2026,46,,2026-11-09,2026-11-15,"Prix moyen pondéré (0,3 élevage + 0,7 engraissement)",Mâle,,162,-2,EUR/tête,COT-VRO-veaux14j_synthese-A26-S46.csv

@@ -15,6 +15,7 @@ import re
 import sys
 import time
 import zipfile
+from datetime import date, timedelta
 from pathlib import Path
 from urllib.parse import quote
 
@@ -82,6 +83,23 @@ def download(session: requests.Session, rubrique: str, name: str) -> bytes | Non
     return resp.content
 
 
+def zips_recents(semaines: int = 10, mois: int = 3) -> list[str]:
+    """Noms des ZIP « toutes espèces » des dernières semaines et des derniers mois.
+
+    Ils suivent un format fixe (COT-VIA-cotations_csv-A26-S46.zip), ce qui permet de les
+    télécharger sans dépendre de la liste publiée par Visionet.
+    """
+    noms = []
+    jour = date.today()
+    for i in range(semaines):
+        annee, semaine, _ = (jour - timedelta(weeks=i)).isocalendar()
+        noms.append(f"COT-VIA-cotations_csv-A{annee % 100:02d}-S{semaine:02d}.zip")
+    for i in range(mois):
+        d = date(jour.year, jour.month, 1) - timedelta(days=31 * i)
+        noms.append(f"COT-VIA-cotations_csv-A{d.year % 100:02d}-M{d.month:02d}.zip")
+    return noms
+
+
 def main() -> int:
     session = requests.Session()
     session.headers.update(HEADERS)
@@ -123,6 +141,9 @@ def main() -> int:
     except requests.RequestException as exc:
         print(f"[ERREUR] liste des ZIP: {exc}", file=sys.stderr)
         zips = []
+    # Le listage revient parfois vide (Visionet filtre certaines requêtes) : on complète
+    # avec les noms des dernières semaines, qui sont prévisibles.
+    zips += [z for z in zips_recents() if z not in done and z not in zips]
     print(f"{len(zips)} ZIP à traiter")
     for zname in zips:
         try:

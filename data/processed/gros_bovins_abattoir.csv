@@ -14330,6 +14330,39 @@ annee,semaine,mois,date_debut,date_fin,qualite,categorie,type,classe,unite,prix,
 2026,40,,2026-09-28,2026-10-04,Standard,Jeunes bovins 8 à 24 mois,Viande Mixte Lait,P=,EUR/kg net,5.49,0,COT-VRO-GBST_nationale-A26-S40.csv
 2026,40,,2026-09-28,2026-10-04,Standard,Vaches,Lait,P=,EUR/kg net,5.33,-0.02,COT-VRO-GBST_nationale-A26-S40.csv
 2026,40,,2026-09-28,2026-10-04,Standard,Vaches,Lait,P-,EUR/kg net,5.2,0.02,COT-VRO-GBST_nationale-A26-S40.csv
+2026,,10,2026-10-01,2026-10-31,Bio,Boeufs,Viande,U,EUR/kg net,7.93,,COT-VRO-GBBI_nationale-A26-M10.csv
+2026,,10,2026-10-01,2026-10-31,Bio,Boeufs,Viande,R,EUR/kg net,7.52,-0.03,COT-VRO-GBBI_nationale-A26-M10.csv
+2026,,10,2026-10-01,2026-10-31,Bio,Génisses,Viande Mixte Lait,R,EUR/kg net,7.39,-0.1,COT-VRO-GBBI_nationale-A26-M10.csv
+2026,,10,2026-10-01,2026-10-31,Bio,Génisses,Viande +350Kg,R,EUR/kg net,7.45,-0.09,COT-VRO-GBBI_nationale-A26-M10.csv
+2026,,10,2026-10-01,2026-10-31,Bio,Vaches,"Viande tous poids, toutes races",R,EUR/kg net,7.54,0.03,COT-VRO-GBBI_nationale-A26-M10.csv
+2026,,10,2026-10-01,2026-10-31,Bio,Vaches,Viande hors Bl/Parth. -10 a +350kg,R,EUR/kg net,7.56,-0.03,COT-VRO-GBBI_nationale-A26-M10.csv
+2026,,10,2026-10-01,2026-10-31,Bio,Vaches,Charolaise -10 ans +350Kg,R,EUR/kg net,7.35,-0.04,COT-VRO-GBBI_nationale-A26-M10.csv
+2026,,10,2026-10-01,2026-10-31,Bio,Boeufs,Viande,O,EUR/kg net,6.81,0.15,COT-VRO-GBBI_nationale-A26-M10.csv
+2026,,10,2026-10-01,2026-10-31,Bio,Boeufs,Mixte,O,EUR/kg net,6.43,-0.03,COT-VRO-GBBI_nationale-A26-M10.csv
+2026,,10,2026-10-01,2026-10-31,Bio,Vaches,"Viande tous poids, toutes races",O,EUR/kg net,6.72,-0.05,COT-VRO-GBBI_nationale-A26-M10.csv
+2026,,10,2026-10-01,2026-10-31,Bio,Vaches,Mixte,O,EUR/kg net,6.29,-0.08,COT-VRO-GBBI_nationale-A26-M10.csv
+2026,,10,2026-10-01,2026-10-31,Bio,Vaches,Lait,P,EUR/kg net,5.83,-0.08,COT-VRO-GBBI_nationale-A26-M10.csv
+2026,,10,2026-10-01,2026-10-31,SIQO (hors bio),Vaches,Blonde d'A et Parth. -10 ans +350Kg,U+,EUR/kg net,8.87,,COT-VRO-GBSI_nationale-A26-M10.csv
+2026,,10,2026-10-01,2026-10-31,SIQO (hors bio),Jeunes bovins 12 à 24 mois,Viande toutes races,U=,EUR/kg net,6.56,0.07,COT-VRO-GBSI_nationale-A26-M10.csv
+2026,,10,2026-10-01,2026-10-31,SIQO (hors bio),Génisses,Viande mixte mait,U=,EUR/kg net,8.02,-0.07,COT-VRO-GBSI_nationale-A26-M10.csv
+2026,,10,2026-10-01,2026-10-31,SIQO (hors bio),Génisses,Viande +350kg,U=,EUR/kg net,8.13,-0.07,COT-VRO-GBSI_nationale-A26-M10.csv
+2026,,10,2026-10-01,2026-10-31,SIQO (hors bio),Vaches,"Viande tous poids, toutes races",U=,EUR/kg net,8.19,0.04,COT-VRO-GBSI_nationale-A26-M10.csv
+2026,,10,2026-10-01,2026-10-31,SIQO (hors bio),Vaches,Viande hors Bl/Parth. -10 a +350kg,U=,EUR/kg net,8.06,0.07,COT-VRO-GBSI_nationale-A26-M10.csv
+2026,,10,2026-10-01,2026-10-31,SIQO (hors bio),Vaches,Blonde d'A et Parth. -10 ans +350Kg,U=,EUR/kg net,8.76,0.01,COT-VRO-GBSI_nationale-A26-M10.csv
+2026,,10,2026-10-01,2026-10-31,SIQO (hors bio),Vaches,Limousine -10 ans +350Kg,U=,EUR/kg net,8.15,0.06,COT-VRO-GBSI_nationale-A26-M10.csv
+2026,,10,2026-10-01,2026-10-31,SIQO (hors bio),Génisses,Viande +350kg,U-,EUR/kg net,7.93,-0.04,COT-VRO-GBSI_nationale-A26-M10.csv
+2026,,10,2026-10-01,2026-10-31,SIQO (hors bio),Vaches,Viande hors Bl/Parth. -10 a +350kg,U-,EUR/kg net,7.77,-0.03,COT-VRO-GBSI_nationale-A26-M10.csv
+2026,,10,2026-10-01,2026-10-31,SIQO (hors bio),Vaches,Blonde d'A et Parth. -10 ans +350Kg,U-,EUR/kg net,8.64,0.04,COT-VRO-GBSI_nationale-A26-M10.csv
+2026,,10,2026-10-01,2026-10-31,SIQO (hors bio),Vaches,Charolaise -10 ans +350Kg,U-,EUR/kg net,7.34,0.03,COT-VRO-GBSI_nationale-A26-M10.csv
+2026,,10,2026-10-01,2026-10-31,SIQO (hors bio),Vaches,Limousine -10 ans +350Kg,U-,EUR/kg net,8.05,0.01,COT-VRO-GBSI_nationale-A26-M10.csv
+2026,,10,2026-10-01,2026-10-31,SIQO (hors bio),Génisses,Viande +350kg,R+,EUR/kg net,7.64,0.02,COT-VRO-GBSI_nationale-A26-M10.csv
+2026,,10,2026-10-01,2026-10-31,SIQO (hors bio),Vaches,Viande hors Bl/Parth. -10 a +350kg,R+,EUR/kg net,7.52,-0.01,COT-VRO-GBSI_nationale-A26-M10.csv
+2026,,10,2026-10-01,2026-10-31,SIQO (hors bio),Vaches,Charolaise -10 ans +350Kg,R+,EUR/kg net,7.27,0.03,COT-VRO-GBSI_nationale-A26-M10.csv
+2026,,10,2026-10-01,2026-10-31,SIQO (hors bio),Vaches,Limousine -10 ans +350Kg,R+,EUR/kg net,7.89,0.01,COT-VRO-GBSI_nationale-A26-M10.csv
+2026,,10,2026-10-01,2026-10-31,SIQO (hors bio),Génisses,Viande mixte mait,R=,EUR/kg net,7.61,0.02,COT-VRO-GBSI_nationale-A26-M10.csv
+2026,,10,2026-10-01,2026-10-31,SIQO (hors bio),Vaches,"Viande tous poids, toutes races",R=,EUR/kg net,7.53,-0.02,COT-VRO-GBSI_nationale-A26-M10.csv
+2026,,10,2026-10-01,2026-10-31,SIQO (hors bio),Vaches,Viande hors Bl/Parth. -10 a +350kg,R=,EUR/kg net,7.37,0.03,COT-VRO-GBSI_nationale-A26-M10.csv
+2026,,10,2026-10-01,2026-10-31,SIQO (hors bio),Vaches,Charolaise -10 ans +350Kg,R=,EUR/kg net,7.25,0.04,COT-VRO-GBSI_nationale-A26-M10.csv
 2026,41,,2026-10-05,2026-10-11,Standard,Jeunes bovins 8 à 24 mois,Viande Mixte Lait,E,EUR/kg net,7.03,-0.12,COT-VRO-GBST_nationale-A26-S41.csv
 2026,41,,2026-10-05,2026-10-11,Standard,Jeunes bovins 12 à 24 mois,Viande hors Bl/Parth.,U+,EUR/kg net,6.5,0,COT-VRO-GBST_nationale-A26-S41.csv
 2026,41,,2026-10-05,2026-10-11,Standard,Jeunes bovins 12 à 24 mois,Blonde/Parth.,U+,EUR/kg net,6.94,-0.04,COT-VRO-GBST_nationale-A26-S41.csv
@@ -14529,3 +14562,196 @@ annee,semaine,mois,date_debut,date_fin,qualite,categorie,type,classe,unite,prix,
 2026,43,,2026-10-19,2026-10-25,Standard,Jeunes bovins 8 à 24 mois,Viande Mixte Lait,P=,EUR/kg net,5.36,-0.06,COT-VRO-GBST_nationale-A26-S43.csv
 2026,43,,2026-10-19,2026-10-25,Standard,Vaches,Lait,P=,EUR/kg net,5.14,-0.09,COT-VRO-GBST_nationale-A26-S43.csv
 2026,43,,2026-10-19,2026-10-25,Standard,Vaches,Lait,P-,EUR/kg net,4.96,-0.11,COT-VRO-GBST_nationale-A26-S43.csv
+2026,44,,2026-10-26,2026-11-01,Standard,Jeunes bovins 8 à 24 mois,Viande Mixte Lait,E,EUR/kg net,6.98,-0.05,COT-VRO-GBST_nationale-A26-S44.csv
+2026,44,,2026-10-26,2026-11-01,Standard,Jeunes bovins 12 à 24 mois,Viande hors Bl/Parth.,U+,EUR/kg net,6.53,0,COT-VRO-GBST_nationale-A26-S44.csv
+2026,44,,2026-10-26,2026-11-01,Standard,Jeunes bovins 12 à 24 mois,Blonde/Parth.,U+,EUR/kg net,6.99,-0.01,COT-VRO-GBST_nationale-A26-S44.csv
+2026,44,,2026-10-26,2026-11-01,Standard,Vaches,Blonde/Parth. -10 ans +350Kg,U+,EUR/kg net,8.72,-0.1,COT-VRO-GBST_nationale-A26-S44.csv
+2026,44,,2026-10-26,2026-11-01,Standard,Génisses,Viande +350Kg,U+,EUR/kg net,8.42,-0.11,COT-VRO-GBST_nationale-A26-S44.csv
+2026,44,,2026-10-26,2026-11-01,Standard,Jeunes bovins 8 à 24 mois,Viande Mixte Lait,U=,EUR/kg net,6.53,0.02,COT-VRO-GBST_nationale-A26-S44.csv
+2026,44,,2026-10-26,2026-11-01,Standard,Jeunes bovins 12 à 24 mois,Viande hors Bl/Parth.,U=,EUR/kg net,6.49,0.01,COT-VRO-GBST_nationale-A26-S44.csv
+2026,44,,2026-10-26,2026-11-01,Standard,Jeunes bovins 12 à 24 mois,Blonde/Parth.,U=,EUR/kg net,6.87,0.01,COT-VRO-GBST_nationale-A26-S44.csv
+2026,44,,2026-10-26,2026-11-01,Standard,Taureaux,VML,U=,EUR/kg net,5.65,-0.06,COT-VRO-GBST_nationale-A26-S44.csv
+2026,44,,2026-10-26,2026-11-01,Standard,Vaches,"Viande tous poids, toutes races",U=,EUR/kg net,7.78,-0.02,COT-VRO-GBST_nationale-A26-S44.csv
+2026,44,,2026-10-26,2026-11-01,Standard,Vaches,Viande hors Bl/Parth. -10 a +350kg,U=,EUR/kg net,7.74,-0.06,COT-VRO-GBST_nationale-A26-S44.csv
+2026,44,,2026-10-26,2026-11-01,Standard,Vaches,Blonde/Parth. -10 ans +350Kg,U=,EUR/kg net,8.52,-0.02,COT-VRO-GBST_nationale-A26-S44.csv
+2026,44,,2026-10-26,2026-11-01,Standard,Vaches,Limousine -10 ans +350Kg,U=,EUR/kg net,8.03,-0.06,COT-VRO-GBST_nationale-A26-S44.csv
+2026,44,,2026-10-26,2026-11-01,Standard,Génisses,Viande Mixte Lait,U=,EUR/kg net,7.79,-0.03,COT-VRO-GBST_nationale-A26-S44.csv
+2026,44,,2026-10-26,2026-11-01,Standard,Génisses,Viande +350Kg,U=,EUR/kg net,8.12,0.04,COT-VRO-GBST_nationale-A26-S44.csv
+2026,44,,2026-10-26,2026-11-01,Standard,Jeunes bovins 12 à 24 mois,Viande hors Bl/Parth.,U-,EUR/kg net,6.43,0.01,COT-VRO-GBST_nationale-A26-S44.csv
+2026,44,,2026-10-26,2026-11-01,Standard,Jeunes bovins 12 à 24 mois,Blonde/Parth.,U-,EUR/kg net,6.78,0,COT-VRO-GBST_nationale-A26-S44.csv
+2026,44,,2026-10-26,2026-11-01,Standard,Vaches,Viande hors Bl/Parth. -10 a +350kg,U-,EUR/kg net,7.38,-0.01,COT-VRO-GBST_nationale-A26-S44.csv
+2026,44,,2026-10-26,2026-11-01,Standard,Vaches,Blonde/Parth. -10 ans +350Kg,U-,EUR/kg net,8.27,-0.04,COT-VRO-GBST_nationale-A26-S44.csv
+2026,44,,2026-10-26,2026-11-01,Standard,Vaches,Charolaise -10 ans +350Kg,U-,EUR/kg net,7.1,-0.03,COT-VRO-GBST_nationale-A26-S44.csv
+2026,44,,2026-10-26,2026-11-01,Standard,Vaches,Limousine -10 ans +350Kg,U-,EUR/kg net,7.88,0,COT-VRO-GBST_nationale-A26-S44.csv
+2026,44,,2026-10-26,2026-11-01,Standard,Génisses,Viande +350Kg,U-,EUR/kg net,7.63,-0.04,COT-VRO-GBST_nationale-A26-S44.csv
+2026,44,,2026-10-26,2026-11-01,Standard,Jeunes bovins 12 à 24 mois,Viande hors Bl/Parth.,R+,EUR/kg net,6.38,0.01,COT-VRO-GBST_nationale-A26-S44.csv
+2026,44,,2026-10-26,2026-11-01,Standard,Boeufs,Viande,R+,EUR/kg net,7.11,,COT-VRO-GBST_nationale-A26-S44.csv
+2026,44,,2026-10-26,2026-11-01,Standard,Vaches,Viande hors Bl/Parth. -10 a +350kg,R+,EUR/kg net,7.19,-0.02,COT-VRO-GBST_nationale-A26-S44.csv
+2026,44,,2026-10-26,2026-11-01,Standard,Vaches,Blonde/Parth. -10 ans +350Kg,R+,EUR/kg net,7.95,0.03,COT-VRO-GBST_nationale-A26-S44.csv
+2026,44,,2026-10-26,2026-11-01,Standard,Vaches,Charolaise -10 ans +350Kg,R+,EUR/kg net,7.04,-0.01,COT-VRO-GBST_nationale-A26-S44.csv
+2026,44,,2026-10-26,2026-11-01,Standard,Vaches,Limousine -10 ans +350Kg,R+,EUR/kg net,7.68,-0.04,COT-VRO-GBST_nationale-A26-S44.csv
+2026,44,,2026-10-26,2026-11-01,Standard,Génisses,Viande +350Kg,R+,EUR/kg net,7.31,-0.02,COT-VRO-GBST_nationale-A26-S44.csv
+2026,44,,2026-10-26,2026-11-01,Standard,Jeunes bovins 8 à 24 mois,Viande Mixte Lait,R=,EUR/kg net,6.29,0.02,COT-VRO-GBST_nationale-A26-S44.csv
+2026,44,,2026-10-26,2026-11-01,Standard,Jeunes bovins 12 à 24 mois,Viande hors Bl/Parth.,R=,EUR/kg net,6.3,0.02,COT-VRO-GBST_nationale-A26-S44.csv
+2026,44,,2026-10-26,2026-11-01,Standard,Jeunes bovins 12 à 24 mois,Mixte,R=,EUR/kg net,5.93,-0.03,COT-VRO-GBST_nationale-A26-S44.csv
+2026,44,,2026-10-26,2026-11-01,Standard,Taureaux,VML,R=,EUR/kg net,5.53,-0.05,COT-VRO-GBST_nationale-A26-S44.csv
+2026,44,,2026-10-26,2026-11-01,Standard,Boeufs,Viande,R=,EUR/kg net,6.72,-0.08,COT-VRO-GBST_nationale-A26-S44.csv
+2026,44,,2026-10-26,2026-11-01,Standard,Vaches,"Viande tous poids, toutes races",R=,EUR/kg net,7.11,-0.03,COT-VRO-GBST_nationale-A26-S44.csv
+2026,44,,2026-10-26,2026-11-01,Standard,Vaches,Viande hors Bl/Parth. -10 a +350kg,R=,EUR/kg net,7.06,-0.05,COT-VRO-GBST_nationale-A26-S44.csv
+2026,44,,2026-10-26,2026-11-01,Standard,Vaches,Charolaise -10 ans +350Kg,R=,EUR/kg net,6.99,-0.02,COT-VRO-GBST_nationale-A26-S44.csv
+2026,44,,2026-10-26,2026-11-01,Standard,Génisses,Viande Mixte Lait,R=,EUR/kg net,7.12,0,COT-VRO-GBST_nationale-A26-S44.csv
+2026,44,,2026-10-26,2026-11-01,Standard,Génisses,Viande +350Kg,R=,EUR/kg net,7.08,0,COT-VRO-GBST_nationale-A26-S44.csv
+2026,44,,2026-10-26,2026-11-01,Standard,Jeunes bovins 12 à 24 mois,Viande hors Bl/Parth.,R-,EUR/kg net,6.13,0,COT-VRO-GBST_nationale-A26-S44.csv
+2026,44,,2026-10-26,2026-11-01,Standard,Jeunes bovins 12 à 24 mois,Mixte,R-,EUR/kg net,5.94,0,COT-VRO-GBST_nationale-A26-S44.csv
+2026,44,,2026-10-26,2026-11-01,Standard,Boeufs,Viande,R-,EUR/kg net,6.63,-0.01,COT-VRO-GBST_nationale-A26-S44.csv
+2026,44,,2026-10-26,2026-11-01,Standard,Vaches,Viande hors Bl/Parth. -10 a +350kg,R-,EUR/kg net,6.91,0,COT-VRO-GBST_nationale-A26-S44.csv
+2026,44,,2026-10-26,2026-11-01,Standard,Vaches,Mixte,R-,EUR/kg net,5.78,-0.1,COT-VRO-GBST_nationale-A26-S44.csv
+2026,44,,2026-10-26,2026-11-01,Standard,Génisses,Viande +350Kg,R-,EUR/kg net,6.82,0.04,COT-VRO-GBST_nationale-A26-S44.csv
+2026,44,,2026-10-26,2026-11-01,Standard,Jeunes bovins 12 à 24 mois,Mixte,O+,EUR/kg net,5.88,0.02,COT-VRO-GBST_nationale-A26-S44.csv
+2026,44,,2026-10-26,2026-11-01,Standard,Boeufs,Viande,O+,EUR/kg net,6.49,-0.02,COT-VRO-GBST_nationale-A26-S44.csv
+2026,44,,2026-10-26,2026-11-01,Standard,Vaches,Mixte,O+,EUR/kg net,5.73,-0.07,COT-VRO-GBST_nationale-A26-S44.csv
+2026,44,,2026-10-26,2026-11-01,Standard,Jeunes bovins 8 à 24 mois,Viande Mixte Lait,O=,EUR/kg net,5.46,-0.04,COT-VRO-GBST_nationale-A26-S44.csv
+2026,44,,2026-10-26,2026-11-01,Standard,Jeunes bovins 12 à 24 mois,Mixte,O=,EUR/kg net,5.79,0,COT-VRO-GBST_nationale-A26-S44.csv
+2026,44,,2026-10-26,2026-11-01,Standard,Jeunes bovins 12 à 24 mois,Lait,O=,EUR/kg net,5.31,-0.06,COT-VRO-GBST_nationale-A26-S44.csv
+2026,44,,2026-10-26,2026-11-01,Standard,Boeufs,Viande,O=,EUR/kg net,6.36,,COT-VRO-GBST_nationale-A26-S44.csv
+2026,44,,2026-10-26,2026-11-01,Standard,Boeufs,Mixte,O=,EUR/kg net,5.83,-0.05,COT-VRO-GBST_nationale-A26-S44.csv
+2026,44,,2026-10-26,2026-11-01,Standard,Vaches,"Viande tous poids, toutes races",O=,EUR/kg net,6.43,0.01,COT-VRO-GBST_nationale-A26-S44.csv
+2026,44,,2026-10-26,2026-11-01,Standard,Vaches,Mixte,O=,EUR/kg net,5.69,-0.06,COT-VRO-GBST_nationale-A26-S44.csv
+2026,44,,2026-10-26,2026-11-01,Standard,Vaches,Lait,O=,EUR/kg net,5.15,-0.09,COT-VRO-GBST_nationale-A26-S44.csv
+2026,44,,2026-10-26,2026-11-01,Standard,Génisses,Viande Mixte Lait,O=,EUR/kg net,6.13,-0.06,COT-VRO-GBST_nationale-A26-S44.csv
+2026,44,,2026-10-26,2026-11-01,Standard,Jeunes bovins 12 à 24 mois,Lait,O-,EUR/kg net,5.31,-0.06,COT-VRO-GBST_nationale-A26-S44.csv
+2026,44,,2026-10-26,2026-11-01,Standard,Boeufs,Mixte,O-,EUR/kg net,5.76,-0.03,COT-VRO-GBST_nationale-A26-S44.csv
+2026,44,,2026-10-26,2026-11-01,Standard,Boeufs,Lait,O-,EUR/kg net,5.2,-0.1,COT-VRO-GBST_nationale-A26-S44.csv
+2026,44,,2026-10-26,2026-11-01,Standard,Vaches,Mixte,O-,EUR/kg net,5.54,-0.08,COT-VRO-GBST_nationale-A26-S44.csv
+2026,44,,2026-10-26,2026-11-01,Standard,Vaches,Lait,O-,EUR/kg net,5.11,-0.09,COT-VRO-GBST_nationale-A26-S44.csv
+2026,44,,2026-10-26,2026-11-01,Standard,Jeunes bovins 12 à 24 mois,Lait,P+,EUR/kg net,5.28,-0.08,COT-VRO-GBST_nationale-A26-S44.csv
+2026,44,,2026-10-26,2026-11-01,Standard,Boeufs,Lait,P+,EUR/kg net,5.22,-0.09,COT-VRO-GBST_nationale-A26-S44.csv
+2026,44,,2026-10-26,2026-11-01,Standard,Vaches,Mixte,P+,EUR/kg net,5.32,-0.06,COT-VRO-GBST_nationale-A26-S44.csv
+2026,44,,2026-10-26,2026-11-01,Standard,Vaches,Lait,P+,EUR/kg net,5.09,-0.08,COT-VRO-GBST_nationale-A26-S44.csv
+2026,44,,2026-10-26,2026-11-01,Standard,Jeunes bovins 8 à 24 mois,Viande Mixte Lait,P=,EUR/kg net,5.28,-0.08,COT-VRO-GBST_nationale-A26-S44.csv
+2026,44,,2026-10-26,2026-11-01,Standard,Vaches,Lait,P=,EUR/kg net,5.05,-0.09,COT-VRO-GBST_nationale-A26-S44.csv
+2026,44,,2026-10-26,2026-11-01,Standard,Vaches,Lait,P-,EUR/kg net,4.82,-0.14,COT-VRO-GBST_nationale-A26-S44.csv
+2026,45,,2026-11-02,2026-11-08,Standard,Jeunes bovins 8 à 24 mois,Viande Mixte Lait,E,EUR/kg net,7.11,0.13,COT-VRO-GBST_nationale-A26-S45.csv
+2026,45,,2026-11-02,2026-11-08,Standard,Jeunes bovins 12 à 24 mois,Viande hors Bl/Parth.,U+,EUR/kg net,6.55,0.02,COT-VRO-GBST_nationale-A26-S45.csv
+2026,45,,2026-11-02,2026-11-08,Standard,Jeunes bovins 12 à 24 mois,Blonde/Parth.,U+,EUR/kg net,6.96,-0.03,COT-VRO-GBST_nationale-A26-S45.csv
+2026,45,,2026-11-02,2026-11-08,Standard,Vaches,Blonde/Parth. -10 ans +350Kg,U+,EUR/kg net,8.69,-0.03,COT-VRO-GBST_nationale-A26-S45.csv
+2026,45,,2026-11-02,2026-11-08,Standard,Jeunes bovins 8 à 24 mois,Viande Mixte Lait,U=,EUR/kg net,6.54,0.01,COT-VRO-GBST_nationale-A26-S45.csv
+2026,45,,2026-11-02,2026-11-08,Standard,Jeunes bovins 12 à 24 mois,Viande hors Bl/Parth.,U=,EUR/kg net,6.49,0,COT-VRO-GBST_nationale-A26-S45.csv
+2026,45,,2026-11-02,2026-11-08,Standard,Jeunes bovins 12 à 24 mois,Blonde/Parth.,U=,EUR/kg net,6.89,0.02,COT-VRO-GBST_nationale-A26-S45.csv
+2026,45,,2026-11-02,2026-11-08,Standard,Taureaux,VML,U=,EUR/kg net,5.63,-0.02,COT-VRO-GBST_nationale-A26-S45.csv
+2026,45,,2026-11-02,2026-11-08,Standard,Vaches,"Viande tous poids, toutes races",U=,EUR/kg net,7.77,-0.01,COT-VRO-GBST_nationale-A26-S45.csv
+2026,45,,2026-11-02,2026-11-08,Standard,Vaches,Viande hors Bl/Parth. -10 a +350kg,U=,EUR/kg net,7.75,0.01,COT-VRO-GBST_nationale-A26-S45.csv
+2026,45,,2026-11-02,2026-11-08,Standard,Vaches,Blonde/Parth. -10 ans +350Kg,U=,EUR/kg net,8.49,-0.03,COT-VRO-GBST_nationale-A26-S45.csv
+2026,45,,2026-11-02,2026-11-08,Standard,Vaches,Limousine -10 ans +350Kg,U=,EUR/kg net,8.04,0.01,COT-VRO-GBST_nationale-A26-S45.csv
+2026,45,,2026-11-02,2026-11-08,Standard,Génisses,Viande Mixte Lait,U=,EUR/kg net,7.74,-0.05,COT-VRO-GBST_nationale-A26-S45.csv
+2026,45,,2026-11-02,2026-11-08,Standard,Génisses,Viande +350Kg,U=,EUR/kg net,8.07,-0.05,COT-VRO-GBST_nationale-A26-S45.csv
+2026,45,,2026-11-02,2026-11-08,Standard,Jeunes bovins 12 à 24 mois,Viande hors Bl/Parth.,U-,EUR/kg net,6.45,0.02,COT-VRO-GBST_nationale-A26-S45.csv
+2026,45,,2026-11-02,2026-11-08,Standard,Jeunes bovins 12 à 24 mois,Blonde/Parth.,U-,EUR/kg net,6.8,0.02,COT-VRO-GBST_nationale-A26-S45.csv
+2026,45,,2026-11-02,2026-11-08,Standard,Vaches,Viande hors Bl/Parth. -10 a +350kg,U-,EUR/kg net,7.35,-0.03,COT-VRO-GBST_nationale-A26-S45.csv
+2026,45,,2026-11-02,2026-11-08,Standard,Vaches,Blonde/Parth. -10 ans +350Kg,U-,EUR/kg net,8.24,-0.03,COT-VRO-GBST_nationale-A26-S45.csv
+2026,45,,2026-11-02,2026-11-08,Standard,Vaches,Charolaise -10 ans +350Kg,U-,EUR/kg net,7.04,-0.06,COT-VRO-GBST_nationale-A26-S45.csv
+2026,45,,2026-11-02,2026-11-08,Standard,Vaches,Limousine -10 ans +350Kg,U-,EUR/kg net,7.85,-0.03,COT-VRO-GBST_nationale-A26-S45.csv
+2026,45,,2026-11-02,2026-11-08,Standard,Génisses,Viande +350Kg,U-,EUR/kg net,7.57,-0.06,COT-VRO-GBST_nationale-A26-S45.csv
+2026,45,,2026-11-02,2026-11-08,Standard,Jeunes bovins 12 à 24 mois,Viande hors Bl/Parth.,R+,EUR/kg net,6.4,0.02,COT-VRO-GBST_nationale-A26-S45.csv
+2026,45,,2026-11-02,2026-11-08,Standard,Vaches,Viande hors Bl/Parth. -10 a +350kg,R+,EUR/kg net,7.14,-0.05,COT-VRO-GBST_nationale-A26-S45.csv
+2026,45,,2026-11-02,2026-11-08,Standard,Vaches,Charolaise -10 ans +350Kg,R+,EUR/kg net,6.97,-0.07,COT-VRO-GBST_nationale-A26-S45.csv
+2026,45,,2026-11-02,2026-11-08,Standard,Vaches,Limousine -10 ans +350Kg,R+,EUR/kg net,7.64,-0.04,COT-VRO-GBST_nationale-A26-S45.csv
+2026,45,,2026-11-02,2026-11-08,Standard,Génisses,Viande +350Kg,R+,EUR/kg net,7.25,-0.06,COT-VRO-GBST_nationale-A26-S45.csv
+2026,45,,2026-11-02,2026-11-08,Standard,Jeunes bovins 8 à 24 mois,Viande Mixte Lait,R=,EUR/kg net,6.31,0.02,COT-VRO-GBST_nationale-A26-S45.csv
+2026,45,,2026-11-02,2026-11-08,Standard,Jeunes bovins 12 à 24 mois,Viande hors Bl/Parth.,R=,EUR/kg net,6.32,0.02,COT-VRO-GBST_nationale-A26-S45.csv
+2026,45,,2026-11-02,2026-11-08,Standard,Jeunes bovins 12 à 24 mois,Mixte,R=,EUR/kg net,5.92,-0.01,COT-VRO-GBST_nationale-A26-S45.csv
+2026,45,,2026-11-02,2026-11-08,Standard,Taureaux,VML,R=,EUR/kg net,5.53,0,COT-VRO-GBST_nationale-A26-S45.csv
+2026,45,,2026-11-02,2026-11-08,Standard,Boeufs,Viande,R=,EUR/kg net,6.72,0,COT-VRO-GBST_nationale-A26-S45.csv
+2026,45,,2026-11-02,2026-11-08,Standard,Vaches,"Viande tous poids, toutes races",R=,EUR/kg net,7.07,-0.04,COT-VRO-GBST_nationale-A26-S45.csv
+2026,45,,2026-11-02,2026-11-08,Standard,Vaches,Viande hors Bl/Parth. -10 a +350kg,R=,EUR/kg net,7.01,-0.05,COT-VRO-GBST_nationale-A26-S45.csv
+2026,45,,2026-11-02,2026-11-08,Standard,Vaches,Charolaise -10 ans +350Kg,R=,EUR/kg net,6.92,-0.07,COT-VRO-GBST_nationale-A26-S45.csv
+2026,45,,2026-11-02,2026-11-08,Standard,Génisses,Viande Mixte Lait,R=,EUR/kg net,7.04,-0.08,COT-VRO-GBST_nationale-A26-S45.csv
+2026,45,,2026-11-02,2026-11-08,Standard,Génisses,Viande +350Kg,R=,EUR/kg net,6.96,-0.12,COT-VRO-GBST_nationale-A26-S45.csv
+2026,45,,2026-11-02,2026-11-08,Standard,Jeunes bovins 12 à 24 mois,Viande hors Bl/Parth.,R-,EUR/kg net,6.15,0.02,COT-VRO-GBST_nationale-A26-S45.csv
+2026,45,,2026-11-02,2026-11-08,Standard,Jeunes bovins 12 à 24 mois,Mixte,R-,EUR/kg net,5.95,0.01,COT-VRO-GBST_nationale-A26-S45.csv
+2026,45,,2026-11-02,2026-11-08,Standard,Boeufs,Viande,R-,EUR/kg net,6.58,-0.05,COT-VRO-GBST_nationale-A26-S45.csv
+2026,45,,2026-11-02,2026-11-08,Standard,Vaches,Viande hors Bl/Parth. -10 a +350kg,R-,EUR/kg net,6.82,-0.09,COT-VRO-GBST_nationale-A26-S45.csv
+2026,45,,2026-11-02,2026-11-08,Standard,Vaches,Mixte,R-,EUR/kg net,5.68,-0.1,COT-VRO-GBST_nationale-A26-S45.csv
+2026,45,,2026-11-02,2026-11-08,Standard,Génisses,Viande +350Kg,R-,EUR/kg net,6.68,-0.14,COT-VRO-GBST_nationale-A26-S45.csv
+2026,45,,2026-11-02,2026-11-08,Standard,Boeufs,Mixte,O+,EUR/kg net,5.74,,COT-VRO-GBST_nationale-A26-S45.csv
+2026,45,,2026-11-02,2026-11-08,Standard,Vaches,Mixte,O+,EUR/kg net,5.64,-0.09,COT-VRO-GBST_nationale-A26-S45.csv
+2026,45,,2026-11-02,2026-11-08,Standard,Jeunes bovins 8 à 24 mois,Viande Mixte Lait,O=,EUR/kg net,5.4,-0.06,COT-VRO-GBST_nationale-A26-S45.csv
+2026,45,,2026-11-02,2026-11-08,Standard,Jeunes bovins 12 à 24 mois,Lait,O=,EUR/kg net,5.27,-0.04,COT-VRO-GBST_nationale-A26-S45.csv
+2026,45,,2026-11-02,2026-11-08,Standard,Boeufs,Mixte,O=,EUR/kg net,5.74,-0.09,COT-VRO-GBST_nationale-A26-S45.csv
+2026,45,,2026-11-02,2026-11-08,Standard,Vaches,"Viande tous poids, toutes races",O=,EUR/kg net,6.38,-0.05,COT-VRO-GBST_nationale-A26-S45.csv
+2026,45,,2026-11-02,2026-11-08,Standard,Vaches,Mixte,O=,EUR/kg net,5.59,-0.1,COT-VRO-GBST_nationale-A26-S45.csv
+2026,45,,2026-11-02,2026-11-08,Standard,Vaches,Lait,O=,EUR/kg net,5.05,-0.1,COT-VRO-GBST_nationale-A26-S45.csv
+2026,45,,2026-11-02,2026-11-08,Standard,Génisses,Viande Mixte Lait,O=,EUR/kg net,6.02,-0.11,COT-VRO-GBST_nationale-A26-S45.csv
+2026,45,,2026-11-02,2026-11-08,Standard,Jeunes bovins 12 à 24 mois,Lait,O-,EUR/kg net,5.26,-0.05,COT-VRO-GBST_nationale-A26-S45.csv
+2026,45,,2026-11-02,2026-11-08,Standard,Boeufs,Mixte,O-,EUR/kg net,5.62,-0.14,COT-VRO-GBST_nationale-A26-S45.csv
+2026,45,,2026-11-02,2026-11-08,Standard,Boeufs,Lait,O-,EUR/kg net,5.15,-0.05,COT-VRO-GBST_nationale-A26-S45.csv
+2026,45,,2026-11-02,2026-11-08,Standard,Vaches,Mixte,O-,EUR/kg net,5.43,-0.11,COT-VRO-GBST_nationale-A26-S45.csv
+2026,45,,2026-11-02,2026-11-08,Standard,Vaches,Lait,O-,EUR/kg net,5.03,-0.08,COT-VRO-GBST_nationale-A26-S45.csv
+2026,45,,2026-11-02,2026-11-08,Standard,Jeunes bovins 12 à 24 mois,Lait,P+,EUR/kg net,5.23,-0.05,COT-VRO-GBST_nationale-A26-S45.csv
+2026,45,,2026-11-02,2026-11-08,Standard,Boeufs,Lait,P+,EUR/kg net,5.1,-0.12,COT-VRO-GBST_nationale-A26-S45.csv
+2026,45,,2026-11-02,2026-11-08,Standard,Vaches,Mixte,P+,EUR/kg net,5.24,-0.08,COT-VRO-GBST_nationale-A26-S45.csv
+2026,45,,2026-11-02,2026-11-08,Standard,Vaches,Lait,P+,EUR/kg net,5,-0.09,COT-VRO-GBST_nationale-A26-S45.csv
+2026,45,,2026-11-02,2026-11-08,Standard,Jeunes bovins 8 à 24 mois,Viande Mixte Lait,P=,EUR/kg net,5.24,-0.04,COT-VRO-GBST_nationale-A26-S45.csv
+2026,45,,2026-11-02,2026-11-08,Standard,Vaches,Lait,P=,EUR/kg net,4.95,-0.1,COT-VRO-GBST_nationale-A26-S45.csv
+2026,45,,2026-11-02,2026-11-08,Standard,Vaches,Lait,P-,EUR/kg net,4.76,-0.06,COT-VRO-GBST_nationale-A26-S45.csv
+2026,46,,2026-11-09,2026-11-15,Standard,Jeunes bovins 8 à 24 mois,Viande Mixte Lait,E,EUR/kg net,7.03,-0.08,COT-VRO-GBST_nationale-A26-S46.csv
+2026,46,,2026-11-09,2026-11-15,Standard,Jeunes bovins 12 à 24 mois,Viande hors Bl/Parth.,U+,EUR/kg net,6.55,0,COT-VRO-GBST_nationale-A26-S46.csv
+2026,46,,2026-11-09,2026-11-15,Standard,Jeunes bovins 12 à 24 mois,Blonde/Parth.,U+,EUR/kg net,7.01,0.05,COT-VRO-GBST_nationale-A26-S46.csv
+2026,46,,2026-11-09,2026-11-15,Standard,Jeunes bovins 8 à 24 mois,Viande Mixte Lait,U=,EUR/kg net,6.58,0.04,COT-VRO-GBST_nationale-A26-S46.csv
+2026,46,,2026-11-09,2026-11-15,Standard,Jeunes bovins 12 à 24 mois,Viande hors Bl/Parth.,U=,EUR/kg net,6.53,0.04,COT-VRO-GBST_nationale-A26-S46.csv
+2026,46,,2026-11-09,2026-11-15,Standard,Jeunes bovins 12 à 24 mois,Blonde/Parth.,U=,EUR/kg net,6.9,0.01,COT-VRO-GBST_nationale-A26-S46.csv
+2026,46,,2026-11-09,2026-11-15,Standard,Taureaux,VML,U=,EUR/kg net,5.53,-0.1,COT-VRO-GBST_nationale-A26-S46.csv
+2026,46,,2026-11-09,2026-11-15,Standard,Vaches,"Viande tous poids, toutes races",U=,EUR/kg net,7.73,-0.04,COT-VRO-GBST_nationale-A26-S46.csv
+2026,46,,2026-11-09,2026-11-15,Standard,Vaches,Viande hors Bl/Parth. -10 a +350kg,U=,EUR/kg net,7.57,-0.18,COT-VRO-GBST_nationale-A26-S46.csv
+2026,46,,2026-11-09,2026-11-15,Standard,Vaches,Blonde/Parth. -10 ans +350Kg,U=,EUR/kg net,8.5,0.01,COT-VRO-GBST_nationale-A26-S46.csv
+2026,46,,2026-11-09,2026-11-15,Standard,Génisses,Viande Mixte Lait,U=,EUR/kg net,7.72,-0.02,COT-VRO-GBST_nationale-A26-S46.csv
+2026,46,,2026-11-09,2026-11-15,Standard,Génisses,Viande +350Kg,U=,EUR/kg net,7.96,-0.11,COT-VRO-GBST_nationale-A26-S46.csv
+2026,46,,2026-11-09,2026-11-15,Standard,Jeunes bovins 12 à 24 mois,Viande hors Bl/Parth.,U-,EUR/kg net,6.49,0.04,COT-VRO-GBST_nationale-A26-S46.csv
+2026,46,,2026-11-09,2026-11-15,Standard,Jeunes bovins 12 à 24 mois,Blonde/Parth.,U-,EUR/kg net,6.81,0.01,COT-VRO-GBST_nationale-A26-S46.csv
+2026,46,,2026-11-09,2026-11-15,Standard,Vaches,Viande hors Bl/Parth. -10 a +350kg,U-,EUR/kg net,7.31,-0.04,COT-VRO-GBST_nationale-A26-S46.csv
+2026,46,,2026-11-09,2026-11-15,Standard,Vaches,Blonde/Parth. -10 ans +350Kg,U-,EUR/kg net,8.29,0.05,COT-VRO-GBST_nationale-A26-S46.csv
+2026,46,,2026-11-09,2026-11-15,Standard,Vaches,Charolaise -10 ans +350Kg,U-,EUR/kg net,7.03,-0.01,COT-VRO-GBST_nationale-A26-S46.csv
+2026,46,,2026-11-09,2026-11-15,Standard,Vaches,Limousine -10 ans +350Kg,U-,EUR/kg net,7.84,-0.01,COT-VRO-GBST_nationale-A26-S46.csv
+2026,46,,2026-11-09,2026-11-15,Standard,Génisses,Viande +350Kg,U-,EUR/kg net,7.6,0.03,COT-VRO-GBST_nationale-A26-S46.csv
+2026,46,,2026-11-09,2026-11-15,Standard,Jeunes bovins 12 à 24 mois,Viande hors Bl/Parth.,R+,EUR/kg net,6.43,0.03,COT-VRO-GBST_nationale-A26-S46.csv
+2026,46,,2026-11-09,2026-11-15,Standard,Boeufs,Viande,R+,EUR/kg net,6.89,,COT-VRO-GBST_nationale-A26-S46.csv
+2026,46,,2026-11-09,2026-11-15,Standard,Vaches,Viande hors Bl/Parth. -10 a +350kg,R+,EUR/kg net,7.09,-0.05,COT-VRO-GBST_nationale-A26-S46.csv
+2026,46,,2026-11-09,2026-11-15,Standard,Vaches,Charolaise -10 ans +350Kg,R+,EUR/kg net,6.92,-0.05,COT-VRO-GBST_nationale-A26-S46.csv
+2026,46,,2026-11-09,2026-11-15,Standard,Vaches,Limousine -10 ans +350Kg,R+,EUR/kg net,7.65,0.01,COT-VRO-GBST_nationale-A26-S46.csv
+2026,46,,2026-11-09,2026-11-15,Standard,Génisses,Viande +350Kg,R+,EUR/kg net,7.23,-0.02,COT-VRO-GBST_nationale-A26-S46.csv
+2026,46,,2026-11-09,2026-11-15,Standard,Jeunes bovins 8 à 24 mois,Viande Mixte Lait,R=,EUR/kg net,6.34,0.03,COT-VRO-GBST_nationale-A26-S46.csv
+2026,46,,2026-11-09,2026-11-15,Standard,Jeunes bovins 12 à 24 mois,Viande hors Bl/Parth.,R=,EUR/kg net,6.34,0.02,COT-VRO-GBST_nationale-A26-S46.csv
+2026,46,,2026-11-09,2026-11-15,Standard,Taureaux,VML,R=,EUR/kg net,5.42,-0.11,COT-VRO-GBST_nationale-A26-S46.csv
+2026,46,,2026-11-09,2026-11-15,Standard,Boeufs,Viande,R=,EUR/kg net,6.72,0,COT-VRO-GBST_nationale-A26-S46.csv
+2026,46,,2026-11-09,2026-11-15,Standard,Vaches,"Viande tous poids, toutes races",R=,EUR/kg net,7.02,-0.05,COT-VRO-GBST_nationale-A26-S46.csv
+2026,46,,2026-11-09,2026-11-15,Standard,Vaches,Viande hors Bl/Parth. -10 a +350kg,R=,EUR/kg net,6.95,-0.06,COT-VRO-GBST_nationale-A26-S46.csv
+2026,46,,2026-11-09,2026-11-15,Standard,Vaches,Charolaise -10 ans +350Kg,R=,EUR/kg net,6.86,-0.06,COT-VRO-GBST_nationale-A26-S46.csv
+2026,46,,2026-11-09,2026-11-15,Standard,Génisses,Viande Mixte Lait,R=,EUR/kg net,7.01,-0.03,COT-VRO-GBST_nationale-A26-S46.csv
+2026,46,,2026-11-09,2026-11-15,Standard,Génisses,Viande +350Kg,R=,EUR/kg net,6.96,0,COT-VRO-GBST_nationale-A26-S46.csv
+2026,46,,2026-11-09,2026-11-15,Standard,Jeunes bovins 12 à 24 mois,Viande hors Bl/Parth.,R-,EUR/kg net,6.18,0.03,COT-VRO-GBST_nationale-A26-S46.csv
+2026,46,,2026-11-09,2026-11-15,Standard,Jeunes bovins 12 à 24 mois,Mixte,R-,EUR/kg net,5.91,-0.04,COT-VRO-GBST_nationale-A26-S46.csv
+2026,46,,2026-11-09,2026-11-15,Standard,Boeufs,Viande,R-,EUR/kg net,6.53,-0.05,COT-VRO-GBST_nationale-A26-S46.csv
+2026,46,,2026-11-09,2026-11-15,Standard,Vaches,Viande hors Bl/Parth. -10 a +350kg,R-,EUR/kg net,6.77,-0.05,COT-VRO-GBST_nationale-A26-S46.csv
+2026,46,,2026-11-09,2026-11-15,Standard,Vaches,Mixte,R-,EUR/kg net,5.61,-0.07,COT-VRO-GBST_nationale-A26-S46.csv
+2026,46,,2026-11-09,2026-11-15,Standard,Génisses,Viande +350Kg,R-,EUR/kg net,6.68,0,COT-VRO-GBST_nationale-A26-S46.csv
+2026,46,,2026-11-09,2026-11-15,Standard,Jeunes bovins 12 à 24 mois,Mixte,O+,EUR/kg net,5.85,,COT-VRO-GBST_nationale-A26-S46.csv
+2026,46,,2026-11-09,2026-11-15,Standard,Boeufs,Mixte,O+,EUR/kg net,5.65,-0.09,COT-VRO-GBST_nationale-A26-S46.csv
+2026,46,,2026-11-09,2026-11-15,Standard,Vaches,Mixte,O+,EUR/kg net,5.58,-0.06,COT-VRO-GBST_nationale-A26-S46.csv
+2026,46,,2026-11-09,2026-11-15,Standard,Jeunes bovins 8 à 24 mois,Viande Mixte Lait,O=,EUR/kg net,5.39,-0.01,COT-VRO-GBST_nationale-A26-S46.csv
+2026,46,,2026-11-09,2026-11-15,Standard,Jeunes bovins 12 à 24 mois,Lait,O=,EUR/kg net,5.23,-0.04,COT-VRO-GBST_nationale-A26-S46.csv
+2026,46,,2026-11-09,2026-11-15,Standard,Boeufs,Mixte,O=,EUR/kg net,5.67,-0.07,COT-VRO-GBST_nationale-A26-S46.csv
+2026,46,,2026-11-09,2026-11-15,Standard,Vaches,"Viande tous poids, toutes races",O=,EUR/kg net,6.39,0.01,COT-VRO-GBST_nationale-A26-S46.csv
+2026,46,,2026-11-09,2026-11-15,Standard,Vaches,Mixte,O=,EUR/kg net,5.51,-0.08,COT-VRO-GBST_nationale-A26-S46.csv
+2026,46,,2026-11-09,2026-11-15,Standard,Vaches,Lait,O=,EUR/kg net,4.97,-0.08,COT-VRO-GBST_nationale-A26-S46.csv
+2026,46,,2026-11-09,2026-11-15,Standard,Génisses,Viande Mixte Lait,O=,EUR/kg net,6.01,-0.01,COT-VRO-GBST_nationale-A26-S46.csv
+2026,46,,2026-11-09,2026-11-15,Standard,Jeunes bovins 12 à 24 mois,Lait,O-,EUR/kg net,5.18,-0.08,COT-VRO-GBST_nationale-A26-S46.csv
+2026,46,,2026-11-09,2026-11-15,Standard,Boeufs,Mixte,O-,EUR/kg net,5.59,-0.03,COT-VRO-GBST_nationale-A26-S46.csv
+2026,46,,2026-11-09,2026-11-15,Standard,Boeufs,Lait,O-,EUR/kg net,4.98,-0.17,COT-VRO-GBST_nationale-A26-S46.csv
+2026,46,,2026-11-09,2026-11-15,Standard,Vaches,Mixte,O-,EUR/kg net,5.36,-0.07,COT-VRO-GBST_nationale-A26-S46.csv
+2026,46,,2026-11-09,2026-11-15,Standard,Vaches,Lait,O-,EUR/kg net,4.93,-0.1,COT-VRO-GBST_nationale-A26-S46.csv
+2026,46,,2026-11-09,2026-11-15,Standard,Jeunes bovins 12 à 24 mois,Lait,P+,EUR/kg net,5.18,-0.05,COT-VRO-GBST_nationale-A26-S46.csv
+2026,46,,2026-11-09,2026-11-15,Standard,Boeufs,Lait,P+,EUR/kg net,5.04,-0.06,COT-VRO-GBST_nationale-A26-S46.csv
+2026,46,,2026-11-09,2026-11-15,Standard,Vaches,Mixte,P+,EUR/kg net,5.11,-0.13,COT-VRO-GBST_nationale-A26-S46.csv
+2026,46,,2026-11-09,2026-11-15,Standard,Vaches,Lait,P+,EUR/kg net,4.9,-0.1,COT-VRO-GBST_nationale-A26-S46.csv
+2026,46,,2026-11-09,2026-11-15,Standard,Jeunes bovins 8 à 24 mois,Viande Mixte Lait,P=,EUR/kg net,5.18,-0.06,COT-VRO-GBST_nationale-A26-S46.csv
+2026,46,,2026-11-09,2026-11-15,Standard,Vaches,Lait,P=,EUR/kg net,4.86,-0.09,COT-VRO-GBST_nationale-A26-S46.csv

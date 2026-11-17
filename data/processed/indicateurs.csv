@@ -196,6 +196,9 @@ veau_boucherie,Veau de boucherie — prix moyen pondéré entrée abattoir,Veau,
 veau_boucherie,Veau de boucherie — prix moyen pondéré entrée abattoir,Veau,2026,41,,2026-10-05,2026-10-11,7.69,0.06,€/kg carcasse
 veau_boucherie,Veau de boucherie — prix moyen pondéré entrée abattoir,Veau,2026,42,,2026-10-12,2026-10-18,7.8,0.11,€/kg carcasse
 veau_boucherie,Veau de boucherie — prix moyen pondéré entrée abattoir,Veau,2026,43,,2026-10-19,2026-10-25,7.8,0,€/kg carcasse
+veau_boucherie,Veau de boucherie — prix moyen pondéré entrée abattoir,Veau,2026,44,,2026-10-26,2026-11-01,7.88,0.08,€/kg carcasse
+veau_boucherie,Veau de boucherie — prix moyen pondéré entrée abattoir,Veau,2026,45,,2026-11-02,2026-11-08,7.97,0.09,€/kg carcasse
+veau_boucherie,Veau de boucherie — prix moyen pondéré entrée abattoir,Veau,2026,46,,2026-11-09,2026-11-15,8.06,0.09,€/kg carcasse
 veau_14j,Veau de 14 jours à 4 semaines — prix moyen pondéré mâles,Veau,2023,1,,2023-01-02,2023-01-08,111,,€/tête
 veau_14j,Veau de 14 jours à 4 semaines — prix moyen pondéré mâles,Veau,2023,2,,2023-01-09,2023-01-15,119,8,€/tête
 veau_14j,Veau de 14 jours à 4 semaines — prix moyen pondéré mâles,Veau,2023,3,,2023-01-16,2023-01-22,120,1,€/tête
@@ -391,6 +394,8 @@ veau_14j,Veau de 14 jours à 4 semaines — prix moyen pondéré mâles,Veau,202
 veau_14j,Veau de 14 jours à 4 semaines — prix moyen pondéré mâles,Veau,2026,42,,2026-10-12,2026-10-18,167,3,€/tête
 veau_14j,Veau de 14 jours à 4 semaines — prix moyen pondéré mâles,Veau,2026,43,,2026-10-19,2026-10-25,163,-4,€/tête
 veau_14j,Veau de 14 jours à 4 semaines — prix moyen pondéré mâles,Veau,2026,44,,2026-10-26,2026-11-01,161,-2,€/tête
+veau_14j,Veau de 14 jours à 4 semaines — prix moyen pondéré mâles,Veau,2026,45,,2026-11-02,2026-11-08,164,3,€/tête
+veau_14j,Veau de 14 jours à 4 semaines — prix moyen pondéré mâles,Veau,2026,46,,2026-11-09,2026-11-15,162,-2,€/tête
 gros_bovins,Gros bovins entrée abattoir — prix moyen pondéré,Bœuf,2023,1,,2023-01-02,2023-01-08,5.17,0.01,€/kg net
 gros_bovins,Gros bovins entrée abattoir — prix moyen pondéré,Bœuf,2023,2,,2023-01-09,2023-01-15,5.17,0,€/kg net
 gros_bovins,Gros bovins entrée abattoir — prix moyen pondéré,Bœuf,2023,3,,2023-01-16,2023-01-22,5.17,0,€/kg net
@@ -589,6 +594,9 @@ gros_bovins,Gros bovins entrée abattoir — prix moyen pondéré,Bœuf,2026,40,
 gros_bovins,Gros bovins entrée abattoir — prix moyen pondéré,Bœuf,2026,41,,2026-10-05,2026-10-11,6.55,-0.03,€/kg net
 gros_bovins,Gros bovins entrée abattoir — prix moyen pondéré,Bœuf,2026,42,,2026-10-12,2026-10-18,6.52,-0.03,€/kg net
 gros_bovins,Gros bovins entrée abattoir — prix moyen pondéré,Bœuf,2026,43,,2026-10-19,2026-10-25,6.48,-0.04,€/kg net
+gros_bovins,Gros bovins entrée abattoir — prix moyen pondéré,Bœuf,2026,44,,2026-10-26,2026-11-01,6.45,-0.03,€/kg net
+gros_bovins,Gros bovins entrée abattoir — prix moyen pondéré,Bœuf,2026,45,,2026-11-02,2026-11-08,6.39,-0.06,€/kg net
+gros_bovins,Gros bovins entrée abattoir — prix moyen pondéré,Bœuf,2026,46,,2026-11-09,2026-11-15,6.36,-0.03,€/kg net
 gros_bovins_siqo,"Gros bovins SIQO (Label rouge, AOP…) — prix moyen pondéré",Bœuf,2023,,5,2023-05-01,2023-05-31,5.89,-0.01,€/kg net
 gros_bovins_siqo,"Gros bovins SIQO (Label rouge, AOP…) — prix moyen pondéré",Bœuf,2023,,6,2023-06-01,2023-06-30,5.88,-0.01,€/kg net
 gros_bovins_siqo,"Gros bovins SIQO (Label rouge, AOP…) — prix moyen pondéré",Bœuf,2023,,7,2023-07-01,2023-07-31,5.89,0.01,€/kg net
@@ -629,6 +637,7 @@ gros_bovins_siqo,"Gros bovins SIQO (Label rouge, AOP…) — prix moyen pondér�
 gros_bovins_siqo,"Gros bovins SIQO (Label rouge, AOP…) — prix moyen pondéré",Bœuf,2026,,7,2026-07-01,2026-07-31,7.88,0,€/kg net
 gros_bovins_siqo,"Gros bovins SIQO (Label rouge, AOP…) — prix moyen pondéré",Bœuf,2026,,8,2026-08-01,2026-08-31,7.83,-0.05,€/kg net
 gros_bovins_siqo,"Gros bovins SIQO (Label rouge, AOP…) — prix moyen pondéré",Bœuf,2026,,9,2026-09-01,2026-09-30,7.81,-0.02,€/kg net
+gros_bovins_siqo,"Gros bovins SIQO (Label rouge, AOP…) — prix moyen pondéré",Bœuf,2026,,10,2026-10-01,2026-10-31,7.85,0.04,€/kg net
 gros_bovins_bio,Gros bovins bio — prix moyen pondéré,Bœuf,2023,,5,2023-05-01,2023-05-31,5.57,-0.05,€/kg net
 gros_bovins_bio,Gros bovins bio — prix moyen pondéré,Bœuf,2023,,6,2023-06-01,2023-06-30,5.52,-0.05,€/kg net
 gros_bovins_bio,Gros bovins bio — prix moyen pondéré,Bœuf,2023,,7,2023-07-01,2023-07-31,5.46,-0.06,€/kg net
@@ -669,6 +678,7 @@ gros_bovins_bio,Gros bovins bio — prix moyen pondéré,Bœuf,2026,,6,2026-06-0
 gros_bovins_bio,Gros bovins bio — prix moyen pondéré,Bœuf,2026,,7,2026-07-01,2026-07-31,7.15,-0.17,€/kg net
 gros_bovins_bio,Gros bovins bio — prix moyen pondéré,Bœuf,2026,,8,2026-08-01,2026-08-31,6.97,-0.18,€/kg net
 gros_bovins_bio,Gros bovins bio — prix moyen pondéré,Bœuf,2026,,9,2026-09-01,2026-09-30,7.06,0.09,€/kg net
+gros_bovins_bio,Gros bovins bio — prix moyen pondéré,Bœuf,2026,,10,2026-10-01,2026-10-31,7.03,-0.03,€/kg net
 agneau,Agneau — prix moyen pondéré entrée abattoir,Agneau,2023,1,,2023-01-02,2023-01-08,8.43,-0.13,€/kg carcasse
 agneau,Agneau — prix moyen pondéré entrée abattoir,Agneau,2023,2,,2023-01-09,2023-01-15,8.28,-0.15,€/kg carcasse
 agneau,Agneau — prix moyen pondéré entrée abattoir,Agneau,2023,3,,2023-01-16,2023-01-22,8.22,-0.06,€/kg carcasse
@@ -868,6 +878,9 @@ agneau,Agneau — prix moyen pondéré entrée abattoir,Agneau,2026,40,,2026-09-
 agneau,Agneau — prix moyen pondéré entrée abattoir,Agneau,2026,41,,2026-10-05,2026-10-11,9.2,0.1,€/kg carcasse
 agneau,Agneau — prix moyen pondéré entrée abattoir,Agneau,2026,42,,2026-10-12,2026-10-18,9.22,0.02,€/kg carcasse
 agneau,Agneau — prix moyen pondéré entrée abattoir,Agneau,2026,43,,2026-10-19,2026-10-25,9.21,-0.01,€/kg carcasse
+agneau,Agneau — prix moyen pondéré entrée abattoir,Agneau,2026,44,,2026-10-26,2026-11-01,9.31,0.1,€/kg carcasse
+agneau,Agneau — prix moyen pondéré entrée abattoir,Agneau,2026,45,,2026-11-02,2026-11-08,9.45,0.14,€/kg carcasse
+agneau,Agneau — prix moyen pondéré entrée abattoir,Agneau,2026,46,,2026-11-09,2026-11-15,9.77,0.32,€/kg carcasse
 porc,Porc charcutier — référence nationale classe E,Porc,2023,1,,2022-12-30,2023-01-05,1.95,0.01,€/kg carcasse
 porc,Porc charcutier — référence nationale classe E,Porc,2023,2,,2023-01-06,2023-01-12,1.98,0.03,€/kg carcasse
 porc,Porc charcutier — référence nationale classe E,Porc,2023,3,,2023-01-13,2023-01-19,2.01,0.03,€/kg carcasse
@@ -1065,6 +1078,9 @@ porc,Porc charcutier — référence nationale classe E,Porc,2026,40,,2026-09-25
 porc,Porc charcutier — référence nationale classe E,Porc,2026,41,,2026-10-02,2026-10-08,1.91,-0.06,€/kg carcasse
 porc,Porc charcutier — référence nationale classe E,Porc,2026,42,,2026-10-09,2026-10-15,1.85,-0.06,€/kg carcasse
 porc,Porc charcutier — référence nationale classe E,Porc,2026,43,,2026-10-16,2026-10-22,1.79,-0.06,€/kg carcasse
+porc,Porc charcutier — référence nationale classe E,Porc,2026,44,,2026-10-23,2026-10-29,1.73,-0.06,€/kg carcasse
+porc,Porc charcutier — référence nationale classe E,Porc,2026,45,,2026-10-30,2026-11-05,1.68,-0.05,€/kg carcasse
+porc,Porc charcutier — référence nationale classe E,Porc,2026,46,,2026-11-06,2026-11-12,1.62,-0.06,€/kg carcasse
 chevreau,Chevreau vif 8 à 11 kg — prix moyen,Chevreau,2023,1,,2023-01-02,2023-01-08,3.76,,€/kg vif
 chevreau,Chevreau vif 8 à 11 kg — prix moyen,Chevreau,2023,2,,2023-01-09,2023-01-15,3.8,0.04,€/kg vif
 chevreau,Chevreau vif 8 à 11 kg — prix moyen,Chevreau,2023,3,,2023-01-16,2023-01-22,3.8,0,€/kg vif
