@@ -36,6 +36,9 @@ jobs:
         run: python scripts/transform.py
 
       - name: Collecter les prix européens (agridata)
+        # Source secondaire : une panne de leur API ne doit pas empêcher
+        # d'enregistrer les cotations françaises collectées juste avant
+        continue-on-error: true
         run: python scripts/fetch_europe.py
 
       - name: Enregistrer s'il y a du nouveau

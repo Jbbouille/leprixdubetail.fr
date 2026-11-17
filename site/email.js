@@ -39,6 +39,21 @@ document.addEventListener('DOMContentLoaded', function ()
 	}
 
 	listener.on();
+
+	// Filet de sécurité : si l'adresse n'est pas encore décodée au moment du clic
+	// (navigateur sans les événements ci-dessus), on décode puis on ouvre le lien.
+	document.querySelectorAll('a.email').forEach(function (a)
+	{
+		a.addEventListener('click', function (evenement)
+		{
+			if (a.getAttribute('href').startsWith('mailto:'))
+				return;
+
+			evenement.preventDefault();
+			listener.decode();
+			window.location.href = a.getAttribute('href');
+		});
+	});
 });
 
 
@@ -50,18 +65,26 @@ function Listener ()
 
 Listener.prototype.decode = null;
 
+// Au doigt, il n'y a ni survol ni focus : on écoute aussi le toucher et le
+// défilement, sinon l'adresse resterait brouillée sur mobile.
+Listener.EVENEMENTS = ['mouseenter', 'focus', 'pointerdown', 'touchstart', 'keydown', 'scroll'];
+
 Listener.prototype.on = function ()
 {
 	this.listener = this.__onInteraction.bind(this);
 
-	document.addEventListener('mouseenter', this.listener, true);
-	document.addEventListener('focus', this.listener, true);
+	Listener.EVENEMENTS.forEach(function (nom)
+	{
+		document.addEventListener(nom, this.listener, { capture: true, passive: true });
+	}, this);
 }
 
 Listener.prototype.off = function ()
 {
-	document.removeEventListener('mouseenter', this.listener, true);
-	document.removeEventListener('focus', this.listener, true);
+	Listener.EVENEMENTS.forEach(function (nom)
+	{
+		document.removeEventListener(nom, this.listener, { capture: true });
+	}, this);
 
 	delete this.listener;
 }

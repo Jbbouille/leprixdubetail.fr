@@ -102,6 +102,12 @@ def main() -> int:
         for n in names:
             folder_for_series[series_key(n)] = folder
         print(f"{rubrique}: {len(names)} fichiers publiés")
+        # Une rubrique vide n'arrive jamais normalement : c'est le signe que Visionet
+        # a renvoyé une page inutilisable. Mieux vaut échouer bruyamment que de
+        # terminer en succès sans aucune donnée.
+        if not names:
+            print(f"[ERREUR] {rubrique}: aucun fichier listé", file=sys.stderr)
+            errors += 1
 
     if not listed:
         print("Aucune rubrique n'a pu être listée", file=sys.stderr)
@@ -168,7 +174,8 @@ def main() -> int:
             time.sleep(0.2)  # rester courtois avec le serveur
 
     print(f"{new_files} nouveau(x) fichier(s), {errors} erreur(s)")
-    return 0
+    # Rubriques toutes vides : la collecte n'a rien pu lire, on le signale
+    return 1 if errors >= len(RUBRIQUES) else 0
 
 
 if __name__ == "__main__":

@@ -240,8 +240,14 @@ def main() -> int:
         print(f"{secteur}: {len(nouvelles)} cotations reçues")
 
     if erreurs == len(SECTEURS):
-        print("Aucun secteur n'a pu être collecté", file=sys.stderr)
-        return 1
+        # L'API européenne tombe parfois plusieurs jours d'affilée. Tant que les données
+        # déjà collectées sont là, ce n'est pas une raison d'interrompre la mise à jour
+        # française : on signale et on garde l'existant.
+        print("Aucun secteur n'a pu être collecté (API indisponible)", file=sys.stderr)
+        if not lignes:
+            return 1
+        print("Les données européennes déjà collectées sont conservées telles quelles")
+        return 0
 
     fichiers = ecrire_csv(lignes)
     data = ecrire_json(lignes)
