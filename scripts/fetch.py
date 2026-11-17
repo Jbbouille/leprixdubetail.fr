@@ -48,6 +48,7 @@ RUBRIQUES = {
 AUTRES = "autres"  # CSV trouvés dans un ZIP mais listés dans aucune rubrique
 
 HEADERS = {"User-Agent": "leprixdubetail.fr (collecte des cotations publiques FranceAgriMer)"}
+_html_signale = False   # n'afficher qu'une fois le diagnostic ci-dessous
 
 
 def series_key(name: str) -> str:
@@ -79,6 +80,11 @@ def download(session: requests.Session, rubrique: str, name: str) -> bytes | Non
     resp.raise_for_status()
     # Un fichier listé mais absent renvoie une page HTML d'erreur au lieu du fichier
     if resp.headers.get("Content-Type", "").startswith("text/html"):
+        global _html_signale
+        if not _html_signale:
+            _html_signale = True
+            apercu = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", resp.text))[:200]
+            print(f"  [diagnostic] réponse HTML au lieu du fichier : {apercu}", file=sys.stderr)
         return None
     return resp.content
 
@@ -103,6 +109,12 @@ def zips_recents(semaines: int = 10, mois: int = 3) -> list[str]:
 def main() -> int:
     session = requests.Session()
     session.headers.update(HEADERS)
+    # Ouvrir une session comme le ferait un navigateur (cookie ASP.NET), certaines
+    # requêtes étant refusées sans elle
+    try:
+        session.get(f"{SITE}/Pages/Statistiques.aspx?sousmenu=productions%20animales", timeout=60)
+    except requests.RequestException as exc:
+        print(f"[AVERTISSEMENT] session non ouverte : {exc}", file=sys.stderr)
     errors = 0
     new_files = 0
 
